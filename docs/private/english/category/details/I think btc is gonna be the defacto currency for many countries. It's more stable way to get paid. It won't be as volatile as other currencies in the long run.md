@@ -1,1 +1,0 @@
-#BTC [[gonna]] [[get]] [[paid]] [[as]]

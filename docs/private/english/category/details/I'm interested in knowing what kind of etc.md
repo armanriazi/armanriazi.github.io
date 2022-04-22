@@ -1,1 +1,0 @@
-[[interested]] [[know]] [[kind of]]

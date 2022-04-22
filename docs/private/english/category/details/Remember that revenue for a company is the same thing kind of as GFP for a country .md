@@ -1,1 +1,0 @@
-[[kind]] [[same]] [[as]] [[remember]]

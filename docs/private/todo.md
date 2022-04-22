@@ -1,9 +1,0 @@
-
-{ data-search-exclude }
-
-# ToDo
-IMF 
-یول به کشور ها قرض میدهند
-
-GDP
-ناخالص ملی
