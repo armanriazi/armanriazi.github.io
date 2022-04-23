@@ -1039,11 +1039,16 @@ root       84704   75818  0 17:18 pts/3    00:00:00 ps -ef
   --port 30333 \
   --ws-port 9945 \
   --rpc-port 9933 \
-  --telemetry-url &#39;wss://telemetry.polkadot.io/submit/ 0&#39; \
-  --validator
-  --node-key 0000000000000000000000000000000000000000000000000000000000000001 \
+  --unsafe-rpc-external \
+  --rpc-methods=unsafe \
+  --validator \
+  --ws-external \
+  --rpc-cors all  \
+  --no-mdns \
+  --name &quot;Arman Riazi&quot;  \
+  --node-key 0000000000000000000000000000000000000000000000000000000000000001 
 
-subkey restore Alice
+
 
 ./target/release/node-template \
   --base-path /tmp/bob \
@@ -1051,14 +1056,80 @@ subkey restore Alice
   --bob \
   --port 30334 \
   --ws-port 9946 \
+  --unsafe-rpc-external \
+  --rpc-methods=unsafe \
   --rpc-port 9934 \
-  --telemetry-url &#39;wss://telemetry.polkadot.io/submit/ 0&#39; \
   --validator \
-  --bootnodes /ip4/192.168.8.110/tcp/30333/p2p/12D3KooWAcKNewtxbgjBFS7dQcEQLtMU79r19UjQiV7opadjoDzX
-</code></pre></div></p>
-<p>The private network substrate  was made by manifest:</p>
-<p>https://polkadot.js.org/apps/#/settings?rpc=ws://192.168.8.110:9945</p>
-<p>Try  introductory tutorial for creating your first runtime module </p>
+  --ws-external \
+  --rpc-cors all  \
+  --no-mdns  \
+  --name &quot;Arman Riazi 2&quot;  \
+  --bootnodes /ip4/192.168.8.110/tcp/30333/p2p/12D3KooWEyoppNCUx8Yx66oV9fJnriXwCcXwDDUA2kj6vnc6iDEp
+</code></pre></div>
+/// Other commands
+/*
+subkey restore Alice
+--telemetry-url 'wss://telemetry.polkadot.io/submit/ 0' 
+--pruning archive 
+--prometheus-external
+--chain local
+--tmp
+--dev 
+--fir
+--base-path ./my-chain-state 
+--enable-offchain-indexing true
+*/
+<div class="highlight"><pre><span></span><code>The private network substrate  was made by manifest:
+
+&gt; https://polkadot.js.org/apps/#/settings?rpc=ws://192.168.8.110:9945
+&gt; https://cloudflare-ipfs.com/ipns/dotapps.io/#/explorer
+
+??? info
+    ![Node Setup -Run Command]](../../../assets/attachments/node-setup1.JPG){width=650,height=650}
+    ![Node Setup -Run Command]](../../../assets/attachments/node-setup3.JPG){width=650,height=650}
+    ![Node Setup -Run Command]](../../../assets/attachments/node-setup4.JPG){width=650,height=650}
+??? quote
+    ```
+    {
+      &quot;AccountInfo&quot;: &quot;AccountInfoWithTripleRefCount&quot;,
+      &quot;Address&quot;: &quot;AccountId&quot;,
+      &quot;LookupSource&quot;: &quot;AccountId&quot;,
+      &quot;AccountInfo&quot;: &quot;AccountInfoWithDualRefCount&quot;,
+      &quot;ContinuousAccountData&quot;: {
+        &quot;principal&quot;: &quot;u64&quot;,
+        &quot;deposit_date&quot;: &quot;BlockNumber&quot;
+      },
+      &quot;U16F16&quot;: &quot;[u8; 4]&quot;,
+      &quot;GroupIndex&quot;: &quot;u32&quot;,
+      &quot;ValueStruct&quot;: {
+        &quot;integer&quot;: &quot;i32&quot;,
+        &quot;boolean&quot;: &quot;bool&quot;
+      },
+      &quot;BufferIndex&quot;: &quot;u8&quot;,
+      &quot;AccountIdOf&quot;: &quot;AccountId&quot;,
+      &quot;BalanceOf&quot;: &quot;Balance&quot;,
+      &quot;FundInfoOf&quot;: &quot;FundInfo&quot;,
+      &quot;FundInfo&quot;: {
+        &quot;beneficiary&quot;: &quot;AccountId&quot;,
+        &quot;deposit&quot;: &quot;Balance&quot;,
+        &quot;raised&quot;: &quot;Balance&quot;,
+        &quot;end&quot;: &quot;BlockNumber&quot;,
+        &quot;goal&quot;: &quot;Balance&quot;
+      },
+      &quot;FundIndex&quot;: &quot;u32&quot;,
+      &quot;InnerThing&quot;: {
+        &quot;number&quot;: &quot;u32&quot;,
+        &quot;hash&quot;: &quot;Hash&quot;,
+        &quot;balance&quot;: &quot;Balance&quot;
+      },
+      &quot;SuperThing&quot;: {
+        &quot;super_number&quot;: &quot;u32&quot;,
+        &quot;inner_thing&quot;: &quot;InnerThing&quot;
+      },
+      &quot;InnerThingOf&quot;: &quot;InnerThing&quot;
+    }
+</code></pre></div>
+Try  introductory tutorial for creating your first runtime module </p>
 <iframe width="700" height="396" src="https://www.youtube.com/embed/0IoUZdDi5Is" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <p>📚📚📚</p>
