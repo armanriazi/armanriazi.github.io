@@ -355,8 +355,7 @@ Purge the development chain's state:
   --bootnodes /ip4/192.168.8.110/tcp/30333/p2p/12D3KooWEyoppNCUx8Yx66oV9fJnriXwCcXwDDUA2kj6vnc6iDEp
 
 ```
-/// Other commands
-/*
+Other commands
 subkey restore Alice
 --telemetry-url 'wss://telemetry.polkadot.io/submit/ 0' 
 --pruning archive 
@@ -367,21 +366,20 @@ subkey restore Alice
 --fir
 --base-path ./my-chain-state 
 --enable-offchain-indexing true
-*/
+
 ```
 The private network substrate  was made by manifest:
 
 > https://polkadot.js.org/apps/#/settings?rpc=ws://192.168.8.110:9945
 > https://cloudflare-ipfs.com/ipns/dotapps.io/#/explorer
 
-??? info
-     ![Node Setup -Run Command](../../../assets/attachments/node-setup1.JPG){width=650,height=650}
-     ![Node Setup -Run Command](../../../assets/attachments/node-setup3.JPG){width=650,height=650}
-     ![Node Setup -Run Command](../../../assets/attachments/node-setup4.JPG){width=650,height=650}
-
 <details>
-<summary>Add Meta To UI</summary>
-<p>
+<summary>Node Setup -Run Command And UI</summary>
+<img src="https://armanriazi.github.io/site/assets/attachments/node-setup1.JPG"width="650" height="650" />
+<img src="https://armanriazi.github.io/site/assets/attachments/node-setup3.JPG"width="650" height="650" />
+<img src="https://armanriazi.github.io/site/assets/attachments/node-setup4.JPG"width="650" height="650" />
+</details>    
+     
 ```
 {
       "AccountInfo": "AccountInfoWithTripleRefCount",
@@ -422,10 +420,8 @@ The private network substrate  was made by manifest:
       "InnerThingOf": "InnerThing"
     }
 ```
-</p>
-</details>
-    
-Try  introductory tutorial for creating your first runtime module 
+
+> Try  introductory tutorial for creating your first runtime module 
 
 <iframe width="700" height="396" src="https://www.youtube.com/embed/0IoUZdDi5Is" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
