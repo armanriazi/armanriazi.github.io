@@ -375,12 +375,15 @@ The private network substrate  was made by manifest:
 > https://cloudflare-ipfs.com/ipns/dotapps.io/#/explorer
 
 ??? info
-    ![Node Setup -Run Command]](../../../assets/attachments/node-setup1.JPG){width=650,height=650}
-    ![Node Setup -Run Command]](../../../assets/attachments/node-setup3.JPG){width=650,height=650}
-    ![Node Setup -Run Command]](../../../assets/attachments/node-setup4.JPG){width=650,height=650}
-??? quote
-    ```
-    {
+     ![Node Setup -Run Command](../../../assets/attachments/node-setup1.JPG){width=650,height=650}
+     ![Node Setup -Run Command](../../../assets/attachments/node-setup3.JPG){width=650,height=650}
+     ![Node Setup -Run Command](../../../assets/attachments/node-setup4.JPG){width=650,height=650}
+
+<details>
+<summary>Add Meta To UI</summary>
+<p>
+```
+{
       "AccountInfo": "AccountInfoWithTripleRefCount",
       "Address": "AccountId",
       "LookupSource": "AccountId",
@@ -419,6 +422,9 @@ The private network substrate  was made by manifest:
       "InnerThingOf": "InnerThing"
     }
 ```
+</p>
+</details>
+    
 Try  introductory tutorial for creating your first runtime module 
 
 <iframe width="700" height="396" src="https://www.youtube.com/embed/0IoUZdDi5Is" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

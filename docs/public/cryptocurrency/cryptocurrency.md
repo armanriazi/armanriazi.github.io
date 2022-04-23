@@ -8,4 +8,4 @@ tags:
 
 ![Blockchain-Canvas](../../assets/attachments/Cost-value-details.jpg)
 
-[Trading-Technical-Fundamental](trade.md)
+[Trading-Technical-Fundamental-Sheets](trade.md)
