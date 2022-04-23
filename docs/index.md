@@ -16,9 +16,9 @@ title: "Arman Riazi"
 >  I prefer to create a knowledge base for myself and then share it.
 >  The philosophy of creating this page is to solve this issue.
 
-**[Video Guide-Website](public/other/guide-website.md)**
+> **[Video Guide-Website](public/other/guide-website.md)**
 > Through to my experiences. 
-**[Go Surfing On...](public/public.md)**
+**[Main Menu](public/public.md)**
 
 
 ![Welcome!HelloWorld!](assets/attachments/graph.jpg){ loading=lazy }

@@ -13,21 +13,29 @@ title: "Arman Riazi"
 ---
 
 ## Blockchain
-
+<details>
+<summary>Blockchain 4.0</summary>
 ![Blockchain-Canvas](../../assets/attachments/Blockchain4.JPG){width=650,height=650}
-
+</details>
+<details>
+<summary>Blockchain Canvas</summary>
 ![Blockchain-Canvas](../../assets/attachments/Blockchain-Canvas.jpg){width=650,height=650}
-
-![Blockchain-Canvas](../../assets/attachments/Blockchain-Taxonomy.JPG){width=650,height=650}
-
-![Blockchain-Canvas](../../assets/attachments/BlockchainStack.JPG){width=650,height=650}
+</details>
+<details>
+<summary>Blockchain Taxonomy</summary>
+![Blockchain-Taxonomy](../../assets/attachments/Blockchain-Taxonomy.JPG){width=650,height=650}
+</details>
+<details>
+<summary>Blockchain Stack</summary>
+![Blockchain-Stack](../../assets/attachments/BlockchainStack.JPG){width=650,height=650}
+</details>
 
 ## MindMapping
 
-> If you want to get update-mind-mapping image, send me Email
-> (Title: armanriazi.github.io _ MindMapping)
-
-[Substrate MindMapping](../../assets/attachments/substrate-minmap.jpg){width=650,height=650}
+> If you want to get update-mind-mapping image, send me the Email
+> Title: armanriazi.github.io _ MindMapping
+??? info
+    [Substrate MindMapping](../../assets/attachments/substrate-minmap.jpg){width=650,height=650}
 
 ## 2021-2023
 ### My Current Consideration

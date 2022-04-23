@@ -327,11 +327,16 @@ Purge the development chain's state:
   --port 30333 \
   --ws-port 9945 \
   --rpc-port 9933 \
-  --telemetry-url 'wss://telemetry.polkadot.io/submit/ 0' \
-  --validator
-  --node-key 0000000000000000000000000000000000000000000000000000000000000001 \
+  --unsafe-rpc-external \
+  --rpc-methods=unsafe \
+  --validator \
+  --ws-external \
+  --rpc-cors all  \
+  --no-mdns \
+  --name "Arman Riazi"  \
+  --node-key 0000000000000000000000000000000000000000000000000000000000000001 
 
-subkey restore Alice
+
 
 ./target/release/node-template \
   --base-path /tmp/bob \
@@ -339,15 +344,40 @@ subkey restore Alice
   --bob \
   --port 30334 \
   --ws-port 9946 \
+  --unsafe-rpc-external \
+  --rpc-methods=unsafe \
   --rpc-port 9934 \
-  --telemetry-url 'wss://telemetry.polkadot.io/submit/ 0' \
   --validator \
-  --bootnodes /ip4/192.168.8.110/tcp/30333/p2p/12D3KooWAcKNewtxbgjBFS7dQcEQLtMU79r19UjQiV7opadjoDzX
-```
+  --ws-external \
+  --rpc-cors all  \
+  --no-mdns  \
+  --name "Arman Riazi 2"  \
+  --bootnodes /ip4/192.168.8.110/tcp/30333/p2p/12D3KooWEyoppNCUx8Yx66oV9fJnriXwCcXwDDUA2kj6vnc6iDEp
 
+```
+/// Other commands
+/*
+subkey restore Alice
+--telemetry-url 'wss://telemetry.polkadot.io/submit/ 0' 
+--pruning archive 
+--prometheus-external
+--chain local
+--tmp
+--dev 
+--fir
+--base-path ./my-chain-state 
+--enable-offchain-indexing true
+*/
+```
 The private network substrate  was made by manifest:
 
-https://polkadot.js.org/apps/#/settings?rpc=ws://192.168.8.110:9945
+> https://polkadot.js.org/apps/#/settings?rpc=ws://192.168.8.110:9945
+> https://cloudflare-ipfs.com/ipns/dotapps.io/#/explorer
+
+??? info
+    ![Node Setup -Run Command]](../../../assets/attachments/node-setup1.JPG){width=650,height=650}
+    ![Node Setup -Run Command]](../../../assets/attachments/node-setup3.JPG){width=650,height=650}
+    ![Node Setup -Run Command]](../../../assets/attachments/node-setup4.JPG){width=650,height=650}
 
 Try  introductory tutorial for creating your first runtime module 
 

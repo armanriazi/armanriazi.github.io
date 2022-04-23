@@ -14,9 +14,11 @@ tags:
 
 ![Graph](../../assets/attachments/substrate-minmap.jpg)
 
-### Project
+### Implement
 
 Comming Soon...
+
+[Highlighted Deep Dive Into Polkadot/Substrate/Kusama/NodeSetup/Part(8)](substrate-polka-kus/substrate-setup-research-intro.md)
 
 ### Research
 
