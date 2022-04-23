@@ -378,7 +378,47 @@ The private network substrate  was made by manifest:
     ![Node Setup -Run Command]](../../../assets/attachments/node-setup1.JPG){width=650,height=650}
     ![Node Setup -Run Command]](../../../assets/attachments/node-setup3.JPG){width=650,height=650}
     ![Node Setup -Run Command]](../../../assets/attachments/node-setup4.JPG){width=650,height=650}
-
+??? quote
+    ```
+    {
+      "AccountInfo": "AccountInfoWithTripleRefCount",
+      "Address": "AccountId",
+      "LookupSource": "AccountId",
+      "AccountInfo": "AccountInfoWithDualRefCount",
+      "ContinuousAccountData": {
+        "principal": "u64",
+        "deposit_date": "BlockNumber"
+      },
+      "U16F16": "[u8; 4]",
+      "GroupIndex": "u32",
+      "ValueStruct": {
+        "integer": "i32",
+        "boolean": "bool"
+      },
+      "BufferIndex": "u8",
+      "AccountIdOf": "AccountId",
+      "BalanceOf": "Balance",
+      "FundInfoOf": "FundInfo",
+      "FundInfo": {
+        "beneficiary": "AccountId",
+        "deposit": "Balance",
+        "raised": "Balance",
+        "end": "BlockNumber",
+        "goal": "Balance"
+      },
+      "FundIndex": "u32",
+      "InnerThing": {
+        "number": "u32",
+        "hash": "Hash",
+        "balance": "Balance"
+      },
+      "SuperThing": {
+        "super_number": "u32",
+        "inner_thing": "InnerThing"
+      },
+      "InnerThingOf": "InnerThing"
+    }
+```
 Try  introductory tutorial for creating your first runtime module 
 
 <iframe width="700" height="396" src="https://www.youtube.com/embed/0IoUZdDi5Is" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
