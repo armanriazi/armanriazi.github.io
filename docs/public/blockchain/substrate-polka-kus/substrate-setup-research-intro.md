@@ -321,9 +321,6 @@ Purge the development chain's state:
 ```
 ./target/release/node-template purge-chain --base-path /tmp/alice --chain local
 ./target/release/node-template purge-chain --base-path /tmp/bob --chain local
-```
-
-```
 ./target/release/node-template \
   --base-path /tmp/alice \
   --chain local \
@@ -359,9 +356,10 @@ Purge the development chain's state:
   --bootnodes /ip4/192.168.8.110/tcp/30333/p2p/12D3KooWEyoppNCUx8Yx66oV9fJnriXwCcXwDDUA2kj6vnc6iDEp
 ```
 
-> Other commands:
+* Other commands
 
 ```
+
  subkey restore Alice
 --telemetry-url 'wss://telemetry.polkadot.io/submit/ 0' 
 --pruning archive 
@@ -372,33 +370,22 @@ Purge the development chain's state:
 --fir
 --base-path ./my-chain-state 
 --enable-offchain-indexing true
+
 ```
 
+* The private network substrate  was made by manifest
 
-> The private network substrate  was made by manifest:
-
-![polkadot-js](https://polkadot.js.org/apps/#/settings?rpc=ws://192.168.8.110:9945) 
-![cloudflare-ipfs](https://cloudflare-ipfs.com/ipns/dotapps.io/#/explorer)
-
+[polkadot-js](https://polkadot.js.org/apps/#/settings?rpc=ws://192.168.8.110:9945) 
+[cloudflare-ipfs](https://cloudflare-ipfs.com/ipns/dotapps.io/#/explorer)
 
 
-<details>
-<summary>Node Setup -Run Command And UI 1</summary>
-<img src="https://armanriazi.github.io/site/assets/attachments/node-setup1.JPG"width="650" height="650" />
-</details>    
-<details>
-<summary>Node Setup -Run Command And UI 2</summary>
-<img src="https://armanriazi.github.io/site/assets/attachments/node-setup3.JPG"width="650" height="650" />
-</details> 
-<details>
-<summary>Node Setup -Run Command And UI 3</summary>
-<img src="https://armanriazi.github.io/site/assets/attachments/node-setup4.JPG"width="650" height="650" />
-</details>      
-
+![Node Setup -Run Command And UI 1](https://armanriazi.github.io/site/assets/attachments/node-setup1.JPG)
+![Node Setup -Run Command And UI 2](https://armanriazi.github.io/site/assets/attachments/node-setup3.JPG)
+![Node Setup -Run Command And UI 3](https://armanriazi.github.io/site/assets/attachments/node-setup4.JPG)
 
 
 ```
-   {
+{
       "AccountInfo": "AccountInfoWithTripleRefCount",
       "Address": "AccountId",
       "LookupSource": "AccountId",
