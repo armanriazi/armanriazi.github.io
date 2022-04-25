@@ -315,10 +315,12 @@ root       84704   75818  0 17:18 pts/3    00:00:00 ps -ef
 If you want to see the multi-node consensus algorithm in action, refer to our Start a Private Network tutorial.
 
 Purge the development chain's state:
+
 ```
 ./target/release/node-template purge-chain --base-path /tmp/alice --chain local
 ./target/release/node-template purge-chain --base-path /tmp/bob --chain local
 ```
+
 ```
 ./target/release/node-template \
   --base-path /tmp/alice \
@@ -354,9 +356,11 @@ Purge the development chain's state:
   --name "Arman Riazi 2"  \
   --bootnodes /ip4/192.168.8.110/tcp/30333/p2p/12D3KooWEyoppNCUx8Yx66oV9fJnriXwCcXwDDUA2kj6vnc6iDEp
 
+
 ```
-Other commands
-subkey restore Alice
+ //Other commands
+ //subkey restore Alice
+
 --telemetry-url 'wss://telemetry.polkadot.io/submit/ 0' 
 --pruning archive 
 --prometheus-external
@@ -366,22 +370,30 @@ subkey restore Alice
 --fir
 --base-path ./my-chain-state 
 --enable-offchain-indexing true
-
 ```
+
 The private network substrate  was made by manifest:
 
 > https://polkadot.js.org/apps/#/settings?rpc=ws://192.168.8.110:9945
+
 > https://cloudflare-ipfs.com/ipns/dotapps.io/#/explorer
 
 <details>
-<summary>Node Setup -Run Command And UI</summary>
+<summary>Node Setup -Run Command And UI 1</summary>
 <img src="https://armanriazi.github.io/site/assets/attachments/node-setup1.JPG"width="650" height="650" />
-<img src="https://armanriazi.github.io/site/assets/attachments/node-setup3.JPG"width="650" height="650" />
-<img src="https://armanriazi.github.io/site/assets/attachments/node-setup4.JPG"width="650" height="650" />
 </details>    
-     
+<details>
+<summary>Node Setup -Run Command And UI 2</summary>
+<img src="https://armanriazi.github.io/site/assets/attachments/node-setup3.JPG"width="650" height="650" />
+</details> 
+<details>
+<summary>Node Setup -Run Command And UI 3</summary>
+<img src="https://armanriazi.github.io/site/assets/attachments/node-setup4.JPG"width="650" height="650" />
+</details>      
+
+
 ```
-{
+   {
       "AccountInfo": "AccountInfoWithTripleRefCount",
       "Address": "AccountId",
       "LookupSource": "AccountId",
