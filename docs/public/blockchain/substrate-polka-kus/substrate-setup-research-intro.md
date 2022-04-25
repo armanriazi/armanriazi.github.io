@@ -356,11 +356,10 @@ Purge the development chain's state:
   --name "Arman Riazi 2"  \
   --bootnodes /ip4/192.168.8.110/tcp/30333/p2p/12D3KooWEyoppNCUx8Yx66oV9fJnriXwCcXwDDUA2kj6vnc6iDEp
 
+Other commands:
 
 ```
- //Other commands
- //subkey restore Alice
-
+ subkey restore Alice
 --telemetry-url 'wss://telemetry.polkadot.io/submit/ 0' 
 --pruning archive 
 --prometheus-external
@@ -374,9 +373,9 @@ Purge the development chain's state:
 
 The private network substrate  was made by manifest:
 
-> https://polkadot.js.org/apps/#/settings?rpc=ws://192.168.8.110:9945
+![polkadot-js](https://polkadot.js.org/apps/#/settings?rpc=ws://192.168.8.110:9945) 
+![cloudflare-ipfs](https://cloudflare-ipfs.com/ipns/dotapps.io/#/explorer 
 
-> https://cloudflare-ipfs.com/ipns/dotapps.io/#/explorer
 
 <details>
 <summary>Node Setup -Run Command And UI 1</summary>
