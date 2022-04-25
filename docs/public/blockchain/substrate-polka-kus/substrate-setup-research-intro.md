@@ -61,6 +61,8 @@ rustup component add rust-src --toolchain stable-x86_64-unknown-linux-gnu
 rustc --version
 
 source $HOME/.cargo/env
+
+cargo install --git https://github.com/alexcrichton/wasm-gc --force
 ```
 
 No tested on me Fast Installation: Install all the required dependencies with a single command. (Be patient, this can take up to> 30 minutes)
@@ -374,7 +376,7 @@ Other commands:
 The private network substrate  was made by manifest:
 
 ![polkadot-js](https://polkadot.js.org/apps/#/settings?rpc=ws://192.168.8.110:9945) 
-![cloudflare-ipfs](https://cloudflare-ipfs.com/ipns/dotapps.io/#/explorer 
+![cloudflare-ipfs](https://cloudflare-ipfs.com/ipns/dotapps.io/#/explorer)
 
 
 <details>
@@ -389,6 +391,7 @@ The private network substrate  was made by manifest:
 <summary>Node Setup -Run Command And UI 3</summary>
 <img src="https://armanriazi.github.io/site/assets/attachments/node-setup4.JPG"width="650" height="650" />
 </details>      
+
 
 
 ```
