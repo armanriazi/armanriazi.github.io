@@ -357,8 +357,9 @@ Purge the development chain's state:
   --no-mdns  \
   --name "Arman Riazi 2"  \
   --bootnodes /ip4/192.168.8.110/tcp/30333/p2p/12D3KooWEyoppNCUx8Yx66oV9fJnriXwCcXwDDUA2kj6vnc6iDEp
+```
 
-Other commands:
+> Other commands:
 
 ```
  subkey restore Alice
@@ -373,10 +374,12 @@ Other commands:
 --enable-offchain-indexing true
 ```
 
-The private network substrate  was made by manifest:
+
+> The private network substrate  was made by manifest:
 
 ![polkadot-js](https://polkadot.js.org/apps/#/settings?rpc=ws://192.168.8.110:9945) 
 ![cloudflare-ipfs](https://cloudflare-ipfs.com/ipns/dotapps.io/#/explorer)
+
 
 
 <details>
