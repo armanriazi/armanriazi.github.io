@@ -7,6 +7,8 @@
 
 * [Programming](programming/programming.md)
 
+* [Commands](programming/commands.md)
+
 * [DevOps Engineer](devops/Devops.md)
 
 * [Cryptocurrency-Trade](cryptocurrency/cryptocurrency.md)
