@@ -1,0 +1,1197 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="icon" href="../../../../assets/attachments/favicon.ico">
+      <meta name="generator" content="mkdocs-1.3.0, mkdocs-material-8.2.11">
+    
+    
+      
+        <title>Substrate setup research intro - Arman Riazi</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../assets/stylesheets/main.8c5ef100.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../../assets/stylesheets/palette.9647289d.min.css">
+        
+      
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../assets/css/mkdocs-extra.css">
+    
+    <script>__md_scope=new URL("../../../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+
+  <script>function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","G-S8E1J4V9C3"),document.addEventListener("DOMContentLoaded",function(){document.forms.search&&document.forms.search.query.addEventListener("blur",function(){this.value&&gtag("event","search",{search_term:this.value})}),"undefined"!=typeof location$&&location$.subscribe(function(e){gtag("config","G-S8E1J4V9C3",{page_path:e.pathname})})})</script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-S8E1J4V9C3"></script>
+
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#introducing" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="https://armanriazi.github.io/" title="Arman Riazi" class="md-header__button md-logo" aria-label="Arman Riazi" data-md-component="logo">
+      
+  <img src="../../../../assets/attachments/me.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Arman Riazi
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Substrate setup research intro
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7 0-.24-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91 1.61 0 2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08Z"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/armanriazi/armanriazi.github.io" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../.." class="md-tabs__link">
+        Home
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../Blockchain/" class="md-tabs__link">
+        Blockchain
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../public/" class="md-tabs__link">
+        Walk-through
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../../tags/" class="md-tabs__link">
+        Tags
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../../links/" class="md-tabs__link">
+        Links
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../../about/" class="md-tabs__link">
+        About
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="https://armanriazi.github.io/" title="Arman Riazi" class="md-nav__button md-logo" aria-label="Arman Riazi" data-md-component="logo">
+      
+  <img src="../../../../assets/attachments/me.png" alt="logo">
+
+    </a>
+    Arman Riazi
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/armanriazi/armanriazi.github.io" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1" data-md-state="indeterminate" type="checkbox" id="__nav_1" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_1">
+          Home
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Home" data-md-level="1">
+        <label class="md-nav__title" for="__nav_1">
+          <span class="md-nav__icon md-icon"></span>
+          Home
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../.." class="md-nav__link">
+        Index
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../public/" class="md-nav__link">
+        Walk-through
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" data-md-state="indeterminate" type="checkbox" id="__nav_2" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2">
+          Blockchain
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Blockchain" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Blockchain
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Blockchain/" class="md-nav__link">
+        Blockchain
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" data-md-state="indeterminate" type="checkbox" id="__nav_3" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          Walk-through
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Walk-through" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Walk-through
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../public/" class="md-nav__link">
+        Walk-through
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" data-md-state="indeterminate" type="checkbox" id="__nav_4" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4">
+          Tags
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Tags" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Tags
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../tags/" class="md-nav__link">
+        Tags
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" data-md-state="indeterminate" type="checkbox" id="__nav_5" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5">
+          Links
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Links" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Links
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../links/" class="md-nav__link">
+        Links
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" data-md-state="indeterminate" type="checkbox" id="__nav_6" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6">
+          About
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="About" data-md-level="1">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          About
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../about/" class="md-nav__link">
+        About
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducing" class="md-nav__link">
+    Introducing
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prerequisites" class="md-nav__link">
+    Prerequisites
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#installing" class="md-nav__link">
+    installing
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#single-node-development-chain" class="md-nav__link">
+    Single-Node Development Chain
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#multi-node-local-testnet" class="md-nav__link">
+    Multi-Node Local Testnet
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#literature" class="md-nav__link">
+    Literature
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+  <a href="https://github.com/armanriazi/armanriazi.github.io/edit/master/docs/public/blockchain/substrate-polka-kus/substrate-setup-research-intro.md" title="Edit this page" class="md-content__button md-icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"/></svg>
+  </a>
+
+
+  
+
+  <nav class="md-tags" >
+    
+      
+        <a href="../../../../tags/#kusama" class="md-tag">
+          kusama
+        </a>
+      
+    
+      
+        <a href="../../../../tags/#polkadot_ecosystem" class="md-tag">
+          polkadot_ecosystem
+        </a>
+      
+    
+      
+        <a href="../../../../tags/#substrate" class="md-tag">
+          substrate
+        </a>
+      
+    
+      
+        <a href="../../../../tags/#rust" class="md-tag">
+          rust
+        </a>
+      
+    
+      
+        <a href="../../../../tags/#node" class="md-tag">
+          node
+        </a>
+      
+    
+      
+        <a href="../../../../tags/#rpc" class="md-tag">
+          rpc
+        </a>
+      
+    
+  </nav>
+
+
+
+  <h1>Substrate setup research intro</h1>
+
+<p><strong>Walk-Through/Substrate/NodeSetup</strong></p>
+<p>👩‍🏫👩‍🏫👩‍🏫</p>
+<h2 id="introducing">Introducing<a class="headerlink" href="#introducing" title="Permanent link">&para;</a></h2>
+<p><a href="https://github.com/substrate-developer-hub/substrate-node-template">substrate-node-template</a></p>
+<p><a href="https://docs.substrate.io/tutorials/v3/create-your-first-substrate-chain/">Create-your-first-substrate-chain</a></p>
+<h2 id="prerequisites">Prerequisites<a class="headerlink" href="#prerequisites" title="Permanent link">&para;</a></h2>
+<p>Ubuntu 20.04, Docker 19-20, Ngnix, Nodejs 16.13.2, ReactJs, VirtualBox(Optional).</p>
+<h2 id="installing">installing<a class="headerlink" href="#installing" title="Permanent link">&para;</a></h2>
+<p><strong>Manifest for installing rust and build-essentials on ubuntu 20.04.03</strong>
+<div class="highlight"><pre><span></span><code>rustup self uninstall
+
+apt-get update
+
+sudo add-apt-repository &quot;deb http://archive.ubuntu.com/ubuntu $(lsb_release -sc) main universe&quot;
+
+apt-get -u dist-upgrade
+
+apt install aptitude
+
+sudo aptitude install libc6=2.31-0ubuntu9
+
+sudo aptitude install build-essential
+
+apt-get update
+
+sudo apt install -y cmake pkg-config libssl-dev git gcc build-essential clang libclang-dev
+
+curl --proto &#39;=https&#39; --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- --default-toolchain none -y
+
+rustup toolchain install nightly --allow-downgrade --profile minimal --component clippy
+
+rustup default stable
+
+rustup update nightly
+
+rustup update stable
+
+rustup target add wasm32-unknown-unknown --toolchain nightly
+
+rustup component add rust-src --toolchain stable-x86_64-unknown-linux-gnu
+
+rustc --version
+
+source $HOME/.cargo/env
+
+cargo install --git https://github.com/alexcrichton/wasm-gc --force
+</code></pre></div></p>
+<p>No tested on me Fast Installation: Install all the required dependencies with a single command. (Be patient, this can take up to&gt; 30 minutes)</p>
+<p><code>curl https://getsubstrate.io -sSf | bash -s -- --fast</code></p>
+<blockquote>
+<p>Finally step test:</p>
+</blockquote>
+<p><code>Cargo Getting Start</code></p>
+<p>🤷‍♂️🤷‍♂️🤷‍♂️:🐱‍👤</p>
+<p>linking_with_cc_failed_exit_code_1/build-essential-fails-because-of-unmet-dependencies</p>
+<p>👆👆👆</p>
+<p><strong>Manifest for cargo and compiling</strong></p>
+<p><strong>#rustup component add --toolchain=nightly rust-src rustfmt</strong></p>
+<p><code>rustup target add wasm32-unknown-unknown</code></p>
+<p><code>apt-get install llvm clang linux-headers-"$(uname -r)"</code></p>
+<p><code>apt install llvm clang</code></p>
+<p><code>cargo build --release</code></p>
+<p><strong>Other commands(Maybe you needs follow):</strong></p>
+<p><code>cargo clear</code></p>
+<p><code>cargo fix --allow-dirty</code></p>
+<p><code>cargo fix --edition</code></p>
+<p><strong>My Runner System</strong></p>
+<div class="highlight"><pre><span></span><code> -lsb_release -a
+  No LSB modules are available.
+  Distributor ID:   Ubuntu
+  Description:  Ubuntu 20.04.3 LTS
+  Release:  20.04
+  Codename: focal
+ -docker --version
+  Docker version 20.10.12, build e91ed57
+ -ldconfig --version
+  ldconfig (Ubuntu GLIBC 2.31-0ubuntu9.2) 2.31
+ -cargo --version
+  cargo 1.60.0-nightly (25fcb13 2022-02-01)
+ -rustc --version
+  rustc 1.60.0-nightly (f624427f8 2022-02-06)
+ -rustup show
+  Default host: x86_64-unknown-linux-gnu
+  rustup home:  /root/.rustup
+  installed targets for active toolchain
+  --------------------------------------
+  wasm32-unknown-unknown
+  x86_64-unknown-linux-gnu
+  active toolchain
+  ----------------
+  nightly-x86_64-unknown-linux-gnu (default)
+  rustc 1.60.0-nightly (f624427f8 2022-02-06)
+</code></pre></div>
+<p>🤷‍♂️🤷‍♂️🤷‍♂️:🐱‍👤</p>
+<p>Error: failed to run custom build command for librocksdb-sys v6</p>
+<p>👆👆👆</p>
+<h2 id="single-node-development-chain">Single-Node Development Chain<a class="headerlink" href="#single-node-development-chain" title="Permanent link">&para;</a></h2>
+<p>This command will start the single-node development chain with persistent state:
+<div class="highlight"><pre><span></span><code>/substrate-node-template
+cargo build --release &amp;&amp; ./target/release/node-template --ws-external --base-path ./my-chain-state --enable-offchain-indexing true --rpc-cors all --name &quot;Arman Riazi&quot; --pruning archive --prometheus-external --chain local  --dev #(or --chain fir)
+</code></pre></div></p>
+<p><code>./target/release/node-template --dev</code></p>
+<p>Purge the development chain's state:</p>
+<p><code>./target/release/node-template purge-chain  --chain local --dev</code></p>
+<p>Start the development chain with detailed logging:</p>
+<p><code>RUST_LOG=debug RUST_BACKTRACE=1 ./target/release/node-template -lruntime=debug --dev</code></p>
+<p>✍️✍️✍️</p>
+<p>After Running Node(Limited Lines):
+<div class="highlight"><pre><span></span><code>root@ubuntu:/home/substrate-node-template# ps -ef
+UID          PID    PPID  C STIME TTY          TIME CMD
+root           1       0  0 12:49 ?        00:00:02 /sbin/init splash
+root           2       0  0 12:49 ?        00:00:00 [kthreadd]
+root           3       2  0 12:49 ?        00:00:00 [rcu_gp]
+root           4       2  0 12:49 ?        00:00:00 [rcu_par_gp]
+root           6       2  0 12:49 ?        00:00:00 [kworker/0:0H-events_highpri]
+root           9       2  0 12:49 ?        00:00:00 [mm_percpu_wq]
+root          10       2  0 12:49 ?        00:00:00 [rcu_tasks_rude_]
+root          11       2  0 12:49 ?        00:00:00 [rcu_tasks_trace]
+root          12       2  0 12:49 ?        00:00:00 [ksoftirqd/0]
+root          13       2  0 12:49 ?        00:00:05 [rcu_sched]
+root          14       2  0 12:49 ?        00:00:00 [migration/0]
+root          15       2  0 12:49 ?        00:00:00 [idle_inject/0]
+root          16       2  0 12:49 ?        00:00:00 [cpuhp/0]
+root          17       2  0 12:49 ?        00:00:00 [cpuhp/1]
+root          18       2  0 12:49 ?        00:00:00 [idle_inject/1]
+root          19       2  0 12:49 ?        00:00:00 [migration/1]
+root          20       2  0 12:49 ?        00:00:00 [ksoftirqd/1]
+root          22       2  0 12:49 ?        00:00:00 [kworker/1:0H-events_highpri]
+root          23       2  0 12:49 ?        00:00:00 [cpuhp/2]
+root          24       2  0 12:49 ?        00:00:00 [idle_inject/2]
+root          25       2  0 12:49 ?        00:00:00 [migration/2]
+root          26       2  0 12:49 ?        00:00:00 [ksoftirqd/2]
+root          28       2  0 12:49 ?        00:00:00 [kworker/2:0H-events_highpri]
+root          29       2  0 12:49 ?        00:00:00 [kdevtmpfs]
+root          30       2  0 12:49 ?        00:00:00 [netns]
+root          31       2  0 12:49 ?        00:00:00 [inet_frag_wq]
+root          32       2  0 12:49 ?        00:00:00 [kauditd]
+root          33       2  0 12:49 ?        00:00:00 [khungtaskd]
+root          34       2  0 12:49 ?        00:00:00 [oom_reaper]
+root          35       2  0 12:49 ?        00:00:00 [writeback]
+root          36       2  0 12:49 ?        00:00:00 [kcompactd0]
+root          37       2  0 12:49 ?        00:00:00 [ksmd]
+root          38       2  0 12:49 ?        00:00:00 [khugepaged]
+root          86       2  0 12:49 ?        00:00:00 [kintegrityd]
+root          87       2  0 12:49 ?        00:00:00 [kblockd]
+root          88       2  0 12:49 ?        00:00:00 [blkcg_punt_bio]
+root          89       2  0 12:49 ?        00:00:00 [tpm_dev_wq]
+root          90       2  0 12:49 ?        00:00:00 [ata_sff]
+root          91       2  0 12:49 ?        00:00:00 [md]
+root          92       2  0 12:49 ?        00:00:00 [edac-poller]
+root          93       2  0 12:49 ?        00:00:00 [devfreq_wq]
+root          94       2  0 12:49 ?        00:00:00 [watchdogd]
+root          96       2  0 12:49 ?        00:00:00 [kworker/0:1H-kblockd]
+root          98       2  0 12:49 ?        00:00:17 [kswapd0]
+root          99       2  0 12:49 ?        00:00:00 [ecryptfs-kthrea]
+root         101       2  0 12:49 ?        00:00:00 [kthrotld]
+root         102       2  0 12:49 ?        00:00:00 [acpi_thermal_pm]
+root         103       2  0 12:49 ?        00:00:00 [scsi_eh_0]
+root         104       2  0 12:49 ?        00:00:00 [scsi_tmf_0]
+root         105       2  0 12:49 ?        00:00:00 [scsi_eh_1]
+root         106       2  0 12:49 ?        00:00:00 [scsi_tmf_1]
+root         108       2  0 12:49 ?        00:00:00 [vfio-irqfd-clea]
+root         111       2  0 12:49 ?        00:00:00 [ipv6_addrconf]
+root         120       2  0 12:49 ?        00:00:00 [kstrp]
+root         123       2  0 12:49 ?        00:00:00 [zswap-shrink]
+root         124       2  0 12:49 ?        00:00:00 [kworker/u7:0]
+root         129       2  0 12:49 ?        00:00:00 [charger_manager]
+root         153       2  0 12:49 ?        00:00:01 [kworker/1:1H-kblockd]
+root         178       2  0 12:49 ?        00:00:00 [scsi_eh_2]
+root         179       2  0 12:49 ?        00:00:00 [scsi_tmf_2]
+root         183       2  0 12:49 ?        00:00:01 [kworker/2:1H-kblockd]
+root         203       2  0 12:49 ?        00:00:00 [jbd2/sda5-8]
+root         204       2  0 12:49 ?        00:00:00 [ext4-rsv-conver]
+root         247       1  0 12:49 ?        00:00:00 /lib/systemd/systemd-journald
+root         279       1  0 12:49 ?        00:00:00 /lib/systemd/systemd-udevd
+root         283       2  0 12:49 ?        00:00:00 [loop0]
+root         343       2  0 12:49 ?        00:00:00 [iprt-VBoxWQueue]
+root         348       2  0 12:49 ?        00:00:00 [cryptd]
+root         367       2  0 12:49 ?        00:00:01 [irq/18-vmwgfx]
+root         371       2  0 12:49 ?        00:00:00 [ttm_swap]
+root         372       2  0 12:49 ?        00:00:00 [card0-crtc0]
+systemd+     584       1  0 12:49 ?        00:00:01 /lib/systemd/systemd-resolved
+root         618       1  0 12:49 ?        00:00:00 /usr/lib/accountsservice/accounts-daemon
+root         619       1  0 12:49 ?        00:00:00 /usr/sbin/acpid
+avahi        622       1  0 12:49 ?        00:00:00 avahi-daemon: running [u2004zero.local]
+message+     624       1  0 12:49 ?        00:00:03 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         626       1  0 12:49 ?        00:00:24 /usr/sbin/NetworkManager --no-daemon
+root         636       1  0 12:49 ?        00:00:00 /usr/sbin/irqbalance --foreground
+root         639       1  0 12:49 ?        00:00:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root         643       1  0 12:49 ?        00:00:00 /usr/lib/policykit-1/polkitd --no-debug
+syslog       647       1  0 12:49 ?        00:00:00 /usr/sbin/rsyslogd -n -iNONE
+root         650       1  0 12:49 ?        00:00:02 /usr/lib/snapd/snapd
+root         651       1  0 12:49 ?        00:00:00 /usr/libexec/switcheroo-control
+root         658       1  0 12:49 ?        00:00:00 /lib/systemd/systemd-logind
+root         659       1  0 12:49 ?        00:00:00 /usr/lib/udisks2/udisksd
+root         662       1  0 12:49 ?        00:00:00 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+avahi        673     622  0 12:49 ?        00:00:00 avahi-daemon: chroot helper
+root         695       1  0 12:49 ?        00:00:00 /usr/sbin/inetutils-inetd
+root         724       1  0 12:49 ?        00:00:00 /usr/sbin/cups-browsed
+root         731       1  0 12:49 ?        00:00:00 /usr/sbin/ModemManager --filter-policy=strict
+root         734       1  0 12:49 ?        00:00:00 /usr/sbin/cupsd -l
+root         743       1  0 12:49 ?        00:01:49 /opt/piavpn/bin/pia-daemon
+root         746       1  0 12:49 ?        00:00:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         747       1  0 12:49 ?        00:00:00 /usr/sbin/winbindd --foreground --no-process-group
+root         754       1  0 12:49 ?        00:00:12 /usr/bin/containerd
+root         805       1  0 12:49 ?        00:00:00 nginx: master process /usr/sbin/nginx -g daemon on; master_process on;
+postgres     833       1  0 12:49 ?        00:00:00 /usr/lib/postgresql/14/bin/postgres -D /var/lib/postgresql/14/main -c config_file=/etc/postgresql/14/main/postgresql.conf
+root         844       2  0 12:49 ?        00:00:00 bpfilter_umh
+root         851     747  0 12:49 ?        00:00:00 winbindd: domain child [U2004ZERO]
+postgres     878     833  0 12:49 ?        00:00:00 postgres: 14/main: checkpointer 
+postgres     879     833  0 12:49 ?        00:00:00 postgres: 14/main: background writer 
+postgres     880     833  0 12:49 ?        00:00:00 postgres: 14/main: walwriter 
+postgres     881     833  0 12:49 ?        00:00:00 postgres: 14/main: autovacuum launcher 
+postgres     883     833  0 12:49 ?        00:00:00 postgres: 14/main: stats collector 
+postgres     884     833  0 12:49 ?        00:00:00 postgres: 14/main: logical replication launcher 
+root        2731       1  0 12:49 ?        00:00:03 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root        2735       1  0 12:49 ?        00:00:00 /usr/lib/ipsec/starter --daemon charon --nofork
+whoopsie    2736       1  0 12:49 ?        00:00:00 /usr/bin/whoopsie -f
+root        2744       1  0 12:49 ?        00:00:00 /usr/sbin/cron -f
+kernoops    2756       1  0 12:49 ?        00:00:00 /usr/sbin/kerneloops --test
+kernoops    2764       1  0 12:49 ?        00:00:00 /usr/sbin/kerneloops
+root        2781       1  0 12:49 ?        00:00:00 /usr/sbin/xl2tpd
+root        2789    2735  0 12:49 ?        00:00:00 /usr/lib/ipsec/charon
+root        3249    2731  0 12:49 ?        00:00:00 /usr/bin/docker-proxy -proto tcp -host-ip 0.0.0.0 -host-port 3000 -container-ip 172.17.0.2 -container-port 3000
+root        3263    2731  0 12:49 ?        00:00:00 /usr/bin/docker-proxy -proto tcp -host-ip :: -host-port 3000 -container-ip 172.17.0.2 -container-port 3000
+root        3350       1  0 12:49 ?        00:00:00 /usr/bin/containerd-shim-runc-v2 -namespace moby -id b186d352f80cdecbe7d8ea5759074adbcc9a146f457ed333f4c3fe9cba8bd3f8 -address /run/containe
+root        3427    3350  0 12:49 pts/0    00:00:00 /bin/bash
+root        3535       1  0 12:49 ?        00:00:00 /usr/sbin/gdm3
+root        3553       1  0 12:49 ?        00:00:02 /usr/sbin/VBoxService --pidfile /var/run/vboxadd-service.sh
+root        3566    3535  0 12:49 ?        00:00:00 gdm-session-worker [pam/gdm-autologin]
+u2004ze+    3590       1  0 12:49 ?        00:00:00 /lib/systemd/systemd --user
+u2004ze+    3591    3590  0 12:49 ?        00:00:00 (sd-pam)
+u2004ze+    3596    3590  0 12:49 ?        00:00:00 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+u2004ze+    3598    3590  0 12:49 ?        00:00:00 /usr/libexec/tracker-miner-fs
+u2004ze+    3601       1  0 12:49 ?        00:00:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+u2004ze+    3605    3566  0 12:49 tty2     00:00:00 /usr/lib/gdm3/gdm-x-session --run-script env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+u2004ze+    3608    3590  0 12:49 ?        00:00:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+u2004ze+    3610    3605  0 12:49 tty2     00:01:42 /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+root        3681       1  0 12:49 ?        00:00:00 /usr/lib/upower/upowerd
+u2004ze+    3708    3605  0 12:49 tty2     00:00:00 /usr/libexec/gnome-session-binary --systemd --systemd --session=ubuntu
+u2004ze+    3818    3708  0 12:49 ?        00:00:00 /usr/bin/ssh-agent /usr/bin/im-launch env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+u2004ze+    3971    3590  0 12:49 ?        00:00:00 /usr/libexec/at-spi-bus-launcher
+u2004ze+    3976    3971  0 12:49 ?        00:00:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+u2004ze+    3980    3590  0 12:49 ?        00:00:00 /usr/libexec/gnome-session-ctl --monitor
+u2004ze+    3987    3590  0 12:49 ?        00:00:00 /usr/libexec/gnome-session-binary --systemd-service --session=ubuntu
+u2004ze+    4001    3590  0 12:49 ?        00:01:32 /usr/bin/gnome-shell
+u2004ze+    4032    3590  0 12:49 ?        00:00:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+u2004ze+    4037    4001  0 12:49 ?        00:00:00 ibus-daemon --panel disable --xim
+u2004ze+    5205    5197  0 12:50 pts/0    00:00:00 bash
+u2004ze+    5234    3987  0 12:50 ?        00:00:00 update-notifier
+root        5251    5205  0 12:50 pts/0    00:00:00 sudo su
+root        5257    5251  0 12:50 pts/0    00:00:00 su
+root        5258    5257  0 12:50 pts/0    00:00:00 bash
+root        5285    5258  0 12:52 pts/0    00:00:01 docker exec -it node-armanriazi /bin/bash
+root        5303    3350  0 12:52 pts/1    00:00:00 /bin/bash
+root        5403    5303  0 12:53 pts/1    00:00:00 node /opt/yarn-v1.22.15/bin/yarn.js start
+root        5420    5403  0 12:53 pts/1    00:00:01 /usr/local/bin/node /home/node/app/substrate-front-end-template/.yarn/releases/yarn-3.1.1.cjs start
+root        5431    5420  0 12:53 pts/1    00:00:00 /usr/local/bin/node /home/node/app/substrate-front-end-template/node_modules/react-app-rewired/bin/index.js start
+root        5438    5431  0 12:53 pts/1    00:00:16 /usr/local/bin/node /home/node/app/substrate-front-end-template/node_modules/react-app-rewired/scripts/start.js
+u2004ze+   25088    4001  0 13:52 ?        00:01:26 /opt/piavpn/bin/pia-client
+root       27503       2  0 14:20 ?        00:00:01 [kworker/2:2-rcu_gp]
+root       82028       2  0 16:18 ?        00:00:01 [kworker/0:0-events]
+root       82133       2  0 16:18 ?        00:00:01 [kworker/1:2-events]
+root       82779       2  0 16:21 ?        00:00:00 [kworker/1:3-cgroup_destroy]
+root       83197       2  0 16:27 ?        00:00:00 [kworker/0:1-events]
+root       83559       2  0 16:37 ?        00:00:00 [kworker/u6:1-events_unbound]
+root       84293       2  0 17:03 ?        00:00:00 [kworker/u6:0-events_power_efficient]
+root       84338       2  0 17:13 ?        00:00:00 [kworker/u6:2-events_unbound]
+root       84348   34026  1 17:16 pts/1    00:00:01 ./target/release/node-template --dev --ws-external
+root       84704   75818  0 17:18 pts/3    00:00:00 ps -ef
+</code></pre></div></p>
+<h2 id="multi-node-local-testnet">Multi-Node Local Testnet<a class="headerlink" href="#multi-node-local-testnet" title="Permanent link">&para;</a></h2>
+<p>If you want to see the multi-node consensus algorithm in action, refer to our Start a Private Network tutorial.</p>
+<p>Purge the development chain's state:</p>
+<div class="highlight"><pre><span></span><code>./target/release/node-template purge-chain --base-path /tmp/alice --chain local
+./target/release/node-template purge-chain --base-path /tmp/bob --chain local
+./target/release/node-template \
+  --base-path /tmp/alice \
+  --chain local \
+  --alice \
+  --port 30333 \
+  --ws-port 9945 \
+  --rpc-port 9933 \
+  --unsafe-rpc-external \
+  --rpc-methods=unsafe \
+  --validator \
+  --ws-external \
+  --rpc-cors all  \
+  --no-mdns \
+  --name &quot;Arman Riazi&quot;  \
+  --node-key 0000000000000000000000000000000000000000000000000000000000000001 
+
+
+
+./target/release/node-template \
+  --base-path /tmp/bob \
+  --chain local \
+  --bob \
+  --port 30334 \
+  --ws-port 9946 \
+  --unsafe-rpc-external \
+  --rpc-methods=unsafe \
+  --rpc-port 9934 \
+  --validator \
+  --ws-external \
+  --rpc-cors all  \
+  --no-mdns  \
+  --name &quot;Arman Riazi 2&quot;  \
+  --bootnodes /ip4/192.168.8.110/tcp/30333/p2p/12D3KooWEyoppNCUx8Yx66oV9fJnriXwCcXwDDUA2kj6vnc6iDEp
+</code></pre></div>
+<ul>
+<li>Other commands</li>
+</ul>
+<div class="highlight"><pre><span></span><code> subkey restore Alice
+--telemetry-url &#39;wss://telemetry.polkadot.io/submit/ 0&#39; 
+--pruning archive 
+--prometheus-external
+--chain local
+--tmp
+--dev 
+--fir
+--base-path ./my-chain-state 
+--enable-offchain-indexing true
+</code></pre></div>
+<ul>
+<li>The private network substrate  was made by manifest</li>
+</ul>
+<p><a href="https://polkadot.js.org/apps/#/settings?rpc=ws://192.168.8.110:9945">polkadot-js</a> 
+<a href="https://cloudflare-ipfs.com/ipns/dotapps.io/#/explorer">cloudflare-ipfs</a></p>
+<p><img alt="Node Setup -Run Command And UI 1" src="https://armanriazi.github.io/site/assets/attachments/node-setup1.JPG" />
+<img alt="Node Setup -Run Command And UI 2" src="https://armanriazi.github.io/site/assets/attachments/node-setup3.JPG" />
+<img alt="Node Setup -Run Command And UI 3" src="https://armanriazi.github.io/site/assets/attachments/node-setup4.JPG" /></p>
+<div class="highlight"><pre><span></span><code>{
+      &quot;AccountInfo&quot;: &quot;AccountInfoWithTripleRefCount&quot;,
+      &quot;Address&quot;: &quot;AccountId&quot;,
+      &quot;LookupSource&quot;: &quot;AccountId&quot;,
+      &quot;AccountInfo&quot;: &quot;AccountInfoWithDualRefCount&quot;,
+      &quot;ContinuousAccountData&quot;: {
+        &quot;principal&quot;: &quot;u64&quot;,
+        &quot;deposit_date&quot;: &quot;BlockNumber&quot;
+      },
+      &quot;U16F16&quot;: &quot;[u8; 4]&quot;,
+      &quot;GroupIndex&quot;: &quot;u32&quot;,
+      &quot;ValueStruct&quot;: {
+        &quot;integer&quot;: &quot;i32&quot;,
+        &quot;boolean&quot;: &quot;bool&quot;
+      },
+      &quot;BufferIndex&quot;: &quot;u8&quot;,
+      &quot;AccountIdOf&quot;: &quot;AccountId&quot;,
+      &quot;BalanceOf&quot;: &quot;Balance&quot;,
+      &quot;FundInfoOf&quot;: &quot;FundInfo&quot;,
+      &quot;FundInfo&quot;: {
+        &quot;beneficiary&quot;: &quot;AccountId&quot;,
+        &quot;deposit&quot;: &quot;Balance&quot;,
+        &quot;raised&quot;: &quot;Balance&quot;,
+        &quot;end&quot;: &quot;BlockNumber&quot;,
+        &quot;goal&quot;: &quot;Balance&quot;
+      },
+      &quot;FundIndex&quot;: &quot;u32&quot;,
+      &quot;InnerThing&quot;: {
+        &quot;number&quot;: &quot;u32&quot;,
+        &quot;hash&quot;: &quot;Hash&quot;,
+        &quot;balance&quot;: &quot;Balance&quot;
+      },
+      &quot;SuperThing&quot;: {
+        &quot;super_number&quot;: &quot;u32&quot;,
+        &quot;inner_thing&quot;: &quot;InnerThing&quot;
+      },
+      &quot;InnerThingOf&quot;: &quot;InnerThing&quot;
+    }
+</code></pre></div>
+<blockquote>
+<p>Try  introductory tutorial for creating your first runtime module </p>
+</blockquote>
+<iframe width="700" height="396" src="https://www.youtube.com/embed/0IoUZdDi5Is" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<p>📚📚📚</p>
+<h2 id="literature">Literature<a class="headerlink" href="#literature" title="Permanent link">&para;</a></h2>
+<p><a href="https://doc.rust-lang.org/error-index.html">Error-Rust-Lang</a></p>
+<p><a href="https://rust-lang.github.io/rustup/examples.html">Rustup</a></p>
+<p><a href="https://core.tetcoin.org/docs/en/tutorials/start-a-private-network">Start-a-private-network</a></p>
+<p><a href="https://docs.deip.world/develop/substrate-based-chain">Substrate-based-chain</a></p>
+<p><a href="https://docs.substrate.io/v3/getting-started/glossary/">Substrate-Glossary</a></p>
+<p>❤️❤️❤️</p>
+<p>If you liked this article or if it helped you please clap on this post to help the Read.Cash algorithm recommend it to more people. If you have any questions or remarks please feel free to leave a comment below.</p>
+<p>Alternatively, please feel free to send donations </p>
+<blockquote>
+<p>0xde5D732a5AB44832E1c69b18be30834639F44A2c</p>
+</blockquote>
+<p>❤️❤️❤️</p>
+<p>Reseacher &amp; Organized by:</p>
+<p>🙏Arman-Riazi🤝</p>
+<p>[[Polkadot-Ecosystem-Research]]</p>
+<p>[[Substrate]]</p>
+
+              
+            </article>
+          </div>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    <a href="https://twitter.com/arman_riazi_science" target="_blank" rel="noopener" title="ArmanRiazi on Twitter" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "../../../..", "features": ["search.suggest", "search.highlight", "search.share", "announce.dismiss", "header.autohide", "navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "navigation.expand"], "search": "../../../../assets/javascripts/workers/search.2a1c317c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    
+      <script src="../../../../assets/javascripts/bundle.748e2769.min.js"></script>
+      
+        <script src="../../../../assets/javascripts/mkdocs-extra.js"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>
