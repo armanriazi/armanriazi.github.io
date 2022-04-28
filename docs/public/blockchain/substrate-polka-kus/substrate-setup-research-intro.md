@@ -88,9 +88,18 @@ linking_with_cc_failed_exit_code_1/build-essential-fails-because-of-unmet-depend
 ```apt-get install llvm clang linux-headers-"$(uname -r)"```
 
 ```apt install llvm clang```
+
 ```cargo build --release```
 
-#cargo fix --allow-dirty#cargo fix --edition
+**Other commands(Maybe you needs follow):**
+
+```cargo clear```
+
+```cargo fix --allow-dirty```
+
+```cargo fix --edition```
+
+**My Runner System**
 
 ```
  -lsb_release -a

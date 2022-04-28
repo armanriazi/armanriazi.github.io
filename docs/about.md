@@ -45,6 +45,10 @@ author: "Arman Riazi"
 
 > Following the table is my recent experiences 😋 for access to [archive](public/archive/archive-until-2016.md) before 2020 you can click on it.
 
+## Resume
+ 
+<iframe src="https://drive.google.com/file/d/1OFAWs46pYsdmxW33v2qAFugY1mTdzyTk/preview" width="640" height="480" allow="autoplay"></iframe>
+
 ## Blockchain Experience
 
 ``` Exprt: Experience ```
@@ -90,6 +94,43 @@ About 8-month trading, 2 months solidity, 4 months rust-lang, 2 months substrate
 
  > Birthday: 11/11/1989
 
+**In Addition**
+
+> Expertise with various blockchain platforms between permissioned vs. public chains.
+
+> Enthusiastic building solutions on blockchain protocols (e.g. Polkadot, Kusama, NEAR, Solana).
+
+> Trade Experience with layer 2 protocols.
+
+> Knowledge of some of the consensus mechanism technical knowledge like (x)POS, POW.
+
+> Knowledge of Digital Assets, Smart Contract Oracles, Inter-operability, private/permissioned blockchains and sustainability.
+
+> Knowledge of Ethereum development tools (i.e. Hardhat, OpenZeppelin).
+
+> Experience in delivering cloud-native architectures and solutions (e.g. Azure, IBM, Rancher).
+
+> Experience with writing/debugging and deploying Smart Contracts.
+
+> Experience with platform security, scalability, and reliability.
+
+> Understanding of the blockchain vendor landscape.
+
+> Understanding of how to layer blockchain network with cloud application and client UI through API streams.
+
+> Demonstrates strong value for diversity and ability to team and collaborate effectively.
+
+> Substantial experience developing and delivering executive level presentations.
+
+> Comfortable working in a virtual environment and managing a virtual team.
+
+> Flexibility/adaptability - comfortable working with ambiguity and continually evolving priorities.
+
+> Willingness to travel as required.
+
+> 5+ years technology consulting experience.
+
+
  ![Image title](assets/attachments/me.png)
 
  Over 10 years of experience in designing, developing, deploying, analyzing, and implementing [[Cloud]]-native, web, and software engineers. 
@@ -101,17 +142,16 @@ About 8-month trading, 2 months solidity, 4 months rust-lang, 2 months substrate
  * Maintain effective relationships with others. 
  * General features including Research, Creative, Analyze, Self-Developing. 
  * Highly organized, motivated, confident.
-## Resume
- 
-<iframe src="https://drive.google.com/file/d/1OFAWs46pYsdmxW33v2qAFugY1mTdzyTk/preview" width="640" height="480" allow="autoplay"></iframe>
 
 ## Favourites
+
+> Cosmology books.
 
 > Read fundamental blockchain whitepapers. and new taxonomy articles.
 
 > Personal interests Footbal, Running, Body-Building, Motorcycles and Reading Books.
 
-1> Live Concert and (Music Video)[fun.md]
+> Live Concert and [Music Video](fun.md)
 
 ## Call Me-Preferred Channels
 
