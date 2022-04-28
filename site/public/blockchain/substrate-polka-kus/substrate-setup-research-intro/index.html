@@ -667,36 +667,23 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#cargo-fix-allow-dirtycargo-fix-edition" class="md-nav__link">
-    cargo fix --allow-dirty#cargo fix --edition
-  </a>
-  
-    <nav class="md-nav" aria-label="cargo fix --allow-dirty#cargo fix --edition">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
   <a href="#single-node-development-chain" class="md-nav__link">
     Single-Node Development Chain
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#multi-node-local-testnet" class="md-nav__link">
     Multi-Node Local Testnet
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#literature" class="md-nav__link">
     Literature
   </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -761,6 +748,8 @@
 
 
 
+  <h1>Substrate setup research intro</h1>
+
 <p><strong>Walk-Through/Substrate/NodeSetup</strong></p>
 <p>👩‍🏫👩‍🏫👩‍🏫</p>
 <h2 id="introducing">Introducing<a class="headerlink" href="#introducing" title="Permanent link">&para;</a></h2>
@@ -821,9 +810,13 @@ cargo install --git https://github.com/alexcrichton/wasm-gc --force
 <p><strong>#rustup component add --toolchain=nightly rust-src rustfmt</strong></p>
 <p><code>rustup target add wasm32-unknown-unknown</code></p>
 <p><code>apt-get install llvm clang linux-headers-"$(uname -r)"</code></p>
-<p><code>apt install llvm clang</code>
-<code>cargo build --release</code></p>
-<h1 id="cargo-fix-allow-dirtycargo-fix-edition">cargo fix --allow-dirty#cargo fix --edition<a class="headerlink" href="#cargo-fix-allow-dirtycargo-fix-edition" title="Permanent link">&para;</a></h1>
+<p><code>apt install llvm clang</code></p>
+<p><code>cargo build --release</code></p>
+<p><strong>Other commands(Maybe you needs follow):</strong></p>
+<p><code>cargo clear</code></p>
+<p><code>cargo fix --allow-dirty</code></p>
+<p><code>cargo fix --edition</code></p>
+<p><strong>My Runner System</strong></p>
 <div class="highlight"><pre><span></span><code> -lsb_release -a
   No LSB modules are available.
   Distributor ID:   Ubuntu
