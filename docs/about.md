@@ -47,7 +47,7 @@ author: "Arman Riazi"
 
 ## Resume
  
-<iframe src="https://drive.google.com/file/d/1OFAWs46pYsdmxW33v2qAFugY1mTdzyTk/preview" width="640" height="480" allow="autoplay"></iframe>
+<iframe src="https://drive.google.com/file/d/1UTM7uQ9zge1aE-rBoeA7CjE6JanHMYRi/preview" width="640" height="480" allow="autoplay"></iframe>
 
 ## Blockchain Experience
 
@@ -61,10 +61,10 @@ author: "Arman Riazi"
 | CryptoTrading | 1 Y  |  :material-check:      |  [Experience losts liquid because of trading crypto in 2021 🤕](public/mynotes/exp-2021cryprotrading.md) - [Archived Cryptocurrency](public/archive/trading-archive-2021.md) |
 |    Solidity  | 2 M         |    :material-check-all:   | It seems to me that there would be better languages for developing so in the near furure we need to low-level lang for improve performance hardware resources |
 | IBM HyperLedger       |      1 M        |        :material-check-all:          |  HyperLedger is suited for organizations especially. Hyperledger has got good community and uses cloud-native tools but I think it is not a real decentralized blockchain framework for scalability and giving governance so I used to decide a little bit work on it           |
-| Rust-Lang      | 4 M       |  :material-check-all::material-check:        |      Fantastic, complex language for decentralized/distributed     |
+| Rust-Lang      | 7 M       |  :material-check-all::material-check:        |      Fantastic, complex language for decentralized/distributed     |
 | Substrate     |  2 M           |       :material-check-all::material-check:          |        Awsome work of 🙏Dr.Gavin and parity.io community        |
 | Polkadot & Kusuma        |      1 M     |        :material-check-all::material-check:          |       Crowdloan, tokenization💲, parachain and parathreads         |
-| Blockchain research       |      6 M        |        :material-check-all::material-check:          |        It is always included in my routine activity during a day        |
+| Blockchain research       |      1 Y        |        :material-check-all::material-check:          |        It is always included in my routine activity during a day        |
 
 About 8-month trading, 2 months solidity, 4 months rust-lang, 2 months substrate, 2 months research on Polkadot ecosystem, 6 month scholar research on blockchain. There is not exactly the time to estimate spend time since developing and learning would go with each other. In my opinion, developers who had a kind of skills like Frontend, Backend, or Database have been forced into the Blockchain ecosystem because of the charm of the subject and the rapid growth and evolution of the Technology. I wonder to let you know I am big on **Substrate and WASM** Substrate, WASM to apply for mixing experiences and technologies that lead to **#Defi2.0 & #Web3.0**. It is the only chance I get to find out what's been going on in the technology world and catch up with the current affairs.
 
@@ -151,18 +151,12 @@ About 8-month trading, 2 months solidity, 4 months rust-lang, 2 months substrate
 
 > Personal interests Footbal, Running, Body-Building, Motorcycles and Reading Books.
 
-> Live Concert and [Music Video](fun.md)
+> Live Concert and [Music Video-Magazine](fun.md)
 
 ## Call Me-Preferred Channels
 
-> Skype: armanriazi (Video Call)
+[Contact Me](social.md)
 
-> Telegram: @arman_riazi(Instant Message, Call)
+## Support Me/Sponsership
 
-> Instagram: arman_soc_riazi(Instant Message, Call)
-
-> Twitter: arman_soc_riazi(Message, Shared links)
-
-> Channel: Blockchain-Aramisit, Discord ID: ArmanRiazi
-
->> I recommend signing up channels to keep in connect.
+<a href="https://armanriyazi.github.io/">MetaMask(MultiNet): 0xde5D732a5AB44832E1c69b18be30834639F44A2c</a>

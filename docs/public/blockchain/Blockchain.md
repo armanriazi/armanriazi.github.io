@@ -43,6 +43,8 @@ title: "Arman Riazi"
 ## 2021-2023
 ### My Current Consideration
 
+[Scratched Implementation of Blockchain(Latest)](../programming/rust/rust.md#sourcecoderust-scratch-blockchainhttpsgithubcomarmanriazirust-scratch-blockchain)
+
 [Rust-Lang](../programming/rust/rust.md)
 
 [Substrate](Substrate.md)
