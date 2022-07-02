@@ -43,11 +43,11 @@ author: "Arman Riazi"
 
 > I've always influence by dr.Ravenwood. His works are so creative. I am sure he will impressive much more in the future.
 
-> Following the table is my recent experiences 😋 for access to [archive](public/archive/archive.md) before 2020 you can click on it.
+> Following the table is my recent experiences 😋 by access to [archive](public/archive/archive.md) before 2020 you can click on it.
 
 ## Resume
  
-<iframe src="https://drive.google.com/file/d/1UTM7uQ9zge1aE-rBoeA7CjE6JanHMYRi/preview" width="640" height="480" allow="autoplay"></iframe>
+<iframe src="https://drive.google.com/file/d/1YM_b6Exle_aqnMt3_LHJukWUAhLnxmLW/preview" width="640" height="480" allow="autoplay"></iframe>
 
 ## Blockchain Experience
 
@@ -67,6 +67,7 @@ author: "Arman Riazi"
 | Blockchain research       |      1 Y        |        :material-check-all::material-check:          |        It is always included in my routine activity during a day        |
 
 About 8-month trading, 2 months solidity, 4 months rust-lang, 2 months substrate, 2 months research on Polkadot ecosystem, 6 month scholar research on blockchain. There is not exactly the time to estimate spend time since developing and learning would go with each other. In my opinion, developers who had a kind of skills like Frontend, Backend, or Database have been forced into the Blockchain ecosystem because of the charm of the subject and the rapid growth and evolution of the Technology. I wonder to let you know I am big on **Substrate and WASM** Substrate, WASM to apply for mixing experiences and technologies that lead to **#Defi2.0 & #Web3.0**. It is the only chance I get to find out what's been going on in the technology world and catch up with the current affairs.
+  I worked for companies that were B2B or B2C. Therefore, I have developed projects based on the skills mentioned in the resume, which did not need to be introduced on the personal website because the material and intellectual rights of the works must be preserved. I have worked for 5 domestic companies in the field of support, development and consulting, and when I decided to work internationally(or decentralized), I spent a lot of time learning again and more(because there are high inflation and economics pressure in the country and I estimated in the future will be harder but my top priority always have been gaining more experiance in different places). You can see the prototypes of the works done on GitHub.
 
 ## Proof of Knowledge
  

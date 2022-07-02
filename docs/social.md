@@ -23,12 +23,17 @@ author: "Arman Riazi"
 ### Contact Me
 
 
-[To Set Schedule Meeting](https://calendly.com/armanriyazi-github-io/15min)
-<armanriyazi.github.io@gmail.com>
+[To Set Schedule Meeting] <armanriyazi.github.io@gmail.com>
+
 [Users.Rust-Lang](https://users.rust-lang.org/u/armanriazi)
+
 [Discord](https://discord.com/users/armanriyazi.github.io#5111)
+
 [Matrix.to](https://matrix.to/#/@armanriyazi.github.io:matrix.org)
+
 [Disqus](https://armanriyazi-github-io.disqus.com)
+
+[.](https://calendly.com/armanriyazi-github-io/15min)
 
 ### I am here
 
