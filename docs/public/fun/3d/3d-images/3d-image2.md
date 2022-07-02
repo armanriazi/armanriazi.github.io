@@ -8,7 +8,7 @@
   </head>
   <body>
     <a-scene>
-      <a-sky src="~/assets/attachments/3d-image2.jpg" rotation="0 -130 0"></a-sky>
+      <a-sky src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/CMB_Timeline300_no_WMAP.jpg/1200px-CMB_Timeline300_no_WMAP.jpg"></a-sky>
 
       <!-- <a-text font="Waitting.. width="6" position="-2.5 0.25 -1.5"
               rotation="0 15 0"></a-text> -->
