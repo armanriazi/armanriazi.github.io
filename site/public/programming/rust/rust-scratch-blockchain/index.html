@@ -974,8 +974,8 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#instructions-for-working-with_1" class="md-nav__link">
-    Instructions for working with
+  <a href="#documents-crate" class="md-nav__link">
+    Documents Crate
   </a>
   
 </li>
@@ -983,6 +983,34 @@
           <li class="md-nav__item">
   <a href="#features_1" class="md-nav__link">
     Features
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#instructions-for-working-with_1" class="md-nav__link">
+    Instructions for working with
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#instructions-for-installing-bin" class="md-nav__link">
+    Instructions for installing-bin
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-to-consume-the-library" class="md-nav__link">
+    How to consume the library
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wasmfuture-work" class="md-nav__link">
+    WASM(future work)
   </a>
   
 </li>
@@ -1245,15 +1273,29 @@
   
 </li>
         
-          <li class="md-nav__item">
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#contributors_1" class="md-nav__link">
     Contributors
   </a>
   
 </li>
-        
-      </ul>
-    </nav>
+      
+        <li class="md-nav__item">
+  <a href="#thanks" class="md-nav__link">
+    Thanks
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#solved-issues" class="md-nav__link">
+    Solved Issues
+  </a>
   
 </li>
       
@@ -1277,8 +1319,6 @@
   
 
 
-
-  <h1>Rust scratch blockchain</h1>
 
 <h2 id="welcome-to-the-home-blockchain-of-rustaceans">Welcome To The Home Blockchain Of 🦀Rustaceans<a class="headerlink" href="#welcome-to-the-home-blockchain-of-rustaceans" title="Permanent link">&para;</a></h2>
 <blockquote>
@@ -1633,10 +1673,45 @@ Wrapping unsafe code in a safe abstraction prevents uses of unsafe from leaking 
 </blockquote>
 <h3 id="the-difference-between-the-current-work-and-the-prev-works_1">The difference between the current work and the prev works<a class="headerlink" href="#the-difference-between-the-current-work-and-the-prev-works_1" title="Permanent link">&para;</a></h3>
 <blockquote>
-<p>I have tried to use fundamental concepts correctly, for example, all of us know any block have not any copy so because of it we are calling blockchain! Unlike many repositories on GitHub(testbed/scratched projects-non productive) that almost use Copy/Clone features of Rust-Lang.  In the following, there are some features that cause a different project.</p>
-<p>Currently Status: Under Refactoring</p>
+<p>I have tried to use fundamental concepts correctly, for example, all of us know any block have not any copy so because of it we are calling blockchain! Unlike many repositories on GitHub(testbed/scratched projects-non productive) that almost use Copy/Clone attributes of Rust-Lang for creating block. In the following, there are some features that cause a different project.</p>
+<p>Currently Status: Under refactoring with contributors</p>
 </blockquote>
 <h3 id="how-to-contribute-easy_1">How To Contribute <a href="https://github.com/armanriazi/armanriazi/blob/main/HowToContribute.md">Easy</a><a class="headerlink" href="#how-to-contribute-easy_1" title="Permanent link">&para;</a></h3>
+<p><a href="https://armanriazi.github.io/site/public/programming/rust/rust/">[Rust 2021 A Scratch Blockchain-1]</a>
+<a href="https://youtu.be/hiYHzmqn6MY">Youtube-Rust 2021 A Scratch Blockchain-1</a></p>
+<blockquote></blockquote>
+<p><a href="https://armanriazi.github.io/site/public/programming/rust/rust/">Rust 2021 A Scratch Blockchain-2</a>
+<a href="https://youtu.be/gK0dFhtbB-M">Youtube-Rust 2021 A Scratch Blockchain-2</a></p>
+<h3 id="documents-crate">Documents Crate<a class="headerlink" href="#documents-crate" title="Permanent link">&para;</a></h3>
+<p><a href="https://docs.rs/crate/blockchain-scratch-rust/latest">Docs.rs</a></p>
+<p><a href="https://crates.io/search?q=blockchain-scratch-rust">Package Manager crates.io</a></p>
+<h3 id="features_1">Features<a class="headerlink" href="#features_1" title="Permanent link">&para;</a></h3>
+<ul>
+<li>
+<p>[✓] Modular</p>
+</li>
+<li>
+<p>[✓] Customized Error Handling</p>
+</li>
+<li>
+<p>[✓] Json &amp; String Data Deserialized</p>
+</li>
+<li>
+<p>[✓] Functional Programming(Closure)</p>
+</li>
+<li>
+<p>[✓] Cryptography-Hashing Alogrithm SHA-256</p>
+</li>
+<li>
+<p>[-] WebAssembly(Next future video)</p>
+</li>
+<li>
+<p>[-] Unit &amp; Integration Testing(structure-need more time in the future)</p>
+</li>
+<li>
+<p>[-] Configuration Files(devOps-need more time in the future)</p>
+</li>
+</ul>
 <h3 id="instructions-for-working-with_1">Instructions for working with<a class="headerlink" href="#instructions-for-working-with_1" title="Permanent link">&para;</a></h3>
 <div class="highlight"><pre><span></span><code>DIFFICULTY={difficulty} cargo {mode} {file name}
 </code></pre></div>
@@ -1651,37 +1726,156 @@ Wrapping unsafe code in a safe abstraction prevents uses of unsafe from leaking 
 <p>Example: </p>
 </blockquote>
 <p><div class="highlight"><pre><span></span><code>cargo build
-DIFFICULTY=0x00000fffffffffffffffffffffffffff time cargo run file sample-bolocks.json
+cargo run
+RUST_LOG=INFO DIFFICULTY=0x00000fffffffffffffffffffffffffff time cargo run file sample-bolocks.json
 DIFFICULTY=0x00000fffffffffffffffffffffffffff time cargo run macrojson
 DIFFICULTY=0x00000fffffffffffffffffffffffffff time cargo run stringjson
 time cargo run
 cargo watch -x run
+cargo test
 </code></pre></div>
 <em>Using time and watch is optional and depends on your purpose</em></p>
-<h3 id="features_1">Features<a class="headerlink" href="#features_1" title="Permanent link">&para;</a></h3>
-<ul>
-<li>
-<p>[✓] Modular</p>
-</li>
-<li>
-<p>[✓] UnitTest(semi:future work)</p>
-</li>
-<li>
-<p>[✓] Customized Error Handling</p>
-</li>
-<li>
-<p>[✓] Json &amp; String Data Deserialized</p>
-</li>
-<li>
-<p>[✓] Closure(Functional Programming)</p>
-</li>
-<li>
-<p>[✓] Cryptography-Hashing Alogrithm SHA-256</p>
-</li>
-<li>
-<p>[✓] Configuration Files(semi- devOps)</p>
-</li>
-</ul>
+<h3 id="instructions-for-installing-bin">Instructions for installing-bin<a class="headerlink" href="#instructions-for-installing-bin" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code>curl -LSfs https://github.com/armanriazi/armanriazi/blob/main/install-0.sh | sh -s -- --git armanriazi/rust-scratch-blockchain
+</code></pre></div>
+<h3 id="how-to-consume-the-library">How to consume the library<a class="headerlink" href="#how-to-consume-the-library" title="Permanent link">&para;</a></h3>
+<p>1.
+<div class="highlight"><pre><span></span><code>cargo new yourprojectname
+</code></pre></div>
+2. Add new dependency
+<div class="highlight"><pre><span></span><code>[dependencies]
+blockchain-scratch-rust = &quot;0.3.0&quot;
+</code></pre></div>
+3. To update dependencies
+<div class="highlight"><pre><span></span><code>cargo update
+</code></pre></div>
+4. Your main.rs of the program
+<div class="highlight"><pre><span></span><code>use library_blockchain::*;
+fn main() {
+    println!(&quot;Hello, world!&quot;);
+
+    library_blockchain::blockchain_executive::main();
+}
+</code></pre></div>
+5.
+Due to the file sample-three-block-noerror.json in the repo you might copy it and manipulate it, in spite of that you can use generators of your database or ORMs for producing a file.json as the same as following content. Get attention to keys in the file for example we must have transaction{number} and if we write 'mytransaction 1' and run it we will get error.</p>
+<details>
+    <summary><em>Json File</em></summary>
+
+    <div class="highlight"><pre><span></span><code>{
+    &quot;blocks&quot;:[{    
+    &quot;block1&quot;:[{
+        &quot;transactions&quot;:[{
+        &quot;transaction1&quot;:[{
+            &quot;inputs&quot;:[{
+
+            }],    
+            &quot;outputs&quot;:[{
+            &quot;to_addr&quot;: &quot;Alice&quot;,
+            &quot;value&quot;: &quot;50&quot;                           
+            },{
+            &quot;to_addr&quot;: &quot;Bob&quot;,
+            &quot;value&quot;: &quot;7&quot;                           
+            }]    
+        }]                        
+        }]                 
+    }] ,
+    &quot;block2&quot;:[{
+        &quot;transactions&quot;:[{
+        &quot;transaction1&quot;:[{
+            &quot;inputs&quot;:[{
+
+            }],    
+            &quot;outputs&quot;:[{
+            &quot;to_addr&quot;: &quot;Chris&quot;,
+            &quot;value&quot;: &quot;536&quot;                         
+            }]    
+        }],
+        &quot;transaction2&quot;:[{
+            &quot;inputs&quot;:[{
+            &quot;to_addr&quot;: &quot;Alice&quot;,
+            &quot;value&quot;: &quot;50&quot;                           
+            },{
+            &quot;to_addr&quot;: &quot;Bob&quot;,
+            &quot;value&quot;: &quot;7&quot;      
+            }],    
+            &quot;outputs&quot;:[{
+            &quot;to_addr&quot;: &quot;Alice&quot;,
+            &quot;value&quot;: &quot;49&quot;                           
+            },{
+            &quot;to_addr&quot;: &quot;Bob&quot;,
+            &quot;value&quot;: &quot;6&quot;                        
+            }]    
+        }]                          
+        }]                 
+    }],
+    &quot;block3&quot;:[{
+        &quot;transactions&quot;:[{
+        &quot;transaction1&quot;:[{
+            &quot;inputs&quot;:[{                                                                    
+            }],    
+            &quot;outputs&quot;:[{
+            &quot;to_addr&quot;: &quot;Alice&quot;,
+            &quot;value&quot;: &quot;49&quot;                           
+            },{
+            &quot;to_addr&quot;: &quot;Bob&quot;,
+            &quot;value&quot;: &quot;6&quot;                           
+            }]    
+        }]                        
+        }]                 
+    }]        
+     }] 
+    }    
+</code></pre></div>
+
+</details>
+
+<ol>
+<li>Run of one of above commands.</li>
+</ol>
+<p><div class="highlight"><pre><span></span><code>RUST_LOG=info DIFFICULTY=0x0000ffffffffffffffffffffffffffff time cargo run file sample-three-block-noerror.json
+</code></pre></div>
+7. Everything is Ok and it is working fine.
+ <br />
+<details>
+    <summary><em>Console Log</em></summary>
+
+    <div class="highlight"><pre><span></span><code>    Finished dev [unoptimized + debuginfo] target(s) in 0.07s
+     Running `target/debug/consume-rust-scratch-blockchain file sample-three-block-noerror.json`
+Hello, world!
+[2022-07-06T13:30:22Z INFO  library_blockchain::blockchain_executive] ------------Welcome to env_logger------------
+[2022-07-06T13:30:22Z INFO  library_blockchain::blockchain_executive] Starting Up...
+**************************************************************
+Selected mode is file!
+**BlOcKcHaIn SiGnAls:**
+Block[0]: 17b9180cd95fef6c0e8ab81702ab9cfd835b4af373fdc7ee45d13cba69c40000 at: 1657114222903 with: 1 trx, nonce: 131263
+
+[2022-07-06T13:30:24Z INFO  library_blockchain::factory] Success updated With the block 1.
+
+**BlOcKcHaIn SiGnAls:**
+Block[1]: eeb73730eb18ef3efbadbe7b5f3cc1a07c0d97b6c97e7df8945e61089b280000 at: 1657114224538 with: 2 trx, nonce: 257740
+
+[2022-07-06T13:30:30Z INFO  library_blockchain::factory] Success updated With the block 2.
+
+**BlOcKcHaIn SiGnAls:**
+Block[2]: 3674f23d58002856c17816590f7e2ff195005ad477c67e704d61eead25710000 at: 1657114230226 with: 1 trx, nonce: 37407
+
+[2022-07-06T13:30:30Z INFO  library_blockchain::factory] Success updated With the block 3.
+
+7.67user 0.16system 0:08.03elapsed 97%CPU (0avgtext+0avgdata 25300maxresident)k
+2280inputs+0outputs (13major+6505minor)pagefaults 0swaps
+</code></pre></div>
+
+</details>
+</p>
+<h3 id="wasmfuture-work">WASM(future work)<a class="headerlink" href="#wasmfuture-work" title="Permanent link">&para;</a></h3>
+<p>For consume the library we used some WASM compiling strategy:</p>
+<blockquote>
+<p><a href="https://github.com/armanriazi/rust-scratch-blockchain-bin/tree/armanriazi-bindgen0">Bindgen</a></p>
+<p><a href="https://github.com/armanriazi/rust-scratch-blockchain-bin/tree/armanriazi-wasmer-llvm">Wasmer-LLVM</a></p>
+<p><a href="https://github.com/armanriazi/rust-scratch-blockchain-bin/tree/armanriazi-wasmer-wasi">Wasmer-Wasi</a></p>
+<p><a href="https://github.com/armanriazi/rust-scratch-blockchain-bin">Binary of rust-scratch-blockchain</a></p>
+</blockquote>
 <h3 id="used-concepts_1">Used Concepts<a class="headerlink" href="#used-concepts_1" title="Permanent link">&para;</a></h3>
 <h4 id="-memoizationlazyevaluation_1">- [✓] Memoization•Lazy•Evaluation<a class="headerlink" href="#-memoizationlazyevaluation_1" title="Permanent link">&para;</a></h4>
 <blockquote>
@@ -1959,11 +2153,18 @@ To isolate unsafe code as much as possible, it’s best to enclose unsafe code w
 <p>Parts of the standard library are implemented as safe abstractions over unsafe code that has been audited.
 Wrapping unsafe code in a safe abstraction prevents uses of unsafe from leaking out into all the places that you or your users might want to use the functionality implemented with unsafe code, because using a safe abstraction is safe.</p>
 </blockquote>
-<h3 id="contributors_1">Contributors<a class="headerlink" href="#contributors_1" title="Permanent link">&para;</a></h3>
+<hr />
+<h1 id="contributors_1">Contributors<a class="headerlink" href="#contributors_1" title="Permanent link">&para;</a></h1>
 <p>nom is the fruit of the work of many contributors over the years, many thanks for your help!</p>
 <p><a href="https://github.com/armanriazi/rust-scratch-blockchain/graphs/contributors">
   Contributors
 </a></p>
+<hr />
+<h1 id="thanks">Thanks<a class="headerlink" href="#thanks" title="Permanent link">&para;</a></h1>
+<p><a href="https://users.rust-lang.org/u/LegionMammal978">Convert string to u128</a></p>
+<hr />
+<h1 id="solved-issues">Solved Issues<a class="headerlink" href="#solved-issues" title="Permanent link">&para;</a></h1>
+<p><a href="https://users.rust-lang.org/t/convert-string-to-u128/77183">Convert-string-to-u128</a></p>
 
               
             </article>
