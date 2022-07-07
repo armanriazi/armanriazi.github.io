@@ -21,6 +21,14 @@
 
 ### How To Contribute [Easy](https://github.com/armanriazi/armanriazi/blob/main/HowToContribute.md)
 
+[[Rust 2021 A Scratch Blockchain-1]]
+[Rust 2021 A Scratch Blockchain-1](../public/programming/rust/rust-scratch-blockchain.md)
+<iframe width="975" height="506" src="https://www.youtube.com/embed/hiYHzmqn6MY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+[[Rust 2021 A Scratch Blockchain-2]]
+[Rust 2021 A Scratch Blockchain-2](../public/programming/rust/rust-scratch-blockchain.md)
+<iframe width="975" height="506" src="https://www.youtube.com/embed/gK0dFhtbB-M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### Instructions for working with
 
 ```
@@ -381,6 +389,7 @@ nom is the fruit of the work of many contributors over the years, many thanks fo
 <a href="https://github.com/armanriazi/rust-scratch-blockchain/graphs/contributors">
   Contributors
 </a>
+
 
 
 ## Welcome To The Home Blockchain Of 🦀Rustaceans
@@ -399,11 +408,44 @@ nom is the fruit of the work of many contributors over the years, many thanks fo
 
 ### The difference between the current work and the prev works
 
-> I have tried to use fundamental concepts correctly, for example, all of us know any block have not any copy so because of it we are calling blockchain! Unlike many repositories on GitHub(testbed/scratched projects-non productive) that almost use Copy/Clone features of Rust-Lang.  In the following, there are some features that cause a different project.
+> I have tried to use fundamental concepts correctly, for example, all of us know any block have not any copy so because of it we are calling blockchain! Unlike many repositories on GitHub(testbed/scratched projects-non productive) that almost use Copy/Clone attributes of Rust-Lang for creating block. In the following, there are some features that cause a different project.
 
-> Currently Status: Under Refactoring
+> Currently Status: Under refactoring with contributors
 
 ### How To Contribute [Easy](https://github.com/armanriazi/armanriazi/blob/main/HowToContribute.md)
+
+[[Rust 2021 A Scratch Blockchain-1]](https://armanriazi.github.io/site/public/programming/rust/rust/)
+[Youtube-Rust 2021 A Scratch Blockchain-1](https://youtu.be/hiYHzmqn6MY)
+
+>
+
+[Rust 2021 A Scratch Blockchain-2](https://armanriazi.github.io/site/public/programming/rust/rust/)
+[Youtube-Rust 2021 A Scratch Blockchain-2](https://youtu.be/gK0dFhtbB-M)
+
+### Documents Crate
+
+[Docs.rs](https://docs.rs/crate/blockchain-scratch-rust/latest)
+
+[Package Manager crates.io](https://crates.io/search?q=blockchain-scratch-rust)
+
+### Features
+
+- [✓] Modular
+
+- [✓] Customized Error Handling
+
+- [✓] Json & String Data Deserialized
+
+- [✓] Functional Programming(Closure)
+
+- [✓] Cryptography-Hashing Alogrithm SHA-256
+
+- [-] WebAssembly(Next future video)
+
+- [-] Unit & Integration Testing(structure-need more time in the future)
+
+- [-] Configuration Files(devOps-need more time in the future)
+
 
 ### Instructions for working with
 
@@ -422,29 +464,169 @@ DIFFICULTY={difficulty} cargo {mode} {file name}
 
 ```
 cargo build
-DIFFICULTY=0x00000fffffffffffffffffffffffffff time cargo run file sample-bolocks.json
+cargo run
+RUST_LOG=INFO DIFFICULTY=0x00000fffffffffffffffffffffffffff time cargo run file sample-bolocks.json
 DIFFICULTY=0x00000fffffffffffffffffffffffffff time cargo run macrojson
 DIFFICULTY=0x00000fffffffffffffffffffffffffff time cargo run stringjson
 time cargo run
 cargo watch -x run
+cargo test
 ```
 *Using time and watch is optional and depends on your purpose*
 
-### Features
+### Instructions for installing-bin
 
-- [✓] Modular
+```
+curl -LSfs https://github.com/armanriazi/armanriazi/blob/main/install-0.sh | sh -s -- --git armanriazi/rust-scratch-blockchain
+```
 
-- [✓] UnitTest(semi:future work)
+### How to consume the library
 
-- [✓] Customized Error Handling
+1.
+```
+cargo new yourprojectname
+```
+2. Add new dependency
+```
+[dependencies]
+blockchain-scratch-rust = "0.3.0"
+```
+3. To update dependencies
+```
+cargo update
+```
+4. Your main.rs of the program
+```
+use library_blockchain::*;
+fn main() {
+    println!("Hello, world!");
 
-- [✓] Json & String Data Deserialized
+    library_blockchain::blockchain_executive::main();
+}
+```
+5.
+Due to the file sample-three-block-noerror.json in the repo you might copy it and manipulate it, in spite of that you can use generators of your database or ORMs for producing a file.json as the same as following content. Get attention to keys in the file for example we must have transaction{number} and if we write 'mytransaction 1' and run it we will get error.
 
-- [✓] Closure(Functional Programming)
 
-- [✓] Cryptography-Hashing Alogrithm SHA-256
+   <details>
+    <summary><em>Json File</em></summary>
+	
+	```
+	{
+	    "blocks":[{    
+		"block1":[{
+		    "transactions":[{
+			"transaction1":[{
+			    "inputs":[{
 
-- [✓] Configuration Files(semi- devOps)
+			    }],    
+			    "outputs":[{
+				"to_addr": "Alice",
+				"value": "50"                           
+			    },{
+				"to_addr": "Bob",
+				"value": "7"                           
+			    }]    
+			}]                        
+		    }]                 
+		}] ,
+		"block2":[{
+		    "transactions":[{
+			"transaction1":[{
+			    "inputs":[{
+
+			    }],    
+			    "outputs":[{
+				"to_addr": "Chris",
+				"value": "536"                         
+			    }]    
+			}],
+			"transaction2":[{
+			    "inputs":[{
+				"to_addr": "Alice",
+				"value": "50"                           
+			    },{
+				"to_addr": "Bob",
+				"value": "7"      
+			    }],    
+			    "outputs":[{
+				"to_addr": "Alice",
+				"value": "49"                           
+			    },{
+				"to_addr": "Bob",
+				"value": "6"                        
+			    }]    
+			}]                          
+		    }]                 
+		}],
+		"block3":[{
+		    "transactions":[{
+			"transaction1":[{
+			    "inputs":[{                                                                    
+			    }],    
+			    "outputs":[{
+				"to_addr": "Alice",
+				"value": "49"                           
+			    },{
+				"to_addr": "Bob",
+				"value": "6"                           
+			    }]    
+			}]                        
+		    }]                 
+		}]        
+	     }] 
+	    }    
+	```
+
+</details>
+
+6. Run of one of above commands.
+
+```
+RUST_LOG=info DIFFICULTY=0x0000ffffffffffffffffffffffffffff time cargo run file sample-three-block-noerror.json
+```
+7. Everything is Ok and it is working fine.
+   <details>
+    <summary><em>Console Log</em></summary>
+	
+	```
+	    Finished dev [unoptimized + debuginfo] target(s) in 0.07s
+	     Running `target/debug/consume-rust-scratch-blockchain file sample-three-block-noerror.json`
+	Hello, world!
+	[2022-07-06T13:30:22Z INFO  library_blockchain::blockchain_executive] ------------Welcome to env_logger------------
+	[2022-07-06T13:30:22Z INFO  library_blockchain::blockchain_executive] Starting Up...
+	**************************************************************
+	Selected mode is file!
+	**BlOcKcHaIn SiGnAls:**
+	Block[0]: 17b9180cd95fef6c0e8ab81702ab9cfd835b4af373fdc7ee45d13cba69c40000 at: 1657114222903 with: 1 trx, nonce: 131263
+
+	[2022-07-06T13:30:24Z INFO  library_blockchain::factory] Success updated With the block 1.
+
+	**BlOcKcHaIn SiGnAls:**
+	Block[1]: eeb73730eb18ef3efbadbe7b5f3cc1a07c0d97b6c97e7df8945e61089b280000 at: 1657114224538 with: 2 trx, nonce: 257740
+
+	[2022-07-06T13:30:30Z INFO  library_blockchain::factory] Success updated With the block 2.
+
+	**BlOcKcHaIn SiGnAls:**
+	Block[2]: 3674f23d58002856c17816590f7e2ff195005ad477c67e704d61eead25710000 at: 1657114230226 with: 1 trx, nonce: 37407
+
+	[2022-07-06T13:30:30Z INFO  library_blockchain::factory] Success updated With the block 3.
+
+	7.67user 0.16system 0:08.03elapsed 97%CPU (0avgtext+0avgdata 25300maxresident)k
+	2280inputs+0outputs (13major+6505minor)pagefaults 0swaps
+	```
+	
+</details>
+
+### WASM(future work)
+For consume the library we used some WASM compiling strategy:
+> [Bindgen](https://github.com/armanriazi/rust-scratch-blockchain-bin/tree/armanriazi-bindgen0)
+> 
+> [Wasmer-LLVM](https://github.com/armanriazi/rust-scratch-blockchain-bin/tree/armanriazi-wasmer-llvm)
+>
+> [Wasmer-Wasi](https://github.com/armanriazi/rust-scratch-blockchain-bin/tree/armanriazi-wasmer-wasi)
+> 
+> [Binary of rust-scratch-blockchain](https://github.com/armanriazi/rust-scratch-blockchain-bin)
 
 ### Used Concepts
 
@@ -758,10 +940,23 @@ To isolate unsafe code as much as possible, it’s best to enclose unsafe code w
 > Parts of the standard library are implemented as safe abstractions over unsafe code that has been audited.
 Wrapping unsafe code in a safe abstraction prevents uses of unsafe from leaking out into all the places that you or your users might want to use the functionality implemented with unsafe code, because using a safe abstraction is safe.
 
-### Contributors
+---
+
+# Contributors
 
 nom is the fruit of the work of many contributors over the years, many thanks for your help!
 
 <a href="https://github.com/armanriazi/rust-scratch-blockchain/graphs/contributors">
   Contributors
 </a>
+
+---
+
+# Thanks
+[Convert string to u128](https://users.rust-lang.org/u/LegionMammal978)
+
+---
+
+# Solved Issues
+
+[Convert-string-to-u128](https://users.rust-lang.org/t/convert-string-to-u128/77183)
