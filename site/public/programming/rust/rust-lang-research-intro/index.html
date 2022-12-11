@@ -53,6 +53,8 @@
 
     
     
+  <link rel="stylesheet" href="../../../../assets/stylesheets/custom.9097afc2.min.css">
+
   </head>
   
   
@@ -77,6 +79,20 @@
       
     </div>
     <div data-md-component="announce">
+      
+        <aside class="md-banner">
+          <div class="md-banner__inner md-grid md-typeset">
+            
+  <a href="https://twitter.com/squidfunk">
+    For updates follow <strong>@squidfunk</strong> on
+    <span class="twemoji twitter">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+    </span>
+    <strong>Twitter</strong>
+  </a>
+
+          </div>
+        </aside>
       
     </div>
     
@@ -694,25 +710,25 @@
 <h1 id="alloc">Alloc<a class="headerlink" href="#alloc" title="Permanent link">&para;</a></h1>
 <p>The Rust core allocation and collections library</p>
 <p>This library provides <strong>smart pointers and collections</strong> for managing heap-allocated values. This library, like libcore, <strong>normally doesn’t need to be used directly since its contents are re-exported in the std crate. Crates that use the #![no_std] attribute however will typically not depend on std, so they’d use this crate instead.</strong></p>
-<p>https://doc.rust-lang.org/alloc/index.html</p>
+<p><a href="https://doc.rust-lang.org/alloc/index.html">https://doc.rust-lang.org/alloc/index.html</a></p>
 <h1 id="core"><strong>Core</strong><a class="headerlink" href="#core" title="Permanent link">&para;</a></h1>
 <p>The Rust Core Library</p>
 <p>The Rust Core Library is the <strong>dependency-free1 foundation of The Rust Standard Library.</strong> It is the portable <strong>glue between the language and its libraries,</strong> defining the intrinsic and primitive building blocks of all Rust code. <strong>It links to no upstream libraries, no system libraries, and no libc.</strong></p>
 <p>The core library is minimal: it <strong>isn’t even aware of heap allocation, nor does it provide concurrency or I/O.</strong> These things require platform integration, and this library is platform-agnostic.</p>
-<p>https://doc.rust-lang.org/core/index.html</p>
+<p><a href="https://doc.rust-lang.org/core/index.html">https://doc.rust-lang.org/core/index.html</a></p>
 <h1 id="crate-proc_macrocopy"><strong>Crate proc_macroCopy</strong><a class="headerlink" href="#crate-proc_macrocopy" title="Permanent link">&para;</a></h1>
 <p>A support library for macro authors when defining new macros.</p>
 <p>This library, provided by the standard distribution, provides the types consumed in the interfaces of procedurally defined macro definitions such <strong>as function-like macros #[proc_macro], macro attributes #[proc_macro_attribute] and custom derive attributes#[proc_macro_derive].</strong></p>
-<p>https://doc.rust-lang.org/proc_macro/index.html</p>
+<p><a href="https://doc.rust-lang.org/proc_macro/index.html">https://doc.rust-lang.org/proc_macro/index.html</a></p>
 <h1 id="stdthe-rust-standard-library"><strong>Std(The Rust Standard Library)</strong><a class="headerlink" href="#stdthe-rust-standard-library" title="Permanent link">&para;</a></h1>
 <p>The Rust Standard Library is the foundation of portable Rust software, a set of minimal and battle-tested shared abstractions for the broader Rust ecosystem. It offers core types, like Vec<T> and Option<T>, library-defined operations on language primitives, standard macros, I/O and multithreading, among many other things.</p>
 <p><strong>std is available to all Rust crates by default.</strong> Therefore, the standard library can be accessed in use statements through the path std, as in use std::env.</p>
-<p>https://doc.rust-lang.org/std/index.html</p>
+<p><a href="https://doc.rust-lang.org/std/index.html">https://doc.rust-lang.org/std/index.html</a></p>
 <h1 id="test">Test<a class="headerlink" href="#test" title="Permanent link">&para;</a></h1>
 <p>Support code for rustc’s built in unit-test and <strong>micro-benchmarking framework.</strong></p>
 <p>Almost all user code will only be interested in Bencher and <strong>black_box</strong>. All other interactions (such as writing tests and benchmarks themselves) should be done via the #[test] and #[bench] attributes.</p>
 <p>See the Testing Chapter of the book for more details.</p>
-<p>https://doc.rust-lang.org/test/index.html</p>
+<p><a href="https://doc.rust-lang.org/test/index.html">https://doc.rust-lang.org/test/index.html</a></p>
 <p>👆👆👆</p>
 <h2 id="memory">Memory<a class="headerlink" href="#memory" title="Permanent link">&para;</a></h2>
 <p>Rust programs have 3 memory regions where data is stored:</p>
@@ -723,26 +739,26 @@
 </blockquote>
 <h2 id="thread">Thread<a class="headerlink" href="#thread" title="Permanent link">&para;</a></h2>
 <h1 id="lifetime">LifeTime<a class="headerlink" href="#lifetime" title="Permanent link">&para;</a></h1>
-<p>@Static</p>
+<p><a class="magiclink magiclink-github magiclink-mention" href="https://github.com/Static" title="GitHub User: Static">@Static</a></p>
 <p>A static variable is a memory resource created at <strong>compile-time</strong> that exists through a <strong>program start to finish</strong>. They must have their types explicitly specified so special lifetime lasting the entire program execution.</p>
 <p>A static lifetime is a memory resource that lasts indefinitely to the end of a program. Note that by this definition <strong>some static lifetime resources can be created at runtime.</strong></p>
 <p><strong>Lifetime specifiers always start with a ' (e.g. 'a, 'b, 'c).</strong></p>
 <p>Resources with static lifetimes have a special lifetime specifier 'static.</p>
 <p><strong>'static resources will never drop. If static lifetime resources contain references</strong> they must all be 'static (anything less would not live long enough).
-<div class="highlight"><pre><span></span><code>fn main() {
-    let mut foo = Foo { x: 42 };
-    let x = &amp;mut foo.x;
-    *x = 13;
-    // x is dropped here, allowing us to create a non-mutable reference
-    let y = do_something(&amp;foo);
-    println!(&quot;{} {}&quot;, y, foo.x);
-    // y is dropped here
-    // foo is dropped here
-}
-/*
-Standard Output
-42
-*/
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>fn main() {
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>    let mut foo = Foo { x: 42 };
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>    let x = &amp;mut foo.x;
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>    *x = 13;
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>    // x is dropped here, allowing us to create a non-mutable reference
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>    let y = do_something(&amp;foo);
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>    println!(&quot;{} {}&quot;, y, foo.x);
+<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>    // y is dropped here
+<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>    // foo is dropped here
+<a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>}
+<a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>/*
+<a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>Standard Output
+<a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a>42
+<a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a>*/
 </code></pre></div>
 Memory detail:</p>
 <p>Modifying static variables is inherently dangerous because they are globally accessable to be read from by anyone introducing the possibility of a data race.</p>
@@ -752,67 +768,67 @@ Memory detail:</p>
 <p>Rvalue Static Promotion Makes references to constants 'static, e.g., &amp;42, &amp;None, &amp;mut [].</p>
 <p>Promote constexpr rvalues to values in static memory instead of stack slots, and expose those in the language by being able to directly create 'static references to them.</p>
 <p>This would allow code like let x: &amp;'static u32 = &amp;42 to work.</p>
-<div class="highlight"><pre><span></span><code>static PI: f64 = 3.1415;
-
-fn main() {
-    // static variables can also be scoped to a function
-    static mut SECRET: &amp;&#39;static str = &quot;swordfish&quot;;
-
-    // string literals have a &#39;static lifetime
-    let msg: &amp;&#39;static str = &quot;Hello World!&quot;;
-    let p: &amp;&#39;static f64 = &amp;PI;
-    println!(&quot;{} {}&quot;, msg, p);
-
-    // You can break some rules, but you must be explicit
-    unsafe {
-        // we can set SECRET to a string literal because it is also `static
-        SECRET = &quot;abracadabra&quot;;
-        println!(&quot;{}&quot;, SECRET);
-    }
-}
-/*
-Standard Output
-Hello World! 3.1415
-abracadabra
-*/
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>static PI: f64 = 3.1415;
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>
+<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>fn main() {
+<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>    // static variables can also be scoped to a function
+<a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a>    static mut SECRET: &amp;&#39;static str = &quot;swordfish&quot;;
+<a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a>
+<a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a>    // string literals have a &#39;static lifetime
+<a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a>    let msg: &amp;&#39;static str = &quot;Hello World!&quot;;
+<a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a>    let p: &amp;&#39;static f64 = &amp;PI;
+<a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a>    println!(&quot;{} {}&quot;, msg, p);
+<a id="__codelineno-1-11" name="__codelineno-1-11" href="#__codelineno-1-11"></a>
+<a id="__codelineno-1-12" name="__codelineno-1-12" href="#__codelineno-1-12"></a>    // You can break some rules, but you must be explicit
+<a id="__codelineno-1-13" name="__codelineno-1-13" href="#__codelineno-1-13"></a>    unsafe {
+<a id="__codelineno-1-14" name="__codelineno-1-14" href="#__codelineno-1-14"></a>        // we can set SECRET to a string literal because it is also `static
+<a id="__codelineno-1-15" name="__codelineno-1-15" href="#__codelineno-1-15"></a>        SECRET = &quot;abracadabra&quot;;
+<a id="__codelineno-1-16" name="__codelineno-1-16" href="#__codelineno-1-16"></a>        println!(&quot;{}&quot;, SECRET);
+<a id="__codelineno-1-17" name="__codelineno-1-17" href="#__codelineno-1-17"></a>    }
+<a id="__codelineno-1-18" name="__codelineno-1-18" href="#__codelineno-1-18"></a>}
+<a id="__codelineno-1-19" name="__codelineno-1-19" href="#__codelineno-1-19"></a>/*
+<a id="__codelineno-1-20" name="__codelineno-1-20" href="#__codelineno-1-20"></a>Standard Output
+<a id="__codelineno-1-21" name="__codelineno-1-21" href="#__codelineno-1-21"></a>Hello World! 3.1415
+<a id="__codelineno-1-22" name="__codelineno-1-22" href="#__codelineno-1-22"></a>abracadabra
+<a id="__codelineno-1-23" name="__codelineno-1-23" href="#__codelineno-1-23"></a>*/
 </code></pre></div>
-<p>@Unsafe</p>
+<p><a class="magiclink magiclink-github magiclink-mention" href="https://github.com/Unsafe" title="GitHub User: Unsafe">@Unsafe</a></p>
 <p>If you still had access to (via unsafe) they might still look like valid S, but any attempt to use them as valid S is undefined behavior. ↓</p>
-<p>https://cheats.rs/#unsafe-unsound-undefined-dark side of force</p>
+<p><a href="https://cheats.rs/#unsafe-unsound-undefined-dark">https://cheats.rs/#unsafe-unsound-undefined-dark</a> side of force</p>
 <p>Try to avoid "unsafe {}", often safer, faster solution without it. Exception: FFI.</p>
 <h1 id="arc">Arc<a class="headerlink" href="#arc" title="Permanent link">&para;</a></h1>
-<p>@Safe</p>
+<p><a class="magiclink magiclink-github magiclink-mention" href="https://github.com/Safe" title="GitHub User: Safe">@Safe</a></p>
 <p>Arc presents us with a couple of use statements that include threads and something called Arc. <strong>Arc represents a thread-safe reference-counting pointer, and Arc stands for Atomically Reference Counted.</strong> You may know of this idea from old iOS Objective-C code or something like that.
-<div class="highlight"><pre><span></span><code>// arc1.rs
-// Make this code compile by filling in a value for `shared_numbers` where the
-// TODO comment is and create an initial binding for `child_numbers`
-// somewhere. Try not to create any copies of the `numbers` Vec!
-// Execute `rustlings hint arc1` for hints :)
-
-use std::sync::Arc;
-use std::thread;
-
-fn main() {
-    let numbers: Vec&lt;_&gt; = (0..100u32).collect();
-    let shared_numbers = Arc::new(numbers);
-    let mut joinhandles = Vec::new();
-
-    for offset in 0..8 {
-        let child_numbers = shared_numbers.clone();
-        joinhandles.push(thread::spawn(move || {
-            let mut i = offset;
-            let mut sum = 0;
-            while i &lt; child_numbers.len() {
-                sum += child_numbers[i];
-                i += 5;
-            }
-            println!(&quot;Sum of offset {} is {}&quot;, offset, sum);
-        }));
-    }
-    for handle in joinhandles.into_iter() {
-        handle.join().unwrap();
-    }
-}
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>// arc1.rs
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>// Make this code compile by filling in a value for `shared_numbers` where the
+<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>// TODO comment is and create an initial binding for `child_numbers`
+<a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a>// somewhere. Try not to create any copies of the `numbers` Vec!
+<a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a>// Execute `rustlings hint arc1` for hints :)
+<a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a>
+<a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a>use std::sync::Arc;
+<a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a>use std::thread;
+<a id="__codelineno-2-9" name="__codelineno-2-9" href="#__codelineno-2-9"></a>
+<a id="__codelineno-2-10" name="__codelineno-2-10" href="#__codelineno-2-10"></a>fn main() {
+<a id="__codelineno-2-11" name="__codelineno-2-11" href="#__codelineno-2-11"></a>    let numbers: Vec&lt;_&gt; = (0..100u32).collect();
+<a id="__codelineno-2-12" name="__codelineno-2-12" href="#__codelineno-2-12"></a>    let shared_numbers = Arc::new(numbers);
+<a id="__codelineno-2-13" name="__codelineno-2-13" href="#__codelineno-2-13"></a>    let mut joinhandles = Vec::new();
+<a id="__codelineno-2-14" name="__codelineno-2-14" href="#__codelineno-2-14"></a>
+<a id="__codelineno-2-15" name="__codelineno-2-15" href="#__codelineno-2-15"></a>    for offset in 0..8 {
+<a id="__codelineno-2-16" name="__codelineno-2-16" href="#__codelineno-2-16"></a>        let child_numbers = shared_numbers.clone();
+<a id="__codelineno-2-17" name="__codelineno-2-17" href="#__codelineno-2-17"></a>        joinhandles.push(thread::spawn(move || {
+<a id="__codelineno-2-18" name="__codelineno-2-18" href="#__codelineno-2-18"></a>            let mut i = offset;
+<a id="__codelineno-2-19" name="__codelineno-2-19" href="#__codelineno-2-19"></a>            let mut sum = 0;
+<a id="__codelineno-2-20" name="__codelineno-2-20" href="#__codelineno-2-20"></a>            while i &lt; child_numbers.len() {
+<a id="__codelineno-2-21" name="__codelineno-2-21" href="#__codelineno-2-21"></a>                sum += child_numbers[i];
+<a id="__codelineno-2-22" name="__codelineno-2-22" href="#__codelineno-2-22"></a>                i += 5;
+<a id="__codelineno-2-23" name="__codelineno-2-23" href="#__codelineno-2-23"></a>            }
+<a id="__codelineno-2-24" name="__codelineno-2-24" href="#__codelineno-2-24"></a>            println!(&quot;Sum of offset {} is {}&quot;, offset, sum);
+<a id="__codelineno-2-25" name="__codelineno-2-25" href="#__codelineno-2-25"></a>        }));
+<a id="__codelineno-2-26" name="__codelineno-2-26" href="#__codelineno-2-26"></a>    }
+<a id="__codelineno-2-27" name="__codelineno-2-27" href="#__codelineno-2-27"></a>    for handle in joinhandles.into_iter() {
+<a id="__codelineno-2-28" name="__codelineno-2-28" href="#__codelineno-2-28"></a>        handle.join().unwrap();
+<a id="__codelineno-2-29" name="__codelineno-2-29" href="#__codelineno-2-29"></a>    }
+<a id="__codelineno-2-30" name="__codelineno-2-30" href="#__codelineno-2-30"></a>}
 </code></pre></div></p>
 <ul>
 <li>
@@ -834,16 +850,16 @@ fn main() {
 <p>👆👆👆
 ✍️✍️✍️</p>
 <p>Let's Start - to setup in 5min</p>
-<p>https://www.gitpod.io/docs/languages/rust#rust-in-gitpod</p>
+<p><a href="https://www.gitpod.io/docs/languages/rust#rust-in-gitpod">https://www.gitpod.io/docs/languages/rust#rust-in-gitpod</a></p>
 <p>Getting started with Toturial</p>
 <p>Introduction - Rust By Example</p>
 <p>Learn Rust - Rust Programming Language</p>
 <p>Tour of Rust - Let's go on an adventure!</p>
 <p>In-Depth Rust Tutorials for 2022 | egghead.io</p>
-<p>https://rust-lang.github.io/rustup/examples.html</p>
+<p><a href="https://rust-lang.github.io/rustup/examples.html">https://rust-lang.github.io/rustup/examples.html</a></p>
 <p>📚📚📚</p>
 <h1 id="literature">Literature<a class="headerlink" href="#literature" title="Permanent link">&para;</a></h1>
-<p>https://doc.rust-lang.org/error-index.html</p>
+<p><a href="https://doc.rust-lang.org/error-index.html">https://doc.rust-lang.org/error-index.html</a></p>
 <p>Cargo Getting Start</p>
 <p>❤️❤️❤️</p>
 <p>If you liked this article or if it helped you please clap on this post to help the Read.Cash algorithm recommend it to more people. If you have any questions or remarks please feel free to leave a comment below.</p>
@@ -876,6 +892,24 @@ fn main() {
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
     </a>
   
+    
+    
+      
+      
+    
+    <a href="https://github.com/armanriazi" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+    </a>
+  
+    
+    
+      
+      
+    
+    <a href="https://linkedin.com/in/armanriazi" target="_blank" rel="noopener" title="linkedin.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+    </a>
+  
 </div>
       
     </div>
@@ -886,12 +920,15 @@ fn main() {
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": "../../../..", "features": ["search.suggest", "search.highlight", "search.share", "announce.dismiss", "header.autohide", "navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "navigation.expand"], "search": "../../../../assets/javascripts/workers/search.2a1c317c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../../../..", "features": ["search.suggest", "search.highlight", "search.share", "announce.dismiss", "content.tooltips", "content.code.annotate", "header.autohide", "navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "navigation.expand", "toc.follow"], "search": "../../../../assets/javascripts/workers/search.2a1c317c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
     
     
+  
       <script src="../../../../assets/javascripts/bundle.6e54b5cd.min.js"></script>
       
         <script src="../../../../assets/javascripts/mkdocs-extra.js"></script>
+      
+        <script src="../../../../assets/javascripts/feedback.js"></script>
       
         <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
       
@@ -899,6 +936,10 @@ fn main() {
       
         <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
       
+        <script src="https://widget.sonetel.com/SonetelWidget.min.js"></script>
+      
     
+  <script src="../../../../assets/javascripts/custom.37f95ade.min.js"></script>
+
   </body>
 </html>

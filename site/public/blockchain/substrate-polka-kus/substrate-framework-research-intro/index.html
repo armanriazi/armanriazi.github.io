@@ -53,6 +53,8 @@
 
     
     
+  <link rel="stylesheet" href="../../../../assets/stylesheets/custom.9097afc2.min.css">
+
   </head>
   
   
@@ -77,6 +79,20 @@
       
     </div>
     <div data-md-component="announce">
+      
+        <aside class="md-banner">
+          <div class="md-banner__inner md-grid md-typeset">
+            
+  <a href="https://twitter.com/squidfunk">
+    For updates follow <strong>@squidfunk</strong> on
+    <span class="twemoji twitter">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+    </span>
+    <strong>Twitter</strong>
+  </a>
+
+          </div>
+        </aside>
       
     </div>
     
@@ -867,9 +883,9 @@
 <p>Runtime Events</p>
 <p>Hooks</p>
 <p>Extrinsics</p>
-<p>An example is as follows: https://docs.substrate.io/v3/runtime/frame/</p>
+<p>An example is as follows: <a href="https://docs.substrate.io/v3/runtime/frame/">https://docs.substrate.io/v3/runtime/frame/</a></p>
 <p>Pallets can be composed of as many sections as needed, giving runtime engineers a lot of flexibility on top of the basic skeletons depicted above. Refer to <strong>the Substrate Runtime Macros to learn more about adding functionality to a FRAME pallet.</strong></p>
-<p>@System crate</p>
+<p><a class="magiclink magiclink-github magiclink-mention" href="https://github.com/System" title="GitHub User: System">@System</a> crate</p>
 <p>The FRAME System crate frame_system provides low-level types, storage, and functions for your blockchain. <strong>All other pallets depend on the System crate</strong> as the basis of your Substrate runtime.</p>
 <p><strong>The System crate defines all the core types for the Substrate runtime</strong>, such as:</p>
 <p>*Origin</p>
@@ -889,12 +905,12 @@
 <p>*Events
 *etc...</p>
 <p>Finally, it defines a number of low level functions which can access your blockchain storage, verify the origin of an extrinsic, and more.</p>
-<p>@Support crate@System crate</p>
+<p><a class="magiclink magiclink-github magiclink-mention" href="https://github.com/Support" title="GitHub User: Support">@Support</a> crate@System crate</p>
 <p>The FRAME Support Crate frame_support is a collection of Rust macros, types, traits, and modules that <strong>simplify the development of Substrate pallets.</strong></p>
 <p>The support macros expanded at compile time generate boilerplate code needed for the common structure of a pallet and save developers from writing them repeatedly.</p>
-<p>@Executive pallet@System crate</p>
+<p><a class="magiclink magiclink-github magiclink-mention" href="https://github.com/Executive" title="GitHub User: Executive">@Executive</a> pallet@System crate</p>
 <p>The FRAME Executive Pallet frame_executive <strong>acts as the orchestration layer</strong> for the runtime. It dispatches incoming extrinsic calls to the respective pallets in the runtime.</p>
-<p>@Runtime@System crate</p>
+<p><a class="magiclink magiclink-github magiclink-mention" href="https://github.com/Runtime" title="GitHub User: Runtime">@Runtime</a><a class="magiclink magiclink-github magiclink-mention" href="https://github.com/System" title="GitHub User: System">@System</a> crate</p>
 <p><strong>The runtime library brings together all</strong> these components and pallets. It defines which pallets are included with your runtime and configures them to work together to compose your final runtime. When calls are made to your runtime, it uses the Executive pallet to dispatch those calls to the individual pallets.</p>
 <h3 id="pallet">Pallet<a class="headerlink" href="#pallet" title="Permanent link">&para;</a></h3>
 <p><strong>A developer may choose to have a pallet that enables smart contracts</strong>, or specifically not include pallets to keep their blockchain network lean and reduce attack vectors.</p>
@@ -902,8 +918,8 @@
 <p>From the Oracle pallet to the Zero-Knowledge Verifier pallet and the Governance pallet, there are numerous existing pallets that can be integrated from the start or added later with forkless runtime upgrades.</p>
 <p>Developers can choose and even hot-swap components (pallets) such as the network stack, consensus, even the finality engine. Simply select from the growing list of pallets or create your own.</p>
 <p>When building with FRAME, <strong>the Substrate runtime is composed of several smaller components called pallets. A pallet contains a set of types, storage items, and functions that define a set of features and functionality for a runtime.</strong></p>
-<p>@Prebuilt pallets</p>
-<p>https://docs.substrate.io/v3/runtime/frame/</p>
+<p><a class="magiclink magiclink-github magiclink-mention" href="https://github.com/Prebuilt" title="GitHub User: Prebuilt">@Prebuilt</a> pallets</p>
+<p><a href="https://docs.substrate.io/v3/runtime/frame/">https://docs.substrate.io/v3/runtime/frame/</a></p>
 <p>Atomic Swap, Aura, Authority Discovery, Authorship, BABE , Balances, Benchmark, Collective, Contracts, Democracy, Elections Phragmén, Elections, GRANDPA, Identity, I'm Online, Indices, Membership, Multisig, Nicks, Offences, Proxy, Recovery, Randomness Collective Flip, Scheduler, Scored Pool, Session, Society, Staking, Sudo, Timestamp, Transaction Payment, Treasury, Utility, Vesting</p>
 <h3 id="execution-environment">Execution environment<a class="headerlink" href="#execution-environment" title="Permanent link">&para;</a></h3>
 <p>Off-chain features run in their own Wasm execution environment outside of the Substrate runtime.</p>
@@ -911,17 +927,17 @@
 <h3 id="extrinsics">Extrinsics<a class="headerlink" href="#extrinsics" title="Permanent link">&para;</a></h3>
 <p>An extrinsic is a piece of information that comes from outside the chain and is included in a block. <strong>Extrinsics fall into three categories: inherents, signed transactions, and unsigned transactions.</strong></p>
 <p><strong>Note that events are not extrinsics.</strong> The chain emits events for pieces of information that are intrinsic to the chain itself. For example, <strong>staking rewards are events, not extrinsics, because the reward is triggered by circumstances intrinsic to the chain's logic</strong>.  The header contains a block height, parent hash, extrinsics root, state root, and digest.</p>
-<p>@Inherents</p>
+<p><a class="magiclink magiclink-github magiclink-mention" href="https://github.com/Inherents" title="GitHub User: Inherents">@Inherents</a></p>
 <p>Inherents are pieces of information that are <strong>not signed</strong> and only <strong>inserted into a block by the block author</strong>. They are not gossiped on the network or stored in the transaction queue.  <strong>For example, the author of the block may insert a timestamp inherent into the block. There is no way to prove that a timestamp is true</strong> the way the desire to send funds is proved with a signature. Rather, validators accept or reject the block based on how reasonable the other validators find the timestamp, which may mean it is within some acceptable range of their own system clocks.</p>
-<p>@SignedTransactions</p>
+<p><a class="magiclink magiclink-github magiclink-mention" href="https://github.com/SignedTransactions" title="GitHub User: SignedTransactions">@SignedTransactions</a></p>
 <p>Contain a signature of the account that <strong>issued the transaction</strong> and stands to <strong>pay a fee</strong> to have the transaction included on chain. Because the value of including signed transactions <strong>on-chain</strong> can be recognized prior to execution, they can be <strong>gossiped on the network between nodes</strong> with a low risk of spam.</p>
-<p>@UnsignedTransactions</p>
+<p><a class="magiclink magiclink-github magiclink-mention" href="https://github.com/UnsignedTransactions" title="GitHub User: UnsignedTransactions">@UnsignedTransactions</a></p>
 <p>Since the transaction is not signed, there is <strong>nobody to pay a fee</strong>. Because of this, the transaction queue lacks economic logic to prevent spam. <strong>Unsigned transactions also lack a nonce, making replay protection difficult</strong>. A few transactions warrant using the unsigned variant, but they will require some form of spam prevention based on a custom implementation of signed extension, which can exist on unsigned transactions.</p>
 <p><strong>An example of unsigned transactions in Substrate is the I'm Online heartbeat transaction sent by authorities</strong>. The transaction includes a signature from a Session key, which does not control funds and therefore cannot pay a fee. The transaction pool controls spam by checking if a heartbeat has already been submitted in the session.</p>
 <p>👆👆👆</p>
 <h2 id="features">Features<a class="headerlink" href="#features" title="Permanent link">&para;</a></h2>
 <h3 id="configurable">Configurable<a class="headerlink" href="#configurable" title="Permanent link">&para;</a></h3>
-<p>@Feeless</p>
+<p><a class="magiclink magiclink-github magiclink-mention" href="https://github.com/Feeless" title="GitHub User: Feeless">@Feeless</a></p>
 <p>Unlike many legacy blockchain networks, which have hard limits for transaction throughput, Substrate is configurable. <strong>Transaction latency can be alleviated through configurable blocktimes, flexible transaction queues, and/or horizontal scaling. Transaction fees are configurable even to the point of feeless</strong> transactions. Development is faster since developers can use the tooling they prefer and select from a growing list of pallets instead of building from scratch. Upgrades happen faster thanks to forkless runtime upgrades.</p>
 <h2 id="light-client-first">Light-client-first<a class="headerlink" href="#light-client-first" title="Permanent link">&para;</a></h2>
 <p>Another unique attribute of Substrate is its “light-client-first” design which can <strong>run directly in-browser and interact with a chain in a fully trustless way.</strong> Traditional approaches for syncing nodes require users to run dedicated hardware and wait a long time for their node to sync, or as a workaround, use a centralized service provider. Substrate light-clients sync lightning fast and drastically increase the decentralization of blockchain networks. Developers can relax, knowing their end users aren’t reliant on a separate node infrastructure susceptible to downtime or hacking.</p>
@@ -948,7 +964,7 @@
 <h2 id="compatibility">Compatibility<a class="headerlink" href="#compatibility" title="Permanent link">&para;</a></h2>
 <h3 id="srml">SRML<a class="headerlink" href="#srml" title="Permanent link">&para;</a></h3>
 <p>SRML provides the basic building blocks for Substrate-based blockchains and <strong>includes all the essential functionality for a purpose-built blockchain.</strong> Among the various modules included with the <strong>SRML is the Contracts module, designed for executing "native" Wasm smart contracts on any Substrate-based chain.</strong></p>
-<p>@Parity</p>
+<p><a class="magiclink magiclink-github magiclink-mention" href="https://github.com/Parity" title="GitHub User: Parity">@Parity</a></p>
 <p>Moreover, Parity Technologies is a long-term supporter and builder in the Ethereum ecosystem, and we want to continue to provide support and infrastructure as we can to teams who have built on the Parity platform as we move from <strong>“Blockchain 2.0” to “3.0”.</strong></p>
 <p>As part of this ongoing support, and to ensure that Substrate and Polkadot remain as inclusive as possible to the broader DApp community, we’ve <strong>(Parity Team)built an EVM implementation for the SRML.</strong></p>
 <p><strong>Substrate EVM is an SRML module that provides an EVM execution environment for running unmodified Solidity code “natively” on a Substrate-based blockchain.</strong> In essence, Substrate EVM will allow Substrate-based blockchains, including Polkadot parachains, to host a nearly-complete instance of the Ethereum state transition function on-chain, alongside any additional Substrate modules as required for custom functionality.</p>
@@ -1003,6 +1019,24 @@
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
     </a>
   
+    
+    
+      
+      
+    
+    <a href="https://github.com/armanriazi" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+    </a>
+  
+    
+    
+      
+      
+    
+    <a href="https://linkedin.com/in/armanriazi" target="_blank" rel="noopener" title="linkedin.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+    </a>
+  
 </div>
       
     </div>
@@ -1013,12 +1047,15 @@
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": "../../../..", "features": ["search.suggest", "search.highlight", "search.share", "announce.dismiss", "header.autohide", "navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "navigation.expand"], "search": "../../../../assets/javascripts/workers/search.2a1c317c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../../../..", "features": ["search.suggest", "search.highlight", "search.share", "announce.dismiss", "content.tooltips", "content.code.annotate", "header.autohide", "navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "navigation.expand", "toc.follow"], "search": "../../../../assets/javascripts/workers/search.2a1c317c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
     
     
+  
       <script src="../../../../assets/javascripts/bundle.6e54b5cd.min.js"></script>
       
         <script src="../../../../assets/javascripts/mkdocs-extra.js"></script>
+      
+        <script src="../../../../assets/javascripts/feedback.js"></script>
       
         <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
       
@@ -1026,6 +1063,10 @@
       
         <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
       
+        <script src="https://widget.sonetel.com/SonetelWidget.min.js"></script>
+      
     
+  <script src="../../../../assets/javascripts/custom.37f95ade.min.js"></script>
+
   </body>
 </html>

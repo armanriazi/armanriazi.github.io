@@ -53,6 +53,8 @@
 
     
     
+  <link rel="stylesheet" href="../../../../assets/stylesheets/custom.9097afc2.min.css">
+
   </head>
   
   
@@ -77,6 +79,20 @@
       
     </div>
     <div data-md-component="announce">
+      
+        <aside class="md-banner">
+          <div class="md-banner__inner md-grid md-typeset">
+            
+  <a href="https://twitter.com/squidfunk">
+    For updates follow <strong>@squidfunk</strong> on
+    <span class="twemoji twitter">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+    </span>
+    <strong>Twitter</strong>
+  </a>
+
+          </div>
+        </aside>
       
     </div>
     
@@ -883,6 +899,19 @@
     - [✗] Mem•Leak(future work)
   </a>
   
+    <nav class="md-nav" aria-label="- [✗] Mem•Leak(future work)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#-memdoublefreefuture-work" class="md-nav__link">
+    - [✗] Mem•Doublefree(future work)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
         
           <li class="md-nav__item">
@@ -1217,6 +1246,19 @@
     - [✗] Mem•Leak(future work)
   </a>
   
+    <nav class="md-nav" aria-label="- [✗] Mem•Leak(future work)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#-memdoublefreefuture-work_1" class="md-nav__link">
+    - [✗] Mem•Doublefree(future work)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
         
           <li class="md-nav__item">
@@ -1335,8 +1377,13 @@
 <p>Currently Status: Under Refactoring</p>
 </blockquote>
 <h3 id="how-to-contribute-easy">How To Contribute <a href="https://github.com/armanriazi/armanriazi/blob/main/HowToContribute.md">Easy</a><a class="headerlink" href="#how-to-contribute-easy" title="Permanent link">&para;</a></h3>
+<p><a href="https://armanriazi.github.io/site/public/programming/rust/rust/">[Rust 2021 A Scratch Blockchain-1]</a>
+<a href="https://youtu.be/hiYHzmqn6MY">Youtube-Rust 2021 A Scratch Blockchain-1</a></p>
+<blockquote></blockquote>
+<p><a href="https://armanriazi.github.io/site/public/programming/rust/rust/">Rust 2021 A Scratch Blockchain-2</a>
+<a href="https://youtu.be/gK0dFhtbB-M">Youtube-Rust 2021 A Scratch Blockchain-2</a></p>
 <h3 id="instructions-for-working-with">Instructions for working with<a class="headerlink" href="#instructions-for-working-with" title="Permanent link">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>DIFFICULTY={difficulty} cargo {mode} {file name}
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>DIFFICULTY={difficulty} cargo {mode} {file name}
 </code></pre></div>
 <blockquote>
 <p>{difficulty}: (optional-key-env) value default 0x00ffffffffffffffffffffffffffffff.It must be 32 byte.</p>
@@ -1348,12 +1395,12 @@
 <p>{file name} index directory of the project sample-bolocks.json</p>
 <p>Example: </p>
 </blockquote>
-<p><div class="highlight"><pre><span></span><code>cargo build
-DIFFICULTY=0x00000fffffffffffffffffffffffffff time cargo run file sample-bolocks.json
-DIFFICULTY=0x00000fffffffffffffffffffffffffff time cargo run macrojson
-DIFFICULTY=0x00000fffffffffffffffffffffffffff time cargo run stringjson
-time cargo run
-cargo watch -x run
+<p><div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>cargo build
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>DIFFICULTY=0x00000fffffffffffffffffffffffffff time cargo run file sample-bolocks.json
+<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>DIFFICULTY=0x00000fffffffffffffffffffffffffff time cargo run macrojson
+<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>DIFFICULTY=0x00000fffffffffffffffffffffffffff time cargo run stringjson
+<a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a>time cargo run
+<a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a>cargo watch -x run
 </code></pre></div>
 <em>Using time and watch is optional and depends on your purpose</em></p>
 <h3 id="features">Features<a class="headerlink" href="#features" title="Permanent link">&para;</a></h3>
@@ -1510,11 +1557,11 @@ these also support a form of inheritance that’s common in most object oriented
 <blockquote>
 <p>The compiler automatically references the Some, and since we're borrowing, name is bound as ref name automatically as well. If we were mutating:</p>
 </blockquote>
-<div class="highlight"><pre><span></span><code> //https://blog.rust-lang.org/2018/05/10/Rust-1.26.html#nicer-match-bindings
-// `self` has type `&amp;List`, and `*self` has type `List`, matching on a
-// concrete type `T` is preferred over a match on a reference `&amp;T`
-// after Rust 2018 you can use self here and tail (with no ref) below as well,
-// rust will infer &amp;s and ref tail. 
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a> //https://blog.rust-lang.org/2018/05/10/Rust-1.26.html#nicer-match-bindings
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>// `self` has type `&amp;List`, and `*self` has type `List`, matching on a
+<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>// concrete type `T` is preferred over a match on a reference `&amp;T`
+<a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a>// after Rust 2018 you can use self here and tail (with no ref) below as well,
+<a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a>// rust will infer &amp;s and ref tail. 
 </code></pre></div>
 <h4 id="-dataracerustaceans">- [✗] Datarace•Rustaceans<a class="headerlink" href="#-dataracerustaceans" title="Permanent link">&para;</a></h4>
 <blockquote>
@@ -1650,7 +1697,7 @@ if you use unsafe code incorrectly, problems due to memory unsafety, such as nul
 </blockquote>
 <p>consider unsafe to be a warning sign rather than an indicator that you’re embarking on anything illegal. Unsafe means “the same level of safety offered by C at all times.” </p>
 <p>If you still had access to (via unsafe) they might still look like valid S, but any attempt to use them as valid S is undefined behavior. ↓
-https://cheats.rs/#unsafe-unsound-undefined-dark side of force
+<a href="https://cheats.rs/#unsafe-unsound-undefined-dark">https://cheats.rs/#unsafe-unsound-undefined-dark</a> side of force
 Try to avoid "unsafe {}", often safer, faster solution without it. Exception: FFI.
 People are fallible, and mistakes will happen, but by requiring these five unsafe operations to be inside blocks annotated with unsafe you’ll know that any errors related to memory safety must be within an unsafe block. Keep unsafe blocks small; you’ll be thankful later when you investigate memory bugs.
 To isolate unsafe code as much as possible, it’s best to enclose unsafe code within a safe abstraction and provide a safe API, which we’ll discuss later in the chapter when we examine unsafe functions and methods.</p>
@@ -1713,7 +1760,7 @@ Wrapping unsafe code in a safe abstraction prevents uses of unsafe from leaking 
 </li>
 </ul>
 <h3 id="instructions-for-working-with_1">Instructions for working with<a class="headerlink" href="#instructions-for-working-with_1" title="Permanent link">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>DIFFICULTY={difficulty} cargo {mode} {file name}
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>DIFFICULTY={difficulty} cargo {mode} {file name}
 </code></pre></div>
 <blockquote>
 <p>{difficulty}: (optional-key-env) value default 0x00ffffffffffffffffffffffffffffff.It must be 32 byte.</p>
@@ -1725,107 +1772,107 @@ Wrapping unsafe code in a safe abstraction prevents uses of unsafe from leaking 
 <p>{file name} index directory of the project sample-bolocks.json</p>
 <p>Example: </p>
 </blockquote>
-<p><div class="highlight"><pre><span></span><code>cargo build
-cargo run
-RUST_LOG=INFO DIFFICULTY=0x00000fffffffffffffffffffffffffff time cargo run file sample-bolocks.json
-DIFFICULTY=0x00000fffffffffffffffffffffffffff time cargo run macrojson
-DIFFICULTY=0x00000fffffffffffffffffffffffffff time cargo run stringjson
-time cargo run
-cargo watch -x run
-cargo test
+<p><div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>cargo build
+<a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>cargo run
+<a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a>RUST_LOG=INFO DIFFICULTY=0x00000fffffffffffffffffffffffffff time cargo run file sample-bolocks.json
+<a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a>DIFFICULTY=0x00000fffffffffffffffffffffffffff time cargo run macrojson
+<a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a>DIFFICULTY=0x00000fffffffffffffffffffffffffff time cargo run stringjson
+<a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a>time cargo run
+<a id="__codelineno-4-7" name="__codelineno-4-7" href="#__codelineno-4-7"></a>cargo watch -x run
+<a id="__codelineno-4-8" name="__codelineno-4-8" href="#__codelineno-4-8"></a>cargo test
 </code></pre></div>
 <em>Using time and watch is optional and depends on your purpose</em></p>
 <h3 id="instructions-for-installing-bin">Instructions for installing-bin<a class="headerlink" href="#instructions-for-installing-bin" title="Permanent link">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>curl -LSfs https://github.com/armanriazi/armanriazi/blob/main/install-0.sh | sh -s -- --git armanriazi/rust-scratch-blockchain
+<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>curl -LSfs https://github.com/armanriazi/armanriazi/blob/main/install-0.sh | sh -s -- --git armanriazi/rust-scratch-blockchain
 </code></pre></div>
 <h3 id="how-to-consume-the-library">How to consume the library<a class="headerlink" href="#how-to-consume-the-library" title="Permanent link">&para;</a></h3>
 <p>1.
-<div class="highlight"><pre><span></span><code>cargo new yourprojectname
+<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>cargo new yourprojectname
 </code></pre></div>
 2. Add new dependency
-<div class="highlight"><pre><span></span><code>[dependencies]
-blockchain-scratch-rust = &quot;0.3.0&quot;
+<div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>[dependencies]
+<a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a>blockchain-scratch-rust = &quot;0.3.0&quot;
 </code></pre></div>
 3. To update dependencies
-<div class="highlight"><pre><span></span><code>cargo update
+<div class="highlight"><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>cargo update
 </code></pre></div>
 4. Your main.rs of the program
-<div class="highlight"><pre><span></span><code>use library_blockchain::*;
-fn main() {
-    println!(&quot;Hello, world!&quot;);
-
-    library_blockchain::blockchain_executive::main();
-}
+<div class="highlight"><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>use library_blockchain::*;
+<a id="__codelineno-9-2" name="__codelineno-9-2" href="#__codelineno-9-2"></a>fn main() {
+<a id="__codelineno-9-3" name="__codelineno-9-3" href="#__codelineno-9-3"></a>    println!(&quot;Hello, world!&quot;);
+<a id="__codelineno-9-4" name="__codelineno-9-4" href="#__codelineno-9-4"></a>
+<a id="__codelineno-9-5" name="__codelineno-9-5" href="#__codelineno-9-5"></a>    library_blockchain::blockchain_executive::main();
+<a id="__codelineno-9-6" name="__codelineno-9-6" href="#__codelineno-9-6"></a>}
 </code></pre></div>
 5.
 Due to the file sample-three-block-noerror.json in the repo you might copy it and manipulate it, in spite of that you can use generators of your database or ORMs for producing a file.json as the same as following content. Get attention to keys in the file for example we must have transaction{number} and if we write 'mytransaction 1' and run it we will get error.</p>
 <details>
     <summary><em>Json File</em></summary>
 
-    <div class="highlight"><pre><span></span><code>{
-    &quot;blocks&quot;:[{    
-    &quot;block1&quot;:[{
-        &quot;transactions&quot;:[{
-        &quot;transaction1&quot;:[{
-            &quot;inputs&quot;:[{
-
-            }],    
-            &quot;outputs&quot;:[{
-            &quot;to_addr&quot;: &quot;Alice&quot;,
-            &quot;value&quot;: &quot;50&quot;                           
-            },{
-            &quot;to_addr&quot;: &quot;Bob&quot;,
-            &quot;value&quot;: &quot;7&quot;                           
-            }]    
-        }]                        
-        }]                 
-    }] ,
-    &quot;block2&quot;:[{
-        &quot;transactions&quot;:[{
-        &quot;transaction1&quot;:[{
-            &quot;inputs&quot;:[{
-
-            }],    
-            &quot;outputs&quot;:[{
-            &quot;to_addr&quot;: &quot;Chris&quot;,
-            &quot;value&quot;: &quot;536&quot;                         
-            }]    
-        }],
-        &quot;transaction2&quot;:[{
-            &quot;inputs&quot;:[{
-            &quot;to_addr&quot;: &quot;Alice&quot;,
-            &quot;value&quot;: &quot;50&quot;                           
-            },{
-            &quot;to_addr&quot;: &quot;Bob&quot;,
-            &quot;value&quot;: &quot;7&quot;      
-            }],    
-            &quot;outputs&quot;:[{
-            &quot;to_addr&quot;: &quot;Alice&quot;,
-            &quot;value&quot;: &quot;49&quot;                           
-            },{
-            &quot;to_addr&quot;: &quot;Bob&quot;,
-            &quot;value&quot;: &quot;6&quot;                        
-            }]    
-        }]                          
-        }]                 
-    }],
-    &quot;block3&quot;:[{
-        &quot;transactions&quot;:[{
-        &quot;transaction1&quot;:[{
-            &quot;inputs&quot;:[{                                                                    
-            }],    
-            &quot;outputs&quot;:[{
-            &quot;to_addr&quot;: &quot;Alice&quot;,
-            &quot;value&quot;: &quot;49&quot;                           
-            },{
-            &quot;to_addr&quot;: &quot;Bob&quot;,
-            &quot;value&quot;: &quot;6&quot;                           
-            }]    
-        }]                        
-        }]                 
-    }]        
-     }] 
-    }    
+    <div class="highlight"><pre><span></span><code><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a>{
+<a id="__codelineno-10-2" name="__codelineno-10-2" href="#__codelineno-10-2"></a>    &quot;blocks&quot;:[{    
+<a id="__codelineno-10-3" name="__codelineno-10-3" href="#__codelineno-10-3"></a>    &quot;block1&quot;:[{
+<a id="__codelineno-10-4" name="__codelineno-10-4" href="#__codelineno-10-4"></a>        &quot;transactions&quot;:[{
+<a id="__codelineno-10-5" name="__codelineno-10-5" href="#__codelineno-10-5"></a>        &quot;transaction1&quot;:[{
+<a id="__codelineno-10-6" name="__codelineno-10-6" href="#__codelineno-10-6"></a>            &quot;inputs&quot;:[{
+<a id="__codelineno-10-7" name="__codelineno-10-7" href="#__codelineno-10-7"></a>
+<a id="__codelineno-10-8" name="__codelineno-10-8" href="#__codelineno-10-8"></a>            }],    
+<a id="__codelineno-10-9" name="__codelineno-10-9" href="#__codelineno-10-9"></a>            &quot;outputs&quot;:[{
+<a id="__codelineno-10-10" name="__codelineno-10-10" href="#__codelineno-10-10"></a>            &quot;to_addr&quot;: &quot;Alice&quot;,
+<a id="__codelineno-10-11" name="__codelineno-10-11" href="#__codelineno-10-11"></a>            &quot;value&quot;: &quot;50&quot;                           
+<a id="__codelineno-10-12" name="__codelineno-10-12" href="#__codelineno-10-12"></a>            },{
+<a id="__codelineno-10-13" name="__codelineno-10-13" href="#__codelineno-10-13"></a>            &quot;to_addr&quot;: &quot;Bob&quot;,
+<a id="__codelineno-10-14" name="__codelineno-10-14" href="#__codelineno-10-14"></a>            &quot;value&quot;: &quot;7&quot;                           
+<a id="__codelineno-10-15" name="__codelineno-10-15" href="#__codelineno-10-15"></a>            }]    
+<a id="__codelineno-10-16" name="__codelineno-10-16" href="#__codelineno-10-16"></a>        }]                        
+<a id="__codelineno-10-17" name="__codelineno-10-17" href="#__codelineno-10-17"></a>        }]                 
+<a id="__codelineno-10-18" name="__codelineno-10-18" href="#__codelineno-10-18"></a>    }] ,
+<a id="__codelineno-10-19" name="__codelineno-10-19" href="#__codelineno-10-19"></a>    &quot;block2&quot;:[{
+<a id="__codelineno-10-20" name="__codelineno-10-20" href="#__codelineno-10-20"></a>        &quot;transactions&quot;:[{
+<a id="__codelineno-10-21" name="__codelineno-10-21" href="#__codelineno-10-21"></a>        &quot;transaction1&quot;:[{
+<a id="__codelineno-10-22" name="__codelineno-10-22" href="#__codelineno-10-22"></a>            &quot;inputs&quot;:[{
+<a id="__codelineno-10-23" name="__codelineno-10-23" href="#__codelineno-10-23"></a>
+<a id="__codelineno-10-24" name="__codelineno-10-24" href="#__codelineno-10-24"></a>            }],    
+<a id="__codelineno-10-25" name="__codelineno-10-25" href="#__codelineno-10-25"></a>            &quot;outputs&quot;:[{
+<a id="__codelineno-10-26" name="__codelineno-10-26" href="#__codelineno-10-26"></a>            &quot;to_addr&quot;: &quot;Chris&quot;,
+<a id="__codelineno-10-27" name="__codelineno-10-27" href="#__codelineno-10-27"></a>            &quot;value&quot;: &quot;536&quot;                         
+<a id="__codelineno-10-28" name="__codelineno-10-28" href="#__codelineno-10-28"></a>            }]    
+<a id="__codelineno-10-29" name="__codelineno-10-29" href="#__codelineno-10-29"></a>        }],
+<a id="__codelineno-10-30" name="__codelineno-10-30" href="#__codelineno-10-30"></a>        &quot;transaction2&quot;:[{
+<a id="__codelineno-10-31" name="__codelineno-10-31" href="#__codelineno-10-31"></a>            &quot;inputs&quot;:[{
+<a id="__codelineno-10-32" name="__codelineno-10-32" href="#__codelineno-10-32"></a>            &quot;to_addr&quot;: &quot;Alice&quot;,
+<a id="__codelineno-10-33" name="__codelineno-10-33" href="#__codelineno-10-33"></a>            &quot;value&quot;: &quot;50&quot;                           
+<a id="__codelineno-10-34" name="__codelineno-10-34" href="#__codelineno-10-34"></a>            },{
+<a id="__codelineno-10-35" name="__codelineno-10-35" href="#__codelineno-10-35"></a>            &quot;to_addr&quot;: &quot;Bob&quot;,
+<a id="__codelineno-10-36" name="__codelineno-10-36" href="#__codelineno-10-36"></a>            &quot;value&quot;: &quot;7&quot;      
+<a id="__codelineno-10-37" name="__codelineno-10-37" href="#__codelineno-10-37"></a>            }],    
+<a id="__codelineno-10-38" name="__codelineno-10-38" href="#__codelineno-10-38"></a>            &quot;outputs&quot;:[{
+<a id="__codelineno-10-39" name="__codelineno-10-39" href="#__codelineno-10-39"></a>            &quot;to_addr&quot;: &quot;Alice&quot;,
+<a id="__codelineno-10-40" name="__codelineno-10-40" href="#__codelineno-10-40"></a>            &quot;value&quot;: &quot;49&quot;                           
+<a id="__codelineno-10-41" name="__codelineno-10-41" href="#__codelineno-10-41"></a>            },{
+<a id="__codelineno-10-42" name="__codelineno-10-42" href="#__codelineno-10-42"></a>            &quot;to_addr&quot;: &quot;Bob&quot;,
+<a id="__codelineno-10-43" name="__codelineno-10-43" href="#__codelineno-10-43"></a>            &quot;value&quot;: &quot;6&quot;                        
+<a id="__codelineno-10-44" name="__codelineno-10-44" href="#__codelineno-10-44"></a>            }]    
+<a id="__codelineno-10-45" name="__codelineno-10-45" href="#__codelineno-10-45"></a>        }]                          
+<a id="__codelineno-10-46" name="__codelineno-10-46" href="#__codelineno-10-46"></a>        }]                 
+<a id="__codelineno-10-47" name="__codelineno-10-47" href="#__codelineno-10-47"></a>    }],
+<a id="__codelineno-10-48" name="__codelineno-10-48" href="#__codelineno-10-48"></a>    &quot;block3&quot;:[{
+<a id="__codelineno-10-49" name="__codelineno-10-49" href="#__codelineno-10-49"></a>        &quot;transactions&quot;:[{
+<a id="__codelineno-10-50" name="__codelineno-10-50" href="#__codelineno-10-50"></a>        &quot;transaction1&quot;:[{
+<a id="__codelineno-10-51" name="__codelineno-10-51" href="#__codelineno-10-51"></a>            &quot;inputs&quot;:[{                                                                    
+<a id="__codelineno-10-52" name="__codelineno-10-52" href="#__codelineno-10-52"></a>            }],    
+<a id="__codelineno-10-53" name="__codelineno-10-53" href="#__codelineno-10-53"></a>            &quot;outputs&quot;:[{
+<a id="__codelineno-10-54" name="__codelineno-10-54" href="#__codelineno-10-54"></a>            &quot;to_addr&quot;: &quot;Alice&quot;,
+<a id="__codelineno-10-55" name="__codelineno-10-55" href="#__codelineno-10-55"></a>            &quot;value&quot;: &quot;49&quot;                           
+<a id="__codelineno-10-56" name="__codelineno-10-56" href="#__codelineno-10-56"></a>            },{
+<a id="__codelineno-10-57" name="__codelineno-10-57" href="#__codelineno-10-57"></a>            &quot;to_addr&quot;: &quot;Bob&quot;,
+<a id="__codelineno-10-58" name="__codelineno-10-58" href="#__codelineno-10-58"></a>            &quot;value&quot;: &quot;6&quot;                           
+<a id="__codelineno-10-59" name="__codelineno-10-59" href="#__codelineno-10-59"></a>            }]    
+<a id="__codelineno-10-60" name="__codelineno-10-60" href="#__codelineno-10-60"></a>        }]                        
+<a id="__codelineno-10-61" name="__codelineno-10-61" href="#__codelineno-10-61"></a>        }]                 
+<a id="__codelineno-10-62" name="__codelineno-10-62" href="#__codelineno-10-62"></a>    }]        
+<a id="__codelineno-10-63" name="__codelineno-10-63" href="#__codelineno-10-63"></a>     }] 
+<a id="__codelineno-10-64" name="__codelineno-10-64" href="#__codelineno-10-64"></a>    }    
 </code></pre></div>
 
 </details>
@@ -1833,37 +1880,37 @@ Due to the file sample-three-block-noerror.json in the repo you might copy it an
 <ol>
 <li>Run of one of above commands.</li>
 </ol>
-<p><div class="highlight"><pre><span></span><code>RUST_LOG=info DIFFICULTY=0x0000ffffffffffffffffffffffffffff time cargo run file sample-three-block-noerror.json
+<p><div class="highlight"><pre><span></span><code><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a>RUST_LOG=info DIFFICULTY=0x0000ffffffffffffffffffffffffffff time cargo run file sample-three-block-noerror.json
 </code></pre></div>
 7. Everything is Ok and it is working fine.
  <br />
 <details>
     <summary><em>Console Log</em></summary>
 
-    <div class="highlight"><pre><span></span><code>    Finished dev [unoptimized + debuginfo] target(s) in 0.07s
-     Running `target/debug/consume-rust-scratch-blockchain file sample-three-block-noerror.json`
-Hello, world!
-[2022-07-06T13:30:22Z INFO  library_blockchain::blockchain_executive] ------------Welcome to env_logger------------
-[2022-07-06T13:30:22Z INFO  library_blockchain::blockchain_executive] Starting Up...
-**************************************************************
-Selected mode is file!
-**BlOcKcHaIn SiGnAls:**
-Block[0]: 17b9180cd95fef6c0e8ab81702ab9cfd835b4af373fdc7ee45d13cba69c40000 at: 1657114222903 with: 1 trx, nonce: 131263
-
-[2022-07-06T13:30:24Z INFO  library_blockchain::factory] Success updated With the block 1.
-
-**BlOcKcHaIn SiGnAls:**
-Block[1]: eeb73730eb18ef3efbadbe7b5f3cc1a07c0d97b6c97e7df8945e61089b280000 at: 1657114224538 with: 2 trx, nonce: 257740
-
-[2022-07-06T13:30:30Z INFO  library_blockchain::factory] Success updated With the block 2.
-
-**BlOcKcHaIn SiGnAls:**
-Block[2]: 3674f23d58002856c17816590f7e2ff195005ad477c67e704d61eead25710000 at: 1657114230226 with: 1 trx, nonce: 37407
-
-[2022-07-06T13:30:30Z INFO  library_blockchain::factory] Success updated With the block 3.
-
-7.67user 0.16system 0:08.03elapsed 97%CPU (0avgtext+0avgdata 25300maxresident)k
-2280inputs+0outputs (13major+6505minor)pagefaults 0swaps
+    <div class="highlight"><pre><span></span><code><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a>    Finished dev [unoptimized + debuginfo] target(s) in 0.07s
+<a id="__codelineno-12-2" name="__codelineno-12-2" href="#__codelineno-12-2"></a>     Running `target/debug/consume-rust-scratch-blockchain file sample-three-block-noerror.json`
+<a id="__codelineno-12-3" name="__codelineno-12-3" href="#__codelineno-12-3"></a>Hello, world!
+<a id="__codelineno-12-4" name="__codelineno-12-4" href="#__codelineno-12-4"></a>[2022-07-06T13:30:22Z INFO  library_blockchain::blockchain_executive] ------------Welcome to env_logger------------
+<a id="__codelineno-12-5" name="__codelineno-12-5" href="#__codelineno-12-5"></a>[2022-07-06T13:30:22Z INFO  library_blockchain::blockchain_executive] Starting Up...
+<a id="__codelineno-12-6" name="__codelineno-12-6" href="#__codelineno-12-6"></a>**************************************************************
+<a id="__codelineno-12-7" name="__codelineno-12-7" href="#__codelineno-12-7"></a>Selected mode is file!
+<a id="__codelineno-12-8" name="__codelineno-12-8" href="#__codelineno-12-8"></a>**BlOcKcHaIn SiGnAls:**
+<a id="__codelineno-12-9" name="__codelineno-12-9" href="#__codelineno-12-9"></a>Block[0]: 17b9180cd95fef6c0e8ab81702ab9cfd835b4af373fdc7ee45d13cba69c40000 at: 1657114222903 with: 1 trx, nonce: 131263
+<a id="__codelineno-12-10" name="__codelineno-12-10" href="#__codelineno-12-10"></a>
+<a id="__codelineno-12-11" name="__codelineno-12-11" href="#__codelineno-12-11"></a>[2022-07-06T13:30:24Z INFO  library_blockchain::factory] Success updated With the block 1.
+<a id="__codelineno-12-12" name="__codelineno-12-12" href="#__codelineno-12-12"></a>
+<a id="__codelineno-12-13" name="__codelineno-12-13" href="#__codelineno-12-13"></a>**BlOcKcHaIn SiGnAls:**
+<a id="__codelineno-12-14" name="__codelineno-12-14" href="#__codelineno-12-14"></a>Block[1]: eeb73730eb18ef3efbadbe7b5f3cc1a07c0d97b6c97e7df8945e61089b280000 at: 1657114224538 with: 2 trx, nonce: 257740
+<a id="__codelineno-12-15" name="__codelineno-12-15" href="#__codelineno-12-15"></a>
+<a id="__codelineno-12-16" name="__codelineno-12-16" href="#__codelineno-12-16"></a>[2022-07-06T13:30:30Z INFO  library_blockchain::factory] Success updated With the block 2.
+<a id="__codelineno-12-17" name="__codelineno-12-17" href="#__codelineno-12-17"></a>
+<a id="__codelineno-12-18" name="__codelineno-12-18" href="#__codelineno-12-18"></a>**BlOcKcHaIn SiGnAls:**
+<a id="__codelineno-12-19" name="__codelineno-12-19" href="#__codelineno-12-19"></a>Block[2]: 3674f23d58002856c17816590f7e2ff195005ad477c67e704d61eead25710000 at: 1657114230226 with: 1 trx, nonce: 37407
+<a id="__codelineno-12-20" name="__codelineno-12-20" href="#__codelineno-12-20"></a>
+<a id="__codelineno-12-21" name="__codelineno-12-21" href="#__codelineno-12-21"></a>[2022-07-06T13:30:30Z INFO  library_blockchain::factory] Success updated With the block 3.
+<a id="__codelineno-12-22" name="__codelineno-12-22" href="#__codelineno-12-22"></a>
+<a id="__codelineno-12-23" name="__codelineno-12-23" href="#__codelineno-12-23"></a>7.67user 0.16system 0:08.03elapsed 97%CPU (0avgtext+0avgdata 25300maxresident)k
+<a id="__codelineno-12-24" name="__codelineno-12-24" href="#__codelineno-12-24"></a>2280inputs+0outputs (13major+6505minor)pagefaults 0swaps
 </code></pre></div>
 
 </details>
@@ -2006,11 +2053,11 @@ these also support a form of inheritance that’s common in most object oriented
 <blockquote>
 <p>The compiler automatically references the Some, and since we're borrowing, name is bound as ref name automatically as well. If we were mutating:</p>
 </blockquote>
-<div class="highlight"><pre><span></span><code> //https://blog.rust-lang.org/2018/05/10/Rust-1.26.html#nicer-match-bindings
-// `self` has type `&amp;List`, and `*self` has type `List`, matching on a
-// concrete type `T` is preferred over a match on a reference `&amp;T`
-// after Rust 2018 you can use self here and tail (with no ref) below as well,
-// rust will infer &amp;s and ref tail. 
+<div class="highlight"><pre><span></span><code><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a> //https://blog.rust-lang.org/2018/05/10/Rust-1.26.html#nicer-match-bindings
+<a id="__codelineno-13-2" name="__codelineno-13-2" href="#__codelineno-13-2"></a>// `self` has type `&amp;List`, and `*self` has type `List`, matching on a
+<a id="__codelineno-13-3" name="__codelineno-13-3" href="#__codelineno-13-3"></a>// concrete type `T` is preferred over a match on a reference `&amp;T`
+<a id="__codelineno-13-4" name="__codelineno-13-4" href="#__codelineno-13-4"></a>// after Rust 2018 you can use self here and tail (with no ref) below as well,
+<a id="__codelineno-13-5" name="__codelineno-13-5" href="#__codelineno-13-5"></a>// rust will infer &amp;s and ref tail. 
 </code></pre></div>
 <h4 id="-dataracerustaceans_1">- [✗] Datarace•Rustaceans<a class="headerlink" href="#-dataracerustaceans_1" title="Permanent link">&para;</a></h4>
 <blockquote>
@@ -2146,7 +2193,7 @@ if you use unsafe code incorrectly, problems due to memory unsafety, such as nul
 </blockquote>
 <p>consider unsafe to be a warning sign rather than an indicator that you’re embarking on anything illegal. Unsafe means “the same level of safety offered by C at all times.” </p>
 <p>If you still had access to (via unsafe) they might still look like valid S, but any attempt to use them as valid S is undefined behavior. ↓
-https://cheats.rs/#unsafe-unsound-undefined-dark side of force
+<a href="https://cheats.rs/#unsafe-unsound-undefined-dark">https://cheats.rs/#unsafe-unsound-undefined-dark</a> side of force
 Try to avoid "unsafe {}", often safer, faster solution without it. Exception: FFI.
 People are fallible, and mistakes will happen, but by requiring these five unsafe operations to be inside blocks annotated with unsafe you’ll know that any errors related to memory safety must be within an unsafe block. Keep unsafe blocks small; you’ll be thankful later when you investigate memory bugs.
 To isolate unsafe code as much as possible, it’s best to enclose unsafe code within a safe abstraction and provide a safe API, which we’ll discuss later in the chapter when we examine unsafe functions and methods.</p>
@@ -2190,6 +2237,24 @@ Wrapping unsafe code in a safe abstraction prevents uses of unsafe from leaking 
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
     </a>
   
+    
+    
+      
+      
+    
+    <a href="https://github.com/armanriazi" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+    </a>
+  
+    
+    
+      
+      
+    
+    <a href="https://linkedin.com/in/armanriazi" target="_blank" rel="noopener" title="linkedin.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+    </a>
+  
 </div>
       
     </div>
@@ -2200,12 +2265,15 @@ Wrapping unsafe code in a safe abstraction prevents uses of unsafe from leaking 
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": "../../../..", "features": ["search.suggest", "search.highlight", "search.share", "announce.dismiss", "header.autohide", "navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "navigation.expand"], "search": "../../../../assets/javascripts/workers/search.2a1c317c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../../../..", "features": ["search.suggest", "search.highlight", "search.share", "announce.dismiss", "content.tooltips", "content.code.annotate", "header.autohide", "navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "navigation.expand", "toc.follow"], "search": "../../../../assets/javascripts/workers/search.2a1c317c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
     
     
+  
       <script src="../../../../assets/javascripts/bundle.6e54b5cd.min.js"></script>
       
         <script src="../../../../assets/javascripts/mkdocs-extra.js"></script>
+      
+        <script src="../../../../assets/javascripts/feedback.js"></script>
       
         <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
       
@@ -2213,6 +2281,10 @@ Wrapping unsafe code in a safe abstraction prevents uses of unsafe from leaking 
       
         <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
       
+        <script src="https://widget.sonetel.com/SonetelWidget.min.js"></script>
+      
     
+  <script src="../../../../assets/javascripts/custom.37f95ade.min.js"></script>
+
   </body>
 </html>
