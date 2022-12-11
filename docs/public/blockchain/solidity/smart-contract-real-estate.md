@@ -4,10 +4,9 @@ feature:  Blockchain
 title: "Arman Riazi"
 author: "Arman Riazi"
 search:
-exclude: false
+  exclude: false
 type:  SmartContract
 keywords:  github armanriazi ethereum solidity real-state nodejs truffle ganache eth
-feature:  Blockchain
 author: "Arman Riazi"
 title: "Arman Riazi"
 tags:

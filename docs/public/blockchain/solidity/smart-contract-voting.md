@@ -4,7 +4,7 @@ feature:  Blockchain
 title: "Arman Riazi"
 author: "Arman Riazi"
 search:
-exclude: false
+  exclude: false
 type:  SmartContract
 keywords:  github armanriazi ethereum solidity vote
 feature:  Blockchain
