@@ -15,11 +15,9 @@ nav:
     - 'Links':
         - 'Links': 'links.md'            
     - 'About':
-        - 'About': 'about.md'  
-              
+        - 'About': 'about.md'                
 theme:
   name: material
-  custom_dir: material/.overrides
   logo: assets/attachments/me.png
   favicon: assets/attachments/favicon.ico
   language: en
