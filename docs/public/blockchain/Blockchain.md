@@ -4,6 +4,8 @@ title: "Arman Riazi"
 author: "Arman Riazi"
 search:
   exclude: false
+type:  Blockchain
+feature:  Blockchain
 keywords:  github armanriazi Polkadot Kusama Substrate Rust
 author: "Arman Riazi"
 title: "Arman Riazi"
