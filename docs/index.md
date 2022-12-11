@@ -16,7 +16,7 @@ hide:
 
 [![mkdocs-ci](https://github.com/armanriazi/armanriazi.github.io/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/armanriazi/armanriazi.github.io/actions/workflows/ci.yml)
 
->  I prefer to create a knowledge base for myself and then share it.
+>  I always would been liked to create a knowledge based for myself and then share it.
 >  The philosophy of creating this page is to solve this issue.
 
 > **[Video Guide-Website](public/other/guide-website.md)**
