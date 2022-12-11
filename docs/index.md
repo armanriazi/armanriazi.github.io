@@ -26,4 +26,3 @@ hide:
 
 ![Welcome!HelloWorld!](assets/attachments/graph.jpg){ loading=lazy }
 
-<script async id="slcLiveChat" src="https://widget.sonetel.com/SonetelWidget.min.js" data-account-id="208134510"></script>  
