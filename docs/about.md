@@ -50,15 +50,6 @@ author: "Arman Riazi"
 ``` Desc: Description ```
 ``` Priority: My Interest priority for keep in continue ```
 
-| Exprt | Prd  |  MyPriority | Desc
-|:----------:|:-------------:|:---------------:|:---------------|
-| Rust-Lang      | 1.6Y       |  :material-check-all::material-check:        |      Fantastic, complex language for decentralized/distributed     |
-| Substrate     |  2 M           |       :material-check-all::material-check:          |        Awsome work of 🙏Dr.Gavin and parity.io community        |
-| Polkadot & Kusuma        |      1 M     |        :material-check-all::material-check:          |       Crowdloan, tokenization💲, parachain and parathreads         |
-| Blockchain Research       |      2 Y        |        :material-check-all::material-check:          |        It is always included in my routine activity during a day        |
-|    Solidity  | 2 M         |    :material-check-all:   | It seems to me that there would be better languages for developing so in the near furure we need to low-level lang for improve performance hardware resources |
-| IBM HyperLedger       |      1 M        |        :material-check-all:          |  HyperLedger is suited for organizations especially. Hyperledger has got good community and uses cloud-native tools but I think it is not a real decentralized blockchain framework for scalability and giving governance so I used to decide a little bit work on it           |
-| CryptocurrencyTrading | 1 Y  |  :material-check:      |  [Experience losts liquid because of trading crypto in 2021 🤕](public/mynotes/exp-2021cryprotrading.md) - [Archived Cryptocurrency](public/archive/trading-archive-2021.md) |
 
 
 > There is not exactly the time to estimate spend time since developing and learning would go with each other. In my opinion, developers who had a kind of skills like Frontend, Backend, or Database have been forced into the Blockchain ecosystem because of the charm of the subject and the rapid growth and evolution of the Technology. 
