@@ -1,3 +1,23 @@
+---
+tags:
+- achievements
+- me
+- i
+- armanriazi
+- riazi
+- experience
+- skill
+- career
+- recuit
+search:
+  exclude: true
+type:  achievements
+keywords:  achievements armanriazi
+feature:  achievements 
+title: "achievements"
+layout: page
+author: "Arman Riazi"
+---
 
 # Achievement-Certificates
 
