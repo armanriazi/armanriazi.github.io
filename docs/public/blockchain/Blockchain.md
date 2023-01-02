@@ -37,11 +37,11 @@ title: "Arman Riazi"
 
 ---
 
-!!! Certificates and Seen Toturials
+!!! Certificates_and_Seen_Toturials
 
     === "Blockchain Certificates"
 
-        * [blockchain-tutorials](learning/blockchain-certificate.md)
+        * [blockchain-certificates](learning/blockchain-certificate.md)
     
     === "Passed Self-Study Tutorials"
 
@@ -49,7 +49,7 @@ title: "Arman Riazi"
 
 ---
 
-!!! Experience 2020-2023
+!!! Experience_2020-2023
 
     === "Rust Implemented in Blockchain"
 
@@ -86,7 +86,7 @@ title: "Arman Riazi"
         * [Highlighted Deep Dive Into Polkadot/Substrate/Kusama/NodeSetup/Part(8)](substrate-polka-kus/substrate-setup-research-intro.md)
 
 
-!!! Experience 2019-2020
+!!! Experience_2019-2020
 
     === "Implemented"
 

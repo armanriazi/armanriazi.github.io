@@ -3,19 +3,19 @@
 
 !!! Learnt Toturials 
 
-    === "Video Learning Packages 2023"
+    === "Video courses 2023"
 
         * Substrate workshop with Dr.Gavin Wood and Sergei Shulepov
         * Substrate based ParaChains (Polkadot) support via Parastate
         * Substrate Recipes Workshop - Learn to Build a Custom Blockchain
         * Build a Bitcoin-like Blockchain with Substrate
 
-    === "Video Learning Packages 2021-2022"
-
+    === "Video courses 2021-2022"
+        * [EatTheBlocks](https://pro.eattheblocks.com/courses/)
         * Substrate workshop with Dr.Gavin Wood and Sergei Shulepov
         * Intro to Substrate-1-10
 
-    === "Video Learning Packages 2019-2021"
+    === "Video courses 2019-2021"
 
         * INE Understanding Crypto Currencies Bitcoins and Blockchains
         * Lynda Ethereum Building Blockchain Decentralized Apps DApps
@@ -29,16 +29,16 @@
        
 ---
 
-### "Followed Youtube Channels"
-        * Polkadot
-        * Kusama
-        * Alchemy
-        * Hyperledger
-        * IBM 
-        * DApp university
-        * Skycoin
-        * Blockstack
-        * Ethereum
+#### Followed Youtube Channels
+    * Polkadot
+    * Kusama
+    * Alchemy
+    * Hyperledger
+    * IBM 
+    * DApp university
+    * Skycoin
+    * Blockstack
+    * Ethereum
 
 ◘ And so many bookmarks that taked my attention and time archived draft of blockchain issued proposals  ◘
 

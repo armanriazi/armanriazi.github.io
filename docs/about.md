@@ -22,13 +22,13 @@ author: "Arman Riazi"
 # About Me
 
 
-> [Updated Resume-PDF](public/resume.md)
+> [Resume-lts-version](https://github.com/armanriazi/armanriazi/blob/self/armanriazi-resume-lts.pdf)
 
 > Arman Riazi knows how to move your business, developing on Blockchain 4.0.
 
 > Getting Luxary services that you can afford.
 
-> I'm ArmanRiazi. I work with companies to realize the benefits and business outcomes of Blockchain and ITIL.
+> I work with companies to realize the benefits and business outcomes of Blockchain and ITIL.
 
 > I want to kind of give you a menu of every type of investment and solutions on the Blockchain.
 
