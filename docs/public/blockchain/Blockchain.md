@@ -29,17 +29,26 @@ title: "Arman Riazi"
 <summary>Blockchain Stack</summary>
 <img src="https://armanriazi.github.io/site/assets/attachments/BlockchainStack.JPG"width="650" height="650" />
 </details>
-
-## MindMapping
 <details>
 <summary>Substrate MindMapping</summary>
 <p> If you want to get update-mind-mapping image, send me Email: Title: armanriazi.github.io _ MindMapping_Substrate</p>
 <img src="https://armanriazi.github.io/site/assets/attachments/substrate-minmap.jpg"width="650" height="650" />
-</details>    
+</details>   
 
 ---
 
-!!! 2020-2022
+!!! Certificates & Seen Toturials
+
+    === "Passed Self-Study Tutorials "
+
+        * [blockchain-tutorials](learning/blockchain-certificate.md)
+    
+    === "Passed Self-Study Tutorials "
+
+        * [blockchain-tutorials](learning/blockchain-non-cert-toturials.md)
+---
+
+!!! Experience 2020-2022
 
     === "Rust Implemented in Blockchain"
 
@@ -75,11 +84,8 @@ title: "Arman Riazi"
 
         * [Highlighted Deep Dive Into Polkadot/Substrate/Kusama/NodeSetup/Part(8)](substrate-polka-kus/substrate-setup-research-intro.md)
 
-    === "Passed Self-Study Tutorials "
 
-
-
-!!! 2019-2020
+!!! Experience 2019-2020
 
     === "Implemented"
 
@@ -95,8 +101,6 @@ title: "Arman Riazi"
 
         * [Blockchain-tutorials](Blockchain-tutorials.md)
 
-    === "Passed Self-Study Tutorials "
 
-        * [blockchain-tutorials](learning/blockchain-non-cert-toturials.md)
 
 

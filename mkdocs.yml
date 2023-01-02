@@ -7,9 +7,11 @@ nav:
         - 'Index': 'index.md'
         - 'Walk-through': 'public/public.md'                              
     - 'Blockchain':       
-        - 'Blockchain': 'public/blockchain/Blockchain.md'        
+        - 'Blockchain': 'public/blockchain/Blockchain.md'    
     - 'Walk-through': 
         - 'Walk-through': 'public/public.md'          
+    - 'Achievements':       
+        - 'Achievements': 'achievements.md'                
     - 'Tags':
         - 'Tags': 'tags.md'      
     - 'Links':
