@@ -65,6 +65,6 @@ Skywire: anonymous, decentralized mesh-Internet.
 Skyminer: hardware and access point for Skywire.
 Fiber: decentralized open blockchain network.
 Skysuite: suite of decentralized applications.
-armanriazi/Doc-Blockchain
 
-Contribute to armanriazi/Doc-Blockchain development by creating an account on GitHub.github.com
+> [Github documents and articles](https://github.com/armanriazi/Doc-Blockchain)
+
