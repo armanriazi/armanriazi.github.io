@@ -6,7 +6,7 @@ tags:
 - armanriazi
 - riazi
 - experience
-- skills
+- skill
 - career
 - recuit
 search:
@@ -27,10 +27,6 @@ author: "Arman Riazi"
 
 > Getting Luxary services that you can afford.
 
-
-
-
-
 > I'm ArmanRiazi. I work with companies to realize the benefits and business outcomes of Blockchain and ITIL.
 
 > I want to kind of give you a menu of every type of investment and solutions on the Blockchain.
@@ -44,8 +40,6 @@ author: "Arman Riazi"
 > I've always influence by dr.Ravenwood. His works are so creative. I am sure he will impressive much more in the future.
 
 > Following the table is my recent experiences 😋 by access to [archive](public/archive/archive.md) before 2020 you can click on it.
-
-## Introduction of me
 
 <iframe width="900" height="506" src="https://www.youtube.com/embed/ZQbxqD5bsak" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
