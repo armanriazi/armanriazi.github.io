@@ -37,18 +37,19 @@ title: "Arman Riazi"
 
 ---
 
-!!! Certificates & Seen Toturials
+!!! Certificates and Seen Toturials
 
-    === "Passed Self-Study Tutorials "
+    === "Blockchain Certificates"
 
         * [blockchain-tutorials](learning/blockchain-certificate.md)
     
-    === "Passed Self-Study Tutorials "
+    === "Passed Self-Study Tutorials"
 
         * [blockchain-tutorials](learning/blockchain-non-cert-toturials.md)
+
 ---
 
-!!! Experience 2020-2022
+!!! Experience 2020-2023
 
     === "Rust Implemented in Blockchain"
 
@@ -92,7 +93,7 @@ title: "Arman Riazi"
         * [Solidity](Solidity.md)
         * [Hyperledger](Hyperledger.md)
         * [Corda-r3](Corda-r3.md)
-        > Samples have had run by test networks:
+        Samples have had run on test networks:
         * DAapp university by web3.js (Reactjs,Js)-[Solidity](Solidity.md)
         * Solidity (build a game)
         * Build a scratch blockchain by Golang (Websocket)
