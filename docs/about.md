@@ -21,7 +21,7 @@ author: "Arman Riazi"
 
 # About Me
 
-> [Updated Resume(PDF)](resume.md)
+> [Updated Resume(PDF)](public/resume.md)
 
 > Arman Riazi knows how to move your business, developing on Blockchain 4.0.
 
