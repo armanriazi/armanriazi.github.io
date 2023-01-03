@@ -19,4 +19,4 @@
 | a scratch blockchain(POW)     | Pure Rust       |  2M   | [Rust-Scratch-Blockchain](https://github.com/armanriazi/rust-scratch-blockchain)  | 
 | an enterprise project in the field of energy that I developed 2017-18    | Netcore, Apollo GraphQL, Swagger, ExpressJS, Angular 4      |  1.6Y   | [NetCore-GraphQl-RestApi-Angular](https://github.com/armanriazi/ApplicantPortal)  | 
 
-==To watch another projects take a look at [Programming](https://armanriazi.github.io/site/public/programming/programming/) and [Github](https://github.com/armanriazi)
+> To watch another projects take a look at [Programming](https://armanriazi.github.io/site/public/programming/programming/) and [Github](https://github.com/armanriazi)
