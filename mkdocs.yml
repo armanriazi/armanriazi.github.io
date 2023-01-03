@@ -70,7 +70,6 @@ markdown_extensions:
   - admonition
   - attr_list
   - def_list
-  - footnotes
   - md_in_html
   - toc:
       permalink: true      
@@ -141,5 +140,6 @@ extra:
           name: This page could be improved
           data: 0
           note: >- 
-          copyright: Copyright &copy; 2023 Arman Riazi
-          generator: false
+
+            copyright: Copyright &copy; 2023 Arman Riazi
+            generator: false

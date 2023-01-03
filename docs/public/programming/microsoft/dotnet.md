@@ -1,7 +1,4 @@
 
- # DotNet
-
- ## Projects
  
 [Applicant-Portal](https://github.com/armanriazi/ApplicantPortal)
 
