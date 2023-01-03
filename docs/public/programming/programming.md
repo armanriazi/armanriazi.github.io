@@ -34,11 +34,11 @@ tags:
     
     === "2020-2021"
 
-        * [Solidity](../programming/solidity/armanriazi-ethereum-market.md) 
+        * [Solidity-SmartContract-1](../programming/solidity/armanriazi-ethereum-market.md) 
 
-        * [Solidity](../programming/solidity/armanriazi-ethereum-in-real-estate.md) 
+        * [Solidity-SmartContract-2](../programming/solidity/armanriazi-ethereum-in-real-estate.md) 
 
-        * [Java-Cloudsim(https://github.com/armanriazi/Cloudsim-Workflow-Function-Container-ACO)
+        * [Java-Cloudsim](https://github.com/armanriazi/Cloudsim-Workflow-Function-Container-ACO)
         
     === "2019-2020"
         

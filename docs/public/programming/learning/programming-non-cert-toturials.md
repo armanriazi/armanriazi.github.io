@@ -4,7 +4,7 @@
 !!! Learnt Toturials 
 
     === "Rust Books Epub On Desktop 2023"
-          I prefer to find important seasons that related to my work specially blockchain. I gather significant info on my desktop(offline documentation)
+        > I prefer to find important seasons that related to my work specially blockchain. I gather significant info on my desktop(offline documentation)
         * Sendil Kumar Nellaiyapen - Practical WebAssembly_ Explore the fundamentals of WebAssembly programming using Rust-Packt Publishing (2022)
         * Rust-In-Action Tim McNamara
         * Mastering In Rust - Rahul Sharma
@@ -25,8 +25,9 @@
 ---
 
 #### Followed Youtube Channels
-    * Everything about Rust Programming
-    * I do not remember there are so many.
+
+* Everything about Rust Programming
+* I do not remember there are so many playlists
 
 
 #### Resources
