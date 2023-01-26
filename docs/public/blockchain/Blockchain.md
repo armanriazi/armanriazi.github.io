@@ -31,7 +31,12 @@ title: "Arman Riazi"
 </details>
 <details>
 <summary>Substrate MindMapping</summary>
-<p> If you want to get update-mind-mapping image, send me Email: Title: armanriazi.github.io _ MindMapping_Substrate</p>
+<p> I was wondering If you want to get update-mind-mapping image. It is worth 25$ to get an updated board.
+<p> Send me Email: Title: </p>
+<p>Armanriyazi.Github.Io_MindMapping_Substrate</p>
+<p> To Email Address </p>
+<p>armanriyazi.github.io@gmail.com</p>
+
 <img src="https://armanriazi.github.io/site/assets/attachments/substrate-minmap.jpg"width="650" height="650" />
 </details>   
 
@@ -104,4 +109,198 @@ title: "Arman Riazi"
 
 
 
+# Intro Blockchain Summery
+
+
+## Blockchain
+> Layers:
+- App and presentation
+    > The application layer is made up of **smart contracts, DApps** (Decentralized Applications), **and chaincode**. Its protocols are divided into the application and execution layers. It is composed of the programs that end-users utilize for communicating with the blockchain networks. Some other parts of the application layer include **APIs (Application Programming Interfaces), frameworks, scripts, and user interfaces**.
+- Consensus
+    > This layer is **mandatory** for the existence of blockchain platforms. It is the most **critical** layer for any blockchain platform. This layer **validates blocks**, orders them, and ensures that everyone agrees upon them.
+- Network
+    > This layer is also known as the **propagation layer and P2P layer** and is responsible for inter-node communication. A P2P network is a computer network where nodes are distributed to share.
+- Data
+    > There are two fundamental elements of the blockchain data structure: **Pointers , A linked list**
+- HD/Infra:
+    > The hardware structure layer consists of servers. **Blockchain is a prevalent example of this P2P network**. In a P2P network, the computer is designated as a node.
+
+### Decentralization 
+> Decentralization is a type of network redundancy that ensures that the network control is not under a few entities.
+## Blockchain Layers
+#### Game Theory
+> Is the study of the mathematical models for making **strategic interaction between rational decision makers**.
+#### Cryptography
+> Among several benefits of blockchain, the most profound is that it **eliminates intermediaries, reduces costs, and improves efficiency** by being a transparent and secure platform.
+### Core Of Blockchain
+> Since any central authority or government does not control the blockchain, the **DLT** (Distributed Ledger Technology) performs the task of verifying any information via cryptography. Any member of a blockchain network witnesses their information being verified via DLT.
+
+### Components of the blockchain Trilemma
+- Security
+- Scability
+- Decentralization
+
+### Blockchain Scalability
+> Scalability refers to an **increased system throughput rate** measured in transactions per second in the blockchain. In this formula, **throughput is the number of transactions a system handles per second.** The blockchain’s scalability is its ability to handle a greater amount of transactions
+
+### Blockchain Storage Decentralized
+> The **CAP** (Consistency, Availability, and Partition Tolerance) theorem.
+
+> that any decentralized data storage (e.g. blockchain) can satisfy only two of the three ingredients of the CAP theorem.
+
+### Blockchain Security
+> This refers to the ability to secure data on the blockchain from different attacks and blockchain’s defense against double-spending.
+
+#### Connection Between Scalability and Security
+> Now, if the two blockchains (with same proof-of-work) have the equal degree of decentralization along with the security as their hash rate, 
+
+> **the confirmation time will be decreased with the increase in hash rates**. Similarly, 
+
+> **the scalability will rise with the improvement of security**. This shows that:
+> Scalability is directly proportional to security (if decentralization remains constant)
+
+> Since all of the three components of the blockchain trilemma are unable to interact with each other at the same time, the blockchain has to make trade-offs. A prominent example of this was Ethereum that saw a rise in usage because of the growth of DeFi (Decentralized Finance) applications. Due to this sudden rise in demand, transaction fees also surged to a level where many people were unable to engage with the blockchain.
+
+
+### Blockchain Layers
+> The Role of Blockchain Layers in **Increasing Scalability**.
+
+> Currently, work is underway for increasing the scalability of the blockchain networks.
+- The Layer One Blockchain has been designed for providing **speed, security, and expansion**.
+- The Layer Two Blockchain refers to technological enhancements and products for utilizing the expansion of **scalability of blockchain networks** already present.
+  
+### Merkle Tree
+> In the blockchain, the Merkle tree refers to **a binary tree of hashes**. 
+**Inside each block**, there is *a root hash of the Merkle tree and other information, such as block’s hash, nonce, block version number, current difficulty goal, and timestamp.*
+> In Blockchain, *the Merkle tree* **protects the integrity and security of the blockchain data**. 
+
+### Benefits of Digital Signature
+- The role of digital signature in this scenario is to **detect any manipulation in information**.
+- They also ensure unity as the **data is encrypted**. Therefore, any manipulation being made will result in invalidity of the signature
+- The data **cannot be discovered** due to being encrypted with digital signatures
+- The data **cannot be tampered**
+
+---
+
+## The Metaverse, NFT & Web 3.0 - Evolution of Internet
+
+## Web 3.0
+
+> Now after this period the internet is quickly moving towards Web 3.0, where virtual environment and virtual interaction between users would be possible. This is referred to as Metaverse. The primary focus of Web 3.0 is using technologies like **AI** for providing relevant content to every user.AI will also prevent manipulation and falsification of search results.
+
+- Blockchain technology will serve as the **backbone** of Web 3.0.
+- Decentralized web browsers and **NFTs** could be very early signs of Web 3.0.
+- We might employ **VR** technology (which will be discussed in later topics) to enter tomorrow’s internet. So by using that we may travel between virtual worlds as digital avatars.
+- Web 3.0 could also be experienced just like contemporary internet, with computers and smartphones.
+- The future of the internet will include the benefits of today, but with novel elements from Web 3.0 and the metaverse
+
+---
+
+## NFT
+> A non-fungible token (NFT) is **a unit of data stored on a blockchain**. It is non-interchangeable on the blockchain that can be sold and traded.
+> Metaverse and NFTs are also thought to be one of the important components of Web 3.0.
+> NFTs are distinct cryptographic tokens that are based on a blockchain model and **cannot be replicated or reproduced or broken**. NFTs in the metaverse can exhibit real-world items for instance artwork, unique commodities, and real estate. NFTs will tokenize the real-world tangible assets and will improve the processes of buying, selling, and trading, thus making it more efficient while minimizing the likelihood of fraud.
+> Any article that **can be transformed into a digital form** can be an NFT. Everything from a person's drawing, photos, GIF, music, videos, in-game, selfies, and even a little tweet can be transformed into an NFT, which **can then be traded online** utilizing cryptocurrency. **can be regarded as the property rights of the internet**. **can provide your proof-of-ownership of a digital item**.
+
+### The NFT.NYC Conference
+> The inaugural ceremony of 2019 NFT.NYC ceremony witnessed NFT-controlled access. The entry in the event was conditioned based on an NFT-based ticket. The conference allowed its participants to participate in dinner along with the opportunity of displaying custom messages on Times Square billboard.
+### How Can NFTS Be Used in the Metaverse?
+- Allowing VIP access to real-time conventions and festivals
+- Allowing access to metaverse events
+- Airdropping tokens of branded merchandise, etc.
+
+---
+
+## The Metaverse
+- Meta means Virtual 
+- Verse refers to Universe
+
+> The metaverse can be called as a virtual fashion industry.
+
+> This term was first introduced by Neal Stephenson, an American fiction writer. He coined the term in his 1992 novel, **Snow Crash**. He mentioned a 3D virtual space where human beings live as programmable avatars in his book. These avatars interact with each other as well as with software agents.
+
+> Examples of Companies Investing in Metaverse:
+- An investment company **Grayscale** conducted a research in which it indicated that the global revenue that will be generated from virtual gaming can surpass $400 billion by 2025. 
+- **Sotheby** is a famous art gallery.
+- Microsoft $68.7 billion
+- NVIDIA
+- Fashion Ind
+    [1] Givenchy
+    [2] Gucci
+    [3] Dolce & Gabbana, and
+    [4] Adidas
+
+> It furnishes enticing, interactive experiences that are not possible in the real world.
+> The metaverse has the possibility to change the way people interact and meet with each other. 
+> This means that it will change the entire cosmos, work or employment model, retail and commercial model, gaming industry and more. 
+
+> The four different layers of the metaverse pyramid are:
+- True
+    [1] Real-life examples
+    [2] Unlimited creation of the virtual environment
+    [3] Economic system of the virtual environment
+- Content
+    [*] Games providing multiple virtual worlds
+- Infrastructure
+    [1] Hardware industry
+    [2] Technologies for builders, and
+    [3] Blockchain
+- Foundation : 
+    [*] Internet 
+
+### Impacts of Metaverse on Online Retail
+- Metaverse has modified the retail experiences in the following ways
+- Enhancing physical experiences
+- Providing personalization opportunities
+- Providing new sales channels
+- Preventing theft and counterfeiting
+    > By kinking their virtual and real-time products with NFTs, retailers can protect their products from piracy and online damage.
+
+### GUI
+>The following computer interface that is now emerging has not got a single name. Instead, it is known by many names, such as Augmented Reality, Mixed Reality, Extended Reality, Extended Reality, or Mixed Computing. Although there might be subtle differences between all of these concepts, the one thing that they all have in common is the use of 3D space. Hence, these concepts are also known as **spatial computing.**
+
+---
+
+## Digital Twin
+> A vital idea to be mentioned here is the digital twin. This refers to the **physical objects using gaming engines and sensor data** to create their **simulated** software copy inside a computer. The humans can then interact with this software **copy**, just like they interact with a computer.
+
+### Virtual environments 
+**Virtual environments are artificially** created environments. Two popular platforms mentioned in this regard are **Twitter and Discord.**
+**Second Life** where users can engage in trading activities using the platform’s currency, **Linden Dollars.** The virtual world Second Life mentioned previously has its currency, and it supports an annual economy of **$500 million**. In fact, its GDP surpasses the GDP of many real-world countries.
+
+### Real-World Augmented Reality Environments
+
+> For example Pokman.
+
+### Purely Digital Environments
+The purely digital environments are those traditional virtual environments where we have to sit in front of the computer screen or wear a VR headset.
+
+### XR
+> Extended Reality (XR) refers to immersing computer texts and graphics into real-world and virtual environments. XR encompasses VR, MR, and AR under its umbrella. 
+> Virtual reality is an artificial digital environment that completely substitutes the real world.
+> Augmented reality is the superimposition of digital content over the real-world environment.
+> In mixed reality, virtual content is not only superimposed on the real environment but is tied up and engages with that environment. 
+
+>> **Extended reality focuses on** *all real and virtual environments and human-machine interactions* developed by computer technology and wearables.
+
+> The core components of all XR devices include:
+- Visual input methods of object
+- Gesture tracking
+- Gaze tracking
+- Perception
+- Mapping
+
+### AR
+#### Sample of AR
+> Takes an image from your phone’s camera and processes it in real-time after which it displays all the contextual information or delivers gaming for social experiences that appear to be part of our real world.
+> Although AR has seen quite an improvement in the last decade, its applications are very limited in number. This is because the gurus of AR are focusing more on delivering **a holistic experience with the help of AR glasses**. In order for these glasses to work, it is necessary that they contain an **ultra-low power processor** having **multiple sensors (including tracking and depth perception)**. The aim is to make these glasses **comfortable** enough so that users can wear them for a prolonged period.
+
+### VR
+> This technology has three main components:
+- A smartphone or a wearable AR device
+- Virtual objects
+- Superimposed characters in real-world environments
+
+### AR VS VR
+> In contrast to VR, AR headsets require features, such as **intuitive and secure navigation**. Other features that can be part of **an AR headset are depth, orientation, pose, position, location, and eye and gesture tracking.**
 

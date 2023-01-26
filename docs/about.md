@@ -44,6 +44,11 @@ author: "Arman Riazi"
 
 <iframe width="900" height="506" src="https://www.youtube.com/embed/ZQbxqD5bsak" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+## Certificate 2023
+| Expert | Priod  | By | Supported By   | Inquiry | Documents 
+|:--------------------------------------:|:-------:|:---------------:|:-------------------|:------------|:--------------|
+|  Soft Skills  | 09:30 H       |  Udemy – The Open University  | udemy.com, open.ac.uk  |  Boundled    | [Link](https://github.com/armanriazi/armanriazi/blob/self/Soft-Skills-Bundled-2023-Jan.pdf)    |
+
 ## Blockchain Experience
 
 ``` Exprt: Experience ```
