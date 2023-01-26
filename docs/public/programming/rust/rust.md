@@ -1,8 +1,8 @@
 ## Rust-Language
 
-- [Awesome Rust)](https://github.com/armanriazi/armanriazi-awesome-rust)
+- [Awesome Rust](https://github.com/armanriazi/armanriazi-awesome-rust)
 
-- [Rust-Scratch-Blockchain)](https://github.com/armanriazi/rust-scratch-blockchain)
+- [Rust-Scratch-Blockchain](https://github.com/armanriazi/rust-scratch-blockchain)
   
 - [Rust-Survey-Json](https://github.com/armanriazi/rust-survey-json)
 
