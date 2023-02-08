@@ -158,12 +158,15 @@ author: "Arman Riazi"
 
 > Personal interests Footbal, Running, Body-Building, Motorcycles and Reading Books.
 
-> Live Concert and [Music Video-Magazine](fun.md)
+
 
 ## Call Me-Preferred Channels
 
 [Contact Me](social.md)
 
 ## Support Me/Sponsership
+> You could be a sponsor on each of my repositories on GitHub.
+>
+> It is for you to take an advantage of services and code.
 
 <a href="https://armanriyazi.github.io/">MetaMask(MultiNet): 0xde5D732a5AB44832E1c69b18be30834639F44A2c</a>
