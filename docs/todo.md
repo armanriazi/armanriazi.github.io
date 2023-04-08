@@ -5,11 +5,9 @@ expectations.
 
 I wasn't I wasn't sort of expecting to
 
-stand at the front and give any sort
-of
+stand at the front and give any sort of
 
-talks so not very much is is is ready
-in
+talks so not very much is is is ready in
 
 that regard it's really meant to be a
 
