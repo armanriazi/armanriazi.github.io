@@ -14,7 +14,7 @@ tags:
   - github
 ---
 
-# Master Thesis--Arman Riazi
+# Master Thesis-Arman Riazi
 
 ## Academic degree
 
