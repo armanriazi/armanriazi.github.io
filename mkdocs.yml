@@ -88,7 +88,7 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.keys
   - pymdownx.magiclink:
-      repo_url_shorthand: true
+      repo_url_shorthand: false
       user: armanriazi
       repo: mkdocs-material
   - pymdownx.mark
@@ -103,7 +103,9 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
-plugins:  
+plugins:
+  - git-revision-date-localized:
+      fallback_to_build_date: false  
   - tags:
      tags_file: tags.md
   - search
@@ -116,7 +118,7 @@ extra_javascript:
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 extra:
-  homepage: https://armanriazi.github.io/
+  homepage: https://armanriazi.github.io/site
   social:
     - icon: fontawesome/brands/twitter 
       link: https://twitter.com/arman_riazi_science
