@@ -1,7 +1,7 @@
 
 
 okay so I want to set a few
-expectations
+expectations.
 
 I wasn't I wasn't sort of expecting to
 
