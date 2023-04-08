@@ -30,9 +30,11 @@ author: "Arman Riazi"
 ### 2023
 | Expert | Priod  | By | Supported By   | Inquiry | Documents 
 |:--------------------------------------:|:-------:|:---------------:|:-------------------|:------------|:--------------|
+| BLOC529-MC Decentralized Finance(Spring 2023)     | 5W       |  Nicosia University   | UNIC  | [1](https://courses.unic.ac.cy/)     | [C](https://cutt.ly/armanriazi-defi-unic) |
 | Become-A-Rust-Professional    | 138H       |  educative.io/profile/view/5215295720652800    | educative  | [1](https://www.educative.io/verify-certificate/1j8yMXCBKBYmXmK2GHOEA9mnpKwPUp),[2](https://www.educative.io/verify-certificate/QApPNYA64r2clVE5XBNYJGHQ2OZGYMKj7T9),[3](https://www.educative.io/verify-certificate/585DM2txV56KZx8NxulL9K43ywJquq),[4](https://www.educative.io/verify-certificate/Y6GKZ1ijpWw4oDO1XhjWwo2K9x18TJ)    | [C-Boundled](https://cutt.ly/armanriazi-rust-pro-educative)    |
 | Blockchain-DistributedSYS-CyberSec  | 20H       |  educative.io/profile/view/5215295720652800   | educative  |   [1](https://www.educative.io/verify-certificate/49vom8N6ngNh6rgGjvGAPYuNKXr3qBL2PcG),[2](https://www.educative.io/verify-certificate/985KjktxW9QrjWANLIZnQAGV3xWDFN),[3](https://www.educative.io/verify-certificate/vgA3wPFLmLVKzwkA2t8VE4wnzZBlul)   | [C-Bundled](https://cutt.ly/armanriazi-blockchain-dist-cyber-educative),[G](https://drive.google.com/file/d/1RPNVrAIhxBZqlhkMY5fBc6E53lydLPov/view?usp=share_link)  | 
 | DevOps For Developers    | 50H       |  educative.io/profile/view/5215295720652800   | educative  |   Redirect   | [C](https://cutt.ly/armanriazi-devops-for-dev-educative)     |
+| DevOps Fundamentals Of eBPF-Istio   | Hands-On Lab  |  solo.io  | solo  |   Redirect   | [C-Bundled](https://cutt.ly/armanriazi-devops-ebpf-istio-solo)     |
 | Substrate-For-Analog(Rust, Java General Code)  | Hands-On Lab |  Karat, TripleByte.com  | Karat | [1](https://triplebyte.com/tb/arman-riazi-h4icoca) | [G](https://drive.google.com/file/d/1aC-Jpgd0j5wyn5QDDnOi6aGcfEe2TtkZ/view)     |
 |   Blockchain of Solana-TypeScript-Rust    | 7H       |   Udemy  |  Udemy.com/user/arman-1214  |  [1](https://www.udemy.com/certificate/UC-60ad8b02-01c6-4cba-b52d-a09af4840533)    | [C](https://cutt.ly/armanriazi-blockchain-solana-udemy),[G](https://drive.google.com/file/d/1wFvyb6pY3OhxPnPf_urmlnQAhaWZ1UOF/view?usp=share_link)  |
 |   Blockchain of Polkadot-Substrate-Rust    | 02:30 H       |   Udemy.com/user/arman-1214  |  Udemy  |  [1](https://www.udemy.com/certificate/UC-027945e4-edfc-4e44-8243-d25621690b3a)    | [C](https://cutt.ly/armanriazi-blockchain-polkadot-udemy),[G](https://drive.google.com/file/d/1cwCckqTsqaP8kEp6gR0EVhDjSmeMEHxo/view?usp=share_link)   |
@@ -51,7 +53,7 @@ author: "Arman Riazi"
 ### 2021
 | Expert | Priod  | By | Supported By   | Inquiry | Documents 
 |:--------------------------------------:|:-------:|:---------------:|:-------------------|:------------|:--------------|
-| Master Of Science-Information Technology     | 4Y       |  Azad Najafabad University   | IAUN  | [1500007081743684272588654](https://estelam.iau.ir/Home/SearechEstelamID)     | [Academic Degree](https://drive.google.com/file/d/1VKXfPPTzVPonALERdxU4LcRRvJBRMNHV/view?usp=share_link) And [Score Details](https://drive.google.com/file/d/1h98c3oklzv-tyi6b3xvfR4QEUfdbNHXH/view?usp=share_link) |
+| Master Of Science-Information Technology     | 4Y       |  Azad Najafabad University   | IAUN  | [1500007081743684272588654](https://estelam.iau.ir/Home/SearechEstelamID)     | [G-Academic Degree](https://drive.google.com/file/d/1VKXfPPTzVPonALERdxU4LcRRvJBRMNHV/view?usp=share_link) And [Credits'Details](https://drive.google.com/file/d/1h98c3oklzv-tyi6b3xvfR4QEUfdbNHXH/view?usp=share_link) |
 
 ---
 
