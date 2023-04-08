@@ -88,7 +88,7 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.keys
   - pymdownx.magiclink:
-      repo_url_shorthand: false
+      repo_url_shorthand: true
       user: armanriazi
       repo: mkdocs-material
   - pymdownx.mark
@@ -125,21 +125,3 @@ extra:
       link: https://github.com/armanriazi
     - icon: fontawesome/brands/linkedin
       link: https://linkedin.com/in/armanriazi
-            
-analytics:
-  provider: google
-  property: G-S8E1J4V9C3
-  feedback:
-    title: Was this page helpful?
-    ratings:
-      - icon: material/emoticon-happy-outline
-        name: This page was helpful
-        data: 1
-        note: >-
-          Thanks for your feedback!
-      - icon: material/emoticon-sad-outline
-        name: This page could be improved
-        data: 0
-        note: >- 
-          copyright: Copyright &copy; 2023 Arman Riazi
-          generator: false

@@ -1,0 +1,1442 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="icon" href="../../../../assets/attachments/favicon.ico">
+      <meta name="generator" content="mkdocs-1.3.0, mkdocs-material-8.2.9">
+    
+    
+      
+        <title>Rust lang ecosystem - Arman Riazi</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../assets/stylesheets/main.120efc48.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../../assets/stylesheets/palette.9647289d.min.css">
+        
+      
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../assets/css/mkdocs-extra.css">
+    
+    <script>__md_scope=new URL("../../../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#understanding-the-rust-ecosystem" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="https://armanriazi.github.io/" title="Arman Riazi" class="md-header__button md-logo" aria-label="Arman Riazi" data-md-component="logo">
+      
+  <img src="../../../../assets/attachments/me.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Arman Riazi
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Rust lang ecosystem
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7 0-.24-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91 1.61 0 2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08Z"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/armanriazi/armanriazi.github.io" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../.." class="md-tabs__link">
+        Home
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../blockchain/Blockchain/" class="md-tabs__link">
+        Blockchain
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../public/" class="md-tabs__link">
+        Walk-through
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../../achievements/" class="md-tabs__link">
+        Achievements
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../../tags/" class="md-tabs__link">
+        Tags
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../../links/" class="md-tabs__link">
+        Links
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../../about/" class="md-tabs__link">
+        About
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="https://armanriazi.github.io/" title="Arman Riazi" class="md-nav__button md-logo" aria-label="Arman Riazi" data-md-component="logo">
+      
+  <img src="../../../../assets/attachments/me.png" alt="logo">
+
+    </a>
+    Arman Riazi
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/armanriazi/armanriazi.github.io" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1" data-md-state="indeterminate" type="checkbox" id="__nav_1" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_1">
+          Home
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Home" data-md-level="1">
+        <label class="md-nav__title" for="__nav_1">
+          <span class="md-nav__icon md-icon"></span>
+          Home
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../.." class="md-nav__link">
+        Index
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../public/" class="md-nav__link">
+        Walk-through
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" data-md-state="indeterminate" type="checkbox" id="__nav_2" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2">
+          Blockchain
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Blockchain" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Blockchain
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../blockchain/Blockchain/" class="md-nav__link">
+        Blockchain
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" data-md-state="indeterminate" type="checkbox" id="__nav_3" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          Walk-through
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Walk-through" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Walk-through
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../public/" class="md-nav__link">
+        Walk-through
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" data-md-state="indeterminate" type="checkbox" id="__nav_4" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4">
+          Achievements
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Achievements" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Achievements
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../achievements/" class="md-nav__link">
+        Achievements
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" data-md-state="indeterminate" type="checkbox" id="__nav_5" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5">
+          Tags
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Tags" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Tags
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../tags/" class="md-nav__link">
+        Tags
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" data-md-state="indeterminate" type="checkbox" id="__nav_6" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6">
+          Links
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Links" data-md-level="1">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          Links
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../links/" class="md-nav__link">
+        Links
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7" data-md-state="indeterminate" type="checkbox" id="__nav_7" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7">
+          About
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="About" data-md-level="1">
+        <label class="md-nav__title" for="__nav_7">
+          <span class="md-nav__icon md-icon"></span>
+          About
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../about/" class="md-nav__link">
+        About
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    Overview
+  </a>
+  
+    <nav class="md-nav" aria-label="Overview">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#academic-research" class="md-nav__link">
+    Academic Research
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#demographics" class="md-nav__link">
+    Demographics
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#community" class="md-nav__link">
+    Community
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#companies" class="md-nav__link">
+    Companies
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#language" class="md-nav__link">
+    Language
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#language-frameworks" class="md-nav__link">
+    Language Frameworks
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#learning" class="md-nav__link">
+    Learning
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#packages" class="md-nav__link">
+    Packages
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#platforms" class="md-nav__link">
+    Platforms
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#selling-points" class="md-nav__link">
+    Selling Points
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tools" class="md-nav__link">
+    Tools
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#use-cases" class="md-nav__link">
+    Use Cases
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#summary" class="md-nav__link">
+    Summary
+  </a>
+  
+    <nav class="md-nav" aria-label="Summary">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#whats-next" class="md-nav__link">
+    What’s next?
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#thank-you" class="md-nav__link">
+    Thank you
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#join-the-newsletter" class="md-nav__link">
+    Join the Newsletter
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+  <a href="https://github.com/armanriazi/armanriazi.github.io/edit/master/docs/public/programming/rust/rust-lang-ecosystem.md" title="Edit this page" class="md-content__button md-icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"/></svg>
+  </a>
+
+
+  
+
+
+
+<h1 id="understanding-the-rust-ecosystem">Understanding the Rust Ecosystem<a class="headerlink" href="#understanding-the-rust-ecosystem" title="Permanent link">&para;</a></h1>
+<p>Last updated: 06/15/2020(Copied)</p>
+<p><img alt="Graph representing all the facets made up in a programming language ecosystem." src="https://d33wubrfki0l68.cloudfront.net/31da1a1cdb40016c5020838f324d8eef7f1f91da/232f3/assets/images/prog-lang-ecosystem.png" /></p>
+<p>Rust, a systems-programming language, which prides itself on being Stack Overflow’s “<a href="https://insights.stackoverflow.com/survey/2020">most loved language for five years in row</a>” and GitHub’s <a href="https://octoverse.github.com/">second fastest growing</a> (235% 2018-2019) has gained popularity both at companies like <a href="https://www.businessinsider.com/what-is-rust-programming-language-amazon-facebook-discord-love-it-2020-6?r=US&amp;IR=T">Amazon, FB, Discord</a> and externally within the programming community.</p>
+<p>For part of my job, I have been focused on developing my own understanding of the space. I work within the DevTools pillar and focus primarily on programming languages. My main priority for H1 of 2020 has been Rust. The goal of this article is:</p>
+<ul>
+<li>To paint a high-level overview of the ecosystem</li>
+</ul>
+<p>The article covers various aspects of the ecosystem including community, companies using the language, selling points, etc.</p>
+<h2 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link">&para;</a></h2>
+<p>One of the hardest parts of understanding a programming language is setting the boundaries for what you encapsulate as part of and not part of the ecosystem. I gathered input coworkers and mentors in order to set the criteria for this project. For our purposes, I choose to limit it to the following areas, which you’ll see below. For each section, you can expect:</p>
+<ul>
+<li>A brief description of how I defined the section</li>
+<li>Key highlights from the ecosystem for that area of the ecosystem</li>
+</ul>
+<h3 id="academic-research">Academic Research<a class="headerlink" href="#academic-research" title="Permanent link">&para;</a></h3>
+<p>Things that fall under this category might be research papers, academic presentations, and anything related. It was difficult to find much in this area, but here are a few highlights:</p>
+<ul>
+<li><a href="https://arxiv.org/pdf/2003.03296.pdf">Memory-Safety Challenge Considered Solved? An Empirical Study with All Rust CVEs</a></li>
+<li><a href="https://www.cambridge.org/core/services/aop-cambridge-core/content/view/B51B6DF72B7641F2352C05A502F3D881/S1743921316013168a.pdf/what_can_the_programming_language_rust_do_for_astrophysics.pdf">What can the programming language Rust do for astrophysics?</a></li>
+<li><a href="https://dl.acm.org/doi/pdf/10.1145/3158154">RustBelt: Securing the Foundations of the RustProgramming Language</a></li>
+<li><a href="https://dl.acm.org/doi/pdf/10.1145/3136000.3136010">Rust-Like Borrowing with 2<sup>nd</sup>-Class Values (Short Paper)</a></li>
+<li><a href="https://robbertkrebbers.nl/research/articles/safe_programming_rust.pdf">Safe Systems Programming in Rust:The Promise and the Challenge</a></li>
+<li><a href="https://arxiv.org/pdf/1902.01906.pdf">Fearless Concurrency? Understanding Concurrent Programming Safety in Real-World Rust Software</a></li>
+</ul>
+<p>As you can tell from skimming the headings, researchers are looking at Rust’s use cases, security, memory management, type-safety and concurrency. It’s unfortunate there isn’t an easy way to stay on top of academic research within Rust.</p>
+<h3 id="demographics">Demographics<a class="headerlink" href="#demographics" title="Permanent link">&para;</a></h3>
+<p>When you look at the programming language, how do you know who is using it? What industries do they work in? Fortunately, the <a href="https://blog.rust-lang.org/2020/04/17/Rust-survey-2019.html">Rust Survey 2019 Results</a> provides insight related to demographics. Based on the results, here are the key highlights:</p>
+<ul>
+<li>Respondents’ top five languages: English, Chinese, German, French and Japanese</li>
+<li>Top five industries using Rust: Backend Web Applications, Distributed Systems, Embedded Devices, IT and Network Programming</li>
+<li>Top three titles for Rust users: Programmer/Software Engineer, Systems Architect, Web Developer/Front End Developer</li>
+</ul>
+<p>It’s unfortunate that we do not have more information related to demographics such as gender, ethnicity, race, etc. There was an attempt to gather some of this information in the <a href="https://blog.rust-lang.org/2016/06/30/State-of-Rust-Survey-2016.html">2016 survey</a>. Know that this section contains a small glimpse into the people of the Rust and is far from complete or representative of the ecosystem.</p>
+<h3 id="community">Community<a class="headerlink" href="#community" title="Permanent link">&para;</a></h3>
+<p>Community itself is a huge category. I tried my best to break it into subcategories for things that might fit here.</p>
+<p>In general, think of this area as the various places where members of the community congregate (online and in-person), groups who write code, and foundations. These are a combination of chat platforms, but also places where updates are shared with the community. Here are some worth noting:</p>
+<ul>
+<li>Chat Platforms<ul>
+<li>Discord (35,597 members total)<ul>
+<li><a href="https://discord.com/invite/rust-lang">The Rust Programming Language</a> (25,135 members)</li>
+<li><a href="https://discord.com/invite/aVESxV8">Rust Programming Language Community Server</a> (10,462 members)</li>
+</ul>
+</li>
+<li><a href="https://rust-slack.herokuapp.com/">Rust lang Slack</a> (3,046 people)</li>
+<li><a href="https://rust-lang.zulipchat.com/login/">Rust Team Zulip</a> (655 people) (mainly focused on people who work on Rust itself)</li>
+</ul>
+</li>
+<li>Conferences<ul>
+<li><a href="https://fosdem.org/2020/">FOSDEM</a></li>
+<li><a href="https://rustconf.com/">RustConf</a></li>
+<li><a href="https://rusty-days.org/">Rusty Days</a></li>
+<li><a href="https://netherlands.rustfest.eu/">RustFest Netherlands</a></li>
+<li><a href="https://wiki.gnome.org/Hackfests/Rust2020">Rust + GNOME Hackfest</a></li>
+<li><a href="https://www.rustlatam.org/">Rust Latam</a></li>
+<li><a href="https://www.rustlab.it/">RustLab</a></li>
+<li><a href="https://oxidizeconf.com/">Oxidize</a></li>
+<li><a href="https://blog.rust-lang.org/2020/01/31/conf-lineup.html">List of 2020 events on the Rust lang blog</a></li>
+</ul>
+</li>
+<li>Core contributors<ul>
+<li><a href="https://www.rust-lang.org/governance">Governance</a> - all the different core team members associated with each team</li>
+<li><a href="https://github.com/orgs/rust-lang/people">GitHub Rustlang org members</a></li>
+<li>GitHub committers - over <a href="https://github.com/rust-lang/rust/graphs/contributors">2k people</a> have contributed to <a href="https://github.com/rust-lang/rust">/rust</a> repo</li>
+<li><a href="https://www.rust-lang.org/governance/teams/alumni">Rust team alumni</a> - people who worked on a Rust team previously</li>
+</ul>
+</li>
+<li>Forums<ul>
+<li><a href="https://users.rust-lang.org/">Users forum</a> (14.2k)</li>
+<li><a href="https://internals.rust-lang.org/">Internals forum</a> (6.8k)</li>
+<li><a href="https://www.reddit.com/r/rust/">r/rust -Reddit</a> (100k people)</li>
+</ul>
+</li>
+<li>Meetups<ul>
+<li>Stats (meetups <a href="https://www.meetup.com/topics/rust/all/">with the topic “rust”</a>)<ul>
+<li>73,706 members</li>
+<li>1,749 interested</li>
+<li>204 Meetups</li>
+<li>145 cities</li>
+<li>42 countries</li>
+</ul>
+</li>
+<li>Groups (not all listed, some highlights)<ul>
+<li><a href="https://www.meetup.com/Desert-Rustaceans/">Desert Rust (Phoenix, AZ)</a></li>
+<li><a href="https://www.meetup.com/Minneapolis-Rust-Meetup/">Minneapolis Rust Meetup</a></li>
+<li><a href="https://www.meetup.com/Rust-Bay-Area/">Rusty Bay Area Meetup</a></li>
+<li><a href="https://www.meetup.com/RustBLR/">Rust Bangalore</a></li>
+<li><a href="https://www.meetup.com/Rust-Berlin/">Rust Berlin</a></li>
+<li><a href="https://www.meetup.com/Rust-in-Blockchain-San-Francisco/">Rust in Blockchain</a></li>
+<li><a href="https://www.meetup.com/Rust-Los-Angeles/">Rust Los Angeles</a></li>
+<li><a href="https://www.meetup.com/Rust-London-User-Group/">Rust London User Group</a></li>
+<li><a href="https://www.meetup.com/Rust-Dev-in-Mountain-View/">Rust Dev in Mountain View Meetup</a></li>
+<li><a href="https://www.meetup.com/Rust-Boulder-Denver/">Rust Denver</a></li>
+<li><a href="https://www.meetup.com/Rust-NYC/">Rust NYC</a></li>
+<li><a href="https://www.meetup.com/Rust-Nairobi/">Rust Nairobi</a></li>
+<li><a href="https://www.meetup.com/Rust-Paris/">Rust Paris</a></li>
+<li><a href="https://www.meetup.com/San-Diego-Rust/">San Diego Rust</a></li>
+<li><a href="https://www.meetup.com/Seattle-Rust-Meetup/">Seattle Rust Meetup</a></li>
+<li><a href="https://www.meetup.com/utah-rust/">Utah Rust</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Miscellaneous<ul>
+<li><a href="https://github.com/rust-lang/rfcs">RFCs</a> (2.9k stars) - where technical decisions are made in regards to Rust</li>
+<li><a href="https://this-week-in-rust.org/">This Week in Rust</a> - weekly newsletter</li>
+</ul>
+</li>
+<li>Programs<ul>
+<li><a href="https://reach.rust-lang.org/">Rust’s Reach</a> (currently on hold due to lack of funding and people) - “mentorship like program between participants from URGs and Rust team members”</li>
+<li><a href="https://rustbridge.com/">Rust Bridge</a> (1 chapter) - “a workshop focused on getting underrepresented people with a background in another programming language to learn Rust and join the community.”</li>
+</ul>
+</li>
+</ul>
+<p><em>*These stats were taken on 5/19/2020</em></p>
+<p>As you can see, the community category extends itself across many platforms and mediums online. It’s easy to overwhelm oneself with all the places you can go to get involved. The beautiful part is that there is no shortage of finding ways to meet others within the community.</p>
+<p><em>*For the data in the “Meetups &gt; Stats” category, you’ll notice that it includes some meetups that are not specifically for Rust so take that number with a grain of salt.</em></p>
+<h3 id="companies">Companies<a class="headerlink" href="#companies" title="Permanent link">&para;</a></h3>
+<p>It would be impossible to list all the companies that use Rust. This is a sub-selection of notable companies (more well-known) that are using or investing in Rust, ideally along with articles where they share how they’re using it or helping the ecosystem:</p>
+<ul>
+<li>Amazon<ul>
+<li>AWS is sponsoring the Rust programming language - <a href="https://aws.amazon.com/blogs/opensource/aws-sponsorship-of-the-rust-project/">AWS Open Source Blog</a> (October 2019)</li>
+<li>“…<em>AWS staff open-sourced a virtualization technology named <a href="https://firecracker-microvm.github.io/">Firecracker</a></em> <em>that was coded primarily in Rust</em>” - <a href="https://www.zdnet.com/article/aws-to-sponsor-rust-project/">zdnet.com article</a> (October 2019)</li>
+<li>“_As Rust starts to take up a larger chunk of Amazon’s backend code, the company is making sure the project has the means to continue to evolve and fix security issues.” _-_ _<a href="https://www.zdnet.com/article/aws-to-sponsor-rust-project/">zdnet.com article</a> (October 2019)</li>
+<li>AWS sponsors RustConf - <a href="https://aws.amazon.com/blogs/opensource/rustconf-2018/">AWS Open Source Blog</a> (2018 - 2020)</li>
+</ul>
+</li>
+<li>Apple<ul>
+<li><a href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Apple-From-C-To-Rust">Rust for server-side Linux on Apple Cloud Traffic</a> (March 2020)</li>
+</ul>
+</li>
+<li>Atlassian (makers of Jira)<ul>
+<li><a href="https://github.com/rust-lang/prev.rust-lang.org/pull/922">Use Rust in the backend for analyzing terabytes of source code</a></li>
+</ul>
+</li>
+<li>Cloudflare<ul>
+<li><a href="https://blog.cloudflare.com/tag/rust/">Cloudflare uses Rust in production for WebAssembly edge computing as well as a lot of foundational infrastructure</a> (2018-2019)</li>
+</ul>
+</li>
+<li>Discord<ul>
+<li><a href="https://blog.discordapp.com/why-discord-is-switching-from-go-to-rust-a190bbca2b1f">“Why Discord is switching from Go to Rust”</a> - (February 2020) 11.9K claps</li>
+<li><a href="https://blog.discordapp.com/using-rust-to-scale-elixir-for-11-million-concurrent-users-c6f19fc029d3">“Using Rust to Scale Elixir for 11 Million Concurrent Users”</a> - (May 2019) 6.4K claps</li>
+</ul>
+</li>
+<li>Dropbox<ul>
+<li>Dropbox is highlighted on the <a href="https://www.rust-lang.org/production">/production</a> page of the <a href="https://www.rust-lang.org/">rust-lang.org</a> website - (currently - March 2020)</li>
+<li><a href="https://qconsf.com/sf2016/sf2016/presentation/going-rust-optimizing-storage-dropbox.html">Go-ing to Rust: Optimizing Storage at Dropbox</a> - (November 2017)</li>
+<li>Dropbox is mentioned on official <a href="https://blog.rust-lang.org/2017/05/15/rust-at-two-years.html">Rust lang blog</a> - (May 2017)</li>
+<li><a href="https://www.wired.com/2016/03/epic-story-dropboxs-exodus-amazon-cloud-empire/">“The Epic Story of Dropbox’s Exodus From the Amazon Cloud Empire”</a> - (March 2016)</li>
+</ul>
+</li>
+<li>Facebook<ul>
+<li><a href="https://www.businessinsider.com/what-is-rust-programming-language-amazon-facebook-discord-love-it-2020-6?r=US&amp;IR=T">Developers have named Rust their most-loved programming language five years in a row. Here’s why developers at Facebook, Dropbox, and Amazon all adore it</a> - (June 2020)</li>
+<li>The Relay Team is experimenting with a <a href="https://github.com/facebook/relay/tree/master/compiler">“rewrite of the Relay compiler in Rust”</a> (May 2020)</li>
+<li>Mononoke, the new Mercurial backend, was written from scratch in Rust</li>
+</ul>
+</li>
+<li>GitHub<ul>
+<li><a href="https://blog.rust-lang.org/inside-rust/2020/04/07/update-on-the-github-actions-evaluation.html">GitHub donating VMs for GitHub Actions</a> (April 2020)</li>
+</ul>
+</li>
+<li>Google<ul>
+<li>Rust makes up increasingly large parts of Google’s <a href="https://fuchsia.dev/fuchsia-src">Fuchsia operating system</a></li>
+<li><a href="https://chromium.googlesource.com/chromiumos/platform/crosvm/">Chrome OS’s virtualization infrastructure</a> and several other components are in Rust</li>
+<li><a href="https://android-review.googlesource.com/q/rust">Android uses Rust</a></li>
+<li><a href="https://chromium-review.googlesource.com/q/project:experimental/chromium/src+branch:refs/wip/rust-experimental-branch">Chromium is beginning to adopt Rust</a></li>
+<li>Google released an “unofficial” project called <code>[tarpc](https://github.com/google/tarpc)</code> “An RPC framework for Rust”</li>
+</ul>
+</li>
+<li>Microsoft<ul>
+<li>Microsoft featured on <a href="https://www.rust-lang.org/sponsors">/sponsors</a> page</li>
+<li><a href="https://www.zdnet.com/article/microsoft-opens-up-rust-inspired-project-verona-programming-language-on-github/">“Microsoft opens up Rust-inspired Project Verona programming language on GitHub”</a> - (Jan 2020)</li>
+<li><a href="https://nakedsecurity.sophos.com/2019/12/04/microsoft-looks-to-rust-language-to-beat-memory-vulnerabilities/">“Microsoft looks to Rust language to beat memory vulnerabilities”</a> - (Dec 2019)</li>
+<li><a href="https://www.infoq.com/news/2019/11/microsoft-exploring-rust-safety/">“Microsoft Exploring Rust as the Solution for Safe Software”</a> - (Nov 2019)</li>
+<li><a href="https://www.theregister.co.uk/2019/10/15/aws_sponsoring_rust_microsoft_azure/">Azure Pipelines sponsoring Rust</a> - (Oct 2019)</li>
+<li><a href="https://msrc-blog.microsoft.com/2019/07/16/a-proactive-approach-to-more-secure-code/">Microsoft looking into Rust for security reasons</a>. - (July 2019)</li>
+<li><a href="https://www.csoonline.com/article/3501029/microsoft-eyes-mozilla-s-rust-to-obliterate-c-memory-security-flaws.html">“Microsoft eyes Mozilla’s Rust to obliterate C++ memory security flaws”</a> - (July 2019)</li>
+<li><a href="https://twitter.com/maxgortman/status/1012011425353461760">Azure IoT Edge has been using Rust since at least 2018</a></li>
+</ul>
+</li>
+<li>Mozilla<ul>
+<li>Rust is used in Firefox through a project called <a href="https://wiki.mozilla.org/Oxidation">Oxidation</a></li>
+<li>Mozilla is writing a browser written in Rust called <a href="https://servo.org/">Servo</a></li>
+<li><a href="https://hacks.mozilla.org/2018/12/rust-2018-is-here/">“Rust 2018 is here… but what is it?”</a> - (Dec 2018)</li>
+<li><a href="https://www.infoworld.com/article/3165424/mozilla-binds-firefoxs-fate-to-the-rust-language.html">“Mozilla binds Firefox’s fate to the Rust language”</a> - (Feb 2017)</li>
+<li><a href="https://www.infoworld.com/article/3136934/project-for-porting-c-to-rust-gains-mozillas-backing.html">“Project for porting C to Rust gains Mozilla’s backing”</a> - (Oct 2016)</li>
+</ul>
+</li>
+<li>npm<ul>
+<li><a href="https://github.com/rust-lang/prev.rust-lang.org/pull/634">Performance critical registry service architecture is Rust</a></li>
+</ul>
+</li>
+<li>Reddit<ul>
+<li><a href="https://www.reddit.com/r/rust/comments/7utj4t/reddit_is_hiring_a_senior_rust_engineer/">Uses Rust for comment processing</a></li>
+</ul>
+</li>
+<li>Twitter<ul>
+<li><a href="https://twitter.com/stuhood/status/978410393944047617">Build team has been using Rust in production for ~3 years and intend for it to make up a large portion of their codebase going forward</a></li>
+</ul>
+</li>
+<li>Yelp<ul>
+<li>Yelp is featured under the “Rust in production” section of <a href="https://www.rust-lang.org/">rust-lang.org</a>, they talk about how they use it in <a href="https://www.youtube.com/watch?v=u6ZbF4apABk">this talk</a> - (Aug 2018)</li>
+</ul>
+</li>
+<li>Honorable Mentions<ul>
+<li>There is a list of production users on the <a href="https://www.rust-lang.org/production/users">rust-lang.org website</a></li>
+<li><a href="https://www.jonathanturner.org/2018/07/snapshot-of-rust-popularity.html">“A Snapshot of Rust’s Popularity in July 2018”</a></li>
+<li><a href="https://github.com/Nike-Inc/aws-greengrass-core-sdk-rust">Nike using Rust</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="language">Language<a class="headerlink" href="#language" title="Permanent link">&para;</a></h3>
+<p>Think core library, compiler, type system. Basically all the code that makes up the language and some of the tools that help with writing code in Rust.</p>
+<ul>
+<li>Books &amp; References<ul>
+<li><a href="https://rust-lang.github.io/async-book/">Asynchronous Programming In Rust Book</a></li>
+<li><a href="https://rust-cli.github.io/book/index.html">Command Line Applications in Rust</a></li>
+<li><a href="https://doc.rust-lang.org/book/">The Rust Programming Language Book</a></li>
+<li><a href="https://doc.rust-lang.org/cargo/index.html">The Cargo Book</a> - info about the rust package manager</li>
+<li><a href="https://doc.rust-lang.org/nomicon/">The Rustonomicon Book</a> - the dark arts of unsafe Rust</li>
+<li><a href="https://doc.rust-lang.org/reference/index.html">The Rust Reference Book</a></li>
+<li><a href="https://doc.rust-lang.org/error-index.html">Rust Compiler Error Index</a> - book on all the rust compiler errors</li>
+<li><a href="https://doc.rust-lang.org/rustdoc/index.html">rustdoc Book</a> - all about rustdoc and writing documentation in Rust</li>
+<li><a href="https://doc.rust-lang.org/std/index.html">std</a> - standard library docs</li>
+</ul>
+</li>
+<li>Code &amp; DevTools<ul>
+<li><a href="https://github.com/rust-lang/cargo">Cargo</a> the package manager + build system</li>
+<li><a href="https://github.com/rust-lang/rust">Core language</a></li>
+<li><a href="https://github.com/rust-lang/rust-clippy">Rust-clippy</a> - official linter</li>
+<li><a href="https://github.com/rust-lang/rustfmt">Rustfmt</a> - official formatter</li>
+<li><a href="https://github.com/rust-lang/rust/tree/master/src/rustc">rustc</a> - the Rust compiler (inside the core language)</li>
+</ul>
+</li>
+</ul>
+<h3 id="language-frameworks">Language Frameworks<a class="headerlink" href="#language-frameworks" title="Permanent link">&para;</a></h3>
+<p>What would a programming language be without frameworks? Thankfully, the community resource <a href="https://github.com/flosse/rust-web-framework-comparison">rust-web-framework-comparison</a> made this research easy. Here is a long list:</p>
+<ul>
+<li>Client frameworks<ul>
+<li><strong>actix-web</strong> (<a href="https://actix.rs/">homepage</a> / <a href="https://github.com/actix/actix-web">repository</a> / <a href="https://actix.github.io/actix-web/actix_web/client/index.html">api docs</a>)</li>
+<li><strong>reqwest</strong> (- / <a href="https://github.com/seanmonstar/reqwest">repository</a> / <a href="https://docs.rs/reqwest">documentation</a>)</li>
+<li><strong>hyper</strong> (<a href="http://hyper.rs/">homepage</a> / <a href="https://github.com/hyperium/hyper">repository</a> / <a href="http://hyper.rs/hyper/hyper/">documentation</a>)</li>
+<li><strong>jsonrpc</strong> (- / <a href="https://github.com/apoelstra/rust-jsonrpc/">repository</a> / <a href="https://www.wpsoftware.net/rustdoc/jsonrpc/">documentation</a>)</li>
+</ul>
+</li>
+<li>Frontend frameworks (WASM)<ul>
+<li><strong>stdweb</strong> ( - / <a href="https://github.com/koute/stdweb">repository</a> / <a href="https://docs.rs/stdweb/">documentation</a> ) A standard library for the client-side Web</li>
+<li><strong>yew</strong> ( <a href="https://yew.rs">homepage</a> / <a href="https://github.com/yewstack/yew">repository</a> / <a href="https://docs.rs/yew/">documentation</a> ) - A frontend framework inspired by Elm and React (based on stdweb)</li>
+<li><strong>percy</strong> ( <a href="https://chinedufn.github.io/percy/">homepage</a> / <a href="https://github.com/chinedufn/percy">repository</a> / - ) - A modular toolkit for building isomorphic web apps</li>
+<li><strong>seed</strong> ( <a href="http://seed-rs.org/">homepage</a> / <a href="https://github.com/David-OConnor/seed">repository</a> / - ) - A Rust framework for creating web apps</li>
+<li><strong>draco</strong> ( - / <a href="https://github.com/utkarshkukreti/draco">repository</a> / <a href="https://docs.rs/draco/">documentation</a> ) - A frontend framework inspired by Redux and Elm</li>
+<li><strong>smithy</strong> (<a href="https://www.smithy.rs">homepage</a> - / <a href="https://github.com/rbalicki2/smithy">repository</a> / - <a href="https://docs.smithy.rs/smithy/">documentation</a> ) - A front-end framework</li>
+<li><strong>squark</strong> ( - / <a href="https://github.com/rail44/squark">repository</a> / <a href="https://docs.rs/squark">documentation</a> ) - Rust frontend framework, for web browser and more.</li>
+<li><strong>willow</strong> ( <a href="http://sindrejohansen.no/willow/">homepage</a> - / <a href="https://github.com/sindreij/willow">repository</a> / - ) - A frontend framework inspired by Elm</li>
+<li><strong>dodrio</strong> ( - / <a href="https://github.com/fitzgen/dodrio">repository</a> / <a href="https://docs.rs/dodrio/">documentation</a> ) - A fast, bump-allocated virtual DOM library.</li>
+<li><strong>dominator</strong> ( - / <a href="https://github.com/Pauan/rust-dominator">repository</a> / <a href="https://docs.rs/dominator/">documentation</a> - Zero cost declarative DOM library using FRP signals for Rust!.</li>
+<li><strong>mika</strong> ( <a href="https://limira-rs.gitlab.io/mika/">homepage</a> / <a href="https://gitlab.com/limira-rs/mika">repository</a> / - ) - A signal-based framework for building front-end app, it tries to help, but may cause annoyances.</li>
+</ul>
+</li>
+<li>Server frameworks<ul>
+<li><strong>actix-web</strong> (<a href="https://actix.rs/">homepage</a> / <a href="https://github.com/actix/actix-web">repository</a> / <a href="https://actix.github.io/actix-web/actix_web/">documentation</a> / <a href="https://actix.rs/docs/">user guide</a>)</li>
+<li><strong>gotham</strong> (<a href="http://gotham.rs/">homepage</a> / <a href="https://github.com/gotham-rs/gotham/">repository</a> / <a href="https://docs.rs/gotham/">documentation</a> / <a href="https://github.com/gotham-rs/gotham/tree/master/examples">examples</a>)</li>
+<li><strong>iron</strong> (<a href="http://ironframework.io/">homepage</a> / <a href="https://github.com/iron/iron/">repository</a> / <a href="http://ironframework.io/doc/iron/">documentation</a>)</li>
+<li><strong>nickel</strong> (<a href="http://nickel-org.github.io/">homepage</a> / <a href="https://github.com/nickel-org/nickel.rs/">repository</a> / <a href="http://nickel-org.github.io/nickel.rs">documentation</a>)</li>
+<li><strong>rocket</strong> (<a href="https://rocket.rs/">homepage</a> / <a href="https://github.com/SergioBenitez/rocket">repository</a> / <a href="https://rocket.rs/guide/">documentation</a>)</li>
+<li><strong>rouille</strong> ( - / <a href="https://github.com/tomaka/rouille">repository</a> / <a href="http://tomaka.github.io/rouille/rouille/index.html">documentation</a>)</li>
+<li><strong>Thruster</strong> ( - / <a href="https://github.com/trezm/Thruster">repository</a> / <a href="https://docs.rs/thruster">documentation</a> / <a href="https://github.com/trezm/Thruster/tree/master/examples">examples</a>)</li>
+<li><strong>Tide</strong> ( - / <a href="https://github.com/rustasync/tide">repository</a> / <a href="https://docs.rs/tide">documentation</a> / <a href="https://github.com/rustasync/tide/tree/master/examples">examples</a>)</li>
+<li><strong>tower-web</strong> ( - / <a href="https://github.com/carllerche/tower-web">repository</a> / <a href="https://docs.rs/tower-web/">documentation</a> / <a href="https://github.com/carllerche/tower-web/tree/master/examples">examples</a>)</li>
+<li><strong>warp</strong> ( - / <a href="https://github.com/seanmonstar/warp">repository</a> / <a href="https://docs.rs/warp/">documentation</a> / <a href="https://github.com/seanmonstar/warp/tree/master/examples">examples</a>)</li>
+</ul>
+</li>
+<li>Static site generators<ul>
+<li><strong>zola</strong> (<a href="https://www.getzola.org/">homepage</a> / <a href="https://github.com/getzola/zola">repository</a> / <a href="https://www.getzola.org/documentation/getting-started/installation/">documentation</a>)</li>
+</ul>
+</li>
+<li>Templating frameworks<ul>
+<li><strong>tera</strong> (<a href="https://tera.netlify.com/">homepage</a> / <a href="https://github.com/Keats/tera">repository</a> / <a href="https://docs.rs/tera/">documentation</a>)</li>
+<li><strong>mustache</strong> (- / <a href="https://github.com/nickel-org/rust-mustache">repository</a> / <a href="http://nickel-org.github.io/rust-mustache">documentation</a>)</li>
+<li><strong>liquid</strong> (- / <a href="https://github.com/cobalt-org/liquid-rust">repository</a> / - )</li>
+<li><strong>handlebars</strong> (- / <a href="https://github.com/sunng87/handlebars-rust">repository</a> / <a href="https://docs.rs/crate/handlebars/">documentation</a>)</li>
+<li><strong>horrorshow</strong> (- / <a href="https://github.com/Stebalien/horrorshow-rs">repository</a> / <a href="https://stebalien.github.io/horrorshow-rs/horrorshow/">documentation</a>)</li>
+<li><strong>maud</strong> (<a href="https://lfairy.gitbooks.io/maud/content/">homepage</a> / <a href="https://github.com/lfairy/maud">repository</a> / <a href="https://lambda.xyz/maud/maud/">documentation</a>)</li>
+<li><strong>askama</strong> (- / <a href="https://github.com/djc/askama">repository</a> / <a href="https://docs.rs/askama/">documentation</a> )</li>
+<li><strong>stpl</strong> (- / <a href="https://github.com/dpc/stpl">repository</a> / - )</li>
+<li><strong>ructe</strong> (- / <a href="https://github.com/kaj/ructe">repository</a> / <a href="https://docs.rs/ructe/">documentation</a> )</li>
+<li><strong>typed-html</strong> (- / <a href="https://github.com/bodil/typed-html">repository</a> / <a href="https://docs.rs/typed-html/">documentation</a> )</li>
+</ul>
+</li>
+<li>Websocket frameworks<ul>
+<li><strong>websocket</strong> (<a href="https://websockets-rs.github.io/rust-websocket/">homepage</a> / <a href="https://github.com/cyderize/rust-websocket">repository</a> / <a href="https://websockets-rs.github.io/rust-websocket/doc/websocket/">documentation</a>)</li>
+<li><strong>ws-rs</strong> (<a href="https://ws-rs.org">homepage</a> / <a href="https://github.com/housleyjk/ws-rs">repository</a> / <a href="https://ws-rs.org/docs">documentation</a>)</li>
+<li><strong>tungstenite</strong> ( - / <a href="https://github.com/snapview/tungstenite-rs">repository</a> / <a href="https://docs.rs/crate/tungstenite/">documentation</a>)</li>
+<li><strong>actix-web</strong> (<a href="https://actix.rs/">homepage</a> / <a href="https://github.com/actix/actix-web">repository</a> / <a href="https://actix.github.io/actix-web/actix_web/">documentation</a>)</li>
+</ul>
+</li>
+</ul>
+<p>Again, this is a bit overwhelming for a new person learning Rust. It’s difficult to know what to choose. However, it’s also a benefit having the ability to try out various solutions and see what works best.</p>
+<h3 id="learning">Learning<a class="headerlink" href="#learning" title="Permanent link">&para;</a></h3>
+<p>Similar to the Community category, learning can be quite difficult to narrow down. I have tried my best to highlight the main areas and a few examples for each category. Know that this list is non-exhaustive and more a brief survey into this area of the ecosystem.</p>
+<ul>
+<li>Articles<ul>
+<li><a href="https://gist.github.com/brson/a324c83a6af6a8a78dfaa9d33eb9b48e">A collection of notable Rust bloggers</a></li>
+<li>Each week, <a href="https://this-week-in-rust.org/blog/2020/04/14/this-week-in-rust-334/">This Week in Rust</a> shares articles</li>
+<li><a href="https://users.rust-lang.org/t/fearless-rust-bloggers/16770">Fearless Rust Bloggers</a></li>
+<li><a href="https://pascalprecht.github.io/posts/learning-rust">Learning Rust - Pascal Precht</a></li>
+<li><a href="https://readrust.net/">Read Rust</a> - Rust blog post aggregator</li>
+<li><a href="https://os.phil-opp.com/">Writing an OS in Rust</a></li>
+</ul>
+</li>
+<li>Books<ul>
+<li><a href="http://shop.oreilly.com/product/0636920040385.do">Programming Rust - O’Reilly Media</a></li>
+<li><a href="https://www.manning.com/books/rust-in-action">Rust in Action - Manning</a></li>
+</ul>
+</li>
+<li>Bootcamps<ul>
+<li>No response on <a href="https://users.rust-lang.org/t/any-bootcamps-that-teach-rust/41279">Rust users forum</a></li>
+<li>No response on <a href="https://twitter.com/jsjoeio/status/1252297374669496321">Twitter</a></li>
+<li><a href="https://www.nobleprog.com/cc/rust3d?participants=1&amp;how=public">NobleProg Rust microcourse</a></li>
+</ul>
+</li>
+<li>Classes (specifically academic, in universities)<ul>
+<li><a href="https://www.mccormick.northwestern.edu/computer-science/academics/courses/descriptions/396-496-9.html">Northwestern University</a></li>
+<li><a href="https://www.cs.umd.edu/class/spring2018/cmsc330/">Rust being taught at University of Maryland, College Park</a></li>
+<li><a href="https://cs242.stanford.edu/f19/">Stanford’s Programming Languages course dedicates 3.5 weeks to Rust</a></li>
+<li><a href="https://cs140e.sergio.bz/">Stanford’s Operating Systems course in Rust</a></li>
+<li><a href="http://cis198-2016s.github.io/schedule/">University of Pennsylvania</a></li>
+<li><a href="http://www.cs.virginia.edu/~evans/cs4414/">University of Virginia</a> (first class)</li>
+</ul>
+</li>
+<li>Tutorials<ul>
+<li><a href="https://github.com/rust-lang/rustlings">Rustlings</a> - Small exercises to get you used to reading and writing Rust code</li>
+<li><a href="https://github.com/ctjhoa/rust-learning">rust-learning</a> - detailed list of awesome learning materials</li>
+<li><a href="https://tourofrust.com/">Tour of Rust</a> - Step by step guide through the features of the Rust programming language</li>
+<li>Courses<ul>
+<li><a href="https://www.youtube.com/playlist?list=PLJbE2Yu2zumDF6BX6_RdPisRVHgzV02NW">Intro to Rust</a> - YouTube</li>
+<li><a href="https://www.youtube.com/watch?v=zF34dRivLOw">Rust Crash Course</a> - YouTube</li>
+<li><a href="https://www.youtube.com/playlist?list=PLJbE2Yu2zumDD5vy2BuSHvFZU0a6RDmgb">Rust Projects</a> - YouTube</li>
+<li><a href="https://www.udemy.com/course/rust-lang/">The Rust Programming Language</a> - Udemy</li>
+<li><a href="https://egghead.io/courses/using-webassembly-with-rust">Using Web Assembly with Rust</a> - egghead</li>
+<li><a href="https://egghead.io/courses/write-your-first-program-with-the-rust-language">Write your First Program with Rust</a> - egghead</li>
+</ul>
+</li>
+<li>Videos<ul>
+<li><a href="https://www.youtube.com/playlist?list=PLywCmJ05v3PhlDgxPAW1ryxHZJ9Tjohpi">Learning Rust</a> - two people pair-programming and going chapter by chapter through the Rust Lang Book</li>
+<li><a href="http://intorust.com/">Into_rust</a> - screencast series</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Workshops<ul>
+<li><a href="https://ferrous-systems.com/">Ferrous Systems</a> - paid workshops for companies and teams</li>
+<li><a href="https://rustbridge.com/">RustBridge</a> - an organization that is part of the official Rust group.</li>
+<li><a href="https://qconnewyork.com/ny2019/workshop/systems-programming-rust">Systems Programming with Rust</a> (at a conference)</li>
+</ul>
+</li>
+</ul>
+<h3 id="packages">Packages<a class="headerlink" href="#packages" title="Permanent link">&para;</a></h3>
+<p>One of the most important aspects of a programming language ecosystem is a way to share code with others. In the Rust ecosystem, the most common way is through packages, more commonly referred to as “crates”. Below are links to two places where you can share code (your own private registry or the public one):</p>
+<ul>
+<li><a href="https://cloudsmith.io/l/cargo-registry/">Cloudsmith</a> - create your own private cargo registry</li>
+<li><a href="https://crates.io/">crates.io</a> - “The Rust community’s crate registry”</li>
+<li><a href="https://lib.rs/">libs.rs</a> - “Fast, lightweight, opinionated, unofficial alternative to crates.io”</li>
+</ul>
+<h3 id="platforms">Platforms<a class="headerlink" href="#platforms" title="Permanent link">&para;</a></h3>
+<p>The objective for this section was to figure out where Rust code can run. What platforms or systems are people targeting or building for? We saw a few of these mentioned in the Frameworks section. Here are the most common ones I could find (and some examples):</p>
+<ul>
+<li>Browser<ul>
+<li><a href="https://rustwasm.github.io/book/reference/deploying-to-production.html">WebAssembly</a></li>
+<li><a href="https://rustwasm.github.io/wasm-bindgen/reference/deployment.html">Wasm-bindgem</a></li>
+<li><a href="https://github.com/zeit/next.js/tree/canary/examples/with-webassembly">Rust to WASM</a> + Next</li>
+</ul>
+</li>
+<li>CLI Apps<ul>
+<li><a href="https://github.com/clap-rs/clap">clap</a></li>
+<li>Build binaries for Linux, macOS and Windows</li>
+</ul>
+</li>
+<li>Embedded Devices<ul>
+<li><a href="https://www.rust-lang.org/what/embedded">https://www.rust-lang.org/what/embedded</a></li>
+</ul>
+</li>
+<li>Operating System<ul>
+<li><a href="https://os.phil-opp.com/">Writing an OS in Rust</a></li>
+</ul>
+</li>
+<li>Mobile Apps<ul>
+<li><a href="https://www.bignerdranch.com/blog/building-an-ios-app-in-rust-part-1-getting-started-with-rust/">Building an iOS App in Rust, Part 1: Getting Started with Rust</a></li>
+<li><a href="https://github.com/kennytm/rust-ios-android">Example project for building a library for iOS + Android in Rust</a></li>
+</ul>
+</li>
+<li>Server<ul>
+<li><a href="https://github.com/emk/heroku-buildpack-rust">Deploying to Heroku</a></li>
+</ul>
+</li>
+<li>Anywhere?<ul>
+<li><a href="https://blog.rust-lang.org/2015/04/24/Rust-Once-Run-Everywhere.html">Rust Once, Run Everywhere</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="selling-points">Selling Points<a class="headerlink" href="#selling-points" title="Permanent link">&para;</a></h3>
+<p>Everyone will have their favorite reasons for using one language over another. I tried to select articles related to the selling points, but also highlight features of the language brought up by people who advocate for it.</p>
+<ul>
+<li>Articles<ul>
+<li><a href="https://words.steveklabnik.com/how-often-does-rust-change">How often does Rust change?</a></li>
+<li><a href="https://www.techrepublic.com/article/rust-programming-language-seven-reasons-why-you-should-learn-it-in-2019/">Rust programming language: Seven reasons why you should learn it in 2019</a></li>
+<li><a href="https://stackoverflow.blog/2020/01/20/what-is-rust-and-why-is-it-so-popular/">What is Rust and why is it so popular?</a></li>
+<li><a href="https://medium.com/paritytech/why-rust-846fd3320d3f">Why Rust?</a></li>
+<li><a href="https://www.reddit.com/r/rust/comments/4l44z3/why_should_i_use_rust/">Why should I use Rust?</a></li>
+</ul>
+</li>
+<li>Features<ul>
+<li>Borrow checker (“<a href="https://words.steveklabnik.com/borrow-checking-escape-analysis-and-the-generational-hypothesis">Rust has a static garbage collector</a>”)</li>
+<li>Community</li>
+<li><a href="https://doc.rust-lang.org/book/ch04-00-understanding-ownership.html">Ownership model</a></li>
+<li>Package manager</li>
+<li>Performance</li>
+<li>Productivity<ul>
+<li>Excellent documentation</li>
+<li>Built-in tools (cargo, fmt, clippy)</li>
+</ul>
+</li>
+<li>Smart memory-management</li>
+<li>Type system</li>
+</ul>
+</li>
+<li>Other<ul>
+<li>Used by big companies (talk about Facebook, Microsoft, Amazon, etc.)</li>
+</ul>
+</li>
+</ul>
+<p><em>*Note: this section also piggybacks off the Use Cases section (coming up).</em></p>
+<p>Beyond this, I would encourage you to read the results from the Rust 2019 survey which asked <a href="https://blog.rust-lang.org/2020/04/17/Rust-survey-2019.html#why-not-use-rust">“Why not use Rust”</a>. Not all points relate to selling points, but it may provide insight into <em>what would</em> sell people on using Rust if these things were fixed.</p>
+<h3 id="tools">Tools<a class="headerlink" href="#tools" title="Permanent link">&para;</a></h3>
+<p>The tools used for writing and using the programming language is an aspect we sometimes forget. This affects the developer experience and can drive or hinder the ecosystem. Here are some highlights:</p>
+<ul>
+<li>Benchmarking<ul>
+<li><a href="https://bheisler.github.io/criterion.rs/book/index.html">criterion</a> - Statistics-driven Microbenchmarking</li>
+</ul>
+</li>
+<li><a href="https://doc.rust-lang.org/book/ch11-01-writing-tests.html">Built-in testing support</a></li>
+<li>Cargo<ul>
+<li>Build (macOS, Windows, Linux)</li>
+<li><a href="https://github.com/rust-lang/rust-clippy">Clippy</a></li>
+<li><a href="https://doc.rust-lang.org/rustdoc/what-is-rustdoc.html">Rustdoc</a></li>
+<li><a href="https://github.com/rust-lang/rustfmt">rustfmt</a></li>
+</ul>
+</li>
+<li>IDE support<ul>
+<li><a href="https://www.rust-lang.org/tools">https://www.rust-lang.org/tools</a></li>
+<li>Hover over documentation in editor</li>
+</ul>
+</li>
+<li><a href="https://play.rust-lang.org/">Rust Playground</a> - test code online, share with others</li>
+</ul>
+<h3 id="use-cases">Use Cases<a class="headerlink" href="#use-cases" title="Permanent link">&para;</a></h3>
+<p>Deriving some of the tops results from the <a href="https://blog.rust-lang.org/2020/04/17/Rust-survey-2019.html">Rust Survey 2019</a>, here are the main industries/applications that responded in the survey and are using Rust:</p>
+<ul>
+<li>Top 10 from survey<ul>
+<li>Backend Web Applications</li>
+<li>Distributed Systems</li>
+<li>Embedded Devices</li>
+<li>Enterprise Software</li>
+<li>Frontend Web Applications</li>
+<li>Internet of Things</li>
+<li>IT</li>
+<li>Network Programming</li>
+<li>Security</li>
+<li>Technology</li>
+</ul>
+</li>
+<li>Other<ul>
+<li>Blockchain (<a href="https://github.com/libra/libra">Libra</a> <a href="https://developers.libra.org/docs/move-overview">Move</a>) <a href="https://github.com/solana-labs/solana">Solana</a></li>
+<li><a href="https://github.com/denoland/deno">Deno</a> - <a href="https://www.zdnet.com/article/deno-1-0-node-js-makers-have-new-javascript-runtime-for-typescript-programming-language/">uses JavaScript engine written in Rust</a><ul>
+<li><a href="https://deno.land/v1">1.0 Announcement</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="summary">Summary<a class="headerlink" href="#summary" title="Permanent link">&para;</a></h2>
+<p>Reflecting on what we have covered thus far, we can see that the Rust ecosystem is well-developed and growing. This is not a conclusive/comprehensive list of the ecosystem or the companies using it. From my knowledge, Rust is used at big companies such as Amazon, Apple, Microsoft and Google. They are all investing in the language. We’ve covered the ecosystem from a bird’s-eye view as we see it today. Here are the main things to walk away with:</p>
+<ul>
+<li>Overview<ul>
+<li>The community is ubiquitous both online and in-person</li>
+<li>There is no shortage of books or references to read from the official Rust groups</li>
+<li>Rust can be used for writing web, mobile, and CLI apps, servers embedded devices, and OS’s</li>
+<li>Rust is fast, well-documented, type-safe, manages memory efficiently, but has a steep learning curve</li>
+</ul>
+</li>
+</ul>
+<h3 id="whats-next">What’s next?<a class="headerlink" href="#whats-next" title="Permanent link">&para;</a></h3>
+<p>We plan to use this information when making decisions and building strategies for us to get involved with the Rust ecosystem. If you’d like to collaborate with us, please reach out to me over <a href="https://twitter.com/jsjoeio">DMs on Twitter</a>! We would love to work with you. Thank you for reading!</p>
+<h3 id="thank-you">Thank you<a class="headerlink" href="#thank-you" title="Permanent link">&para;</a></h3>
+<p>To close out, I’d like to give thanks to the following people for their contributions and feedback. I appreciate all of you!</p>
+<ul>
+<li>David Tolnay</li>
+<li>Pedro Rittner</li>
+<li>Jk Jensen</li>
+<li>Joe Savona</li>
+<li>Nell Shamrell-Harrington</li>
+<li>Lauren Tan</li>
+<li>Kathy Kam</li>
+<li>Cami Williams</li>
+<li>Joel Marcey</li>
+</ul>
+<h2 id="join-the-newsletter">Join the Newsletter<a class="headerlink" href="#join-the-newsletter" title="Permanent link">&para;</a></h2>
+<p>I send a monthly newsletter with 1 exciting thing, 1 helpful thing, and new jobs.</p>
+<p>Email*</p>
+<p>By subscribing, you agree with Revue’s Terms of Service</p>
+<p>©2022 Joe Previte</p>
+
+              
+            </article>
+          </div>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    <a href="https://twitter.com/arman_riazi_science" target="_blank" rel="noopener" title="ArmanRiazi on Twitter" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+    </a>
+  
+    
+    
+      
+      
+    
+    <a href="https://github.com/armanriazi" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+    </a>
+  
+    
+    
+      
+      
+    
+    <a href="https://linkedin.com/in/armanriazi" target="_blank" rel="noopener" title="linkedin.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "../../../..", "features": ["search.suggest", "search.highlight", "search.share", "announce.dismiss", "content.tooltips", "content.code.annotate", "header.autohide", "navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "navigation.expand", "toc.follow"], "search": "../../../../assets/javascripts/workers/search.2a1c317c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    
+      <script src="../../../../assets/javascripts/bundle.6e54b5cd.min.js"></script>
+      
+        <script src="../../../../assets/javascripts/mkdocs-extra.js"></script>
+      
+        <script src="../../../../assets/javascripts/feedback.js"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>
