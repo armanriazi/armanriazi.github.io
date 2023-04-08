@@ -4,6 +4,7 @@
 | Expert | Priod  | By | Supported By   | Inquiry | Documents 
 |:-----------:|:-----:|:-------------:|:----------------|:------------|:---------------------|
 | Become-A-Rust-Professional    | 138H       |  educative.io/profile/view/5215295720652800    | educative.io  | [1](https://www.educative.io/verify-certificate/1j8yMXCBKBYmXmK2GHOEA9mnpKwPUp), [2](https://www.educative.io/verify-certificate/QApPNYA64r2clVE5XBNYJGHQ2OZGYMKj7T9), [3](https://www.educative.io/verify-certificate/585DM2txV56KZx8NxulL9K43ywJquq), [4](https://www.educative.io/verify-certificate/Y6GKZ1ijpWw4oDO1XhjWwo2K9x18TJ)    | [Boundled](https://cutt.ly/armanriazi-rust-pro-educative)    |
+| Substrate-For-Analog(Rust, Java General Code)  | Hands-On Lab |  Karat  | Karat, TripleByte | [1](https://triplebyte.com/tb/arman-riazi-h4icoca) | [G](https://drive.google.com/file/d/1aC-Jpgd0j5wyn5QDDnOi6aGcfEe2TtkZ/view)     |
 
 ## Rust-Language
 

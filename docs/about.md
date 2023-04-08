@@ -182,6 +182,6 @@ author: "Arman Riazi"
 
 >
 
-* [Join to our github-organization): 0xde5D732a5AB44832E1c69b18be30834639F44A2c](https://github.com/AramisTech)
+* [(Join to our github-organization): 0xde5D732a5AB44832E1c69b18be30834639F44A2c](https://github.com/AramisTech)
 
 >
