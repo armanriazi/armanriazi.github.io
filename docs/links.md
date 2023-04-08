@@ -76,7 +76,9 @@ permalink: /links
 
 * [Alison](https://alison.com/profile/public/28845085)
 
-* [Triplebyte-Job](https://triplebyte.com/tb/arman-riazi-h4icoca)
+* [LeetCode](https://leetcode.com/armanriazi)
+
+* [Triplebyte-prev-website-archived2023march](https://triplebyte.com/tb/arman-riazi-h4icoca)
 
 <!-- 
 #### Personal WebSite(Archived)
