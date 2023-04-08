@@ -58,7 +58,7 @@ author: "Arman Riazi"
 
 | Exprt | Prd  |  MyPriority | Desc
 |:----------:|:-------------:|:---------------:|:---------------|
-| Rust-Lang      | 1.6Y       |  :material-check-all::material-check:        |      Fantastic, complex language for decentralized/distributed     |
+| Rust-Lang      | 2Y       |  :material-check-all::material-check:        |      Fantastic, complex language for decentralized/distributed     |
 | Substrate     |  2 M           |       :material-check-all::material-check:          |        Awsome work of 🙏Dr.Gavin and parity.io community        |
 | Polkadot & Kusuma        |      1 M     |        :material-check-all::material-check:          |       Crowdloan, tokenization💲, parachain and parathreads         |
 | Blockchain Research       |      2 Y        |        :material-check-all::material-check:          |        It is always included in my routine activity during a day        |
@@ -158,12 +158,30 @@ author: "Arman Riazi"
 
 > Personal interests Footbal, Running, Body-Building, Motorcycles and Reading Books.
 
-> Live Concert and [Music Video-Magazine](fun.md)
+[LiveConcert-Magazine(Entertainment)](fun.md)
+
 
 ## Call Me-Preferred Channels
 
-[Contact Me](social.md)
+[Contact Me](links.md)
 
 ## Support Me/Sponsership
+> You could be a sponsor on each of my repositories on GitHub.
+>
+> It is for you to take an advantage of services and code.
 
-<a href="https://armanriyazi.github.io/">MetaMask(MultiNet): 0xde5D732a5AB44832E1c69b18be30834639F44A2c</a>
+* [liberapay-Github Sponsership](https://liberapay.com/armanriazi)
+
+>
+
+* [MetaMask(MultiNet): 0xde5D732a5AB44832E1c69b18be30834639F44A2c](https://armanriyazi.github.io)
+
+>
+
+* [Sponsor me on github](https://github.com/sponsors/armanriazi)
+
+>
+
+* [Join to our github-organization): 0xde5D732a5AB44832E1c69b18be30834639F44A2c](https://github.com/AramisTech)
+
+>

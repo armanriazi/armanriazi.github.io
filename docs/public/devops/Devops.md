@@ -5,6 +5,15 @@ tags:
 
 # DevOps
 
+## Certificate 2023
+
+| Expert | Priod  | By | Supported By   | Inquiry | Documents 
+|:--------------------------------------:|:-------:|:---------------:|:-------------------|:------------|:--------------|
+| DevOps For Developers    | 50H       |  educative.io/profile/view/5215295720652800   | educative.io  |   Redirect   | [Link](https://cutt.ly/armanriazi-devops-for-dev-educative)     |
+
+---
+
+
 [Kubernetes](Kubernetes.md)
 
 [Rancher](Rancher.md)

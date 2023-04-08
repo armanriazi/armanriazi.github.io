@@ -19,9 +19,8 @@ hide:
 >  I always would been liked to create a knowledge based for myself and then share it.
 >  The philosophy of creating this page is to solve this issue.
 
-> **[Video Guide-Website](public/other/guide-website.md)**
-> Through to my experiences. 
-**[Main Menu](public/public.md)**
+> **[Optional View:Guide-Website](public/other/guide-website.md)**
+> Through to my experiences. **[Main Menu](public/public.md)**
 
 
 ![Welcome!HelloWorld!](assets/attachments/graph.jpg){ loading=lazy }
