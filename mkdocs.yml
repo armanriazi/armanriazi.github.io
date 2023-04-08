@@ -90,7 +90,7 @@ markdown_extensions:
   - pymdownx.magiclink:
       repo_url_shorthand: true
       user: armanriazi
-      repo: mkdocs-material
+      repo: armanriazi.github.io
   - pymdownx.mark
   - pymdownx.smartsymbols
   - pymdownx.superfences:
@@ -124,4 +124,15 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/armanriazi
     - icon: fontawesome/brands/linkedin
-      link: https://linkedin.com/in/armanriazi
+      link: https://linkedin.com/in/armanriazi            
+analytics:
+  provider: google
+  property: G-S8E1J4V9C3
+  feedback:
+    title: Was this page helpful?
+    ratings:
+      - icon: material/emoticon-happy-outline
+        name: This page was helpful  
+        note: >- 
+          copyright: Copyright &copy; 2023 Arman Riazi
+          generator: false
