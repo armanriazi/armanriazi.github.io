@@ -3,7 +3,7 @@ echo "Enter your message"
 read message
 #echo 'Enter the name of the branch:'
 #read branch
-git add .
+git add --all
 git commit -m "${message}"
 
 #if [ -n "$(git status - porcelain)" ];
