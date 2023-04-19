@@ -12,6 +12,6 @@ git commit -m "${message}"
 #else
 #
 
- echo "Pushing data to remote server!!!"
+# echo "Pushing data to remote server!!!"
 
  git push -u origin maser
