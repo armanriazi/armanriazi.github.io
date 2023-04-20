@@ -18,7 +18,7 @@ tags:
 
 ## Academic degree
 
-> Inquiry and documents with score details [Master-License](https://armanriazi.github.io/site/public/university/master-license/)
+> Inquiry and documents with score details [Master-License](https://armanriazi.github.io/public/university/master-license/)
 
 ---
 

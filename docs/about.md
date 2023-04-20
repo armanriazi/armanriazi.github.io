@@ -172,16 +172,11 @@ author: "Arman Riazi"
 
 * [liberapay-Github Sponsership](https://liberapay.com/armanriazi)
 
->
 
-* [MetaMask(MultiNet): 0xde5D732a5AB44832E1c69b18be30834639F44A2c](https://armanriyazi.github.io)
-
->
-
-* [Sponsor me on github](https://github.com/sponsors/armanriazi)
+* [Sponsor a repository for you on the Github](https://github.com/sponsors/armanriazi)
 
 >
 
-* [(Join to our github-organization): 0xde5D732a5AB44832E1c69b18be30834639F44A2c](https://github.com/AramisTech)
+* [(Join to our Organization Github): 0xde5D732a5AB44832E1c69b18be30834639F44A2c](https://github.com/AramisTech)
 
 >

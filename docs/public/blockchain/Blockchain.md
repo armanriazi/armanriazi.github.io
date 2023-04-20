@@ -14,20 +14,20 @@ title: "Arman Riazi"
 ## Blockchain
 <details>
 <summary>Blockchain 4.0</summary>
-<img src="https://armanriazi.github.io/site/assets/attachments/Blockchain4.JPG" width="650" height="650" />
+<img src="https://armanriazi.github.io/assets/attachments/Blockchain4.JPG" width="650" height="650" />
 </details>
 <details>
 <summary>Blockchain Canvas</summary>
-<img src="https://armanriazi.github.io/site/assets/attachments/Blockchain-Canvas.jpg" width="650" height="650" />
+<img src="https://armanriazi.github.io/assets/attachments/Blockchain-Canvas.jpg" width="650" height="650" />
 </details>
 <details>
 <summary>Blockchain Taxonomy</summary>
-<img src="https://armanriazi.github.io/site/assets/attachments/Blockchain-Taxonomy.JPG" width="650" height="650" />
-<img src="https://armanriazi.github.io/site/assets/attachments/taxonomy2.JPG" width="650" height="650" />
+<img src="https://armanriazi.github.io/assets/attachments/Blockchain-Taxonomy.JPG" width="650" height="650" />
+<img src="https://armanriazi.github.io/assets/attachments/taxonomy2.JPG" width="650" height="650" />
 </details>
 <details>
 <summary>Blockchain Stack</summary>
-<img src="https://armanriazi.github.io/site/assets/attachments/BlockchainStack.JPG"width="650" height="650" />
+<img src="https://armanriazi.github.io/assets/attachments/BlockchainStack.JPG"width="650" height="650" />
 </details>
 <details>
 <summary>Substrate MindMapping</summary>
@@ -37,7 +37,7 @@ title: "Arman Riazi"
 <p> To Email Address </p>
 <p>armanriyazi.github.io@gmail.com</p>
 
-<img src="https://armanriazi.github.io/site/assets/attachments/substrate-minmap.jpg"width="650" height="650" />
+<img src="https://armanriazi.github.io/assets/attachments/substrate-minmap.jpg"width="650" height="650" />
 </details>   
 
 ---

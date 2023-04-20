@@ -9,7 +9,10 @@ layout: page
 permalink: /links
 ---
 
-[TOC]
+
+#### Forms
+
+* [Help your company-Business Questioner](./forms.md)
 
 #### Developer
 
@@ -78,7 +81,10 @@ permalink: /links
 
 * [LeetCode](https://leetcode.com/armanriazi)
 
+
+<!-- 
 * [Triplebyte-prev-website-archived2023march](https://triplebyte.com/tb/arman-riazi-h4icoca)
+-->
 
 <!-- 
 #### Personal WebSite(Archived)
@@ -141,7 +147,7 @@ To set schedule meeting
 
 >
 
-* [MetaMask(MultiNet): 0xde5D732a5AB44832E1c69b18be30834639F44A2c](https://armanriyazi.github.io)
+* [MetaMask(MultiNet): 0xde5D732a5AB44832E1c69b18be30834639F44A2c](https://armanriazi.github.io/)
 
 >
 

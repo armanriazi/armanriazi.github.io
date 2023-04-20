@@ -26,4 +26,4 @@
 | Rust-all-in-one     | Private-Repo-Collection of best practices 6 Books + my self-MDBook       |  4M   | [Rust-Scratch-Blockchain](https://github.com/armanriazi/rust-all-in-one-projects)  | 
 | Armanriazi-awesome-rust     | Pure Rust       |  1Y   | [Rust-Scratch-Blockchain](https://github.com/armanriazi/armanriazi-awesome-rust)  | 
 
-> To watch another projects take a look at [Programming](https://armanriazi.github.io/site/public/programming/programming/) and [Github](https://github.com/armanriazi)
+> To watch another projects take a look at [Programming](https://armanriazi.github.io/public/programming/programming/) and [Github](https://github.com/armanriazi)

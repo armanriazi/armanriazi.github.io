@@ -388,9 +388,9 @@ Purge the development chain's state:
 [cloudflare-ipfs](https://cloudflare-ipfs.com/ipns/dotapps.io/#/explorer)
 
 
-![Node Setup -Run Command And UI 1](https://armanriazi.github.io/site/assets/attachments/node-setup1.JPG)
-![Node Setup -Run Command And UI 2](https://armanriazi.github.io/site/assets/attachments/node-setup3.JPG)
-![Node Setup -Run Command And UI 3](https://armanriazi.github.io/site/assets/attachments/node-setup4.JPG)
+![Node Setup -Run Command And UI 1](https://armanriazi.github.io/assets/attachments/node-setup1.JPG)
+![Node Setup -Run Command And UI 2](https://armanriazi.github.io/assets/attachments/node-setup3.JPG)
+![Node Setup -Run Command And UI 3](https://armanriazi.github.io/assets/attachments/node-setup4.JPG)
 
 
 ```
