@@ -150,12 +150,12 @@ extra:
       title: Was this page helpful?
       ratings:
         - icon: material/thumb-up-outline
-          name: This page was helpful
+          name: This_page_was_helpful
           data: 1
           note: >-
             Thanks for your feedback!
         - icon: material/thumb-down-outline
-          name: This page could be improved
+          name: This_page_could_be_improved
           data: 0
           note: >- 
             Thanks for your feedback! Help us improve this page by
