@@ -20,6 +20,10 @@ layout: page
 author: "Arman Riazi"
 ---
 
-### Contact Me
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScaF3PRtsz5YbQYIUKoITOFXMOFJOV3m_O2wPRBWtp95REAMg/viewform?embedded=true" width="640" height="2882" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
+#### Questioner
+
+* [Help yourCompany/Yourself/Me](./forms/blockchain_form.md)
+
+* [WebSite Feedback](./forms/feedback_form.md)

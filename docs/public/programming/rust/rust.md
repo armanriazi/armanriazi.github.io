@@ -1,3 +1,15 @@
+---
+keywords:   armanriazi ArmanRiazi Github Rust Developer Programming
+title: "Arman Riazi"
+author: "Arman Riazi"
+search:
+  exclude: false
+type:  Rust
+feature:  Rust
+keywords:  github armanriazi programming rust
+author: "Arman Riazi"
+title: "Arman Riazi"
+---
 
 ## Certificate 2023
 

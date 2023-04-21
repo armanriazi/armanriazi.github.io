@@ -10,10 +10,6 @@ permalink: /links
 ---
 
 
-#### Forms
-
-* [Help your company-Business Questioner](./forms.md)
-
 #### Developer
 
 * [Github](http://github.com/armanriazi)

@@ -9,6 +9,8 @@ feature:  Blockchain
 keywords:  github armanriazi Polkadot Kusama Substrate Rust
 author: "Arman Riazi"
 title: "Arman Riazi"
+show:
+  - feedback
 ---
 
 ## Blockchain
