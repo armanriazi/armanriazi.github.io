@@ -14,4 +14,4 @@ git commit -m "${message}"
 
 # echo "Pushing data to remote server!!!"
 
- git push  origin maser
+ git push  origin master
