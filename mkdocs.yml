@@ -132,8 +132,7 @@ markdown_extensions:
 plugins:
   - tags:
      tags_file: tags.md
-  - search
-  - exclude-search        
+  - search  
   - social
   - glightbox
 extra_css:
