@@ -10,7 +10,7 @@ permalink: /links
 ---
 
 
-#### Developer
+#### Development
 
 * [Github](http://github.com/armanriazi)
 
@@ -43,6 +43,14 @@ permalink: /links
 
 * [RemoteHub](https://www.remotehub.com/armanriazi)
 
+#### Start Up
+
+* [Producthunt](https://www.producthunt.com/@armanriazi)
+
+#### Mentoring
+
+* [Nachhilfeunterricht](https://www.nachhilfeunterricht.de/bewertung/arman-riazi)
+  
 #### MultiMedia
 
 * [Youtube Channel Blockchain](https://www.youtube.com/channel/UC4DbYxk3q_6MPNNpHa-C7ag)
@@ -51,7 +59,7 @@ permalink: /links
 
 * [Aparat Channel](https://aparat.ir/armanriazi)
 
-#### Papers
+#### Science, Papers
 
 * [ArmanRiazi-Doc](https://github.com/armanriazi/Documents)
 
@@ -66,6 +74,9 @@ permalink: /links
 * [Ecency](https://ecency.com/@arman-riazi)
 
 * [Repo-Doc-Blockchain](https://github.com/armanriazi/Doc-Blockchain)
+
+* [Web Of Science](https://www.webofscience.com/wos/author/record/HMD-2276-2023)
+
 
 #### Learning Profiles
 

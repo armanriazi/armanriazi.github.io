@@ -15,16 +15,10 @@ search:
 type:  About
 keywords:  About armanriazi Social-Contact 
 feature:  Social
-title: "Reach Me"
+title: "Contact me"
 layout: page
 author: "Arman Riazi"
 ---
 
 
-* [Help yourCompany/Yourself/Me](./forms/blockchain_form.md)
-
-* [WebSite Feedback](./forms/feedback_form.md)
-
-* [Contact Form](./forms/contact_form.md)
-
-* [Startup Form](./forms/startup_form.md)
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScozyaDFFV-i1wBY41BD1-Jepva4H-KCrtPwWzFRnK1c1VY2Q/viewform?embedded=true" width="700" height="959" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
