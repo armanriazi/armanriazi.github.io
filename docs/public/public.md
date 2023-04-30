@@ -23,8 +23,6 @@
 
 * [RoadMap](other/roadmap.md)
 
-* [Entertainment](../fun.md)
-
 * [Other Links](other/main.md)
 
 * [Preferred Films Of Website](myvideos.md)
