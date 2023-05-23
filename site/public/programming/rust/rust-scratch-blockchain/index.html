@@ -1,0 +1,1954 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      <link rel="icon" href="../../../../assets/attachments/favicon.ico">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.1.6">
+    
+    
+      
+        <title>Rust scratch blockchain - Arman Riazi</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../assets/stylesheets/main.ded33207.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../../assets/stylesheets/palette.a0c5b2b5.min.css">
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../assets/css/mkdocs-extra.css">
+    
+    <script>__md_scope=new URL("../../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+
+  <script id="__analytics">function __md_analytics(){function n(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],n("js",new Date),n("config","G-ZE57CFGDDV"),document.addEventListener("DOMContentLoaded",function(){document.forms.search&&document.forms.search.query.addEventListener("blur",function(){this.value&&n("event","search",{search_term:this.value})}),document$.subscribe(function(){var a=document.forms.feedback;if(void 0!==a)for(var e of a.querySelectorAll("[type=submit]"))e.addEventListener("click",function(e){e.preventDefault();var t=document.location.pathname,e=this.getAttribute("data-md-value");n("event","feedback",{page:t,data:e}),a.firstElementChild.disabled=!0;e=a.querySelector(".md-feedback__note [data-md-value='"+e+"']");e&&(e.hidden=!1)}),a.hidden=!1}),location$.subscribe(function(e){n("config","G-ZE57CFGDDV",{page_path:e.pathname})})});var e=document.createElement("script");e.async=!0,e.src="https://www.googletagmanager.com/gtag/js?id=G-ZE57CFGDDV",document.getElementById("__analytics").insertAdjacentElement("afterEnd",e)}</script>
+
+  
+    <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
+  
+
+    
+    
+      
+        <meta  property="og:type"  content="website" >
+      
+        <meta  property="og:title"  content="Rust scratch blockchain - Arman Riazi" >
+      
+        <meta  property="og:description"  content="None" >
+      
+        <meta  property="og:image"  content="./assets/images/social/public/programming/rust/rust-scratch-blockchain.png" >
+      
+        <meta  property="og:image:type"  content="image/png" >
+      
+        <meta  property="og:image:width"  content="1200" >
+      
+        <meta  property="og:image:height"  content="630" >
+      
+        <meta  property="og:url"  content="None" >
+      
+        <meta  name="twitter:card"  content="summary_large_image" >
+      
+        <meta  name="twitter:title"  content="Rust scratch blockchain - Arman Riazi" >
+      
+        <meta  name="twitter:description"  content="None" >
+      
+        <meta  name="twitter:image"  content="./assets/images/social/public/programming/rust/rust-scratch-blockchain.png" >
+      
+    
+    
+   <link href="../../../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+        html.glightbox-open { overflow: initial; height: 100%; }
+        .gslide-title { margin-top: 0px; user-select: text; }
+        .gslide-desc { color: #666; user-select: text; }
+        .gslide-image img { background: white; }
+        
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}
+            </style> <script src="../../../../assets/javascripts/glightbox.min.js"></script></head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="purple">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#welcome-to-the-home-blockchain-of-rustaceans" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="https://armanriazi.github.io/" title="Arman Riazi" class="md-header__button md-logo" aria-label="Arman Riazi" data-md-component="logo">
+      
+  <img src="../../../../assets/attachments/me.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Arman Riazi
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Rust scratch blockchain
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="purple"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+            </label>
+          
+        
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="lime"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3Z"/></svg>
+            </label>
+          
+        
+      </form>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7 0-.24-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91 1.61 0 2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08Z"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/armanriazi/armanriazi.github.io" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../.." class="md-tabs__link">
+        Home
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../blockchain/Blockchain/" class="md-tabs__link">
+        Blockchain
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../public/" class="md-tabs__link">
+        Walk-through
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../../achievements/" class="md-tabs__link">
+        Achievements
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../../services/" class="md-tabs__link">
+        Services
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../../tags/" class="md-tabs__link">
+        Tags
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../../forms/" class="md-tabs__link">
+        Forms
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../../links/" class="md-tabs__link">
+        Links
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../../about/" class="md-tabs__link">
+        About
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="https://armanriazi.github.io/" title="Arman Riazi" class="md-nav__button md-logo" aria-label="Arman Riazi" data-md-component="logo">
+      
+  <img src="../../../../assets/attachments/me.png" alt="logo">
+
+    </a>
+    Arman Riazi
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/armanriazi/armanriazi.github.io" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+        
+      
+      <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_1" >
+      
+      
+        
+          
+            
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../../..">Home</a>
+          
+            <label for="__nav_1">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_1">
+          <span class="md-nav__icon md-icon"></span>
+          Home
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../public/" class="md-nav__link">
+        Walk-through
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+        
+      
+      <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+      
+      
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+          Blockchain
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Blockchain
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../blockchain/Blockchain/" class="md-nav__link">
+        Blockchain
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+        
+      
+      <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+      
+      
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+          Walk-through
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Walk-through
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../public/" class="md-nav__link">
+        Walk-through
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+        
+      
+      <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+      
+      
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+          Achievements
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Achievements
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../achievements/" class="md-nav__link">
+        Achievements
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+        
+      
+      <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+      
+      
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+          Services
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Services
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../services/" class="md-nav__link">
+        Services
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+        
+      
+      <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6" >
+      
+      
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+          Tags
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          Tags
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../tags/" class="md-nav__link">
+        Tags
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+        
+      
+      <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7" >
+      
+      
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+          Forms
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_7">
+          <span class="md-nav__icon md-icon"></span>
+          Forms
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../forms/" class="md-nav__link">
+        Forms
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+        
+      
+      <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_8" >
+      
+      
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+          Links
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_8">
+          <span class="md-nav__icon md-icon"></span>
+          Links
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../links/" class="md-nav__link">
+        Links
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+        
+      
+      <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_9" >
+      
+      
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+          About
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_9">
+          <span class="md-nav__icon md-icon"></span>
+          About
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../about/" class="md-nav__link">
+        About
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+  
+
+
+
+  
+  
+
+
+<h2 id="welcome-to-the-home-blockchain-of-rustaceans">Welcome To The Home Blockchain Of 🦀Rustaceans<a class="headerlink" href="#welcome-to-the-home-blockchain-of-rustaceans" title="Permanent link">&para;</a></h2>
+<blockquote>
+<p>The repo is a <strong>prerequisite of the Substrate-Framework</strong> and it would be nicer to practice too.</p>
+<p>The repo is included Rust syntax, configuration and the goal of creating scratch codes like one is becuase of providing <strong>testbed environment of Blockchain</strong>.</p>
+<p>The Next reason is to using some <strong>features of Rust-Lang</strong> that I had wanted to implement it after learning Rust.</p>
+<p>Used json in the main runner of the project so that consume <strong>json</strong> transactions as a <strong>offchain</strong> blockchain.</p>
+<p>As you follow materials you can see (future work) which means you can add these concepts to the project. I have some <strong>idea</strong> that you can affort on it to completing future works.</p>
+<p><em>Smart Contracts, MultiSignature, RPC, Make A Better CLI, and something that you can implementing</em> (Do not worry sice most of your works will merge to main branch. We will not create a framework or complete Blockchain because we just need to <strong>learning</strong> more and used it use-cases)</p>
+</blockquote>
+<h3 id="the-difference-between-the-current-work-and-the-prev-works">The difference between the current work and the prev works<a class="headerlink" href="#the-difference-between-the-current-work-and-the-prev-works" title="Permanent link">&para;</a></h3>
+<blockquote>
+<p>I have tried to use fundamental concepts correctly, for example, all of us know any block have not any copy so because of it we are calling blockchain! Unlike many repositories on GitHub(testbed/scratched projects-non productive) that almost use Copy/Clone features of Rust-Lang.  In the following, there are some features that cause a different project.</p>
+<p>Currently Status: Under Refactoring</p>
+</blockquote>
+<h3 id="how-to-contribute-easy">How To Contribute <a href="https://github.com/armanriazi/armanriazi/blob/main/HowToContribute.md">Easy</a><a class="headerlink" href="#how-to-contribute-easy" title="Permanent link">&para;</a></h3>
+<p><a href="https://armanriazi.github.io/public/programming/rust/rust/">[Rust 2021 A Scratch Blockchain-1]</a>
+<a href="https://youtu.be/hiYHzmqn6MY">Youtube-Rust 2021 A Scratch Blockchain-1</a></p>
+<blockquote></blockquote>
+<p><a href="https://armanriazi.github.io/public/programming/rust/rust/">Rust 2021 A Scratch Blockchain-2</a>
+<a href="https://youtu.be/gK0dFhtbB-M">Youtube-Rust 2021 A Scratch Blockchain-2</a></p>
+<h3 id="instructions-for-working-with">Instructions for working with<a class="headerlink" href="#instructions-for-working-with" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>DIFFICULTY={difficulty} cargo {mode} {file name}
+</code></pre></div>
+<blockquote>
+<p>{difficulty}: (optional-key-env) value default 0x00ffffffffffffffffffffffffffffff.It must be 32 byte.</p>
+<p>{mode}: macro, string, file/ default mode is on the macrojson mode.</p>
+<blockquote>
+<p>{macro, string} there is in project and you can not access or manipulate except by getting the project. serde_json support string and macro based on called library.
+{file} json file is external .json file that you can set it for command line</p>
+</blockquote>
+<p>{file name} index directory of the project sample-bolocks.json</p>
+<p>Example: </p>
+</blockquote>
+<p><div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>cargo build
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>DIFFICULTY=0x00000fffffffffffffffffffffffffff time cargo run file sample-bolocks.json
+<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>DIFFICULTY=0x00000fffffffffffffffffffffffffff time cargo run macrojson
+<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>DIFFICULTY=0x00000fffffffffffffffffffffffffff time cargo run stringjson
+<a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a>time cargo run
+<a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a>cargo watch -x run
+</code></pre></div>
+<em>Using time and watch is optional and depends on your purpose</em></p>
+<h3 id="features">Features<a class="headerlink" href="#features" title="Permanent link">&para;</a></h3>
+<ul>
+<li>
+<p>[✓] Modular</p>
+</li>
+<li>
+<p>[✓] UnitTest(semi:future work)</p>
+</li>
+<li>
+<p>[✓] Customized Error Handling</p>
+</li>
+<li>
+<p>[✓] Json &amp; String Data Deserialized</p>
+</li>
+<li>
+<p>[✓] Closure(Functional Programming)</p>
+</li>
+<li>
+<p>[✓] Cryptography-Hashing Alogrithm SHA-256</p>
+</li>
+<li>
+<p>[✓] Configuration Files(semi- devOps)</p>
+</li>
+</ul>
+<h3 id="used-concepts">Used Concepts<a class="headerlink" href="#used-concepts" title="Permanent link">&para;</a></h3>
+<h4 id="-memoizationlazyevaluation">- [✓] Memoization•Lazy•Evaluation<a class="headerlink" href="#-memoizationlazyevaluation" title="Permanent link">&para;</a></h4>
+<blockquote>
+<p>We can create a struct that will hold the closure and the resulting value of calling the closure.</p>
+<p>The struct will execute the closure only if we need the resulting value, and it will cache the resulting value so the rest of our code doesn’t have to be responsible for saving and reusing the result.</p>
+<p>FnOnce consumes the variables it captures from its enclosing scope, known as the closure’s environment. To consume the captured variables, the closure must take ownership of these variables and move them into the closure when it is defined.
+The Once part of the name represents the fact that the closure can’t take ownership of the same variables more than once, so it can be called only once.</p>
+<p>FnMut can change the environment because it mutably borrows values.</p>
+<p>Fn borrows values from the environment immutably. FnOnce: takes the whole value. FnMut: takes a mutable reference. Fn: takes a regular reference.</p>
+</blockquote>
+<h4 id="-coercion">- [✓] Coercion<a class="headerlink" href="#-coercion" title="Permanent link">&para;</a></h4>
+<blockquote>
+<p>Deref coercion is a convenience that Rust performs on arguments to functions and methods. Deref coercion works only on types that implement the Deref trait. Deref coercion converts such a type into a reference to another type. For example, deref coercion can convert &amp;String to &amp;str because String implements the Deref trait such that it returns &amp;str.</p>
+<p>The number of times that Deref::deref needs to be inserted is resolved at compile time, so there is no runtime penalty for taking advantage of deref coercion!
+Similar to how you use the Deref trait to override the * operator on immutable references, you can use the DerefMut trait to override the * operator on mutable references.the Drop trait is almost always used when implementing a smart pointer. For example, when a Box<T> is dropped it will deallocate the space on the heap that the box points to.</p>
+<p>Note that we didn’t need to call the drop method explicitly.</p>
+</blockquote>
+<h4 id="-dstorunsizedtype">- [✓] DST•Or•Unsizedtype<a class="headerlink" href="#-dstorunsizedtype" title="Permanent link">&para;</a></h4>
+<blockquote>
+<p>DSTs or unsized types': str(but not &amp;str-So although a &amp;T is a single value that stores the memory address of where the T is located, a &amp;str is two values: the address of the str and its length. Rust has a particular trait called the Sized trait to determine whether or not a type’s size is known at compile time. This trait is automatically implemented for everything whose size is known at compile time. In addition, Rust implicitly adds a bound on Sized to every generic function. </p>
+</blockquote>
+<h4 id="-operation">- [✓] Operation<a class="headerlink" href="#-operation" title="Permanent link">&para;</a></h4>
+<div class="highlight"><pre><span></span><code>-&gt; Methods are functions that are coupled to some object.
+</code></pre></div>
+<blockquote>
+<p>From a syntactic point of view, these are just functions that don’t need to specify one of their arguments. Rather than calling open() and passing a File object in as an argument (read(f, buffer)), methods allow the main object to be implicit in the function call (f.read(buffer)) using the dot operator.</p>
+<p>There are a number of theoretical differences between methods and functions, but a detailed discussion of those computer science topics is available in other books. Briefly, functions are regarded as pure, meaning their behavior is determined solely by their arguments. Methods are inherently impure, given that one of their arguments is effectively a side effect. These are muddy waters, though. Functions are perfectly capable of acting on side effects themselves. Moreover, methods are implemented with functions. And, to add an exception to an exception, objects sometimes implement static methods, which do not include implicit arguments.
+To define methods, Rust programmers use an impl block</p>
+</blockquote>
+<h4 id="-borrowchecker">- [✓] Borrowchecker<a class="headerlink" href="#-borrowchecker" title="Permanent link">&para;</a></h4>
+<blockquote>
+<p>The borrow checker checks that all access to data is legal, which allows Rust to prevent safety issues. Learning how this works will, at the very least, speed up your development time by helping you avoid run-ins with the compiler. More significantly though, learning to work with the borrow checker allows you to build larger software systems with confidence. It underpins the term fearless concurrency.</p>
+</blockquote>
+<h4 id="-borrowcheckerlifetime">- [✓] Borrowchecker•Lifetime<a class="headerlink" href="#-borrowcheckerlifetime" title="Permanent link">&para;</a></h4>
+<div class="highlight"><pre><span></span><code>-&gt; Lifetime=Timetolive=Subset of their scope
+</code></pre></div>
+<blockquote>
+<p>Make hypotheses about whether or not your experiments will pass the borrow checker before you compile reference in Rust has a lifetime, which is the scope for which that reference is valid. Most of the time, lifetimes are implicit and inferred, just like most of the time, types are inferred. We must annotate types when multiple types are possible. In a similar way, we must annotate lifetimes when the lifetimes of references could be related in a few different ways.</p>
+<p>The main aim of lifetimes is to prevent dangling references, which cause a program to reference data other than the data it’s intended to reference.
+All references in Rust have a lifetime, even if they are not explicitly annotated. The compiler is capable of implicitly assigning lifetimes. </p>
+<p>A value’s lifetime is the period when accessing that value is valid behavior. A function’s local variables live until the function returns, while global variables might live for the life of the program.</p>
+<p>The notion of ownership is rather limited. An owner cleans up when its values’ lifetimes end.</p>
+<p>Although every parameter has a lifetime, these checks are typically invisible as the compiler can infer most lifetimes by itself.</p>
+<p>All values bound to a given lifetime must live as long as the last access to any value bound to that lifetime.</p>
+<p>No lifetime annotations are required when calling a function.</p>
+<p>Lifetime annotations don’t change how long any of the references live. Just as functions can accept any type when the signature specifies a generic type parameter, functions can accept references with any lifetime by specifying a generic lifetime parameter.</p>
+<p>Lifetime annotations describe the relationships of the lifetimes of multiple references to each other without affecting the lifetimes.</p>
+<p>The lifetime annotations indicate that the references first and second must both live as long as that generic lifetime.</p>
+<p>Lifetimes on function or method parameters are called input lifetimes, and lifetimes on return values are called output lifetimes.</p>
+<p>Although every parameter has a lifetime, these checks are typically invisible as the compiler can infer most lifetimes by itself</p>
+<p>All values bound to a given lifetime must live as long as the last access to any value bound to that lifetime.</p>
+<p>No lifetime annotations are required when calling a function.</p>
+<p>Using two lifetime parameters (a and b) indicates that the lifetimes of i and j are decoupled.</p>
+<p>fn add_with_lifetimes&lt;'a, 'b&gt;(i: &amp;'a i32, j: &amp;'b i32) -&gt; i32 {}</p>
+<p>Lifetime of that usage: </p>
+<blockquote>
+<p>the LOC('existence time' or Line of code) between when a location is first used in a certain way, and when that usage stops.</p>
+</blockquote>
+<p>Lifetime of that value:</p>
+<blockquote>
+<p>the LOC (or actual time) between when a value is created, and when that value is dropped.</p>
+</blockquote>
+<p>Might be useful when discussing open file descriptors, but also irrelevant here.</p>
+<p>Ultimately, lifetime syntax is about connecting the lifetimes of various parameters and return values of functions. Once they’re connected, Rust has enough information to allow memory-safe operations and disallow operations that would create dangling pointers or otherwise violate memory safety.</p>
+</blockquote>
+<h4 id="-dangle">- [✓] Dangle<a class="headerlink" href="#-dangle" title="Permanent link">&para;</a></h4>
+<blockquote>
+<p>The main aim of lifetimes is to prevent dangling references.which has an outer scope and an inner scope.
+In return section of a function primitive types need to define as (&amp;'a or &amp;'static)</p>
+</blockquote>
+<h4 id="-generic">- [✓] Generic<a class="headerlink" href="#-generic" title="Permanent link">&para;</a></h4>
+<blockquote>
+<p>You might be wondering whether there is a runtime cost when using generic type parameters. The good news is that using generic types won't make your run any slower than it would with concrete types.</p>
+<p>Rust accomplishes this by performing monomorphization of the code using generics at compile time. 
+Monomorphization is the process of turning generic code into specific code by filling in the concrete types that are used when compile.
+Every programming language has tools for effectively handling the duplication of concepts.</p>
+<p>In Rust, one such tool is generics. Generics are abstract stand-ins for concrete types or other properties. When we’re writing code,
+we can express the behavior of generics or how they relate to other generics without knowing what will be in their place when compiling and running the code.</p>
+</blockquote>
+<h4 id="staticdispatchpassed">Static•Dispatch(Passed)<a class="headerlink" href="#staticdispatchpassed" title="Permanent link">&para;</a></h4>
+<div class="highlight"><pre><span></span><code>-&gt; Monomorphization
+</code></pre></div>
+<blockquote>
+<p>Dispatch is the mechanism to determine which specific version of code is actually run when it involves polymorphism. Two major forms of dispatch are static dispatch and dynamic dispatch. While Rust favors static dispatch, it also supports dynamic dispatch through a mechanism called ‘trait objects’.
+When Rust compiles this code, it performs monomorphization.</p>
+<p>The monomorphized version of the code looks like the following. The generic Option<T> is replaced with the specific definitions created by the compiler:
+versions of a polymorphic function (or any polymorphic entity) during compilation is called Monomorphization.</p>
+<p>Because Rust compiles generic code into code that specifies the type in each instance, we pay no runtime cost for using generics. When the code runs, it performs just as it would if we had duplicated each definition by hand. The process of monomorphization makes Rust’s generics extremely efficient at runtime.
+This is opposed to dynamic dispatch</p>
+</blockquote>
+<h4 id="-dynamicdispatch">- [✓] Dynamic•Dispatch<a class="headerlink" href="#-dynamicdispatch" title="Permanent link">&para;</a></h4>
+<blockquote>
+<p>The code that results from monomorphization is doing static dispatch, which is when the compiler knows what method you’re calling at compile time.
+This is opposed to dynamic dispatch, which is when the compiler can’t tell at compile time which method you’re calling.
+In dynamic dispatch cases, the compiler emits code that at runtime will figure out which method to call.</p>
+<p>When we use trait objects, Rust must use dynamic dispatch. The compiler doesn’t know all the types that might be used with the code that is using trait objects,
+so it doesn’t know which method implemented on which type to call. Instead, at runtime, Rust uses the pointers inside the trait object to know which method to call. There is a runtime cost when this lookup happens that doesn’t occur with static dispatch. Dynamic dispatch also prevents the compiler from choosing to inline a method’s code, which in turn prevents some optimizations.</p>
+</blockquote>
+<h4 id="-blanketimplementation">- [-] Blanket•Implementation<a class="headerlink" href="#-blanketimplementation" title="Permanent link">&para;</a></h4>
+<blockquote>
+<p>Any implementation where a type appears uncovered. impl<T> Foo for T, impl<T> Bar<T> for T, impl<T> Bar<Vec\<T>> for T, and impl<T> Bar<T> for Vec<T> are considered blanket impls.</p>
+<p>We can also conditionally implement a trait for any type that implements another trait. Implementations of a trait on any type that satisfies the trait bounds are called blanket implementations and are extensively used in the Rust standard library. For example, the standard library implements the ToString trait on any type that implements the Display trait.</p>
+</blockquote>
+<h4 id="-boundsyntax">- [✓] Bound(syntax)<a class="headerlink" href="#-boundsyntax" title="Permanent link">&para;</a></h4>
+<blockquote>
+<p>Bounds are constraints on a type or trait. For example, if a bound is placed on the argument a function takes, types passed to that function must abide by that constraint.</p>
+</blockquote>
+<h4 id="-trait">- [✓] Trait<a class="headerlink" href="#-trait" title="Permanent link">&para;</a></h4>
+<blockquote>
+<p>We can use traits to define shared behavior in an abstract way. We can use trait bounds to specify that a generic type can be any type that has certain behavior.
+Traits are similar to a feature often called interfaces in other languages, although with some differences.</p>
+<p>What is a trait? A trait is a language feature that is analogous to an interface, protocol, or contract. If you have a background in object-oriented programming, consider a trait to be an abstract base class. If you have a background in functional programming, Rust’s traits are close to Haskell’s type classes
+these also support a form of inheritance that’s common in most object oriented languages. For now, though, the thing to remember is that traits represent common behavior (Or reusable codes like println!)that types opt into via the syntax impl Trait for Type.</p>
+<p>After the method signature, instead of providing an implementation within curly brackets, we use a semicolon.</p>
+<p>This interface consists of associated items, which come in three varieties: functions, types, constants.</p>
+<p>All traits define an implicit type parameter Self that refers to "the type that is implementing this interface".</p>
+<p>Trait functions may omit the function body by replacing it with a semicolon. This indicates that the implementation must define the function. If the trait function defines a body, this definition acts as a default for any implementation which does not override it. Similarly, associated constants may omit the equals sign and expression to indicate implementations must define the constant value. Associated types must never define the type, the type may only be specified in an implementation.</p>
+</blockquote>
+<h4 id="-polymorphism">- [✓] Polymorphism<a class="headerlink" href="#-polymorphism" title="Permanent link">&para;</a></h4>
+<blockquote>
+<p>In a struct or enum, the data in the struct fields and the behavior in impl blocks are separated, whereas in other languages, the data and behavior combined into one concept is often labeled an object.However, trait objects are more like objects in other languages in the sense that they combine data and behavior.</p>
+</blockquote>
+<h4 id="-unrolling">- [✓] Unrolling<a class="headerlink" href="#-unrolling" title="Permanent link">&para;</a></h4>
+<blockquote>
+<p>It is an optimization that removes the overhead of the loop controlling code and instead generates repetitive code for each iteration of the loop.</p>
+</blockquote>
+<h4 id="-bindingmatch">- [✓] Binding•Match<a class="headerlink" href="#-bindingmatch" title="Permanent link">&para;</a></h4>
+<blockquote>
+<p>The compiler automatically references the Some, and since we're borrowing, name is bound as ref name automatically as well. If we were mutating:</p>
+</blockquote>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a> //https://blog.rust-lang.org/2018/05/10/Rust-1.26.html#nicer-match-bindings
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>// `self` has type `&amp;List`, and `*self` has type `List`, matching on a
+<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>// concrete type `T` is preferred over a match on a reference `&amp;T`
+<a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a>// after Rust 2018 you can use self here and tail (with no ref) below as well,
+<a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a>// rust will infer &amp;s and ref tail. 
+</code></pre></div>
+<h4 id="-dataracerustaceans">- [✗] Datarace•Rustaceans<a class="headerlink" href="#-dataracerustaceans" title="Permanent link">&para;</a></h4>
+<blockquote>
+<p>Note: The opposite of referencing by using &amp; is dereferencing, which is accomplished with the dereference operator, *.</p>
+</blockquote>
+<h4 id="-nanphilosophy">[-] Nan(philosophy)<a class="headerlink" href="#-nanphilosophy" title="Permanent link">&para;</a></h4>
+<blockquote>
+<p>Floating-point types include “not a number” values (represented in Rust syntax as NAN values) to handle these cases.</p>
+<p>NAN values poison other numbers. Almost all operations interacting with NAN return NAN. Another thing to be mindful of is that, by definition, NAN values are never equal. 
+Programming language design is often thought of in terms of which features you include, but the features you exclude are important too. Rust doesn’t have the null feature that many other languages have. Null is a value that means there is no value there. In languages with null, variables can always be in one of two states: null or not-null.
+In his 2009 presentation “Null References: The Billion Dollar Mistake,” Tony Hoare, the inventor of null, has this to say:
+I call it my billion-dollar mistake. At that time, I was designing the first comprehensive type system for references in an object-oriented language. My goal was to ensure that all use of references should be absolutely safe, with checking performed automatically by the compiler. But I couldn’t resist the temptation to put in a null reference, simply because it was so easy to implement. This has led to innumerable errors, vulnerabilities, and system crashes, which have probably caused a billion dollars of pain and damage in the last forty years. </p>
+<p>To program defensively, make use of the is_nan() and is_finite() methods. Inducing a crash, rather than silently proceeding with a mathematical error, allows you to debug close to what has caused the problem. The following illustrates using the is_finite()  </p>
+</blockquote>
+<h4 id="-duplicationliteral">- [✓] Duplication((literal)<a class="headerlink" href="#-duplicationliteral" title="Permanent link">&para;</a></h4>
+<blockquote>
+<p>Concept of copying the pointer, length, and capacity without copying the data probably sounds like making a shallow copy.</p>
+<p>If we do want to deeply copy the heap data of the String, not just the stack data, we can use a common method called clone</p>
+</blockquote>
+<h4 id="-semanticliteral">- [✓] Semantic(literal)<a class="headerlink" href="#-semanticliteral" title="Permanent link">&para;</a></h4>
+<blockquote>
+<p>Primitive types are said to possess copy semantics, whereas all other types have move semantics.
+Adding more functionality (e.g., reference-counting semantics rather than move semantics) to types by wrapping these in other types typically reduces their run-time performance.</p>
+</blockquote>
+<h4 id="-zerocostabstractionsliteral">- [✓] Zero•Cost•Abstractions(literal)<a class="headerlink" href="#-zerocostabstractionsliteral" title="Permanent link">&para;</a></h4>
+<blockquote>
+<p>One of the ways this manifests is by not adding extra data around values within structs.</p>
+</blockquote>
+<h4 id="-coherenceliteral">- [✓] Coherence(literal)<a class="headerlink" href="#-coherenceliteral" title="Permanent link">&para;</a></h4>
+<div class="highlight"><pre><span></span><code>-&gt; Orphan = Trait•External•Implement
+</code></pre></div>
+<blockquote>
+<p>But we can’t implement external traits on external types. For example, we can’t implement the Display trait on Vec<T> within our aggregator crate, because Display and Vec<T> are defined in the standard library and aren’t local to our aggregator crate.
+This restriction is part of a property of programs called coherence, and more specifically the orphan rule, so named because the parent type is not present. This rule ensures that other people’s code can’t break your code and vice versa. </p>
+<p>Without the rule, two crates could implement the same trait for the same type, and Rust wouldn’t know which implementation to use.</p>
+<p>Preserves contextual coherence of trace data from tasks/function/methods when logging. </p>
+<p>For example new instance of a struct of course, as you probably already know, struct then you can just summerize your struct in a method.</p>
+</blockquote>
+<h4 id="-jargonliteral">- [✓] Jargon(literal)<a class="headerlink" href="#-jargonliteral" title="Permanent link">&para;</a></h4>
+<blockquote>
+<p>Functional programming jargon: “to cons x onto y” informally means to construct a new container instance by putting the element x at the start of this new container, followed by the container y.Other, more complex recursive data types are useful in various situations, but by starting with the cons list, we can explore how boxes let us define a recursive data type without much distraction.</p>
+</blockquote>
+<h4 id="-refactorliteral">- [✓] Refactor(literal)<a class="headerlink" href="#-refactorliteral" title="Permanent link">&para;</a></h4>
+<blockquote>
+<p>One alternative to refactoring is to simply copy values. Doing this often is typically frowned upon, however, but it can be useful in a pinch. Primitive types like integers are a good example of that. Primitive types are cheap for a CPU to duplicate—so cheap, in fact, that Rust always copies these if it would otherwise worry about ownership being moved.</p>
+<p>Types can opt into two modes of duplication: cloning and copying.</p>
+</blockquote>
+<h4 id="-patternnewtype">- [✓] Pattern•Newtype<a class="headerlink" href="#-patternnewtype" title="Permanent link">&para;</a></h4>
+<blockquote>
+<p>Using the Newtype Pattern to Implement External Traits on External Types 'thin wrapper around the type' : part of Vec<String> is noticed. We can make a Wrapper struct that holds an instance of Vec<T>; then we can implement Display on Wrapper and use the Vec<T> value The downside of using this technique is that Wrapper is a new type, so it doesn’t have the methods of the value it’s holding. We would have to implement all the methods of Vec<T> directly on Wrapper such that the methods delegate to self.0, which would allow us to treat Wrapper exactly like a Vec<T>.</p>
+<p>If we wanted the new type to have every method the inner type has, implementing the Deref trait (If we don’t want the Wrapper type to have all the methods of the inner type—for example, to restrict the Wrapper type’s behavior—we would have to implement just the methods we do want manually.)</p>
+</blockquote>
+<h4 id="-patterndesigninteriorfuture-work">- [✗] Pattern•Design•Interior(future work)<a class="headerlink" href="#-patterndesigninteriorfuture-work" title="Permanent link">&para;</a></h4>
+<blockquote>
+<p>Interior mutability is a design pattern in Rust that allows you to mutate data even when there are immutable references to that data; normally, this action is disallowed by the borrowing rules. To mutate data, the pattern uses unsafe code inside a data structure to bend Rust’s usual rules that govern mutation and borrowing. </p>
+<p>RefCell<T> type that follows the interior mutability pattern.</p>
+<p>Unlike Rc<T>, the RefCell<T> type represents single ownership over the data it holds. So, what makes RefCell<T> different from a type like Box<T>? Recall the borrowing rules...</p>
+<p>Similar to Rc<T>, RefCell<T> is only for use in single-threaded scenarios and will give you a compile-time error if you try using it in a multithreaded context.
+At any given time, you can have either (but not both of) one mutable reference or any number of immutable references.References must always be valid.</p>
+</blockquote>
+<h4 id="-typewraperfuture-work">- [✗] Type•Wraper(future work)<a class="headerlink" href="#-typewraperfuture-work" title="Permanent link">&para;</a></h4>
+<div class="highlight"><pre><span></span><code>-&gt; Wrapper type = Reference-Counted Value = Shared Ownership = Track valid references
+</code></pre></div>
+<blockquote>
+<p>Use wrapper types, which allow more flexibility than what is available by default. These, however, incur costs at runtime to ensure that Rust’s safety guarantees are maintained. Another way to phrase this is that Rust allows programmers to opt in to garbage collection.</p>
+</blockquote>
+<h4 id="-memleakfuture-work">- [✗] Mem•Leak(future work)<a class="headerlink" href="#-memleakfuture-work" title="Permanent link">&para;</a></h4>
+<div class="highlight"><pre><span></span><code>-&gt; Managing Memory Leak
+</code></pre></div>
+<blockquote>
+<p>Rust’s memory safety guarantees make it difficult, but not impossible, to accidentally create memory that is never cleaned up (known as a memory leak). Preventing memory leaks entirely is not one of Rust’s guarantees in the same way that disallowing data races at compile time is, meaning memory leaks are memory safe in Rust.</p>
+<p>We can see that Rust allows memory leaks by using Rc<T> and RefCell<T>: it’s possible to create references where items refer to each other in a cycle. This creates memory leaks because the reference count of each item in the cycle will never reach 0, and the values will never be dropped.</p>
+</blockquote>
+<h5 id="-memdoublefreefuture-work">- [✗] Mem•Doublefree(future work)<a class="headerlink" href="#-memdoublefreefuture-work" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>This is a problem: when s2 and s1 (s2 is copied s1 means 2different pointer and the same data) go out of scope, they will both try to free the same memory. This is known as a double free error and is one of the memory safety bugs we mentioned previously. Freeing memory twice can lead to memory corruption, which can potentially lead to security vulnerabilities.</p>
+</blockquote>
+<h4 id="-memdeallocatingorraiifuture-work">- [✗] Mem•Deallocating•or•RAII(future work)<a class="headerlink" href="#-memdeallocatingorraiifuture-work" title="Permanent link">&para;</a></h4>
+<blockquote>
+<p>Note: In C++, this pattern of deallocating resources at the end of an item’s lifetime is sometimes called Resource Acquisition Is Initialization (RAII). The drop function in Rust will be familiar to you if you’ve used RAII patterns.</p>
+</blockquote>
+<h4 id="-threadfuture-work">- [✗] Thread(future work)<a class="headerlink" href="#-threadfuture-work" title="Permanent link">&para;</a></h4>
+<blockquote>
+<p>Which parts of your code on different threads will run. This can lead to problems, such as:</p>
+<p>Race conditions, where threads are accessing data or resources in an inconsistent order Deadlocks, where two threads are waiting for each other to finish using a resource the other thread has, preventing both threads from continuing Bugs that happen only in certain situations and are hard to reproduce and fix reliably.</p>
+</blockquote>
+<h4 id="-threadstrategesfuture-work">- [✗] Thread•Strateges(future work)<a class="headerlink" href="#-threadstrategesfuture-work" title="Permanent link">&para;</a></h4>
+<div class="highlight"><pre><span></span><code>-&gt; Priority Performance
+</code></pre></div>
+<blockquote>
+<p>Stealing_Join: execute code in parallel when there are idle CPUs to handle it.</p>
+<p>When join is called from outside the thread pool, the calling thread will block while the closures execute in the pool. When join is called within the pool, the calling thread still actively participates in the thread pool. It will begin by executing closure A (on the current thread). While it is doing that, it will advertise closure B as being available for other threads to execute. Once closure A has completed, the current thread will try to execute closure B; if however closure B has been stolen, then it will look for other work while waiting for the thief to fully execute closure B. (This is the typical work-stealing strategy).
+Send is require because we have jump from quick func(thread a) to part func(thread b) frequently.</p>
+<p>Atomic: types provide primitive shared-memory communication between threads, and are the building blocks of other concurrent types.
+This module defines atomic versions of a select number of primitive types, including AtomicBool, AtomicIsize, AtomicUsize, AtomicI8, AtomicU16, etc. Atomic types present operations that, when used correctly, synchronize updates between threads.
+Each method takes an Ordering which represents the strength of the memory barrier for that operation. These orderings are the same as the C++20 atomic orderings. For more information see the nomicon.</p>
+<p>Atomic variables are safe to share between threads (they implement Sync) but they do not themselves provide the mechanism for sharing and follow the threading model of Rust. The most common way to share an atomic variable is to put it into an Arc (an atomically-reference-counted shared pointer).
+Atomic types may be stored in static variables, initialized using the constant initializers like AtomicBool::new. Atomic statics are often used for lazy global initialization.</p>
+<p>Spin_Loop_Yeild
+  also known as busy loop and spin loop-If you want to sleep pause a thread for short amounts of time, or if your application is sensitive to timing, use a spin loop</p>
+</blockquote>
+<h4 id="-unsafeexternmanglingfuture-work">- [✗] Unsafe•Extern•Mangling(future work)<a class="headerlink" href="#-unsafeexternmanglingfuture-work" title="Permanent link">&para;</a></h4>
+<div class="highlight"><pre><span></span><code>&gt; Mangling is when a compiler changes the name we’ve given a function to a different name that contains more information for other parts of the compilation process to consume but is less human readable. Every programming language compiler mangles names slightly differently, so for a Rust function to be nameable by other languages, we must disable the Rust compiler’s name mangling.
+</code></pre></div>
+<h4 id="-interiormutabilitypattern">- [✓] Interior•Mutability•Pattern<a class="headerlink" href="#-interiormutabilitypattern" title="Permanent link">&para;</a></h4>
+<p>RefCell<T>: Lets us have many immutable borrows or one mutable borrow at any point in time.
+Mutating the value inside an immutable value is the interior mutability pattern.
+Interior mutability is a design pattern in Rust that allows you to mutate data even when there are immutable references to that data; normally, this action is disallowed by the borrowing rules. To mutate data, the pattern uses unsafe code inside a data structure to bend Rust’s usual rules that govern mutation and borrowing. 
+RefCell<T> type that follows the interior mutability pattern.
+Unlike Rc<T>, the RefCell<T> type represents single ownership over the data it holds. So, what makes RefCell<T> different from a type like Box<T>? Recall the borrowing rules,
+Similar to Rc<T>, RefCell<T> is only for use in single-threaded scenarios and will give you a compile-time error if you try using it in a multithreaded context.
+At any given time, you can have either (but not both of) one mutable reference or any number of immutable references.References must always be valid.</p>
+<h4 id="-oopstatedesignpatternfuture-work">- [✗] OOP•State•DesignPattern(future work)<a class="headerlink" href="#-oopstatedesignpatternfuture-work" title="Permanent link">&para;</a></h4>
+<div class="highlight"><pre><span></span><code>-&gt; We can used it for smart contracts so we will need to implemented smart contracts
+</code></pre></div>
+<blockquote>
+<p>Using the state pattern means when the business requirements of the program change, we won’t need to change the code of the value holding the state or the code that uses the value. We’ll only need to update the code inside one of the state objects to change its rules or perhaps add more state objects.</p>
+<p>e.g Post type. This type will use the state pattern and will hold a value that will be one of three state objects representing the various states a post can be in—draft, waiting for review, or published. Changing from one state to another will be managed internally within the Post type. The states change in response to the methods called by our library’s users on the Post instance, but they don’t have to manage the state changes directly. Also, users can’t make a mistake with the states, like publishing a post before it’s reviewed.</p>
+</blockquote>
+<h4 id="-superpowerfuture-work">- [✗] Superpower(future work)<a class="headerlink" href="#-superpowerfuture-work" title="Permanent link">&para;</a></h4>
+<blockquote>
+<p>if the Rust compiler doesn’t have enough information to be confident, it will reject the code. In these cases,
+you can use unsafe code to tell the compiler, “Trust me, I know what I’m doing.” The downside is that you use it at your own risk: 
+if you use unsafe code incorrectly, problems due to memory unsafety, such as null pointer dereferencing, can occur.</p>
+<p>You can take five actions in unsafe Rust, called unsafe superpowers, that you can’t in safe Rust. Those superpowers include the ability to:</p>
+<blockquote>
+<p>Dereference a raw pointer</p>
+<p>Call an unsafe function or method</p>
+<p>Access or modify a mutable static variable</p>
+<p>Implement an unsafe trait</p>
+<p>Access fields of unions</p>
+<p>Calling unsafe() would crash the program.</p>
+</blockquote>
+<p>consider unsafe to be a warning sign rather than an indicator that you’re embarking on anything illegal. Unsafe means “the same level of safety offered by C at all times.” </p>
+<p>If you still had access to (via unsafe) they might still look like valid S, but any attempt to use them as valid S is undefined behavior. ↓
+<a href="https://cheats.rs/#unsafe-unsound-undefined-dark">https://cheats.rs/#unsafe-unsound-undefined-dark</a> side of force
+Try to avoid "unsafe {}", often safer, faster solution without it. Exception: FFI.
+People are fallible, and mistakes will happen, but by requiring these five unsafe operations to be inside blocks annotated with unsafe you’ll know that any errors related to memory safety must be within an unsafe block. Keep unsafe blocks small; you’ll be thankful later when you investigate memory bugs.
+To isolate unsafe code as much as possible, it’s best to enclose unsafe code within a safe abstraction and provide a safe API, which we’ll discuss later in the chapter when we examine unsafe functions and methods.</p>
+<p>Parts of the standard library are implemented as safe abstractions over unsafe code that has been audited.
+Wrapping unsafe code in a safe abstraction prevents uses of unsafe from leaking out into all the places that you or your users might want to use the functionality implemented with unsafe code, because using a safe abstraction is safe.</p>
+</blockquote>
+<h3 id="contributors">Contributors<a class="headerlink" href="#contributors" title="Permanent link">&para;</a></h3>
+<p>nom is the fruit of the work of many contributors over the years, many thanks for your help!</p>
+<p><a href="https://github.com/armanriazi/rust-scratch-blockchain/graphs/contributors">
+  Contributors
+</a></p>
+<h2 id="welcome-to-the-home-blockchain-of-rustaceans_1">Welcome To The Home Blockchain Of 🦀Rustaceans<a class="headerlink" href="#welcome-to-the-home-blockchain-of-rustaceans_1" title="Permanent link">&para;</a></h2>
+<blockquote>
+<p>The repo is a <strong>prerequisite of the Substrate-Framework</strong> and it would be nicer to practice too.</p>
+<p>The repo is included Rust syntax, configuration and the goal of creating scratch codes like one is becuase of providing <strong>testbed environment of Blockchain</strong>.</p>
+<p>The Next reason is to using some <strong>features of Rust-Lang</strong> that I had wanted to implement it after learning Rust.</p>
+<p>Used json in the main runner of the project so that consume <strong>json</strong> transactions as a <strong>offchain</strong> blockchain.</p>
+<p>As you follow materials you can see (future work) which means you can add these concepts to the project. I have some <strong>idea</strong> that you can affort on it to completing future works.</p>
+<p><em>Smart Contracts, MultiSignature, RPC, Make A Better CLI, and something that you can implementing</em> (Do not worry sice most of your works will merge to main branch. We will not create a framework or complete Blockchain because we just need to <strong>learning</strong> more and used it use-cases)</p>
+</blockquote>
+<h3 id="the-difference-between-the-current-work-and-the-prev-works_1">The difference between the current work and the prev works<a class="headerlink" href="#the-difference-between-the-current-work-and-the-prev-works_1" title="Permanent link">&para;</a></h3>
+<blockquote>
+<p>I have tried to use fundamental concepts correctly, for example, all of us know any block have not any copy so because of it we are calling blockchain! Unlike many repositories on GitHub(testbed/scratched projects-non productive) that almost use Copy/Clone attributes of Rust-Lang for creating block. In the following, there are some features that cause a different project.</p>
+<p>Currently Status: Under refactoring with contributors</p>
+</blockquote>
+<h3 id="how-to-contribute-easy_1">How To Contribute <a href="https://github.com/armanriazi/armanriazi/blob/main/HowToContribute.md">Easy</a><a class="headerlink" href="#how-to-contribute-easy_1" title="Permanent link">&para;</a></h3>
+<p><a href="https://armanriazi.github.io/public/programming/rust/rust/">[Rust 2021 A Scratch Blockchain-1]</a>
+<a href="https://youtu.be/hiYHzmqn6MY">Youtube-Rust 2021 A Scratch Blockchain-1</a></p>
+<blockquote></blockquote>
+<p><a href="https://armanriazi.github.io/public/programming/rust/rust/">Rust 2021 A Scratch Blockchain-2</a>
+<a href="https://youtu.be/gK0dFhtbB-M">Youtube-Rust 2021 A Scratch Blockchain-2</a></p>
+<h3 id="documents-crate">Documents Crate<a class="headerlink" href="#documents-crate" title="Permanent link">&para;</a></h3>
+<p><a href="https://docs.rs/crate/blockchain-scratch-rust/latest">Docs.rs</a></p>
+<p><a href="https://crates.io/search?q=blockchain-scratch-rust">Package Manager crates.io</a></p>
+<h3 id="features_1">Features<a class="headerlink" href="#features_1" title="Permanent link">&para;</a></h3>
+<ul>
+<li>
+<p>[✓] Modular</p>
+</li>
+<li>
+<p>[✓] Customized Error Handling</p>
+</li>
+<li>
+<p>[✓] Json &amp; String Data Deserialized</p>
+</li>
+<li>
+<p>[✓] Functional Programming(Closure)</p>
+</li>
+<li>
+<p>[✓] Cryptography-Hashing Alogrithm SHA-256</p>
+</li>
+<li>
+<p>[-] WebAssembly(Next future video)</p>
+</li>
+<li>
+<p>[-] Unit &amp; Integration Testing(structure-need more time in the future)</p>
+</li>
+<li>
+<p>[-] Configuration Files(devOps-need more time in the future)</p>
+</li>
+</ul>
+<h3 id="instructions-for-working-with_1">Instructions for working with<a class="headerlink" href="#instructions-for-working-with_1" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>DIFFICULTY={difficulty} cargo {mode} {file name}
+</code></pre></div>
+<blockquote>
+<p>{difficulty}: (optional-key-env) value default 0x00ffffffffffffffffffffffffffffff.It must be 32 byte.</p>
+<p>{mode}: macro, string, file/ default mode is on the macrojson mode.</p>
+<blockquote>
+<p>{macro, string} there is in project and you can not access or manipulate except by getting the project. serde_json support string and macro based on called library.
+{file} json file is external .json file that you can set it for command line</p>
+</blockquote>
+<p>{file name} index directory of the project sample-bolocks.json</p>
+<p>Example: </p>
+</blockquote>
+<p><div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>cargo build
+<a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>cargo run
+<a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a>RUST_LOG=INFO DIFFICULTY=0x00000fffffffffffffffffffffffffff time cargo run file sample-bolocks.json
+<a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a>DIFFICULTY=0x00000fffffffffffffffffffffffffff time cargo run macrojson
+<a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a>DIFFICULTY=0x00000fffffffffffffffffffffffffff time cargo run stringjson
+<a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a>time cargo run
+<a id="__codelineno-4-7" name="__codelineno-4-7" href="#__codelineno-4-7"></a>cargo watch -x run
+<a id="__codelineno-4-8" name="__codelineno-4-8" href="#__codelineno-4-8"></a>cargo test
+</code></pre></div>
+<em>Using time and watch is optional and depends on your purpose</em></p>
+<h3 id="instructions-for-installing-bin">Instructions for installing-bin<a class="headerlink" href="#instructions-for-installing-bin" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>curl -LSfs https://github.com/armanriazi/armanriazi/blob/main/install-0.sh | sh -s -- --git armanriazi/rust-scratch-blockchain
+</code></pre></div>
+<h3 id="how-to-consume-the-library">How to consume the library<a class="headerlink" href="#how-to-consume-the-library" title="Permanent link">&para;</a></h3>
+<p>1.
+<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>cargo new yourprojectname
+</code></pre></div>
+2. Add new dependency
+<div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>[dependencies]
+<a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a>blockchain-scratch-rust = &quot;0.3.0&quot;
+</code></pre></div>
+3. To update dependencies
+<div class="highlight"><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>cargo update
+</code></pre></div>
+4. Your main.rs of the program
+<div class="highlight"><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>use library_blockchain::*;
+<a id="__codelineno-9-2" name="__codelineno-9-2" href="#__codelineno-9-2"></a>fn main() {
+<a id="__codelineno-9-3" name="__codelineno-9-3" href="#__codelineno-9-3"></a>    println!(&quot;Hello, world!&quot;);
+<a id="__codelineno-9-4" name="__codelineno-9-4" href="#__codelineno-9-4"></a>
+<a id="__codelineno-9-5" name="__codelineno-9-5" href="#__codelineno-9-5"></a>    library_blockchain::blockchain_executive::main();
+<a id="__codelineno-9-6" name="__codelineno-9-6" href="#__codelineno-9-6"></a>}
+</code></pre></div>
+5.
+Due to the file sample-three-block-noerror.json in the repo you might copy it and manipulate it, in spite of that you can use generators of your database or ORMs for producing a file.json as the same as following content. Get attention to keys in the file for example we must have transaction{number} and if we write 'mytransaction 1' and run it we will get error.</p>
+<details>
+    <summary><em>Json File</em></summary>
+
+    <div class="highlight"><pre><span></span><code><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a>{
+<a id="__codelineno-10-2" name="__codelineno-10-2" href="#__codelineno-10-2"></a>    &quot;blocks&quot;:[{    
+<a id="__codelineno-10-3" name="__codelineno-10-3" href="#__codelineno-10-3"></a>    &quot;block1&quot;:[{
+<a id="__codelineno-10-4" name="__codelineno-10-4" href="#__codelineno-10-4"></a>        &quot;transactions&quot;:[{
+<a id="__codelineno-10-5" name="__codelineno-10-5" href="#__codelineno-10-5"></a>        &quot;transaction1&quot;:[{
+<a id="__codelineno-10-6" name="__codelineno-10-6" href="#__codelineno-10-6"></a>            &quot;inputs&quot;:[{
+<a id="__codelineno-10-7" name="__codelineno-10-7" href="#__codelineno-10-7"></a>
+<a id="__codelineno-10-8" name="__codelineno-10-8" href="#__codelineno-10-8"></a>            }],    
+<a id="__codelineno-10-9" name="__codelineno-10-9" href="#__codelineno-10-9"></a>            &quot;outputs&quot;:[{
+<a id="__codelineno-10-10" name="__codelineno-10-10" href="#__codelineno-10-10"></a>            &quot;to_addr&quot;: &quot;Alice&quot;,
+<a id="__codelineno-10-11" name="__codelineno-10-11" href="#__codelineno-10-11"></a>            &quot;value&quot;: &quot;50&quot;                           
+<a id="__codelineno-10-12" name="__codelineno-10-12" href="#__codelineno-10-12"></a>            },{
+<a id="__codelineno-10-13" name="__codelineno-10-13" href="#__codelineno-10-13"></a>            &quot;to_addr&quot;: &quot;Bob&quot;,
+<a id="__codelineno-10-14" name="__codelineno-10-14" href="#__codelineno-10-14"></a>            &quot;value&quot;: &quot;7&quot;                           
+<a id="__codelineno-10-15" name="__codelineno-10-15" href="#__codelineno-10-15"></a>            }]    
+<a id="__codelineno-10-16" name="__codelineno-10-16" href="#__codelineno-10-16"></a>        }]                        
+<a id="__codelineno-10-17" name="__codelineno-10-17" href="#__codelineno-10-17"></a>        }]                 
+<a id="__codelineno-10-18" name="__codelineno-10-18" href="#__codelineno-10-18"></a>    }] ,
+<a id="__codelineno-10-19" name="__codelineno-10-19" href="#__codelineno-10-19"></a>    &quot;block2&quot;:[{
+<a id="__codelineno-10-20" name="__codelineno-10-20" href="#__codelineno-10-20"></a>        &quot;transactions&quot;:[{
+<a id="__codelineno-10-21" name="__codelineno-10-21" href="#__codelineno-10-21"></a>        &quot;transaction1&quot;:[{
+<a id="__codelineno-10-22" name="__codelineno-10-22" href="#__codelineno-10-22"></a>            &quot;inputs&quot;:[{
+<a id="__codelineno-10-23" name="__codelineno-10-23" href="#__codelineno-10-23"></a>
+<a id="__codelineno-10-24" name="__codelineno-10-24" href="#__codelineno-10-24"></a>            }],    
+<a id="__codelineno-10-25" name="__codelineno-10-25" href="#__codelineno-10-25"></a>            &quot;outputs&quot;:[{
+<a id="__codelineno-10-26" name="__codelineno-10-26" href="#__codelineno-10-26"></a>            &quot;to_addr&quot;: &quot;Chris&quot;,
+<a id="__codelineno-10-27" name="__codelineno-10-27" href="#__codelineno-10-27"></a>            &quot;value&quot;: &quot;536&quot;                         
+<a id="__codelineno-10-28" name="__codelineno-10-28" href="#__codelineno-10-28"></a>            }]    
+<a id="__codelineno-10-29" name="__codelineno-10-29" href="#__codelineno-10-29"></a>        }],
+<a id="__codelineno-10-30" name="__codelineno-10-30" href="#__codelineno-10-30"></a>        &quot;transaction2&quot;:[{
+<a id="__codelineno-10-31" name="__codelineno-10-31" href="#__codelineno-10-31"></a>            &quot;inputs&quot;:[{
+<a id="__codelineno-10-32" name="__codelineno-10-32" href="#__codelineno-10-32"></a>            &quot;to_addr&quot;: &quot;Alice&quot;,
+<a id="__codelineno-10-33" name="__codelineno-10-33" href="#__codelineno-10-33"></a>            &quot;value&quot;: &quot;50&quot;                           
+<a id="__codelineno-10-34" name="__codelineno-10-34" href="#__codelineno-10-34"></a>            },{
+<a id="__codelineno-10-35" name="__codelineno-10-35" href="#__codelineno-10-35"></a>            &quot;to_addr&quot;: &quot;Bob&quot;,
+<a id="__codelineno-10-36" name="__codelineno-10-36" href="#__codelineno-10-36"></a>            &quot;value&quot;: &quot;7&quot;      
+<a id="__codelineno-10-37" name="__codelineno-10-37" href="#__codelineno-10-37"></a>            }],    
+<a id="__codelineno-10-38" name="__codelineno-10-38" href="#__codelineno-10-38"></a>            &quot;outputs&quot;:[{
+<a id="__codelineno-10-39" name="__codelineno-10-39" href="#__codelineno-10-39"></a>            &quot;to_addr&quot;: &quot;Alice&quot;,
+<a id="__codelineno-10-40" name="__codelineno-10-40" href="#__codelineno-10-40"></a>            &quot;value&quot;: &quot;49&quot;                           
+<a id="__codelineno-10-41" name="__codelineno-10-41" href="#__codelineno-10-41"></a>            },{
+<a id="__codelineno-10-42" name="__codelineno-10-42" href="#__codelineno-10-42"></a>            &quot;to_addr&quot;: &quot;Bob&quot;,
+<a id="__codelineno-10-43" name="__codelineno-10-43" href="#__codelineno-10-43"></a>            &quot;value&quot;: &quot;6&quot;                        
+<a id="__codelineno-10-44" name="__codelineno-10-44" href="#__codelineno-10-44"></a>            }]    
+<a id="__codelineno-10-45" name="__codelineno-10-45" href="#__codelineno-10-45"></a>        }]                          
+<a id="__codelineno-10-46" name="__codelineno-10-46" href="#__codelineno-10-46"></a>        }]                 
+<a id="__codelineno-10-47" name="__codelineno-10-47" href="#__codelineno-10-47"></a>    }],
+<a id="__codelineno-10-48" name="__codelineno-10-48" href="#__codelineno-10-48"></a>    &quot;block3&quot;:[{
+<a id="__codelineno-10-49" name="__codelineno-10-49" href="#__codelineno-10-49"></a>        &quot;transactions&quot;:[{
+<a id="__codelineno-10-50" name="__codelineno-10-50" href="#__codelineno-10-50"></a>        &quot;transaction1&quot;:[{
+<a id="__codelineno-10-51" name="__codelineno-10-51" href="#__codelineno-10-51"></a>            &quot;inputs&quot;:[{                                                                    
+<a id="__codelineno-10-52" name="__codelineno-10-52" href="#__codelineno-10-52"></a>            }],    
+<a id="__codelineno-10-53" name="__codelineno-10-53" href="#__codelineno-10-53"></a>            &quot;outputs&quot;:[{
+<a id="__codelineno-10-54" name="__codelineno-10-54" href="#__codelineno-10-54"></a>            &quot;to_addr&quot;: &quot;Alice&quot;,
+<a id="__codelineno-10-55" name="__codelineno-10-55" href="#__codelineno-10-55"></a>            &quot;value&quot;: &quot;49&quot;                           
+<a id="__codelineno-10-56" name="__codelineno-10-56" href="#__codelineno-10-56"></a>            },{
+<a id="__codelineno-10-57" name="__codelineno-10-57" href="#__codelineno-10-57"></a>            &quot;to_addr&quot;: &quot;Bob&quot;,
+<a id="__codelineno-10-58" name="__codelineno-10-58" href="#__codelineno-10-58"></a>            &quot;value&quot;: &quot;6&quot;                           
+<a id="__codelineno-10-59" name="__codelineno-10-59" href="#__codelineno-10-59"></a>            }]    
+<a id="__codelineno-10-60" name="__codelineno-10-60" href="#__codelineno-10-60"></a>        }]                        
+<a id="__codelineno-10-61" name="__codelineno-10-61" href="#__codelineno-10-61"></a>        }]                 
+<a id="__codelineno-10-62" name="__codelineno-10-62" href="#__codelineno-10-62"></a>    }]        
+<a id="__codelineno-10-63" name="__codelineno-10-63" href="#__codelineno-10-63"></a>     }] 
+<a id="__codelineno-10-64" name="__codelineno-10-64" href="#__codelineno-10-64"></a>    }    
+</code></pre></div>
+
+</details>
+
+<ol>
+<li>Run of one of above commands.</li>
+</ol>
+<p><div class="highlight"><pre><span></span><code><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a>RUST_LOG=info DIFFICULTY=0x0000ffffffffffffffffffffffffffff time cargo run file sample-three-block-noerror.json
+</code></pre></div>
+7. Everything is Ok and it is working fine.
+ <br />
+<details>
+    <summary><em>Console Log</em></summary>
+
+    <div class="highlight"><pre><span></span><code><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a>    Finished dev [unoptimized + debuginfo] target(s) in 0.07s
+<a id="__codelineno-12-2" name="__codelineno-12-2" href="#__codelineno-12-2"></a>     Running `target/debug/consume-rust-scratch-blockchain file sample-three-block-noerror.json`
+<a id="__codelineno-12-3" name="__codelineno-12-3" href="#__codelineno-12-3"></a>Hello, world!
+<a id="__codelineno-12-4" name="__codelineno-12-4" href="#__codelineno-12-4"></a>[2022-07-06T13:30:22Z INFO  library_blockchain::blockchain_executive] ------------Welcome to env_logger------------
+<a id="__codelineno-12-5" name="__codelineno-12-5" href="#__codelineno-12-5"></a>[2022-07-06T13:30:22Z INFO  library_blockchain::blockchain_executive] Starting Up...
+<a id="__codelineno-12-6" name="__codelineno-12-6" href="#__codelineno-12-6"></a>**************************************************************
+<a id="__codelineno-12-7" name="__codelineno-12-7" href="#__codelineno-12-7"></a>Selected mode is file!
+<a id="__codelineno-12-8" name="__codelineno-12-8" href="#__codelineno-12-8"></a>**BlOcKcHaIn SiGnAls:**
+<a id="__codelineno-12-9" name="__codelineno-12-9" href="#__codelineno-12-9"></a>Block[0]: 17b9180cd95fef6c0e8ab81702ab9cfd835b4af373fdc7ee45d13cba69c40000 at: 1657114222903 with: 1 trx, nonce: 131263
+<a id="__codelineno-12-10" name="__codelineno-12-10" href="#__codelineno-12-10"></a>
+<a id="__codelineno-12-11" name="__codelineno-12-11" href="#__codelineno-12-11"></a>[2022-07-06T13:30:24Z INFO  library_blockchain::factory] Success updated With the block 1.
+<a id="__codelineno-12-12" name="__codelineno-12-12" href="#__codelineno-12-12"></a>
+<a id="__codelineno-12-13" name="__codelineno-12-13" href="#__codelineno-12-13"></a>**BlOcKcHaIn SiGnAls:**
+<a id="__codelineno-12-14" name="__codelineno-12-14" href="#__codelineno-12-14"></a>Block[1]: eeb73730eb18ef3efbadbe7b5f3cc1a07c0d97b6c97e7df8945e61089b280000 at: 1657114224538 with: 2 trx, nonce: 257740
+<a id="__codelineno-12-15" name="__codelineno-12-15" href="#__codelineno-12-15"></a>
+<a id="__codelineno-12-16" name="__codelineno-12-16" href="#__codelineno-12-16"></a>[2022-07-06T13:30:30Z INFO  library_blockchain::factory] Success updated With the block 2.
+<a id="__codelineno-12-17" name="__codelineno-12-17" href="#__codelineno-12-17"></a>
+<a id="__codelineno-12-18" name="__codelineno-12-18" href="#__codelineno-12-18"></a>**BlOcKcHaIn SiGnAls:**
+<a id="__codelineno-12-19" name="__codelineno-12-19" href="#__codelineno-12-19"></a>Block[2]: 3674f23d58002856c17816590f7e2ff195005ad477c67e704d61eead25710000 at: 1657114230226 with: 1 trx, nonce: 37407
+<a id="__codelineno-12-20" name="__codelineno-12-20" href="#__codelineno-12-20"></a>
+<a id="__codelineno-12-21" name="__codelineno-12-21" href="#__codelineno-12-21"></a>[2022-07-06T13:30:30Z INFO  library_blockchain::factory] Success updated With the block 3.
+<a id="__codelineno-12-22" name="__codelineno-12-22" href="#__codelineno-12-22"></a>
+<a id="__codelineno-12-23" name="__codelineno-12-23" href="#__codelineno-12-23"></a>7.67user 0.16system 0:08.03elapsed 97%CPU (0avgtext+0avgdata 25300maxresident)k
+<a id="__codelineno-12-24" name="__codelineno-12-24" href="#__codelineno-12-24"></a>2280inputs+0outputs (13major+6505minor)pagefaults 0swaps
+</code></pre></div>
+
+</details>
+</p>
+<h3 id="wasmfuture-work">WASM(future work)<a class="headerlink" href="#wasmfuture-work" title="Permanent link">&para;</a></h3>
+<p>For consume the library we used some WASM compiling strategy:</p>
+<blockquote>
+<p><a href="https://github.com/armanriazi/rust-scratch-blockchain-bin/tree/armanriazi-bindgen0">Bindgen</a></p>
+<p><a href="https://github.com/armanriazi/rust-scratch-blockchain-bin/tree/armanriazi-wasmer-llvm">Wasmer-LLVM</a></p>
+<p><a href="https://github.com/armanriazi/rust-scratch-blockchain-bin/tree/armanriazi-wasmer-wasi">Wasmer-Wasi</a></p>
+<p><a href="https://github.com/armanriazi/rust-scratch-blockchain-bin">Binary of rust-scratch-blockchain</a></p>
+</blockquote>
+<h3 id="used-concepts_1">Used Concepts<a class="headerlink" href="#used-concepts_1" title="Permanent link">&para;</a></h3>
+<h4 id="-memoizationlazyevaluation_1">- [✓] Memoization•Lazy•Evaluation<a class="headerlink" href="#-memoizationlazyevaluation_1" title="Permanent link">&para;</a></h4>
+<blockquote>
+<p>We can create a struct that will hold the closure and the resulting value of calling the closure.</p>
+<p>The struct will execute the closure only if we need the resulting value, and it will cache the resulting value so the rest of our code doesn’t have to be responsible for saving and reusing the result.</p>
+<p>FnOnce consumes the variables it captures from its enclosing scope, known as the closure’s environment. To consume the captured variables, the closure must take ownership of these variables and move them into the closure when it is defined.
+The Once part of the name represents the fact that the closure can’t take ownership of the same variables more than once, so it can be called only once.</p>
+<p>FnMut can change the environment because it mutably borrows values.</p>
+<p>Fn borrows values from the environment immutably. FnOnce: takes the whole value. FnMut: takes a mutable reference. Fn: takes a regular reference.</p>
+</blockquote>
+<h4 id="-coercion_1">- [✓] Coercion<a class="headerlink" href="#-coercion_1" title="Permanent link">&para;</a></h4>
+<blockquote>
+<p>Deref coercion is a convenience that Rust performs on arguments to functions and methods. Deref coercion works only on types that implement the Deref trait. Deref coercion converts such a type into a reference to another type. For example, deref coercion can convert &amp;String to &amp;str because String implements the Deref trait such that it returns &amp;str.</p>
+<p>The number of times that Deref::deref needs to be inserted is resolved at compile time, so there is no runtime penalty for taking advantage of deref coercion!
+Similar to how you use the Deref trait to override the * operator on immutable references, you can use the DerefMut trait to override the * operator on mutable references.the Drop trait is almost always used when implementing a smart pointer. For example, when a Box<T> is dropped it will deallocate the space on the heap that the box points to.</p>
+<p>Note that we didn’t need to call the drop method explicitly.</p>
+</blockquote>
+<h4 id="-dstorunsizedtype_1">- [✓] DST•Or•Unsizedtype<a class="headerlink" href="#-dstorunsizedtype_1" title="Permanent link">&para;</a></h4>
+<blockquote>
+<p>DSTs or unsized types': str(but not &amp;str-So although a &amp;T is a single value that stores the memory address of where the T is located, a &amp;str is two values: the address of the str and its length. Rust has a particular trait called the Sized trait to determine whether or not a type’s size is known at compile time. This trait is automatically implemented for everything whose size is known at compile time. In addition, Rust implicitly adds a bound on Sized to every generic function. </p>
+</blockquote>
+<h4 id="-operation_1">- [✓] Operation<a class="headerlink" href="#-operation_1" title="Permanent link">&para;</a></h4>
+<div class="highlight"><pre><span></span><code>-&gt; Methods are functions that are coupled to some object.
+</code></pre></div>
+<blockquote>
+<p>From a syntactic point of view, these are just functions that don’t need to specify one of their arguments. Rather than calling open() and passing a File object in as an argument (read(f, buffer)), methods allow the main object to be implicit in the function call (f.read(buffer)) using the dot operator.</p>
+<p>There are a number of theoretical differences between methods and functions, but a detailed discussion of those computer science topics is available in other books. Briefly, functions are regarded as pure, meaning their behavior is determined solely by their arguments. Methods are inherently impure, given that one of their arguments is effectively a side effect. These are muddy waters, though. Functions are perfectly capable of acting on side effects themselves. Moreover, methods are implemented with functions. And, to add an exception to an exception, objects sometimes implement static methods, which do not include implicit arguments.
+To define methods, Rust programmers use an impl block</p>
+</blockquote>
+<h4 id="-borrowchecker_1">- [✓] Borrowchecker<a class="headerlink" href="#-borrowchecker_1" title="Permanent link">&para;</a></h4>
+<blockquote>
+<p>The borrow checker checks that all access to data is legal, which allows Rust to prevent safety issues. Learning how this works will, at the very least, speed up your development time by helping you avoid run-ins with the compiler. More significantly though, learning to work with the borrow checker allows you to build larger software systems with confidence. It underpins the term fearless concurrency.</p>
+</blockquote>
+<h4 id="-borrowcheckerlifetime_1">- [✓] Borrowchecker•Lifetime<a class="headerlink" href="#-borrowcheckerlifetime_1" title="Permanent link">&para;</a></h4>
+<div class="highlight"><pre><span></span><code>-&gt; Lifetime=Timetolive=Subset of their scope
+</code></pre></div>
+<blockquote>
+<p>Make hypotheses about whether or not your experiments will pass the borrow checker before you compile reference in Rust has a lifetime, which is the scope for which that reference is valid. Most of the time, lifetimes are implicit and inferred, just like most of the time, types are inferred. We must annotate types when multiple types are possible. In a similar way, we must annotate lifetimes when the lifetimes of references could be related in a few different ways.</p>
+<p>The main aim of lifetimes is to prevent dangling references, which cause a program to reference data other than the data it’s intended to reference.
+All references in Rust have a lifetime, even if they are not explicitly annotated. The compiler is capable of implicitly assigning lifetimes. </p>
+<p>A value’s lifetime is the period when accessing that value is valid behavior. A function’s local variables live until the function returns, while global variables might live for the life of the program.</p>
+<p>The notion of ownership is rather limited. An owner cleans up when its values’ lifetimes end.</p>
+<p>Although every parameter has a lifetime, these checks are typically invisible as the compiler can infer most lifetimes by itself.</p>
+<p>All values bound to a given lifetime must live as long as the last access to any value bound to that lifetime.</p>
+<p>No lifetime annotations are required when calling a function.</p>
+<p>Lifetime annotations don’t change how long any of the references live. Just as functions can accept any type when the signature specifies a generic type parameter, functions can accept references with any lifetime by specifying a generic lifetime parameter.</p>
+<p>Lifetime annotations describe the relationships of the lifetimes of multiple references to each other without affecting the lifetimes.</p>
+<p>The lifetime annotations indicate that the references first and second must both live as long as that generic lifetime.</p>
+<p>Lifetimes on function or method parameters are called input lifetimes, and lifetimes on return values are called output lifetimes.</p>
+<p>Although every parameter has a lifetime, these checks are typically invisible as the compiler can infer most lifetimes by itself</p>
+<p>All values bound to a given lifetime must live as long as the last access to any value bound to that lifetime.</p>
+<p>No lifetime annotations are required when calling a function.</p>
+<p>Using two lifetime parameters (a and b) indicates that the lifetimes of i and j are decoupled.</p>
+<p>fn add_with_lifetimes&lt;'a, 'b&gt;(i: &amp;'a i32, j: &amp;'b i32) -&gt; i32 {}</p>
+<p>Lifetime of that usage: </p>
+<blockquote>
+<p>the LOC('existence time' or Line of code) between when a location is first used in a certain way, and when that usage stops.</p>
+</blockquote>
+<p>Lifetime of that value:</p>
+<blockquote>
+<p>the LOC (or actual time) between when a value is created, and when that value is dropped.</p>
+</blockquote>
+<p>Might be useful when discussing open file descriptors, but also irrelevant here.</p>
+<p>Ultimately, lifetime syntax is about connecting the lifetimes of various parameters and return values of functions. Once they’re connected, Rust has enough information to allow memory-safe operations and disallow operations that would create dangling pointers or otherwise violate memory safety.</p>
+</blockquote>
+<h4 id="-dangle_1">- [✓] Dangle<a class="headerlink" href="#-dangle_1" title="Permanent link">&para;</a></h4>
+<blockquote>
+<p>The main aim of lifetimes is to prevent dangling references.which has an outer scope and an inner scope.
+In return section of a function primitive types need to define as (&amp;'a or &amp;'static)</p>
+</blockquote>
+<h4 id="-generic_1">- [✓] Generic<a class="headerlink" href="#-generic_1" title="Permanent link">&para;</a></h4>
+<blockquote>
+<p>You might be wondering whether there is a runtime cost when using generic type parameters. The good news is that using generic types won't make your run any slower than it would with concrete types.</p>
+<p>Rust accomplishes this by performing monomorphization of the code using generics at compile time. 
+Monomorphization is the process of turning generic code into specific code by filling in the concrete types that are used when compile.
+Every programming language has tools for effectively handling the duplication of concepts.</p>
+<p>In Rust, one such tool is generics. Generics are abstract stand-ins for concrete types or other properties. When we’re writing code,
+we can express the behavior of generics or how they relate to other generics without knowing what will be in their place when compiling and running the code.</p>
+</blockquote>
+<h4 id="staticdispatchpassed_1">Static•Dispatch(Passed)<a class="headerlink" href="#staticdispatchpassed_1" title="Permanent link">&para;</a></h4>
+<div class="highlight"><pre><span></span><code>-&gt; Monomorphization
+</code></pre></div>
+<blockquote>
+<p>Dispatch is the mechanism to determine which specific version of code is actually run when it involves polymorphism. Two major forms of dispatch are static dispatch and dynamic dispatch. While Rust favors static dispatch, it also supports dynamic dispatch through a mechanism called ‘trait objects’.
+When Rust compiles this code, it performs monomorphization.</p>
+<p>The monomorphized version of the code looks like the following. The generic Option<T> is replaced with the specific definitions created by the compiler:
+versions of a polymorphic function (or any polymorphic entity) during compilation is called Monomorphization.</p>
+<p>Because Rust compiles generic code into code that specifies the type in each instance, we pay no runtime cost for using generics. When the code runs, it performs just as it would if we had duplicated each definition by hand. The process of monomorphization makes Rust’s generics extremely efficient at runtime.
+This is opposed to dynamic dispatch</p>
+</blockquote>
+<h4 id="-dynamicdispatch_1">- [✓] Dynamic•Dispatch<a class="headerlink" href="#-dynamicdispatch_1" title="Permanent link">&para;</a></h4>
+<blockquote>
+<p>The code that results from monomorphization is doing static dispatch, which is when the compiler knows what method you’re calling at compile time.
+This is opposed to dynamic dispatch, which is when the compiler can’t tell at compile time which method you’re calling.
+In dynamic dispatch cases, the compiler emits code that at runtime will figure out which method to call.</p>
+<p>When we use trait objects, Rust must use dynamic dispatch. The compiler doesn’t know all the types that might be used with the code that is using trait objects,
+so it doesn’t know which method implemented on which type to call. Instead, at runtime, Rust uses the pointers inside the trait object to know which method to call. There is a runtime cost when this lookup happens that doesn’t occur with static dispatch. Dynamic dispatch also prevents the compiler from choosing to inline a method’s code, which in turn prevents some optimizations.</p>
+</blockquote>
+<h4 id="-blanketimplementation_1">- [-] Blanket•Implementation<a class="headerlink" href="#-blanketimplementation_1" title="Permanent link">&para;</a></h4>
+<blockquote>
+<p>Any implementation where a type appears uncovered. impl<T> Foo for T, impl<T> Bar<T> for T, impl<T> Bar<Vec\<T>> for T, and impl<T> Bar<T> for Vec<T> are considered blanket impls.</p>
+<p>We can also conditionally implement a trait for any type that implements another trait. Implementations of a trait on any type that satisfies the trait bounds are called blanket implementations and are extensively used in the Rust standard library. For example, the standard library implements the ToString trait on any type that implements the Display trait.</p>
+</blockquote>
+<h4 id="-boundsyntax_1">- [✓] Bound(syntax)<a class="headerlink" href="#-boundsyntax_1" title="Permanent link">&para;</a></h4>
+<blockquote>
+<p>Bounds are constraints on a type or trait. For example, if a bound is placed on the argument a function takes, types passed to that function must abide by that constraint.</p>
+</blockquote>
+<h4 id="-trait_1">- [✓] Trait<a class="headerlink" href="#-trait_1" title="Permanent link">&para;</a></h4>
+<blockquote>
+<p>We can use traits to define shared behavior in an abstract way. We can use trait bounds to specify that a generic type can be any type that has certain behavior.
+Traits are similar to a feature often called interfaces in other languages, although with some differences.</p>
+<p>What is a trait? A trait is a language feature that is analogous to an interface, protocol, or contract. If you have a background in object-oriented programming, consider a trait to be an abstract base class. If you have a background in functional programming, Rust’s traits are close to Haskell’s type classes
+these also support a form of inheritance that’s common in most object oriented languages. For now, though, the thing to remember is that traits represent common behavior (Or reusable codes like println!)that types opt into via the syntax impl Trait for Type.</p>
+<p>After the method signature, instead of providing an implementation within curly brackets, we use a semicolon.</p>
+<p>This interface consists of associated items, which come in three varieties: functions, types, constants.</p>
+<p>All traits define an implicit type parameter Self that refers to "the type that is implementing this interface".</p>
+<p>Trait functions may omit the function body by replacing it with a semicolon. This indicates that the implementation must define the function. If the trait function defines a body, this definition acts as a default for any implementation which does not override it. Similarly, associated constants may omit the equals sign and expression to indicate implementations must define the constant value. Associated types must never define the type, the type may only be specified in an implementation.</p>
+</blockquote>
+<h4 id="-polymorphism_1">- [✓] Polymorphism<a class="headerlink" href="#-polymorphism_1" title="Permanent link">&para;</a></h4>
+<blockquote>
+<p>In a struct or enum, the data in the struct fields and the behavior in impl blocks are separated, whereas in other languages, the data and behavior combined into one concept is often labeled an object.However, trait objects are more like objects in other languages in the sense that they combine data and behavior.</p>
+</blockquote>
+<h4 id="-unrolling_1">- [✓] Unrolling<a class="headerlink" href="#-unrolling_1" title="Permanent link">&para;</a></h4>
+<blockquote>
+<p>It is an optimization that removes the overhead of the loop controlling code and instead generates repetitive code for each iteration of the loop.</p>
+</blockquote>
+<h4 id="-bindingmatch_1">- [✓] Binding•Match<a class="headerlink" href="#-bindingmatch_1" title="Permanent link">&para;</a></h4>
+<blockquote>
+<p>The compiler automatically references the Some, and since we're borrowing, name is bound as ref name automatically as well. If we were mutating:</p>
+</blockquote>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a> //https://blog.rust-lang.org/2018/05/10/Rust-1.26.html#nicer-match-bindings
+<a id="__codelineno-13-2" name="__codelineno-13-2" href="#__codelineno-13-2"></a>// `self` has type `&amp;List`, and `*self` has type `List`, matching on a
+<a id="__codelineno-13-3" name="__codelineno-13-3" href="#__codelineno-13-3"></a>// concrete type `T` is preferred over a match on a reference `&amp;T`
+<a id="__codelineno-13-4" name="__codelineno-13-4" href="#__codelineno-13-4"></a>// after Rust 2018 you can use self here and tail (with no ref) below as well,
+<a id="__codelineno-13-5" name="__codelineno-13-5" href="#__codelineno-13-5"></a>// rust will infer &amp;s and ref tail. 
+</code></pre></div>
+<h4 id="-dataracerustaceans_1">- [✗] Datarace•Rustaceans<a class="headerlink" href="#-dataracerustaceans_1" title="Permanent link">&para;</a></h4>
+<blockquote>
+<p>Note: The opposite of referencing by using &amp; is dereferencing, which is accomplished with the dereference operator, *.</p>
+</blockquote>
+<h4 id="-nanphilosophy_1">[-] Nan(philosophy)<a class="headerlink" href="#-nanphilosophy_1" title="Permanent link">&para;</a></h4>
+<blockquote>
+<p>Floating-point types include “not a number” values (represented in Rust syntax as NAN values) to handle these cases.</p>
+<p>NAN values poison other numbers. Almost all operations interacting with NAN return NAN. Another thing to be mindful of is that, by definition, NAN values are never equal. 
+Programming language design is often thought of in terms of which features you include, but the features you exclude are important too. Rust doesn’t have the null feature that many other languages have. Null is a value that means there is no value there. In languages with null, variables can always be in one of two states: null or not-null.
+In his 2009 presentation “Null References: The Billion Dollar Mistake,” Tony Hoare, the inventor of null, has this to say:
+I call it my billion-dollar mistake. At that time, I was designing the first comprehensive type system for references in an object-oriented language. My goal was to ensure that all use of references should be absolutely safe, with checking performed automatically by the compiler. But I couldn’t resist the temptation to put in a null reference, simply because it was so easy to implement. This has led to innumerable errors, vulnerabilities, and system crashes, which have probably caused a billion dollars of pain and damage in the last forty years. </p>
+<p>To program defensively, make use of the is_nan() and is_finite() methods. Inducing a crash, rather than silently proceeding with a mathematical error, allows you to debug close to what has caused the problem. The following illustrates using the is_finite()  </p>
+</blockquote>
+<h4 id="-duplicationliteral_1">- [✓] Duplication((literal)<a class="headerlink" href="#-duplicationliteral_1" title="Permanent link">&para;</a></h4>
+<blockquote>
+<p>Concept of copying the pointer, length, and capacity without copying the data probably sounds like making a shallow copy.</p>
+<p>If we do want to deeply copy the heap data of the String, not just the stack data, we can use a common method called clone</p>
+</blockquote>
+<h4 id="-semanticliteral_1">- [✓] Semantic(literal)<a class="headerlink" href="#-semanticliteral_1" title="Permanent link">&para;</a></h4>
+<blockquote>
+<p>Primitive types are said to possess copy semantics, whereas all other types have move semantics.
+Adding more functionality (e.g., reference-counting semantics rather than move semantics) to types by wrapping these in other types typically reduces their run-time performance.</p>
+</blockquote>
+<h4 id="-zerocostabstractionsliteral_1">- [✓] Zero•Cost•Abstractions(literal)<a class="headerlink" href="#-zerocostabstractionsliteral_1" title="Permanent link">&para;</a></h4>
+<blockquote>
+<p>One of the ways this manifests is by not adding extra data around values within structs.</p>
+</blockquote>
+<h4 id="-coherenceliteral_1">- [✓] Coherence(literal)<a class="headerlink" href="#-coherenceliteral_1" title="Permanent link">&para;</a></h4>
+<div class="highlight"><pre><span></span><code>-&gt; Orphan = Trait•External•Implement
+</code></pre></div>
+<blockquote>
+<p>But we can’t implement external traits on external types. For example, we can’t implement the Display trait on Vec<T> within our aggregator crate, because Display and Vec<T> are defined in the standard library and aren’t local to our aggregator crate.
+This restriction is part of a property of programs called coherence, and more specifically the orphan rule, so named because the parent type is not present. This rule ensures that other people’s code can’t break your code and vice versa. </p>
+<p>Without the rule, two crates could implement the same trait for the same type, and Rust wouldn’t know which implementation to use.</p>
+<p>Preserves contextual coherence of trace data from tasks/function/methods when logging. </p>
+<p>For example new instance of a struct of course, as you probably already know, struct then you can just summerize your struct in a method.</p>
+</blockquote>
+<h4 id="-jargonliteral_1">- [✓] Jargon(literal)<a class="headerlink" href="#-jargonliteral_1" title="Permanent link">&para;</a></h4>
+<blockquote>
+<p>Functional programming jargon: “to cons x onto y” informally means to construct a new container instance by putting the element x at the start of this new container, followed by the container y.Other, more complex recursive data types are useful in various situations, but by starting with the cons list, we can explore how boxes let us define a recursive data type without much distraction.</p>
+</blockquote>
+<h4 id="-refactorliteral_1">- [✓] Refactor(literal)<a class="headerlink" href="#-refactorliteral_1" title="Permanent link">&para;</a></h4>
+<blockquote>
+<p>One alternative to refactoring is to simply copy values. Doing this often is typically frowned upon, however, but it can be useful in a pinch. Primitive types like integers are a good example of that. Primitive types are cheap for a CPU to duplicate—so cheap, in fact, that Rust always copies these if it would otherwise worry about ownership being moved.</p>
+<p>Types can opt into two modes of duplication: cloning and copying.</p>
+</blockquote>
+<h4 id="-patternnewtype_1">- [✓] Pattern•Newtype<a class="headerlink" href="#-patternnewtype_1" title="Permanent link">&para;</a></h4>
+<blockquote>
+<p>Using the Newtype Pattern to Implement External Traits on External Types 'thin wrapper around the type' : part of Vec<String> is noticed. We can make a Wrapper struct that holds an instance of Vec<T>; then we can implement Display on Wrapper and use the Vec<T> value The downside of using this technique is that Wrapper is a new type, so it doesn’t have the methods of the value it’s holding. We would have to implement all the methods of Vec<T> directly on Wrapper such that the methods delegate to self.0, which would allow us to treat Wrapper exactly like a Vec<T>.</p>
+<p>If we wanted the new type to have every method the inner type has, implementing the Deref trait (If we don’t want the Wrapper type to have all the methods of the inner type—for example, to restrict the Wrapper type’s behavior—we would have to implement just the methods we do want manually.)</p>
+</blockquote>
+<h4 id="-patterndesigninteriorfuture-work_1">- [✗] Pattern•Design•Interior(future work)<a class="headerlink" href="#-patterndesigninteriorfuture-work_1" title="Permanent link">&para;</a></h4>
+<blockquote>
+<p>Interior mutability is a design pattern in Rust that allows you to mutate data even when there are immutable references to that data; normally, this action is disallowed by the borrowing rules. To mutate data, the pattern uses unsafe code inside a data structure to bend Rust’s usual rules that govern mutation and borrowing. </p>
+<p>RefCell<T> type that follows the interior mutability pattern.</p>
+<p>Unlike Rc<T>, the RefCell<T> type represents single ownership over the data it holds. So, what makes RefCell<T> different from a type like Box<T>? Recall the borrowing rules...</p>
+<p>Similar to Rc<T>, RefCell<T> is only for use in single-threaded scenarios and will give you a compile-time error if you try using it in a multithreaded context.
+At any given time, you can have either (but not both of) one mutable reference or any number of immutable references.References must always be valid.</p>
+</blockquote>
+<h4 id="-typewraperfuture-work_1">- [✗] Type•Wraper(future work)<a class="headerlink" href="#-typewraperfuture-work_1" title="Permanent link">&para;</a></h4>
+<div class="highlight"><pre><span></span><code>-&gt; Wrapper type = Reference-Counted Value = Shared Ownership = Track valid references
+</code></pre></div>
+<blockquote>
+<p>Use wrapper types, which allow more flexibility than what is available by default. These, however, incur costs at runtime to ensure that Rust’s safety guarantees are maintained. Another way to phrase this is that Rust allows programmers to opt in to garbage collection.</p>
+</blockquote>
+<h4 id="-memleakfuture-work_1">- [✗] Mem•Leak(future work)<a class="headerlink" href="#-memleakfuture-work_1" title="Permanent link">&para;</a></h4>
+<div class="highlight"><pre><span></span><code>-&gt; Managing Memory Leak
+</code></pre></div>
+<blockquote>
+<p>Rust’s memory safety guarantees make it difficult, but not impossible, to accidentally create memory that is never cleaned up (known as a memory leak). Preventing memory leaks entirely is not one of Rust’s guarantees in the same way that disallowing data races at compile time is, meaning memory leaks are memory safe in Rust.</p>
+<p>We can see that Rust allows memory leaks by using Rc<T> and RefCell<T>: it’s possible to create references where items refer to each other in a cycle. This creates memory leaks because the reference count of each item in the cycle will never reach 0, and the values will never be dropped.</p>
+</blockquote>
+<h5 id="-memdoublefreefuture-work_1">- [✗] Mem•Doublefree(future work)<a class="headerlink" href="#-memdoublefreefuture-work_1" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>This is a problem: when s2 and s1 (s2 is copied s1 means 2different pointer and the same data) go out of scope, they will both try to free the same memory. This is known as a double free error and is one of the memory safety bugs we mentioned previously. Freeing memory twice can lead to memory corruption, which can potentially lead to security vulnerabilities.</p>
+</blockquote>
+<h4 id="-memdeallocatingorraiifuture-work_1">- [✗] Mem•Deallocating•or•RAII(future work)<a class="headerlink" href="#-memdeallocatingorraiifuture-work_1" title="Permanent link">&para;</a></h4>
+<blockquote>
+<p>Note: In C++, this pattern of deallocating resources at the end of an item’s lifetime is sometimes called Resource Acquisition Is Initialization (RAII). The drop function in Rust will be familiar to you if you’ve used RAII patterns.</p>
+</blockquote>
+<h4 id="-threadfuture-work_1">- [✗] Thread(future work)<a class="headerlink" href="#-threadfuture-work_1" title="Permanent link">&para;</a></h4>
+<blockquote>
+<p>Which parts of your code on different threads will run. This can lead to problems, such as:</p>
+<p>Race conditions, where threads are accessing data or resources in an inconsistent order Deadlocks, where two threads are waiting for each other to finish using a resource the other thread has, preventing both threads from continuing Bugs that happen only in certain situations and are hard to reproduce and fix reliably.</p>
+</blockquote>
+<h4 id="-threadstrategesfuture-work_1">- [✗] Thread•Strateges(future work)<a class="headerlink" href="#-threadstrategesfuture-work_1" title="Permanent link">&para;</a></h4>
+<div class="highlight"><pre><span></span><code>-&gt; Priority Performance
+</code></pre></div>
+<blockquote>
+<p>Stealing_Join: execute code in parallel when there are idle CPUs to handle it.</p>
+<p>When join is called from outside the thread pool, the calling thread will block while the closures execute in the pool. When join is called within the pool, the calling thread still actively participates in the thread pool. It will begin by executing closure A (on the current thread). While it is doing that, it will advertise closure B as being available for other threads to execute. Once closure A has completed, the current thread will try to execute closure B; if however closure B has been stolen, then it will look for other work while waiting for the thief to fully execute closure B. (This is the typical work-stealing strategy).
+Send is require because we have jump from quick func(thread a) to part func(thread b) frequently.</p>
+<p>Atomic: types provide primitive shared-memory communication between threads, and are the building blocks of other concurrent types.
+This module defines atomic versions of a select number of primitive types, including AtomicBool, AtomicIsize, AtomicUsize, AtomicI8, AtomicU16, etc. Atomic types present operations that, when used correctly, synchronize updates between threads.
+Each method takes an Ordering which represents the strength of the memory barrier for that operation. These orderings are the same as the C++20 atomic orderings. For more information see the nomicon.</p>
+<p>Atomic variables are safe to share between threads (they implement Sync) but they do not themselves provide the mechanism for sharing and follow the threading model of Rust. The most common way to share an atomic variable is to put it into an Arc (an atomically-reference-counted shared pointer).
+Atomic types may be stored in static variables, initialized using the constant initializers like AtomicBool::new. Atomic statics are often used for lazy global initialization.</p>
+<p>Spin_Loop_Yeild
+  also known as busy loop and spin loop-If you want to sleep pause a thread for short amounts of time, or if your application is sensitive to timing, use a spin loop</p>
+</blockquote>
+<h4 id="-unsafeexternmanglingfuture-work_1">- [✗] Unsafe•Extern•Mangling(future work)<a class="headerlink" href="#-unsafeexternmanglingfuture-work_1" title="Permanent link">&para;</a></h4>
+<div class="highlight"><pre><span></span><code>&gt; Mangling is when a compiler changes the name we’ve given a function to a different name that contains more information for other parts of the compilation process to consume but is less human readable. Every programming language compiler mangles names slightly differently, so for a Rust function to be nameable by other languages, we must disable the Rust compiler’s name mangling.
+</code></pre></div>
+<h4 id="-interiormutabilitypattern_1">- [✓] Interior•Mutability•Pattern<a class="headerlink" href="#-interiormutabilitypattern_1" title="Permanent link">&para;</a></h4>
+<p>RefCell<T>: Lets us have many immutable borrows or one mutable borrow at any point in time.
+Mutating the value inside an immutable value is the interior mutability pattern.
+Interior mutability is a design pattern in Rust that allows you to mutate data even when there are immutable references to that data; normally, this action is disallowed by the borrowing rules. To mutate data, the pattern uses unsafe code inside a data structure to bend Rust’s usual rules that govern mutation and borrowing. 
+RefCell<T> type that follows the interior mutability pattern.
+Unlike Rc<T>, the RefCell<T> type represents single ownership over the data it holds. So, what makes RefCell<T> different from a type like Box<T>? Recall the borrowing rules,
+Similar to Rc<T>, RefCell<T> is only for use in single-threaded scenarios and will give you a compile-time error if you try using it in a multithreaded context.
+At any given time, you can have either (but not both of) one mutable reference or any number of immutable references.References must always be valid.</p>
+<h4 id="-oopstatedesignpatternfuture-work_1">- [✗] OOP•State•DesignPattern(future work)<a class="headerlink" href="#-oopstatedesignpatternfuture-work_1" title="Permanent link">&para;</a></h4>
+<div class="highlight"><pre><span></span><code>-&gt; We can used it for smart contracts so we will need to implemented smart contracts
+</code></pre></div>
+<blockquote>
+<p>Using the state pattern means when the business requirements of the program change, we won’t need to change the code of the value holding the state or the code that uses the value. We’ll only need to update the code inside one of the state objects to change its rules or perhaps add more state objects.</p>
+<p>e.g Post type. This type will use the state pattern and will hold a value that will be one of three state objects representing the various states a post can be in—draft, waiting for review, or published. Changing from one state to another will be managed internally within the Post type. The states change in response to the methods called by our library’s users on the Post instance, but they don’t have to manage the state changes directly. Also, users can’t make a mistake with the states, like publishing a post before it’s reviewed.</p>
+</blockquote>
+<h4 id="-superpowerfuture-work_1">- [✗] Superpower(future work)<a class="headerlink" href="#-superpowerfuture-work_1" title="Permanent link">&para;</a></h4>
+<blockquote>
+<p>if the Rust compiler doesn’t have enough information to be confident, it will reject the code. In these cases,
+you can use unsafe code to tell the compiler, “Trust me, I know what I’m doing.” The downside is that you use it at your own risk: 
+if you use unsafe code incorrectly, problems due to memory unsafety, such as null pointer dereferencing, can occur.</p>
+<p>You can take five actions in unsafe Rust, called unsafe superpowers, that you can’t in safe Rust. Those superpowers include the ability to:</p>
+<blockquote>
+<p>Dereference a raw pointer</p>
+<p>Call an unsafe function or method</p>
+<p>Access or modify a mutable static variable</p>
+<p>Implement an unsafe trait</p>
+<p>Access fields of unions</p>
+<p>Calling unsafe() would crash the program.</p>
+</blockquote>
+<p>consider unsafe to be a warning sign rather than an indicator that you’re embarking on anything illegal. Unsafe means “the same level of safety offered by C at all times.” </p>
+<p>If you still had access to (via unsafe) they might still look like valid S, but any attempt to use them as valid S is undefined behavior. ↓
+<a href="https://cheats.rs/#unsafe-unsound-undefined-dark">https://cheats.rs/#unsafe-unsound-undefined-dark</a> side of force
+Try to avoid "unsafe {}", often safer, faster solution without it. Exception: FFI.
+People are fallible, and mistakes will happen, but by requiring these five unsafe operations to be inside blocks annotated with unsafe you’ll know that any errors related to memory safety must be within an unsafe block. Keep unsafe blocks small; you’ll be thankful later when you investigate memory bugs.
+To isolate unsafe code as much as possible, it’s best to enclose unsafe code within a safe abstraction and provide a safe API, which we’ll discuss later in the chapter when we examine unsafe functions and methods.</p>
+<p>Parts of the standard library are implemented as safe abstractions over unsafe code that has been audited.
+Wrapping unsafe code in a safe abstraction prevents uses of unsafe from leaking out into all the places that you or your users might want to use the functionality implemented with unsafe code, because using a safe abstraction is safe.</p>
+</blockquote>
+<hr />
+<h1 id="contributors_1">Contributors<a class="headerlink" href="#contributors_1" title="Permanent link">&para;</a></h1>
+<p>nom is the fruit of the work of many contributors over the years, many thanks for your help!</p>
+<p><a href="https://github.com/armanriazi/rust-scratch-blockchain/graphs/contributors">
+  Contributors
+</a></p>
+<hr />
+<h1 id="thanks">Thanks<a class="headerlink" href="#thanks" title="Permanent link">&para;</a></h1>
+<p><a href="https://users.rust-lang.org/u/LegionMammal978">Convert string to u128</a></p>
+<hr />
+<h1 id="solved-issues">Solved Issues<a class="headerlink" href="#solved-issues" title="Permanent link">&para;</a></h1>
+<p><a href="https://users.rust-lang.org/t/convert-string-to-u128/77183">Convert-string-to-u128</a></p>
+
+
+  
+
+
+
+  <form class="md-feedback" name="feedback" hidden>
+    <fieldset>
+      <legend class="md-feedback__title">
+        Was this page helpful?
+      </legend>
+      <div class="md-feedback__inner">
+        <div class="md-feedback__list">
+          
+            <button class="md-feedback__icon md-icon" type="submit" title="This_page_was_helpful" data-md-value="1">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 9v12H1V9h4m4 12a2 2 0 0 1-2-2V9c0-.55.22-1.05.59-1.41L14.17 1l1.06 1.06c.27.27.44.64.44 1.05l-.03.32L14.69 8H21a2 2 0 0 1 2 2v2c0 .26-.05.5-.14.73l-3.02 7.05C19.54 20.5 18.83 21 18 21H9m0-2h9.03L21 12v-2h-8.79l1.13-5.32L9 9.03V19Z"/></svg>
+            </button>
+          
+            <button class="md-feedback__icon md-icon" type="submit" title="This_page_could_be_improved" data-md-value="0">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 15V3h4v12h-4M15 3a2 2 0 0 1 2 2v10c0 .55-.22 1.05-.59 1.41L9.83 23l-1.06-1.06c-.27-.27-.44-.64-.44-1.06l.03-.31.95-4.57H3a2 2 0 0 1-2-2v-2c0-.26.05-.5.14-.73l3.02-7.05C4.46 3.5 5.17 3 6 3h9m0 2H5.97L3 12v2h8.78l-1.13 5.32L15 14.97V5Z"/></svg>
+            </button>
+          
+        </div>
+        <div class="md-feedback__note">
+          
+            <div data-md-value="1" hidden>
+              
+              
+                
+              
+              Thanks for your feedback!
+            </div>
+          
+            <div data-md-value="0" hidden>
+              
+              
+                
+              
+              Thanks for your feedback! Help us improve this page by using our <a href="https://docs.google.com/forms/d/e/1FAIpQLSePtZh6Upj2tconoH43yqadxL2W-wo0coms41yjysY_Amyqzw/viewform?usp=pp_url&entry.853143515=/browser-support/" target="_blank" rel="noopener">feedback form</a>.  
+            </div>
+          
+        </div>
+      </div>
+    </fieldset>
+  </form>
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var tab,labels=set.querySelector(".tabbed-labels");for(tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      &copy; 2023 <a href="https://github.com/armanriazi"  target="_blank" rel="noopener">Arman Riazi</a>
+
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+    <a href="https://twitter.com/arman_riazi_science" target="_blank" rel="noopener" title="ArmanRiazi on Twitter" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/armanriazi" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://linkedin.com/in/armanriazi" target="_blank" rel="noopener" title="linkedin.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../../../..", "features": ["search.suggest", "search.highlight", "search.share", "announce.dismiss", "content.tooltips", "content.code.copy", "content.tabs.link", "content.code.annotate", "header.autohide", "navigation.instant", "navigation.footer", "navigation.indexes", "navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "navigation.path", "navigation.expand", "toc.follow", "toc.integrate"], "search": "../../../../assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../../../assets/javascripts/bundle.51198bba.min.js"></script>
+      
+        <script src="../../../../docs/assets/javascripts/google-analytics.js"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  <script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});})</script></body>
+</html>

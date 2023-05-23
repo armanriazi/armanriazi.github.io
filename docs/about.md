@@ -24,7 +24,7 @@ author: "Arman Riazi"
 
 > [Resume-lts-version](https://github.com/armanriazi/armanriazi/blob/self/armanriazi-resume-lts.pdf)
 
-> Arman Riazi knows how to move your business, developing on Blockchain 4.0.
+> Arman Riazi knows how to move your business, developing on Blockchain 5.0.
 
 > Getting Luxary services that you can afford.
 
@@ -36,15 +36,15 @@ author: "Arman Riazi"
 
 > It took me ages to learn the programming and found knowledge of IT.
 
-> I have been working on the Blockchain ecosystem as a CryptoTrader and Blockchain developer for about 3 years.
+> I have been working on the Blockchain ecosystem as a CryptoTrader and Blockchain developer for about 5 years.
 
 > I've always influence by dr.Ravenwood. His works are so creative. I am sure he will impressive much more in the future.
 
 > Following the table is my recent experiences 😋 by access to [archive](public/archive/archive.md) before 2020 you can click on it.
 
-<iframe width="900" height="506" src="https://www.youtube.com/embed/ZQbxqD5bsak" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="900" height="506" src="https://www.youtube.com/embed/1EK0OnvpOgQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Certificate 2023
+## Personality Certificate 2023
 | Expert | Priod  | By | Supported By   | Inquiry | Documents 
 |:--------------------------------------:|:-------:|:---------------:|:-------------------|:------------|:--------------|
 |  Soft Skills  | 09:30 H       |  Udemy – The Open University  | udemy.com, open.ac.uk  |  Boundled    | [Link](https://github.com/armanriazi/armanriazi/blob/self/Soft-Skills-Bundled-2023-Jan.pdf)    |
@@ -69,7 +69,7 @@ author: "Arman Riazi"
 
 > There is not exactly the time to estimate spend time since developing and learning would go with each other. In my opinion, developers who had a kind of skills like Frontend, Backend, or Database have been forced into the Blockchain ecosystem because of the charm of the subject and the rapid growth and evolution of the Technology. 
 
- >I wonder to let you know I am big on **Substrate and WASM** Substrate, WASM to apply for mixing experiences and technologies that lead to **#Defi2.0 & #Web3.0**. It is the only chance I get to find out what's been going on in the technology world and catch up with the current affairs.
+ >I wonder to let you know I am big on **Substrate and WASM** Substrate, WASM to apply for mixing experiences and technologies that lead to **#Defi 3.0 & #Web 3.0**. It is the only chance I get to find out what's been going on in the technology world and catch up with the current affairs.
 
 > I worked for companies that were B2B or B2C. Therefore, I have developed projects based on the skills mentioned in the resume, which did not need to be introduced on the personal website because the material and intellectual rights of the works must be preserved. I have worked for 5 domestic companies in the field of support, development and consulting, and when I decided to work internationally(or decentralized), I spent a lot of time learning again and more(because there are high inflation and economics pressure in the country and I estimated in the future will be harder but my top priority always have been gaining more experiance in different places). You can see the prototypes of the works done on GitHub.
 

@@ -37,9 +37,8 @@ title: "Arman Riazi"
 - [Rust-All-In-One-non private ver 0.1.0](https://github.com/armanriazi/rust-all-in-one-2022-archived)
 
 ### Rust-All-In-One-Private
-> This repository have got more than 400 sample that collected more than 6 significant reference. I made a customize online book that contains md-files and you can search for any gathered concept.
-> I was wondering if you want it please contact me. To gain access online book have value of 200$.
-- [Rust-All-In-One-Private](https://github.com/armanriazi/rust-all-in-one)
+> How to learn quickly ? I have the pleasure of introducing a repository that has more than 400 samples and has collected more than six significant references. I made a customised online book that contains md-files, and you can search for any gathered concept.
+> I was wondering if you wanted to contact me. To gain access online, books with codes have a value of $100.
 
 ## Videos
 
