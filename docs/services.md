@@ -43,5 +43,12 @@ show:
 
         How to learn quickly ? I have the pleasure of introducing a repository that has more than 400 samples and has collected more than six significant references. I made a customised online book that contains md-files, and you can search for any gathered concept.
         I was wondering if you wanted to contact me. To gain access online, books with codes have a value of $100.
-        - [Rust-All-In-One-Private](https://github.com/armanriazi/rust-all-in-one)
-        Running Decentralized Ledgers and Configure Full/Master Node. 
+        * [Rust-All-In-One-Private](https://github.com/armanriazi/rust-all-in-one)
+        
+
+!!! Configuration_DevOps
+
+    === "Configure Full/Master Nodes"      
+        * [CI](public/devops/Devops.md)
+        * [Running Decentralized Ledgers](public/blockchain/Substrate.md)
+        
