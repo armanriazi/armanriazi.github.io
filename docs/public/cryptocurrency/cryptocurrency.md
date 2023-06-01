@@ -1,7 +1,16 @@
 ---
-tags:
-  - cryprocurrency
-  - trade
+keywords:   armanriazi ArmanRiazi Github Defi Trade Finance
+title: "Arman Riazi"
+author: "Arman Riazi"
+search:
+  exclude: false
+type:  Cryptocurrency
+feature:  Cryptocurrency
+keywords:  github armanriazi Finance cryptocurrency trade
+author: "Arman Riazi"
+title: "Arman Riazi"
+show:
+  - feedback
 ---
 
 ## Cryptocurrency_Trade
