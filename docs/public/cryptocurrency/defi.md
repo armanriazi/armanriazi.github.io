@@ -23,11 +23,8 @@ Which type of solution enables communication, interaction, and value transfer be
 Which of the following are token use cases?
 
 - [X] Voting
-
 - [X] Collectible
-
 - [X] Attestation
-
 - [X] Utility
 
 
@@ -40,24 +37,15 @@ Proof of Work does not require the staking of tokens. Therefore, miners in proof
 What is the primary function of a locking mechanism in a bridge?
 
 - [X] To lock the original tokens on the source chain. 
-  
 - [ ]To enable cross-chain transfers. X
-
 - [ ]To improve the efficiency of smart contracts
-
 - [ ]To issue wrapped tokens on the destination chain
 
 A Blockchain based approach for the CBDC Infrastructure would be
 
 - [ ]Likely less disruptive than RTGS
-
-
 - [X] Likely more disruptive than RTGS
-
-
 - [ ]The only possible approach
-
-
 - [X] Likely more expensive to implement than RTGS
 
 A CBDC could help a Central Bank implement monetary policy in a more effective manner
@@ -73,13 +61,8 @@ A decentralized stablecoin would be less transparent than a custodial stablecoin
 Central Bank Digital Currencies (CBDCs): (Choose all that apply)
 
 - [ ]Would only be used by commercial banks and other financial institutions
-
 - [ ]Would necessarily be based upon blockchains
-
-
 - [ ]Are widely deployed today
-
-
 - [X] Are a digital form of money issued by a Central Bank
   
 Central Bank Digital Currencies are under consideration due to which of the following considerations? (Choose all that apply)
@@ -111,72 +94,84 @@ In which of the following CBDC management schemes would an individual have a cla
 - [X] Hybrid
   
 Most stablecoins are pegged to
+
 - [ ]A market basket of currencies
 - [ ]Barrels of oil
 - [X] The US Dollar
 - [ ]The Euro
   
 Stablecoins seek to address which of the following shortcomings of cryptocurrencies
+
 - [ ]User Experience
 - [ ]User Experience
 - [X] Exchange rate volatility
 - [ ]Fraud
 
 The most popular stablecoin is: (Choose the best answer)
+
 - [ ]All the above are approximately equal in popularit
 - [ ]BTC
 - [ ]ETH
 - [X] USDT
   
 The stablecoin trilemma: (Choose all that apply)
+
 - [X] Shows the tradeoffs between different methods of maintaining stability with stablecoins.
 - [ ]Is another name for the blockchain trilemma
 - [ ]States that stablecoins can be capital efficient, secure, and centralized.
 - [ ]States that stablecoins can be capital efficient, stable, and decentralized.
 
 What are the drawbacks of a custodial stablecoin? (Choose all that apply)
+
 - [X] Central control
 - [X] Counterparty risk
 - [ ]They aren’t based upon a blockchain
 - [ ]Inefficient usage of capital
   
 What are the three areas of the CBDC design space? (Choose the best answer)
+
 - [X] Access Method
 - [X] Infrastructure
 - [X] Management Scheme
 - [ ]Blockchain Choice
   
 What techniques are used to minimize stablecoin volatility? (Choose all that apply)
+
 - [X] On-chain collateral
 - [X] Off-chain collateral
 - [ ]Minimizing volatility is not a problem with stablecoins. No special techniques are needed
 - [ ]Users are trusted to maintain the appropriate capital
 
 What would you expect to be true if a stablecoin is backed by on-chain collateral? (Choose all that apply)
+
 - [ ]It would be backed by the US Dollar
 - [X] It would be overcollateralized
 - [ ]It would make efficient use of capital
 - [ ]It would be prone to censorship
 
 Which of the following approaches for maintaining stability utilizes non-blockchain native collateral? (Choose the best answer)
+
 - [ ]UTXO
 - [X] Off-chain
 - [ ]On-chain
 - [ ]All the above
 
 Which of the following approaches for maintaining stability with stablecoins does not depend upon collateral? (Choose the best answer)  
+
 - [X] Algorithmic
 - [ ]All the above
 - [ ]On-chain
 - [ ]Off-chain
   
 Which of the following best describes the position of most major Central Banks regarding CBDCs? (Choose the best answer)
+
 - [ ]They have deployed CBDCs
 - [X] They are in an exploratory phase with ongoing research and proofs-of-concept
 - [ ]They have rejected CBDCs
 - [ ]Deployment is expected within the coming weeks
 
 You are concerned about censorship risks with stablecoins. Which stability approach would you avoid? (Choose the best answer)
+
 - [ ]Algorithmic
 - [ ]All the above
 - [X] Off-chain
@@ -185,80 +180,94 @@ You are concerned about censorship risks with stablecoins. Which stability appro
 ---
 
 Liquidation Threshold (choose all that apply)
+
 - [X] Is when the loan is automatically repaid
 - [ ]Is the dollar value at which the loan will be liquidated
 - [X] Is set by the controlling smart contract
 - [ ]Is the dollar value of the collateral
   
-A Flash loan (choose all that apply):
+A Flash loan (choose all that apply)
+
 - [ ]Is possible with either TradFi or DeFi loans
 - [ ]Is only possible with TradFi loans
 - [ ]Is not possible with either DeFi or TradFi loans
 - [X] Is only possible DeFi loans
 
 Assume that ETH is priced at $2000 and USDC has a price of $1. With an LTV ratio of 80% what is the maximum amount of USDC you can borrow if you collateralize the loan with 1 ETH? #formula
+
 - [ ]2500 USDC
 - [ ]2000 USDC
 - [ ]800 USDC
 - [X] 1600 USDC
 
 Assume that two ETH (with an exchange rate of 1 ETH = $2000) are used as collateral for a DeFi loan. There is an LTV of 80% and a LT of 90%. USDC has an exchange rate of $1 = 1 USDC. How much USDC will you be able to borrow? #formula
+
 - [ ]1800 USDC
 - [X] 3200 USDC
 - [ ]3600 USDC
 - [ ]1600 USDC
 
 Decentralized Lending Borrowing is implemented by: (Choose all that apply)
+
 - [ ]Government authorized entities
 - [X] Smart contracts
 - [ ]Using credit histories
 - [ ]Centralized exchanges
 
-Flash loans (Choose the best answer):
+Flash loans (Choose the best answer)
+
 - [X] Must be repaid in the same block
 - [ ]Must be repaid with 10 blocks of the loan origination transaction
 - [ ]All of the above
 - [ ]Are loans that are given the highest priority
 
-Flash loans can be used for (Choose the best answer):
+Flash loans can be used for (Choose the best answer)
+
 - [ ]Arbitrage
 - [X] All the above
 - [ ]Self-Liquidation
 - [ ]Liquidity swaps
 
-Perpetual maturities of loans (loans with no maturity date).
+Perpetual maturities of loans (loans with no maturity date)
+
 - [ ]Are only available with TradFi loans
 - [X] Are only available with DeFi loans
 - [ ]Are available with both the TradFi and DeFi loans
 - [ ]Are not available with either TradFi or DeFi loans
 
-Since Decentralized Lending/Decentralized Borrowing have overcollateralized loans, there is no risk to the lender.
+Since Decentralized Lending/Decentralized Borrowing have overcollateralized loans, there is no risk to the lender
+
 - [ ]True
 - [X] False
 
-The Loan-to-Value ratio remains the same throughout the life of the loan.
+The Loan-to-Value ratio remains the same throughout the life of the loan
+
 - [ ]True
 - [X] False
 
-The Loan-to-Value ratio:
+The Loan-to-Value ratio
+
 - [ ]is the dollar value of the collateral
 - [ ]is the value of the loan
 - [ ]is the same as the liquidation threshold
 - [X] defines the degree of overcollateralization
 
-Typical loans in DeFi (choose all that apply):
+Typical loans in DeFi (choose all that apply)
+
 - [X] Are overcollateralized
 - [ ]Are free from risk to the borrower
 - [ ]Have interest rates set by central authorities
 - [ ]Can be undercollateralized
 
 What happens when a loan reaches the Liquidation Threshold (LT)
+
 - [ ]You will not be allowed to take another loan on the platform
 - [X] It is sold to liquidators (partially
 - [ ]Nothing. It is informational only
 - [ ]The collateral and loan are returned
   
 What is used to guard against the volatility of digital assets when used as collateral in Decentralized Borrowing? (Choose all that apply)
+
 - [ ]Use of KYC
 - [X] Overcollateralization
 - [ ]Nothing - volatility of digital assets is not a problem in Decentralized Borrowing
@@ -483,6 +492,7 @@ What is a financial derivative?
 - [ ]It is another name for equity in a company
 
 What is the oracle problem? (Choose all that apply)
+
 - [ ]It is difficult to predict future price movements of a crypto asset
 - [ ]Blockchains will require high scalability to function properly in the future
 - [X] Smart contracts and dApps may require information that is not available to them
@@ -573,6 +583,7 @@ Which statement regarding DeFi risk and insurance is true?
 - [ ]The DeFi risks are so small that they are not worth insuring against
 
 ---
+
 A holder of company stock in a public company is generally entitled to which of the following? (Choose all that apply)
 
 - [X] Voting rights on corporate proposal like stock issuance
@@ -751,7 +762,7 @@ The process of converting ownership rights to tokens that can be issued and trad
 - [ ]An Initial Public Offering
 - [ ]Tokenomics
 
-Total Token Supply is:
+Total Token Supply is
 
 - [X] The total number of tokens that will ever be minted.
 - [ ]The number of tokens given to developers of the project.
@@ -842,22 +853,147 @@ Who stands to see benefits from the tokenization of real estate? (Choose the bes
 
 ---
 
+How can you protect yourself from phishing attacks?
 
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
+- [X] Double-check URLs before entering sensitive information
+- [X] Use bookmarks for frequently visited websites
+- [ ] Click on all links received in emails
+- [ ] Ignore security warnings
+
+How can you safely disconnect your hardware wallet from MetaMask?
+
+- [ ] Close the browser
+- [X] Disconnect it in Metamask extension
+- [ ] Turn off your computer
+- [ ] Remove the USB cable without disconnecting in MetaMask
+
+In the context of DeFi, what does "staking tokens" usually involve?
+
+- [ ] Creating new tokens
+- [ ] Storing tokens in a hardware wallet
+- [ ] Trading tokens on decentralized exchanges
+- [X] Locking tokens in a smart contract to support network operations
+
+What are NFTs commonly used for in gaming?
+
+- [ ] Launching exit scams
+- [ ] Enabling two-factor authentication
+- [X] Representing in-game assets with real-world value
+- [ ] Front-running DeFi transactions
+
+What are some characteristics of a strong password?
+
+- [ ] Simple patterns
+- [X] At east 12 characters long
+- [X] Random and unpredictable
+- [X] Combination of uppercase and lowercase letters, numbers, and special characters
+
+What can a hardware wallet do?
+
+- [X] A physical device that stores private keys offline
+- [ ] It can protect you from malicious on-chain transactions
+- [X] Can connect with browser extensions
+- [X] Can get you exclusive access to DeFi games
+
+What is a key difference between DeFi games and NFT games?
+
+- [ ] DeFi games cannot be played online
+- [X] DeFi games focus on incorporating DeFi principles, while NFT games emphasize the use of NFTs
+- [ ] NFT games do not allow players to earn rewards
+- [ ] DeFi games have no in-game assets
+
+What is a rug pull?
+- [ ] A type of flooring
+- [X] A sudden withdrawal of liquidity
+- [ ] A type of phishing attack
+- [ ] A token price manipulation tactic
+
+What is one advantage of using a password manager?
+
+- [X] It helps you generate, store, and manage your passwords securely
+- [ ] It allows you to use the same password across multiple accounts
+- [ ] It provides a list of known phishing sites
+- [ ] It monitors DeFi transactions for front-running attacks
+
+
+
+What is the purpose of connecting a hardware wallet to MetaMask?
+
+- [ ] To enable phishing protection
+
+- [ ] To generate strong passwords
+
+- [ ] To track token balances
+
+- [ ] To allow interaction with DeFi applications while maintaining secure storage of crypto assets
+
+What is the purpose of connecting a hardware wallet to MetaMask?
+
+- [ ] To enable phishing protection
+- [ ] To generate strong passwords
+- [ ] To track token balances
+- [ ] To allow interaction with DeFi applications while maintaining secure storage of crypto assets
+
+What is the purpose of MetaMask's phishing protection feature?
+
+- [ ] To track token balances
+- [ ] To compare visited websites against a list of known phishing sites
+- [ ] To grant permissions to dApps
+- [ ] To generate strong passwords
+
+What precautions can you take to protect yourself from exit scams?
+
+- [ ] Ignore red flags
+- [ ] Research the project team's background
+- [ ] Look for audits from reputable security firms
+- [ ] Examine the project's code
+
+Which of the following are common types of scams in the DeFi ecosystem?
+
+- [X] Pump-and-dump schemes
+- [X] Smart contract exploits
+- [X] Rug pulls
+- [X] Exit scams
+
+
+Which of the following can help you maintain a secure browsing environment while using MetaMask?
+
+- [ ] Regularly update your browser and extensions
+- [ ] Use a dedicated browser or browser profile for MetaMask activities
+- [ ] Exercise caution when granting permissions to dApps
+- [ ] Non of the above
+- [X] All of the above
+
+Which of the following is a benefit of DeFi games?
+
+- [X] Earning rewards by playing games, staking tokens, or supplying liquidity
+- [ ] Limited ownership of in-game assets
+- [ ] Restrictions on trading in-game assets
+- [ ] Confinement of asset value to the game's ecosystem
+
+Which of the following is a recommended security measure when using MetaMask?
+
+- [ ] Using a weak password
+- [ ] Ignoring phishing protection warnings
+- [ ] Sharing your password with friends
+- [X] Enabling two-factor authentication (2FA)
+
+Which of the following is NOT a recommended practice for password security?
+
+- [X] Sharing your password with a trusted friend
+- [ ] Updating your passwords regularly
+- [ ] Using unique passwords for each account
+- [ ] Using a password manager
+
+Why is it important to regularly review authorized sites in MetaMask?
+
+- [X] To ensure you have the latest security patches
+- [X] To revoke access from sites you no longer use or do not recognize
+- [ ] To keep track of your favorite dapps
+- [ ] To compare visited websites against a list of known phishing sites
+
+Why is it important to regularly update your browser and extensions?
+- [ ] To disable phishing protection
+- [ ] To change the browser's appearance
+- [X] To ensure you have the latest security patches and features
+- [] To increase the risk of security breaches
