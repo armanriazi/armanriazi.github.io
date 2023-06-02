@@ -13,9 +13,7 @@ show:
   - feedback
 ---
 
-## Cryptocurrency_Trade
-
-!!! Certificates_and_Seen_Toturials
+!!! Certificates_and_Seen_Toturials_2023
 
     === "Decentralized Finance Certificates 2023"
 
@@ -24,19 +22,20 @@ show:
     === "Decentralized Finance 2023"
 
         * [Defi Tests](defi-tests.md)
-            
-    === "Passed Self-Study Tutorials 2020-2021"
 
-        * [Cryptocurrency-tutorials](learning/crypto-trade-non-certificate.md)
 
 ---
 
-!!! Experience_2020-2021
+!!! Experience_and_Seen_Toturials_2020-2021
 
     === "Cryptocurrency Trading"
 
         * [Trading-Technical-Fundamental-Sheets](trade.md)
-        
+
+    === "Passed Self-Study Tutorials"
+
+        * [Cryptocurrency-tutorials](learning/crypto-trade-non-certificate.md)        
+
 ---
 
 ![Blockchain-Canvas](../../assets/attachments/Cost-value-details.jpg)
