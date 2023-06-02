@@ -4,12 +4,11 @@ site_name: Arman Riazi
 repo_url: https://github.com/armanriazi/armanriazi.github.io
 nav:    
     - 'Home':
-        - 'Index': 'index.md'
-        - 'Walk-through': 'public/public.md'                              
-    - 'Blockchain':       
-        - 'Blockchain': 'public/blockchain/Blockchain.md'    
+        - 'Index': 'index.md'                  
     - 'Walk-through': 
         - 'Walk-through': 'public/public.md'          
+    - 'Blockchain':       
+        - 'Blockchain': 'public/blockchain/Blockchain.md'    
     - 'Achievements':       
         - 'Achievements': 'achievements.md'                
     - 'Services':       

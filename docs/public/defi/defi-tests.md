@@ -13,6 +13,16 @@ show:
   - feedback
 ---
 
+
+# Download sources
+
+[PDFs](https://drive.google.com/file/d/1npJcOjQuPrD5RJ2KnNXG7jYLQLALLdBb/view?usp=sharing)
+
+> Send to me for taking out a password
+:     `armanriyazi.github.io@gmail.com`
+
+# Questions
+
 Which type of solution enables communication, interaction, and value transfer between different blockchain networks?
 
 - [x] Bridge 

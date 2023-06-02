@@ -20,7 +20,11 @@ show:
     === "Decentralized Finance Certificates 2023"
 
         * [Cryptocurrency-certificates](learning/crypto-trade-certificate.md)
-    
+
+    === "Decentralized Finance 2023"
+
+        * [Defi Tests](defi-tests.md)
+            
     === "Passed Self-Study Tutorials 2020-2021"
 
         * [Cryptocurrency-tutorials](learning/crypto-trade-non-certificate.md)

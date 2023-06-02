@@ -7,11 +7,9 @@
 
 ---
 
-* [Cryptocurrency-Trade](cryptocurrency/cryptocurrency.md)
+* [DeFI](defi/defi.md)
   
 * [DevOps Engineer](devops/Devops.md)
-
-* [Commands](programming/commands.md)
   
 ---
 

@@ -64,6 +64,9 @@ show:
 
         * [Rust-Lang](../programming/rust/rust.md)
 
+    === "Start-Up 2023"
+        What is the best solution to developing a Web 3.0 application. There are so many solutions in business. But which one has high quality and security, quickly development, has low resources, and has no additional overhead(a lightweight development framework).[MFS is a NFT music platform](https://armanriazi.github.io/mfs)
+
     === "Towards Implementation"
 
         * [Substrate](Substrate.md)
@@ -73,6 +76,11 @@ show:
         * [Polkadot](Polkadot.md)
 
         * [ParaState](ParaState.md)
+
+    === "Report"
+
+        * [EIP-4337](https://drive.google.com/file/d/1K4bqaklA1BDrQ46wQaWSJ7zKR1Hlhyc2/view?usp=drive_link)
+        * [Monorepo](https://drive.google.com/file/d/1um94lthI3AOanuYB7hMR-LCgzhDH6hUS/view?usp=drive_link)
 
     === "Research"
 
