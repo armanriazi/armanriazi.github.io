@@ -16,9 +16,9 @@ show:
 Which type of solution enables communication, interaction, and value transfer between different blockchain networks?
 
 - [x] Bridge 
-- [ ]Omnichain
-- [ ]P2P
-- [ ]Lib2p
+- [ ] Omnichain
+- [ ] P2P
+- [ ] Lib2p
   
 Which of the following are token use cases?
 
@@ -60,8 +60,8 @@ A decentralized stablecoin would be less transparent than a custodial stablecoin
   
 Central Bank Digital Currencies (CBDCs): (Choose all that apply)
 
-- [ ]Would only be used by commercial banks and other financial institutions
-- [ ]Would necessarily be based upon blockchains
+- [ ] Would only be used by commercial banks and other financial institutions
+- [ ] Would necessarily be based upon blockchains
 - [ ] Are widely deployed today
 - [x] Are a digital form of money issued by a Central Bank
   
@@ -82,7 +82,7 @@ How does USDT (Tether) claim it is maintain its dollar peg? (Choose all that app
 If a stablecoin is both decentralized and capital efficient, according to the stablecoin trilemma, you would expect it to be: (Choose all that apply)
 
 - [ ]More stable
-- [ ]Exogenous
+- [ ] Exogenous
 - [x] Algorithmic
 - [x] Less stable
 
@@ -111,15 +111,15 @@ The most popular stablecoin is: (Choose the best answer)
 
 - [ ] All the above are approximately equal in popularit
 - [ ] BTC
-- [ ]ETH
+- [ ] ETH
 - [x] USDT
   
 The stablecoin trilemma: (Choose all that apply)
 
 - [x] Shows the tradeoffs between different methods of maintaining stability with stablecoins.
 - [ ] is another name for the blockchain trilemma
-- [ ]States that stablecoins can be capital efficient, secure, and centralized.
-- [ ]States that stablecoins can be capital efficient, stable, and decentralized.
+- [ ] States that stablecoins can be capital efficient, secure, and centralized.
+- [ ] States that stablecoins can be capital efficient, stable, and decentralized.
 
 What are the drawbacks of a custodial stablecoin? (Choose all that apply)
 
@@ -153,15 +153,15 @@ Which of the following approaches for maintaining stability utilizes non-blockch
 
 - [ ]UTXO
 - [x] Off-chain
-- [ ]On-chain
+- [ ] On-chain
 - [ ] All the above
 
 Which of the following approaches for maintaining stability with stablecoins does not depend upon collateral? (Choose the best answer)  
 
 - [x] Algorithmic
 - [ ] All the above
-- [ ]On-chain
-- [ ]Off-chain
+- [ ] On-chain
+- [ ] Off-chain
   
 Which of the following best describes the position of most major Central Banks regarding CBDCs? (Choose the best answer)
 
@@ -339,7 +339,7 @@ Decentralized Exchanges generally operate using
 - [x] Liquidity Pools and Automated Market Makers
 - [ ] Order Books only
 
-Impermanent Loss: (Choose all that apply)
+Impermanent Loss (Choose all that apply)
 
 - [ ] Is a risk that traders have when using a DEX
 - [ ] Is not a risk with DEXs.
@@ -466,7 +466,7 @@ How would a smart contract use the services of an oracle? (Choose all that apply
 
 - [ ] By contacting the company that provides the oracle for a private key
 - [ ] By using special features of the virtual machine
-- [ ]Smart contracts cannot use the services of an oracle
+- [ ] Smart contracts cannot use the services of an oracle
 - [x] By calling a smart contract function associated with the oracle smart contract
 
 Oracles do not represent a risk to DeFi applications.
@@ -500,7 +500,7 @@ What is the oracle problem? (Choose all that apply)
 
 What kind of derivative gives someone the opportunity, but not the obligation, to buy or sell an asset at a given price in the future?
 
-- [ ]Swap
+- [ ] Swap
 - [x] Options Contract
 - [ ]Perpetual Contract
 - [ ] Futures Contract
@@ -521,7 +521,7 @@ Which of the following actions can an oracle perform? (Choose all that apply)
 
 Which of the following are not recommended usage scenarios for derivatives? (Choose all that apply)
 
-- [ ]Speculation on the future price of an asset
+- [ ] Speculation on the future price of an asset
 - [ ] increase returns through leverage
 - [x] Investment by novice users
 - [ ] Hedging against price volatility
@@ -595,29 +595,29 @@ DAOs are governed:
 
 - [ ] DAOs have no formal governance capability
 - [ ] Both Off-chain and On-Chain
-- [ ]Off-Chain
+- [ ] Off-Chain
 - [x] On-Chain
   
 Governance in DeFi projects is typically enabled and expressed through
 
-- [ ]Staking Ethereum
-- [ ]Stock
+- [ ] Staking Ethereum
+- [ ] Stock
 - [x] Governance tokens
-- [ ]Real world foundations
+- [ ] Real world foundations
 
 Governance proposals include
 
-- [ ]Neither executable code nor instructions for a human team to implement
+- [ ] Neither executable code nor instructions for a human team to implement
 - [ ] Both executable code and instructions for a human team to implement off-chain
 - [x] Executable code
 - [ ] instructions for a team to execute off-chain
 
 Governance token holders in a DAO can typically: (Choose all that apply)
 
-- [x] create governance proposals
-- [ ]directly fix problems in the smart contract code
-- [x] vote on governance proposal
-- [x] sell their tokens
+- [x] Create governance proposals
+- [ ] Directly fix problems in the smart contract code
+- [x] Vote on governance proposal
+- [x] Sell their tokens
 
 Governance tokens for a DAO are also utility tokens
 
@@ -634,14 +634,14 @@ Governance tokens: (Choose all that apply)
 In a public company corporate governance is ultimately delegated to
 
 - [ ] Board of Directors
-- [ ]ShareholdersManagement is ultimately delegated day to day responsibility for corporate governance. Shareholders elect a Board of Directors who delegate authority to management.
-- [ ]EmployeesManagement is ultimately delegated day to day responsibility for corporate governance. Shareholders elect a Board of Directors who delegate authority to management.
+- [ ] ShareholdersManagement is ultimately delegated day to day responsibility for corporate governance. Shareholders elect a Board of Directors who delegate authority to management.
+- [ ] EmployeesManagement is ultimately delegated day to day responsibility for corporate governance. Shareholders elect a Board of Directors who delegate authority to management.
 - [x] ManagementManagement is ultimately delegated day to day responsibility for corporate governance. Shareholders elect a Board of Directors who delegate authority to management.
 
 The execution of DAO services is: (Choose all that apply)
 
 - [x] Performed On-Chain
-- [ ]Subject to approval by the original development team
+- [ ] Subject to approval by the original development team
 - [x] Executed programmatically
 - [ ] Can have an off-chain component
 
@@ -652,10 +652,10 @@ The token approach to governance guarantees that DAO governance will not be cent
 
 What is a Sybil attack on a DAO?
 
-- [ ]When a token holder votes multiple times on a proposal
-- [ ]When a token holder overwhelms the contract with many proposals.
+- [ ] When a token holder votes multiple times on a proposal
+- [ ] When a token holder overwhelms the contract with many proposals.
 - [x] When a person holds tokens in multiple wallets
-- [ ]When a token holder does not vote on a proposal
+- [ ] When a token holder does not vote on a proposal
 
 What is governance? (Choose the best answer)
 
@@ -696,19 +696,19 @@ Which of the following is true regarding the execution of governance and proposa
 
 - [x] Execution is verifiable with DAOs
 - [x] Execution is on chain with DAOs.
-- [ ]Execution is not transparent with DAOs
-- [ ]Execution requires real world interaction with DAOs
+- [ ] Execution is not transparent with DAOs
+- [ ] Execution requires real world interaction with DAOs
 
 Which of the following statements are generally true (choose the best option)?
 
 - [x] Public companies have more decentralized governance. Private companies have more centralized governance.
-- [ ]Public companies have centralized governance. Private companies tend to have decentralized governance
+- [ ] Public companies have centralized governance. Private companies tend to have decentralized governance
 - [ ] Both public companies and private tend to have centralized governance.
 - [ ] Both public companies and private companies tend to have decentralized governance
 
 Who typically controls a DAO by providing and approving proposals?
 
-- [ ]Smart Contract code
+- [ ] Smart Contract code
 - [x] Community members who hold governance tokens
 - [ ] DAO founders
 - [ ] A centralized group of individuals
@@ -724,14 +724,14 @@ A deflationary token:
 
 Generally, an increase in token demand: (Choose the best answer)
 
-- [ ]One cannot determine the impact on price with the information given.
+- [ ] One cannot determine the impact on price with the information given.
 - [ ] Any price change would be random.
 - [x] Will result in a higher price.
-- [ ]Will result in a lower price.
+- [ ] Will result in a lower price.
 
 If major governments around the world announce an intent to provide for more regulation for tokens, this would be considered
 
-- [ ]Neither a Micro-tokenomics and Macro-tokenomics factor
+- [ ] Neither a Micro-tokenomics and Macro-tokenomics factor
 - [ ] Both a Micro-tokenomics and Macro-tokenomics factor
 - [ ] A Micro-tokenomics factor
 - [x] A Macro-tokenomics factor
@@ -750,15 +750,15 @@ Since the total supply of Bitcoin is capped, it is considered a deflationary tok
 
 The next halving event for Bitcoin
 
-- [ ]Will make Bitcoin more inflationary.
-- [ ]Will have no impact on the inflationary or deflationary nature of Bitcoin.
+- [ ] Will make Bitcoin more inflationary.
+- [ ] Will have no impact on the inflationary or deflationary nature of Bitcoin.
 - [x] Will make Bitcoin less inflationary.
-- [ ]Will make Bitcoin more deflationary.
+- [ ] Will make Bitcoin more deflationary.
 
 The process of converting ownership rights to tokens that can be issued and traded on a blockchain is known as: (Choose the best answer)
 
 - [x] Tokenization
-- [ ]None of the above
+- [ ] None of the above
 - [ ] An Initial Public Offering
 - [ ] Tokenomics
 
@@ -774,7 +774,7 @@ What are the benefits of tokenizing physical assets? (Choose all that apply)
 - [x] Tokens would easily be used and traded. 
 - [x] Tokens would enable fractional ownership of expensive assets.
 - [ ] Tokens would remove the need for any centralized intermediaries.
-- [ ]Physical assets cannot be tokenized.
+- [ ] Physical assets cannot be tokenized.
 
 What are the challenges tokenizing physical assets (Choose all that apply)
 
@@ -805,7 +805,7 @@ When valuing token projects, it can be useful to think of a token as a share of 
 Which of the following can be tokenized? (Choose all that apply)
 
 - [x] Rights to future income
-- [x]  Licensing rights for music
+- [x] Licensing rights for music
 - [x] Physical Art
 - [x] Real Estate
 
@@ -826,7 +826,7 @@ Which of the following statements regarding Fully Diluted Market capitalization 
 Which of the following statements regarding tokenizing non-native assets and intermediaries is true?
 
 - [x] New intermediaries will emerge to replace prior intermediaries.
-- [ ]New intermediaries will emerge, and the incumbent intermediaries will remain.
+- [ ] New intermediaries will emerge, and the incumbent intermediaries will remain.
 - [ ] intermediaries are no longer needed.
 - [ ] There will be no impact on intermediaries.
 
@@ -835,20 +835,20 @@ Which of the following was one of the first uses of non-native tokens on a block
 - [x] Colored coins
 - [ ] Bitcoin
 - [ ] Altcoins
-- [ ]Ethereum
+- [ ] Ethereum
 
 Which of the following would fall under a Micro-tokenomics assessment? (Choose all that apply)
 
 - [ ] Regulation
 - [x] Token inflation rate
-- [ ]Overall blockchain ecosystem growth
+- [ ] Overall blockchain ecosystem growth
 - [x] Token purpose
 
 Who stands to see benefits from the tokenization of real estate? (Choose the best answer)
 
-- [ ]Regulators
+- [ ] Regulators
 - [ ] Traditional Financial Institutions
-- [ ]Owners
+- [ ] Owners
 - [x] All the above.
 
 ---
@@ -919,33 +919,24 @@ What is one advantage of using a password manager?
 
 What is the purpose of connecting a hardware wallet to MetaMask?
 
-- [ ] To enable phishing protection
-
-- [ ] To generate strong passwords
-
-- [ ] To track token balances
-
-- [ ] To allow interaction with DeFi applications while maintaining secure storage of crypto assets
-
-What is the purpose of connecting a hardware wallet to MetaMask?
-
-- [ ] To enable phishing protection
+- [x] To enable phishing protection
 - [ ] To generate strong passwords
 - [ ] To track token balances
-- [ ] To allow interaction with DeFi applications while maintaining secure storage of crypto assets
+- [x] To allow interaction with DeFi applications while maintaining secure storage of crypto assets
+
 
 What is the purpose of MetaMask's phishing protection feature?
 
 - [ ] To track token balances
-- [ ] To compare visited websites against a list of known phishing sites
-- [ ] To grant permissions to dApps
+- [x] To compare visited websites against a list of known phishing sites
+- [x] To grant permissions to dApps
 - [ ] To generate strong passwords
 
 What precautions can you take to protect yourself from exit scams?
 
 - [ ] Ignore red flags
-- [ ] Research the project team's background
-- [ ] Look for audits from reputable security firms
+- [x] Research the project team's background
+- [x] Look for audits from reputable security firms
 - [ ] Examine the project's code
 
 Which of the following are common types of scams in the DeFi ecosystem?
@@ -993,7 +984,207 @@ Why is it important to regularly review authorized sites in MetaMask?
 - [ ] To compare visited websites against a list of known phishing sites
 
 Why is it important to regularly update your browser and extensions?
+
 - [ ] To disable phishing protection
 - [ ] To change the browser's appearance
 - [x] To ensure you have the latest security patches and features
-- [] To increase the risk of security breaches
+- [ ] To increase the risk of security breaches
+
+---
+
+# Final
+
+How do on-chain over-collateralized stablecoins maintain their peg to a certain value, usually $1?
+
+- [ ] By adjusting the supply of the stablecoin in response to market conditions.
+- [x] By backing every stablecoin with more than its face value in volatile cryptocurrencies like ETH or BTC.
+- [ ] By linking the value of the stablecoin to the performance of the stock market.
+- [ ] By having the central bank control the supply and demand of the stablecoin.
+
+Which of the following are not approaches for mitigating losses from impermanent loss
+
+- [ ] Protocols providing additional rewards in the form of their native token to LPs
+- [ ] Supplying tokens whose value does not fluctuate a lot, such as stablecoins
+- [x] Not providing liquidity at all
+- [x] Withdrawing liquidity after large price movements
+
+Which of the following statement(s) about CBDCs is (are) false?
+
+- [ ] Retail CBDCs are liabilities of the central bank, and assets of individuals, households or businesses.
+- [ ] Financial inclusion is one of the main factors influencing CDBC issuance
+- [x] The interest of central banks in CBDCs has fallen over the past years
+- [ ] A retail CBDC must be account based
+
+What would be a likely consequence of a centralized stablecoin issuer like Tether not having sufficient reserves to back all issued USDT?
+
+- [ ] It could lead to hyperinflation in the country where the issuer is based
+- [ ] It would not have any impact as USDT is a decentralized currency
+- [x] It could shake trust in the coin leading to a 'bank run' scenario with users rushing to redeem their USDT
+- [ ] The cryptocurrency market would become less volatile
+
+Which of the following are subject to some form of governance?
+
+- [x] The internet
+- [x] Decentralized Exchanges (DEXs)
+- [ ] Ethereum
+- [ ] Privately held companies
+
+Which of the following are false?
+
+- [ ] Market capitalization refers to the total value of all tokens currently in circulation
+- [x] A token’s total token supply refers to the total number of tokens currently in circulation
+- [ ] A deflationary token is one whose quantity will decrease in the future
+- [x] Inflationary tokens have a total supply limit of 21 million
+
+Suppose you evaluate funding requests in a venture capital firm that invests in new blockchain startups. Which of the following statements can be true, according to the blockchain trilemma? #skepticism
+
+- [x] “Our blockchain solution offers state-of-the-art security, can process the same number of transactions as any major credit provider and is fully decentralized”
+- [ ] “Decentralization is our guiding principle. Our blockchain solution offers state-of-the-art security and is supported by a network of hundreds of thousands of nodes across the world. It can process approximately 10 transactions per second.”
+- [ ] "Our blockchain solution offers state-of-the-art security, is extremely scalable, and is supported by our proprietary 10 nodes in New York City.”
+- [x] “Our blockchain solution is fully decentralized and extremely efficient. Be aware that some transactions can be reversed after acceptance by the network.”
+
+Which of the following are incorrect? #skepticism
+
+- [x] ERC-20 is the standard that introduced NFTs
+- [x] ERC-721 and ERC-1155 have made ERC-20 irrelevant
+- [ ] ERC-1155 enables the combination of non-fungible and fungible tokens in the same smart contract
+- [ ] CryptoKitties were the first project to utilize ERC-721
+
+Suppose you want to take a USDC loan, posting 1 ETH as collateral, in a platform with an initial Liquidation Threshold (LT) of 80%. Assume ETH is priced at $2,000 at the time of taking the loan, while USDC is priced at $1. What is the maximum percentage drop in ETH’s value (from $2,000) that would not cause the loan to become undercollateralized (assume that you need to surpass the LT to trigger a liquidation)?
+
+- [ ] 15%
+- [x] 20%
+- [ ] 40%
+- [ ] 80%
+
+Suppose that you are building a new DEX and your highest priority is to provide the best support for exchanging tokens with the same price while avoiding slippage for your users. You are more likely to utilize (Where x and y are the liquidity of provided tokens)
+
+- [ ] The constant product formula (k=x*y)
+- [x] The constant sum formula (k=x+y)
+
+Which of the following are false about Liquidity Pools?
+
+- [ ] In a permissionless setting, anyone can provide liquidity in a liquidity pool
+- [x] Liquidity pools operate solely within the Asset Layer of the DeFi stack
+- [ ] Any pair of compatible tokens can be provided as liquidity to a liquidity pool
+- [x] They allow traders to interact directly with each other
+
+Which of the following are not examples of settlement layers?
+
+- [x] UNI
+- [ ] Bitcoin
+- [ ] Solana
+- [x] Tether
+
+Which of the following are not true regarding Layer 2 solutions? #skepticism
+
+- [ ] They report final settlement information to the underlying Layer 1.
+- [x] They increase the transaction load of Layer 1
+- [x] They change the trust factors or consensus mechanisms of the underlying Layer 1
+- [x] They technically perform no operations “off-chain”
+
+Decentralized Finance (DeFi) applications are usually not
+
+- [x] Permissioned: They require credentials that are granted by an authoritative source
+- [x] Convenient: They can seamlessly connect with e-banking applications and point-of-sale terminals
+- [ ] Decentralized: They are maintained simultaneously across hundreds or thousands of computers around the world
+- [ ] Transparent: Anyone can see the transactions associated with the application
+
+Which of the following are false about flash loans?
+
+- [x] Users can borrow only up to a limited amount of ETH through flash loans
+- [ ] They are a form of unsecured debt since they require no collateral
+- [ ] They can be used to exploit arbitrage opportunities
+- [x] They are inspired by similar loan types available in the TradFi world
+
+Which of the following is NOT an issue of token-based governance?
+
+- [ ] Plutocracy
+- [ ] Centralization
+- [ ] The demands of some stakeholders may be ignored
+- [x] Impermanent loss
+
+“Only digital assets can be made into synthetic assets”. This statement is
+
+- [ ] True
+- [x] False
+
+Which of the following are not reasons DeFi loans are overcollateralized? #skepticism
+
+- [ ] To mitigate the impermanent loss of the borrower
+- [x] To mitigate the risk of a borrower defaulting on their loan
+- [x] To attract borrowers
+- [ ] To use the extra collateral as a “buffer” in the event of price changes
+
+Suppose that you have provided 5 ETH (1 ETH=$1,500) as collateral to the algorithmic blockchain-based borrowing and lending platform “QuizLoans” with a liquidation threshold of 60%. If you borrowed the maximum amount of DAI (1 DAI=$1) possible, what is the total value accessible (managed) by your private key (assume that you only started with 5 ETH and that the prices of ETH and DAI do not change)? #skepticism
+
+- [ ] $4,500
+- [ ] $12,000
+- [ ] $8,160
+- [x] A private key is not used in this scenario
+
+Which of the following are false regarding AMMs or Liquidity Pools? #skepticism
+
+- [ ] They solve the problem of illiquidity in DEXs
+- [ ] They serve a role similar to order books in traditional exchanges
+- [x] They are responsible for determining the prices of the assets traded
+- [ ] They are used to minimize impermanent loss
+
+Suppose you want to take a USDC loan, posting 1 ETH as collateral, in a platform with an initial Liquidation Threshold (LT) of 60%. Assume ETH is priced at $2,000 at the time of taking the loan, while USDC is priced at $1. What is the maximum drop in ETH’s dollar value that would not cause the loan to become undercollateralized (assume that you need to surpass the LT to trigger a liquidation)?
+
+- [ ] $1200
+- [ ] $2000
+- [x] $800
+- [ ] $1199
+
+Suppose you have deposited $500 worth of ETH in a decentralized lending protocol and have taken out a loan in UNI worth $250, against that ETH. In a scenario where the price of ETH increases and the price of UNI remains the same, your collateral is
+
+- [ ] More likely to be liquidated
+- [x] Less likely to be liquidated
+- [ ] There is no correlation between the price of ETH and liquidation
+- [ ] Susceptible to impermanent loss
+
+Which of the following statements are false?
+
+- [ ] Some stablecoins do not require collateral
+- [ ] In most custodial stablecoins the collateral is maintained by a third party and usually includes money and money-equivalents
+- [x] Most crypto-collateralized stablecoins are capital efficient
+- [x] All algorithmic stablecoins have been successful at maintaining their peg
+
+Which of the following are not examples of blockchain-backed derivatives (synthetic assets)? (Choose all that apply) #skepticism
+
+- [ ] BTC futures
+- [x] An ERC20 token representing 0.5 BTC and 2.0 Eth
+- [x] Uniswap’s native token, UNI
+- [ ] A Wrapped BTC token on the Ethereum blockchain
+
+Which of the following is false about smart contracts?
+
+- [x] When properly developed and deployed, they are necessarily enforceable in every court
+- [ ] Without them, most of the functionality of DeFi would not be possible
+- [x] Turing complete or EVM-compatible (Ethereum Virtual Machine) smart contracts are supported on any blockchain
+- [x] After deployed on a blockchain, they can be modified by anyone with an EVM-compatible client that has enough gas to pay for the block reward
+
+“Ethereum smart contracts are only suitable for DeFi applications.” This statement is
+
+- [ ] True
+- [x] False
+
+Which of the following statements are true?
+
+- [x] Custodial stablecoins are prone to censorship
+- [x] Some stablecoins are more decentralized than others
+- [x] Stablecoins must be pegged to the US dollar
+- [ ] Custodial stablecoins are less capital efficient than on-chain collateralized stablecoins
+
+“DEXs that utilize Decentralized Autonomous Organization (DAO) structures for governance are not necessarily decentralized”. This statement is
+
+- [x] True
+- [ ] False
+
+How does a smart contract typically gain access to information (like stock prices, weather information, sports results) that does not inherently exist as part of the closed blockchain system?
+
+- [ ] By using a Bridge
+- [x] By using an Oracle
+- [ ] By using special Virtual Machine Opcodes
+- [ ] Nothing special is needed to access this information
