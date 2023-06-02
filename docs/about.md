@@ -158,7 +158,7 @@ author: "Arman Riazi"
 
 > Personal interests Footbal, Running, Body-Building, Motorcycles and Reading Books.
 
-[LiveConcert-Magazine(Entertainment)](index.md)
+[LiveConcert-Magazine(Entertainment)](./fun.md)
 
 
 ## Call Me-Preferred Channels
