@@ -59,7 +59,7 @@ show:
         * [Continuous Integrity](public/devops/Devops.md)        
 
 
-!!! Decentralized Finance Consultant
+!!! Decentralized_Finance_Consultant
 
     === "DEFI-Trade-Cryptocurrency"            
 

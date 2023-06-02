@@ -23,7 +23,6 @@ show:
 
         * [Defi Tests](defi-tests.md)
 
-
 ---
 
 !!! Experience_and_Seen_Toturials_2020-2021
