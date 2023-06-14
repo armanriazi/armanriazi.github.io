@@ -152,6 +152,7 @@ extra_javascript:
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 extra:
   homepage: https://armanriazi.github.io/
+  generator: false
   analytics: 
     provider: google    
     property: G-ZE57CFGDDV
