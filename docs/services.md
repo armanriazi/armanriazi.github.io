@@ -27,7 +27,7 @@ show:
     
     === "Nft Platform"
 
-        What is the best solution to developing a Web 3.0 application. There are so many solutions in business. But which one has high quality and security, quickly development, has low resources, and has no additional overhead(a light development framework). To keep you tuned, I am going to inter-reference this section. I have engaged on the project, and if I have enough time, you should be in contact with me to explain more about the proposed architecture.[MFS is a NFT music platform](https://armanriazi.github.io/mfs)
+        What is the best solution to developing a Web 3.0 application. There are so many solutions in business. But which one has high quality and security, quickly development, has low resources, and has no additional overhead(a light development framework). To keep you tuned, I am going to inter-reference this section. I have engaged on the project, and if I have enough time, you should be in contact with me to explain more about the proposed architecture.[MFS is a NFT music platform](https://aramis-tech.github.io/)
     
     === "Commands"
         If you would like getting commands that consist of: Ubuntu, Devops, Blockchain CLIs in form of compacted packages, please send me an Email to armanriyazi.github.io@gmail.com (Title: armanriazi_github_io_Commands_YourPackageName)
