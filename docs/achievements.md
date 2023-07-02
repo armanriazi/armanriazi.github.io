@@ -76,7 +76,7 @@ author: "Arman Riazi"
 
 ### Using ACO Algorithm to Improve Performance for Container-based Scientific
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8059908.svg)](https://doi.org/10.5281/zenodo.8059908)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8105650.svg)](https://doi.org/10.5281/zenodo.8105650)
 
 ### Towards Blanket Licensing Digitized Music NFT Decentralized
 
