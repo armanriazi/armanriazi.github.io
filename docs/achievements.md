@@ -72,3 +72,13 @@ author: "Arman Riazi"
 
 > `To get updated, please checkout pinned repositories on my github`
 
+## Publication
+
+### Using ACO Algorithm to Improve Performance for Container-based Scientific
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8059908.svg)](https://doi.org/10.5281/zenodo.8059908)
+
+### Towards Blanket Licensing Digitized Music NFT Decentralized
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8023208.svg)](https://doi.org/10.5281/zenodo.8023208)
+
