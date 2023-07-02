@@ -26,7 +26,7 @@ tags:
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7715653.svg)](https://doi.org/10.5281/zenodo.7715653)
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8059908.svg)](https://doi.org/10.5281/zenodo.8059908)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8105650.svg)](https://doi.org/10.5281/zenodo.8105650)
 
 ---
 
