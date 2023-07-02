@@ -72,13 +72,21 @@ author: "Arman Riazi"
 
 > `To get updated, please checkout pinned repositories on my github`
 
-## Publication
+## Publications
 
-### Using ACO Algorithm to Improve Performance for Container-based Scientific
+### Papers
+
+#### Using ACO Algorithm to Improve Performance for Container-based Scientific
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8105650.svg)](https://doi.org/10.5281/zenodo.8105650)
 
-### Towards Blanket Licensing Digitized Music NFT Decentralized
+#### Towards Blanket Licensing Digitized Music NFT Decentralized
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8023208.svg)](https://doi.org/10.5281/zenodo.8023208)
+
+### Digital Multimedia
+
+#### A smart builder for all programing languages with the monorepo
+
+[![DOI](https://cdn.faradars.org/wp-content/uploads/2022/11/22/faradarslogo.svg)](https://faradars.org/courses/smart-builder-design-for-programming-languages-with-monorepo-fvprg306)
 
