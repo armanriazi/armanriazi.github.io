@@ -22,7 +22,7 @@ author: "Arman Riazi"
 # About Me
 
 
-> [Resume-lts-version](https://github.com/armanriazi/armanriazi/blob/self/armanriazi-resume-lts.pdf)
+> [Resume-lts-version](https://drive.google.com/file/u/0/d/1RvMUiwknTRfoYicjI1m_JvyPWhyls9tL/view?usp=sharing)
 
 > Arman Riazi knows how to move your business, developing on Blockchain 5.0.
 
@@ -95,9 +95,11 @@ author: "Arman Riazi"
 
 > Cryptocurrency #trading and using financial services. 
 
-> Graduated **M.Sc** [[master]] In The Field Of Information Technology. 
+> Master Graduated In The Field Of Information Technology. 
 
+<!--
 > Birthday: 11/11/1989
+-->
 
 **In Addition**
 
