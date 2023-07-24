@@ -64,7 +64,7 @@ permalink: /links
 #### Science, Papers
 
 * [Academia.edu](https://independent.academia.edu/riaziarman)
-* 
+  
 * [ArmanRiazi-Doc](https://github.com/armanriazi/Documents)
 
 * [Read.Cash](https://read.cash/@arman-riazi-science)
