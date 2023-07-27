@@ -10,7 +10,7 @@ tags:
 - career
 - recuit
 search:
-  exclude: true
+  exclude: false
 type:  achievements
 keywords:  achievements armanriazi
 feature:  achievements 
@@ -19,7 +19,7 @@ layout: page
 author: "Arman Riazi"
 ---
 
-# Achievements
+
 
 ## Certificates
 
