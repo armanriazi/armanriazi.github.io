@@ -46,3 +46,15 @@ Book edited by:
 Prof. Vito Bobek
 
 - [![DOI](https://cdn.faradars.org/wp-content/uploads/2022/11/22/faradarslogo.svg){ width="100" height="100" align=left }](https://faradars.org/courses/smart-builder-design-for-programming-languages-with-monorepo-fvprg306)
+
+---
+
+## Links
+
+- [Academia.edu](https://independent.academia.edu/riaziarman)
+
+- [Medium](https://arman-riazi-science.medium.com/)
+
+- [DOCs-Blockchain n Github](https://github.com/armanriazi/Doc-Blockchain)
+
+- [DOCs on Github](https://github.com/armanriazi/Documents)
