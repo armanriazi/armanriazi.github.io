@@ -13,12 +13,14 @@ nav:
         - 'Achievements': 'achievements.md'                
     - 'Services':       
         - 'Services': 'services.md'           
+    - 'Publications':
+        - 'Publicationa': 'publications.md'                   
     - 'Tags':
         - 'Tags': 'tags.md'      
     - 'Forms':
-        - 'Forms': 'forms.md'      
+        - 'Forms': 'forms.md'              
     - 'Links':
-        - 'Links': 'links.md'            
+        - 'Links': 'links.md'                   
     - 'About':
         - 'About': 'about.md'                
 theme:
