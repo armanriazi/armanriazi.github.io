@@ -17,7 +17,7 @@ show:
 
     === "Decentralized Finance Certificates 2023"
 
-        * [Cryptocurrency-certificates](learning/crypto-trade-certificate.md)
+        * [Cryptocurrency-certificates](Learning/trade-crypto-certificate.md)
 
     === "Decentralized Finance 2023"
 

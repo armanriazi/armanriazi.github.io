@@ -43,14 +43,9 @@ Prof. Vito Bobek
 
 ## Digital Multimedia
 
-### A smart builder for all programing languages with the monorepo
+### Monorepo & Rust Programming
 
-- [![DOI](https://cdn.faradars.org/wp-content/uploads/2022/11/22/faradarslogo.svg){ width="80" height="80" align=left }](https://faradars.org/courses/smart-builder-design-for-programming-languages-with-monorepo-fvprg306)
-
-
-### Rust Programming
-
-- [![DOI](https://cdn.faradars.org/wp-content/uploads/2022/11/22/faradarslogo.svg){ width="80" height="80" align=left }](https://faradars.org/search?ref=homepage_search&q=Rust#gsc.tab=0&gsc.q=Rust&gsc.page=1)
+- [![DOI](https://cdn.faradars.org/wp-content/uploads/2022/11/22/faradarslogo.svg){ width="80" height="80" align=left }](https://faradars.org/instructors/arman-riazi)
 
 ---
 

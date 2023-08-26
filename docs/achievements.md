@@ -86,7 +86,7 @@ author: "Arman Riazi"
 
 ### Digital Multimedia
 
-#### A smart builder for all programing languages with the monorepo
+#### Monorepo & Rust Programming
 
-[![DOI](https://cdn.faradars.org/wp-content/uploads/2022/11/22/faradarslogo.svg){ width="100" height="100" align=left }](https://faradars.org/courses/smart-builder-design-for-programming-languages-with-monorepo-fvprg306)
+- [![DOI](https://cdn.faradars.org/wp-content/uploads/2022/11/22/faradarslogo.svg){ width="80" height="80" align=left }](https://faradars.org/instructors/arman-riazi)
 

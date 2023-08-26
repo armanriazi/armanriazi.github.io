@@ -40,6 +40,13 @@ title: "Arman Riazi"
 > How to learn quickly ? I have the pleasure of introducing a repository that has more than 400 samples and has collected more than six significant references. I made a customised online book that contains md-files, and you can search for any gathered concept.
 > I was wondering if you wanted to contact me. To gain access online, books with codes have a value of $100.
 
+### Digital Multimedia
+
+#### Teaching Complementary of Rust Programming Part1
+
+- [![DOI](https://cdn.faradars.org/wp-content/uploads/2022/11/22/faradarslogo.svg){ width="80" height="80" align=left }](https://faradars.org/courses/supplementary-of-rust-programming-language-part-i-fvrust0105)
+
+
 ## Videos
 
 [[Rust 2021 A Scratch Blockchain-1]]
