@@ -3,11 +3,9 @@
     "",
     "\\docs",
     "\\docs\\public",
-    "\\docs\\public\\blockchain",
     "\\docs\\public\\blockchain\\learning",
-    "\\docs\\public\\defi",
-    "\\docs\\public\\defi\\Learning"
+    "\\docs\\public\\defi"
   ],
-  "SelectedNode": "\\docs\\public\\defi\\defi.md",
+  "SelectedNode": "\\docs\\publications.md",
   "PreviewInSolutionExplorer": false
 }
