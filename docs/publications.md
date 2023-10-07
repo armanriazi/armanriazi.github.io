@@ -47,6 +47,10 @@ Prof. Vito Bobek
 
 - [![DOI](https://cdn.faradars.org/wp-content/uploads/2022/11/22/faradarslogo.svg){ width="80" height="80" align=left }](https://faradars.org/instructors/arman-riazi)
 
+## ReFi
+
+[Regenerative Finance](https://armanriazi.github.io/refi/)
+
 ---
 
 ## Links
