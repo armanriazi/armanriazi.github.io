@@ -15,6 +15,12 @@ show:
 
 !!! Certificates_and_Seen_Toturials_2023
 
+    === "Frankfurt-School & Ecota ReFi 2023-2024"
+
+        * [Regeneraive Finance ReFi 18 Weeks](https://armanriazi.github.io/refi)
+
+!!! Certificates_and_Seen_Toturials_2023
+
     === "Decentralized Finance Certificates 2023"
 
         * [Cryptocurrency-certificates](Learning/trade-crypto-certificate.md)
