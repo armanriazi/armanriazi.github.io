@@ -13,11 +13,14 @@ show:
   - feedback
 ---
 
-!!! Frankfurt-School & Ecota ReFi 2023-2024
+!!! Frankfurt-School_Ecota_ReFi_2023-2024
 
     === "Member of ReFi 2023-2024"
 
         * [Regeneraive Finance ReFi 18 Weeks](https://armanriazi.github.io/refi)
+
+---
+
 
 !!! Certificates_and_Seen_Toturials_2023
 
