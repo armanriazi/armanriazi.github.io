@@ -46,18 +46,6 @@ show:
         
 
 
-!!! ReFi & DeFi 2023-2024
-
-    === "Frankfurt-School & Ecota ReFi 2023-2024"
-
-        * [Regeneraive Finance ReFi 18 Weeks](https://armanriazi.github.io/refi)
-    
-    === "Necosia DeFi 2023"
-
-        * [DeFi 6 Weeks](../defi/defi.md)
-
----
-
 !!! Certificates_and_Seen_Toturials
 
     === "Blockchain Certificates"
@@ -69,6 +57,19 @@ show:
         * [blockchain-tutorials](learning/blockchain-non-cert-toturials.md)
 
 ---
+
+!!! ReFi_and_DeFi 2023-2024
+
+    === "Frankfurt-School & Ecota ReFi 2023-2024"
+
+        * [Regeneraive Finance ReFi 18 Weeks](https://armanriazi.github.io/refi)
+    
+    === "Necosia DeFi 2023"
+
+        * [DeFi 6 Weeks](../defi/defi.md)
+
+---
+
 
 !!! Experience_2020-2023
 
