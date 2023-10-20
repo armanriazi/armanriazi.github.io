@@ -33,7 +33,7 @@ show:
 </details>
 <details>
 <summary>Substrate MindMapping</summary>
-<p> I was wondering If you want to get update-mind-mapping image. It is worth 25$ to get an updated board.
+<p> I was wondering If you want to get the update-mind-mapping image. It is worth 25$ to get an updated board.
 <p> Send me Email: Title: </p>
 <p>Armanriyazi.Github.Io_MindMapping_Substrate</p>
 <p> To Email Address </p>
@@ -56,6 +56,7 @@ show:
 
         * [DeFi 6 Weeks](../defi/defi.md)
 
+---
 
 !!! Certificates_and_Seen_Toturials
 
@@ -78,7 +79,7 @@ show:
         * [Rust-Lang](../programming/rust/rust.md)
 
     === "Start-Up 2023"
-        What is the best solution to developing a Web 3.0 application. There are so many solutions in business. But which one has high quality and security, quickly development, has low resources, and has no additional overhead(a lightweight development framework).[MFS is a NFT music platform](https://armanriazi.github.io/mfs)
+        What is the best solution to developing a Web 3.0 application. There are so many solutions in business. But which one has high quality and security, quick development, low resources, and no additional overhead(a lightweight development framework).[MFS is a NFT music platform](https://armanriazi.github.io/mfs)
 
     === "Towards Implementation"
 
@@ -121,7 +122,7 @@ show:
         * [Solidity](Solidity.md)
         * [Hyperledger](Hyperledger.md)
         * [Corda-r3](Corda-r3.md)
-        Samples have had run on test networks:
+        Samples have been run on test networks:
         * DAapp university by web3.js (Reactjs,Js)-[Solidity](Solidity.md)
         * Solidity (build a game)
         * Build a scratch blockchain by Golang (Websocket)
@@ -142,7 +143,7 @@ show:
 - [x] App and presentation: The application layer is made up of **smart contracts, DApps** (Decentralized Applications), **and chaincode**. Its protocols are divided into the application and execution layers. It is composed of the programs that end-users utilize for communicating with the blockchain networks. Some other parts of the application layer include **APIs (Application Programming Interfaces), frameworks, scripts, and user interfaces**.
 - [x] Consensus: This layer is **mandatory** for the existence of blockchain platforms. It is the most **critical** layer for any blockchain platform. This layer **validates blocks**, orders them, and ensures that everyone agrees upon them.
 - [x] Network: This layer is also known as the **propagation layer and P2P layer** and is responsible for inter-node communication. A P2P network is a computer network where nodes are distributed to share.
-- [x] Data: There are two fundamental elements of the blockchain data structure: **Pointers , A linked list**
+- [x] Data: There are two fundamental elements of the blockchain data structure: **Pointers, A linked list**
 - [x] HD/Infra:The hardware structure layer consists of servers. **Blockchain is a prevalent example of this P2P network**. In a P2P network, the computer is designated as a node.
 
 ### Decentralization 
@@ -153,7 +154,7 @@ Decentralization is a type of network redundancy that ensures that the network c
 
 #### Game Theory
 
-Is the study of the mathematical models for making **strategic interaction between rational decision makers**.
+Is the study of the mathematical models for making **strategic interactions between rational decision-makers**.
 
 #### Cryptography
 
@@ -161,7 +162,7 @@ Among several benefits of blockchain, the most profound is that it **eliminates 
 
 ### Core Of Blockchain
 
-Since any central authority or government does not control the blockchain, the **DLT** (Distributed Ledger Technology) performs the task of verifying any information via cryptography. Any member of a blockchain network witnesses their information being verified via DLT.
+Since no central authority or government controls the blockchain, the **DLT** (Distributed Ledger Technology) performs the task of verifying any information via cryptography. Any member of a blockchain network witnesses their information being verified via DLT.
 
 ### Components of the blockchain Trilemma
 
@@ -191,14 +192,14 @@ Now, if the two blockchains (with same proof-of-work) have the equal degree of d
 
 **the scalability will rise with the improvement of security**. This shows that: Scalability is directly proportional to security (if decentralization remains constant)
 
-Since all of the three components of the blockchain trilemma are unable to interact with each other at the same time, the blockchain has to make trade-offs. A prominent example of this was Ethereum that saw a rise in usage because of the growth of DeFi (Decentralized Finance) applications. Due to this sudden rise in demand, transaction fees also surged to a level where many people were unable to engage with the blockchain.
+Since all of the three components of the blockchain trilemma are unable to interact with each other at the same time, the blockchain has to make trade-offs. A prominent example of this was Ethereum which saw a rise in usage because of the growth of DeFi (Decentralized Finance) applications. Due to this sudden rise in demand, transaction fees also surged to a level where many people were unable to engage with the blockchain.
 
 
 ### Blockchain Layers
 
 The Role of Blockchain Layers in **Increasing Scalability**.
 
-Currently, work is underway for increasing the scalability of the blockchain networks.
+Currently, work is underway to increase the scalability of the blockchain networks.
 - [x] The Layer One Blockchain has been designed for providing **speed, security, and expansion**.
 - [x] The Layer Two Blockchain refers to technological enhancements and products for utilizing the expansion of **scalability of blockchain networks** already present.
   
@@ -210,7 +211,7 @@ In Blockchain, *the Merkle tree* **protects the integrity and security of the bl
 
 ### Benefits of Digital Signature
 - [x] The role of digital signature in this scenario is to **detect any manipulation in information**.
-- [x] They also ensure unity as the **data is encrypted**. Therefore, any manipulation being made will result in invalidity of the signature
+- [x] They also ensure unity as the **data is encrypted**. Therefore, any manipulation being made will result in the invalidity of the signature
 - [x] The data **cannot be discovered** due to being encrypted with digital signatures
 - [x] The data **cannot be tampered**
 
@@ -220,12 +221,12 @@ In Blockchain, *the Merkle tree* **protects the integrity and security of the bl
 
 ## Web 3.0
 
-Now after this period the internet is quickly moving towards Web 3.0, where virtual environment and virtual interaction between users would be possible. This is referred to as Metaverse. The primary focus of Web 3.0 is using technologies like **AI** for providing relevant content to every user.AI will also prevent manipulation and falsification of search results.
+Now after this period, the internet is quickly moving towards Web 3.0, where a virtual environment and virtual interaction between users would be possible. This is referred to as Metaverse. The primary focus of Web 3.0 is using technologies like **AI** to provide relevant content to every user. AI will also prevent manipulation and falsification of search results.
 
 - [x] Blockchain technology will serve as the **backbone** of Web 3.0.
 - [x] Decentralized web browsers and **NFTs** could be very early signs of Web 3.0.
 - [x] We might employ **VR** technology (which will be discussed in later topics) to enter tomorrow’s internet. So by using that we may travel between virtual worlds as digital avatars.
-- [x] Web 3.0 could also be experienced just like contemporary internet, with computers and smartphones.
+- [x] Web 3.0 could also be experienced just like the contemporary internet, with computers and smartphones.
 - [x] The future of the internet will include the benefits of today, but with novel elements from Web 3.0 and the metaverse
 
 ---
@@ -252,14 +253,14 @@ The inaugural ceremony of 2019 NFT.NYC ceremony witnessed NFT-controlled access.
 ## The Metaverse
 
 - [x] Meta means Virtual 
-- [x] Verse refers to Universe
+- [x] Verse refers to the Universe
 
 The metaverse can be called as a virtual fashion industry.
 
 This term was first introduced by Neal Stephenson, an American fiction writer. He coined the term in his 1992 novel, **Snow Crash**. He mentioned a 3D virtual space where human beings live as programmable avatars in his book. These avatars interact with each other as well as with software agents.
 
 `Examples of Companies Investing in Metaverse`
-- [x] An investment company **Grayscale** conducted a research in which it indicated that the global revenue that will be generated from virtual gaming can surpass $400 billion by 2025. 
+- [x] An investment company **Grayscale** conducted research in which it indicated that the global revenue that will be generated from virtual gaming can surpass $400 billion by 2025. 
 - [x] **Sotheby** is a famous art gallery.
 - [x] Microsoft $68.7 billion
 - [x] NVIDIA
@@ -273,7 +274,7 @@ It furnishes enticing, interactive experiences that are not possible in the real
 
 The metaverse has the possibility to change the way people interact and meet with each other. 
 
-This means that it will change the entire cosmos, work or employment model, retail and commercial model, gaming industry and more. 
+This means that it will change the entire cosmos, work or employment model, retail and commercial model, gaming industry, and more. 
 
 `The four different layers of the metaverse pyramid are`
 - [x] True
@@ -297,7 +298,7 @@ This means that it will change the entire cosmos, work or employment model, reta
 
 ### GUI
 
-The following computer interface that is now emerging has not got a single name. Instead, it is known by many names, such as Augmented Reality, Mixed Reality, Extended Reality, Extended Reality, or Mixed Computing. Although there might be subtle differences between all of these concepts, the one thing that they all have in common is the use of 3D space. Hence, these concepts are also known as **spatial computing.**
+The following computer interface that is now emerging does not have a single name. Instead, it is known by many names, such as Augmented Reality, Mixed Reality, Extended Reality, Extended Reality, or Mixed Computing. Although there might be subtle differences between all of these concepts, the one thing that they all have in common is the use of 3D space. Hence, these concepts are also known as **spatial computing.**
 
 ---
 
