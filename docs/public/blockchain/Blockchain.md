@@ -12,8 +12,6 @@ show:
   - feedback
 ---
 
-Important News: I am to share a work of running substrate (with some pallets) as well as using ink! smart contract(erc20) as a type of mp4 till 4 Nov 2023.
-
 ## Blockchain
 <details>
 <summary>Blockchain 4.0</summary>
