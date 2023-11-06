@@ -350,6 +350,7 @@ Although AR has seen quite an improvement in the last decade, its applications a
 ### VR
 
 `This technology has three main components`
+
 - [x] A smartphone or a wearable AR device
 - [x] Virtual objects
 - [x] Superimposed characters in real-world environments
