@@ -6,7 +6,6 @@ search:
   exclude: false
 type:  Blockchain
 feature:  Blockchain
-keywords:  github armanriazi Polkadot Kusama Substrate Rust
 author: "Arman Riazi"
 title: "Arman Riazi"
 show:
@@ -39,7 +38,7 @@ Important News: I am to share a work of running substrate (with some pallets) as
 <p> Send me Email: Title: </p>
 <p>Armanriyazi.Github.Io_MindMapping_Substrate</p>
 <p> To Email Address </p>
-<p>armanriyazi.github.io@gmail.com</p>
+<p>armanriazi.github.io@gmail.com</p>
 
 <img src="https://armanriazi.github.io/assets/attachments/substrate-minmap.jpg"width="650" height="650" />
 </details>   
