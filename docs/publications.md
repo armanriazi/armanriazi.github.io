@@ -27,8 +27,7 @@ author: "Arman Riazi"
 
 ### Using ACO Algorithm to Improve Performance for Container-based Scientific
 
-
-- [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8105650.svg)](https://doi.org/10.5281/zenodo.8105650)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8105650.svg)](https://doi.org/10.5281/zenodo.8105650)
 
 ### Towards Blanket Licensing Digitized Music NFT Decentralized
 
@@ -39,6 +38,8 @@ author: "Arman Riazi"
 ### Monorepo & Rust Programming
 
 - [![DOI](https://cdn.faradars.org/wp-content/uploads/2022/11/22/faradarslogo.svg){ width="80" height="80" align=left }](https://faradars.org/instructors/arman-riazi)
+
+[Youtube Channel](https://www.youtube.com/@arman-riazi)
 
 ## ReFi
 

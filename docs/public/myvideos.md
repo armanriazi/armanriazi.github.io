@@ -1,4 +1,26 @@
-# Rust
+
+
+# Rust & Substrate
+## 2023
+
+<details>
+<summary>Part 1</summary>
+<iframe width="900" height="506" src="https://www.youtube.com/embed/1GAxb4WvuSA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</details>
+<details>
+
+<details>
+<summary>Part 2</summary>
+<iframe width="900" height="506" src="https://www.youtube.com/embed/s1pJ0hip9s4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</details>
+<details>
+
+<details>
+<summary>Part 3</summary>
+<iframe width="900" height="506" src="https://www.youtube.com/embed/BjrLAb5ZFEs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</details>
+<details>
+
 ## Rust 2021 A Scratch Blockchain-1
 
 [Rust 2021 A Scratch Blockchain-1](../public/programming/rust/rust-scratch-blockchain.md)
