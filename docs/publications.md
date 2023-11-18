@@ -19,11 +19,24 @@ type:  publications
 keywords:  achievements armanriazi publications
 feature:  achievements publications
 title: "publications"
-layout: page
 author: "Arman Riazi"
 ---
 
+!!! Certificates
+
+    === "Academic"
+
+        * [Using ACO Algorithm to Improve Performance for Container-based Scientific](https://drive.google.com/file/d/1XC8KsoMRar3xE-IB-mynw9f8xfSjWY7q/view?usp=sharing)
+    
+    === "Blockchain"
+
+        * [Towards Blanket Licensing Digitized Music Decentralized](https://drive.google.com/file/d/1zeHc_yeuk6FQXyMYRqgW3iaHMOb0M62C/view?usp=sharing)
+
+---
+
 ## Papers
+
+**Journal of Innovations in Computer Science and Engineering (JICSE)[Comming Soon]**
 
 ### Using ACO Algorithm to Improve Performance for Container-based Scientific
 

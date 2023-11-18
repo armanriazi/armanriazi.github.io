@@ -22,6 +22,8 @@ title: "Arman Riazi"
 
 - [Awesome Rust](https://github.com/armanriazi/armanriazi-awesome-rust)
 
+- [Rust Blockchain Framework(Substrate)](https://armanriazi.github.io/public/blockchain/Substrate)
+
 - [Rust-Scratch-Blockchain](https://github.com/armanriazi/rust-scratch-blockchain)
 
 - [Rust-Web-Programming](https://github.com/armanriazi/rust-web)

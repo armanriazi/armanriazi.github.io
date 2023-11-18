@@ -14,6 +14,17 @@ tags:
   - github
 ---
 
+# About University
+
+<figure markdown>
+![Azad Najafabad(IAUN)](https://armanriazi.github.io/refi/assets/attachments/azadnajafabad.jpeg){ width=400 height=200 align=center }
+<figcaption>Taked from aero [12]</figcaption>
+</figure>
+
+[Ranking of IAUN](https://iaun.iau.ir/iaun-ranking)
+
+[Computer & BigData](https://ce.iaun.ac.ir/)
+
 # Master Thesis-Arman Riazi
 
 ## Academic degree
@@ -46,46 +57,34 @@ Keywords: [[Cloud]]Computing, #ContainerAllocation, [[Workflow]], #ACO , [[Conta
 
 > Experimental Research: CloudSim-Workflow-Function-Container-Plus (Toward ServerMix)
 
-> ArmanRiazi(AramisIT)Modeling And Simulation Of running containers on the host without needing a virtual machine.
-
-
-
 **Pros:**
 
-Simulation of cost and performance
-
-Scalability: Container is very scalable than the virtual machines
-
-Elasticity: with separating logical code and data
-
-Decrease overhead
-
-Decrease the start time of tasks
-
-Fixed data dependency
-
-Resource management
-
-Workflow Engine management
-
-Resource Management
+- [x] Simulation of cost and performance
+- [x] Scalability: Container is very scalable than the virtual machines
+- [x] Elasticity: with separating logical code and data
+- [x] Decrease overhead
+- [x] Decrease the start time of tasks
+- [x] Fixed data dependency
+- [x] Resource management
+- [x] Workflow Engine management
+- [x] Resource Management
 
 **Cons:**
 
-Lack of clean code and more refactoring.
-
-exclude of design patterns, modular
-
-Not using Maven and Unit Test
+- [x] Lack of clean code and more refactoring.
+- [x] Exclude of design patterns, modular
+- [x] Not using Maven and Unit Test
 
 **Concepts:**
-Workflow: correspond with Function Composition on the simulation environment.
-Function as a Service(FaaS): Lambda or Cloud Function on the production environment.
-Cloudlet : the task of the client or job of workflow
-ACO Scheduler: Ant colony optimization
-Serverfull: include virtual machine/on-premises
-Serverless: no server, Event-driven, Provisioning, Scalability, FaaS
-ServerMix: The proposed model included both of them. In implementing simulation we did not use FaaS or Lambda functions but we have some situations and marks of the Serverless as a kind of theoretical because we implemented with the capability of elasticity that is one of the Serverless features. on the other hand, we are going to need event-driven and arrow functions in this java program.
+
+- [x] Workflow: correspond with Function Composition on the simulation environment.
+- [x] Function as a Service(FaaS): Lambda or Cloud Function on the production environment.
+- [x] Cloudlet : the task of the client or job of workflow
+- [x] ACO Scheduler: Ant colony optimization
+- [x] Serverfull: include virtual machine/on-premises
+- [x] Serverless: no server, Event-driven, Provisioning, Scalability, FaaS
+- [x] ServerMix: 
+:   `The proposed model included both of them. In implementing simulation we did not use FaaS or Lambda functions but we have some situations and marks of the Serverless as a kind of theoretical because we implemented with the capability of elasticity that is one of the Serverless features. on the other hand, we are going to need event-driven and arrow functions in this java program.`
 
 **Target:**
 Running Montage workflow base on the container. We have two repo for implementing:
@@ -95,13 +94,11 @@ Container base on host:([CloudSim-Workflow-Function-Container-Plus](https://gith
 
 ![Montage-Workflow](https://cdn-images-1.medium.com/max/1000/1*HpB4119tw_aERjoMRyjtGQ.png)
 
-
 ![Part of Class Diagram](https://cdn-images-1.medium.com/max/1000/1*QSosVKTZTz-XbnSTt9cGGQ.png)
 **Part of class diagram:** ContainerCloudsim class diagram
 
 ![Part of Class Diagram](https://cdn-images-1.medium.com/max/1000/1*2Hta7uuNAGFpi-3nf6B-XA.png)
 **Sequential diagram of WFC architecture:**
-
 
 ![Part of Class Diagram](https://cdn-images-1.medium.com/max/1000/1*vRm-lDsQSPdz65uQdJLJUg.png)
 **Proposed Architecture:** WFC has transparency and clarity on architecture and implemented java code.

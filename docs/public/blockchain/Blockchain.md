@@ -34,7 +34,7 @@ show:
 <summary>Substrate MindMapping</summary>
 <p> I was wondering If you want to get the update-mind-mapping image. It is worth 25$ to get an updated board.
 <p> Send me Email: Title: </p>
-<p>Armanriyazi.Github.Io_MindMapping_Substrate</p>
+<p>armanriazi.Github.Io_MindMapping_Substrate</p>
 <p> To Email Address </p>
 <p>armanriazi.github.io@gmail.com</p>
 
@@ -59,11 +59,11 @@ show:
 
 !!! ReFi_and_DeFi 2023-2024
 
-    === "Frankfurt-School & Ecota ReFi 2023-2024"
+    === "Regeneraive Finance"
 
         * [Regeneraive Finance ReFi 18 Weeks](https://armanriazi.github.io/refi)
     
-    === "Necosia DeFi 2023"
+    === "Decentralized Finance 2023"
 
         * [DeFi 6 Weeks](../defi/defi.md)
 

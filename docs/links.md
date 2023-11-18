@@ -125,14 +125,14 @@ permalink: /links
 ```
 If you require to contact me {
 Please mention your Name.
-Title armanriyazi.github.io
+Title armanriazi.github.io
 To set schedule meeting
 }
 ```
 
 * [Job](mailto:arman2job@gmail.com)
 
-* [Email of website](mailto:armanriyazi.github.io@gmail.com)
+* [Email of website](mailto:armanriazi.github.io@gmail.com)
 
 <!-- [Scholar](mailto:arman2riazi@sco.iaun.ac.ir) -->
 
@@ -143,9 +143,7 @@ To set schedule meeting
 
 > Telegram: `@arman_riazi`(Instant Message, Call)
 
-> Instagram: arman_soc_riazi(Instant Message, Call)
-
-> Twitter: arman_soc_riazi(Message, Shared links)
+> Twitter/Insta: armanriazi_meta
 
 > Channel: Blockchain-Aramisit, Discord ID: **armanriyazi.github.io#5111**
 
@@ -166,7 +164,7 @@ To set schedule meeting
 
 >
 
-* [Join to our github-organization): 0xde5D732a5AB44832E1c69b18be30834639F44A2c](https://github.com/AramisTech)
+* [Join to our github-organization): 0xde5D732a5AB44832E1c69b18be30834639F44A2c](https://github.com/21Crickets)
 
 >
 

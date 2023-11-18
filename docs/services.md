@@ -37,8 +37,8 @@ show:
 
     === "Mind Mapping of Substrate Framework"
 
-        If you want to get updated-mind-mapping image, send me Email to armanriyazi.github.io@gmail.com 
-        (Title: armanriyazi.github.io_Substrate_MindMapping)
+        If you want to get updated-mind-mapping image, send me Email to armanriazi.github.io@gmail.com 
+        (Title: armanriazi.github.io_Substrate_MindMapping)
         ![Graph](assets/attachments/substrate-minmap.jpg)
     
     === "Teaching Rust"
