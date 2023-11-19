@@ -17,13 +17,13 @@ tags:
 # About University
 
 <figure markdown>
-![Azad Najafabad(IAUN)](https://armanriazi.github.io/refi/assets/attachments/azadnajafabad.jpeg){ width=400 height=200 align=center }
-<figcaption>Taked from aero [12]</figcaption>
+![Azad Najafabad(IAUN)](https://armanriazi.github.io/assets/attachments/azadnajafabad.jpeg){ width=600 height=400 align=center }
+<figcaption>Aerial</figcaption>
 </figure>
 
-[Ranking of IAUN](https://iaun.iau.ir/iaun-ranking)
+- [Ranking of IAUN](https://iaun.iau.ir/iaun-ranking)
 
-[Computer & BigData](https://ce.iaun.ac.ir/)
+- [Computer & BigData](https://ce.iaun.ac.ir/)
 
 # Master Thesis
 
