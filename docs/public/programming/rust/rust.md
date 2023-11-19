@@ -20,6 +20,8 @@ title: "Arman Riazi"
 
 ## Rust-Language
 
+- [Mastering Rust for System Programming_Reviewer_LOU](https://drive.google.com/file/d/16AvUw-28q4IZJWr6MuTDybdb2HCFOiwK/view?usp=drive_link)
+
 - [Awesome Rust](https://github.com/armanriazi/armanriazi-awesome-rust)
 
 - [Rust Blockchain Framework(Substrate)](https://armanriazi.github.io/public/blockchain/Substrate)

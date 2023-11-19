@@ -25,7 +25,7 @@ tags:
 
 [Computer & BigData](https://ce.iaun.ac.ir/)
 
-# Master Thesis-Arman Riazi
+# Master Thesis
 
 ## Academic degree
 

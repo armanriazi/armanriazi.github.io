@@ -32,6 +32,10 @@ author: "Arman Riazi"
 
         * [Towards Blanket Licensing Digitized Music Decentralized](https://drive.google.com/file/d/1zeHc_yeuk6FQXyMYRqgW3iaHMOb0M62C/view?usp=sharing)
 
+    === "RustBook"
+
+        * [Mastering Rust for System Programming_LOU_Reviewer](https://drive.google.com/file/d/16AvUw-28q4IZJWr6MuTDybdb2HCFOiwK/view?usp=drive_link)
+
 ---
 
 ## Papers
