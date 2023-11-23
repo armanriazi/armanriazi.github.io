@@ -81,9 +81,12 @@ author: "Arman Riazi"
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8105650.svg)](https://doi.org/10.5281/zenodo.8105650)
 
+- [A. Riazi [Using ACO Algorithm to Improve Performance for  Container-based Scientific Workflows] - ScieNFT 2023 November NFTID: 163](https://scienft.com/nfts/155)
+
 #### MFS:Towards Blanket Licensing Digitized Music Decentralized
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8023208.svg)](https://doi.org/10.5281/zenodo.8023208)
 
+- [A. Riazi [Towards a new Blanket Licensing Digitized NFT Music Decentralized] - ScieNFT 2023 November NFTID: 164](https://scienft.com/nfts/156)
 
 

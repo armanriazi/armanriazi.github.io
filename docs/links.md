@@ -55,6 +55,8 @@ permalink: /links
   
 #### MultiMedia
 
+* [Vimo Channel Blockchain](https://vimeo.com/user210919767)
+
 * [Youtube Channel Blockchain](https://www.youtube.com/channel/UC4DbYxk3q_6MPNNpHa-C7ag)
 
 * [Youtube Channel-Archived](https://cutt.ly/pyKrYMh)

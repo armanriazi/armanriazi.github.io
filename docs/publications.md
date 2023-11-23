@@ -47,17 +47,17 @@ author: "Arman Riazi"
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8105650.svg)](https://doi.org/10.5281/zenodo.8105650)
 
 
-`Available for purchase ownership with your fullname`
+`Available for purchase NFT ownership with your full name`
 
-:   Cite this NFT[^1]
+:   Cite[^1] this [NFT](https://scienft.com/nfts/155)
 
 ### Towards Blanket Licensing Digitized Music NFT Decentralized
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8023208.svg)](https://doi.org/10.5281/zenodo.8023208)
 
-`Available for purchase ownership with your fullname`
+`Available for purchase NFT ownership with your full name`
 
-:   Cite this NFT[^2]
+:   Cite[^2] this [NFT](https://scienft.com/nfts/156)
 
 ## Digital Multimedia
 
@@ -65,7 +65,9 @@ author: "Arman Riazi"
 
 - [![DOI](https://cdn.faradars.org/wp-content/uploads/2022/11/22/faradarslogo.svg){ width="80" height="80" align=left }](https://faradars.org/instructors/arman-riazi)
 
-[Youtube Channel](https://www.youtube.com/@arman-riazi)
+- [Vimo Channel](https://vimeo.com/user210919767)
+
+- [Youtube Channel](https://www.youtube.com/@arman-riazi)
 
 ## ReFi
 
