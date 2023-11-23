@@ -21,17 +21,17 @@ tags:
 <figcaption>Aerial</figcaption>
 </figure>
 
-- [Ranking of IAUN](https://iaun.iau.ir/iaun-ranking)
+!!! Master Science
 
-- [Computer & BigData](https://ce.iaun.ac.ir/)
+    === "About university"
 
-# Master Thesis
+        * [Ranking of IAUN](https://iaun.iau.ir/iaun-ranking)
+      
+        * [Computer & BigData](https://ce.iaun.ac.ir/)
+    
+    === "Inquiry-Tracking"
 
-## Academic degree
-
-> Inquiry and documents with score details [Master-License](https://armanriazi.github.io/public/university/master-license/)
-
----
+        * Inquiry and documents with score details [Master-License](https://armanriazi.github.io/public/university/master-license/)
 
 # Chapter of Book & Project
 
@@ -41,7 +41,7 @@ tags:
 
 ---
 
-## Abstract
+## Abstract[^1]
 Nowadays with the development of technology, we watch an increase in the number of users using cloud computing services. The process of increasing demand, the need for intelligent supply and demand cycle, better resource management, better utilization of resources is necessary. The results indicate competition from the cycle leads to a complex challenge for selecting and scheduling tasks to provide composite services in the cloud. One of the most important issues in this field is load balancing. How to choose idle resources from a set of resources, overcoming compositional constraints, determines the importance of scheduling and resource allocation. These are NP-Hard issues. State-of-the-art architecture in the field of cloud computing for the implementation of Scientific Workflows that can be implemented in a distributed manner is becoming increasingly considered in other sciences related to cloud computing. The distinction and competition of cloud service providers to publish services with more profit and better quality to customers are summarized in features such as "Scalability, Stability, High availability, Fault tolerance". By providing new solutions and services for using specialists in other sciences, we can see the utilization of cloud computing Infrastructure and services in the fields of industry, commerce, health, and emergency applications. The possibility of conducting scientific workflows using virtual machines" and containers is a goal that has been addressed in the proposed architecture. The load balancing in the form of containers at the level of virtual machines using the ant colony optimization(ACO) algorithm is one of the important goals and issues that have been covered and solutions for utilization as much as possible has been explained. According to previous studies, there is no comprehensive or stable architecture that can balance scientific workflows using the algorithm ACO at the container virtualization level. By providing a simulator environment and testing several samples with different parameters then estimated the efficiency of the ACO and default algorithm of CloudSIM e.g., first-come-first-serve (FCFS). In the case of fifty, hundred samples of "montage" scientific workflow, which is considered as the average load rate, balancing the workload of the containers on the virtual machine with the ACO has better results than the FCFS. If the value of the beta parameter of the ACO is assigned by zero, the algorithm will be trapped to the local optimal. In the case of a thousand sample, which is interpreted as a large amount of workload, if a "cybershake" workflow is used finally the results will be the same in all performance evaluation indicators. The results indicate that on average, the ACO has desired performance of almost 50% better than FCFS in the most of scenarios regarding proposed architecture and using cybershake and montage workflows.
 
 
@@ -167,3 +167,4 @@ Let me know how can I help you with developing and researching. I am eager to yo
  
 
 
+[^1]: A. Riazi [Using ACO Algorithm to Improve Performance for  Container-based Scientific Workflows] - ScieNFT 2023 November NFTID: 163

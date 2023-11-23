@@ -20,36 +20,51 @@ title: "Arman Riazi"
 
 ## Rust-Language
 
-- [Mastering Rust for System Programming_Reviewer_LOU](https://drive.google.com/file/d/16AvUw-28q4IZJWr6MuTDybdb2HCFOiwK/view?usp=drive_link)
+!!! Savvy
 
-- [Awesome Rust](https://github.com/armanriazi/armanriazi-awesome-rust)
+    === "Repositories"
 
-- [Rust Blockchain Framework(Substrate)](https://armanriazi.github.io/public/blockchain/Substrate)
+        * [Awesome Rust](https://github.com/armanriazi/armanriazi-awesome-rust)        
 
-- [Rust-Scratch-Blockchain](https://github.com/armanriazi/rust-scratch-blockchain)
+        * [Rust-Scratch-Blockchain](https://github.com/armanriazi/rust-scratch-blockchain)
 
-- [Rust-Web-Programming](https://github.com/armanriazi/rust-web)
+        * [Rust-Web-Programming](https://github.com/armanriazi/rust-web)
 
-- [Rust-All-In-One projects](https://github.com/armanriazi/rust-all-in-one-projects)  
+        * [Rust-All-In-One projects](https://github.com/armanriazi/rust-all-in-one-projects)  
 
----
+        * [Rust-Survey-Json](https://github.com/armanriazi/rust-survey-json)
 
-- [Rust-Survey-Json](https://github.com/armanriazi/rust-survey-json)
+        * [Rust-Fundamental-Finance](https://github.com/armanriazi/rust-fundamental-finance)
 
-- [Rust-Fundamental-Finance](https://github.com/armanriazi/rust-fundamental-finance)
+        * [Rust-All-In-One-non private ver 0.1.0](https://github.com/armanriazi/rust-all-in-one-2022-archived)
 
-- [Rust-All-In-One-non private ver 0.1.0](https://github.com/armanriazi/rust-all-in-one-2022-archived)
+    === "Relation page"
+
+        * [Rust Blockchain Framework(Substrate)](https://armanriazi.github.io/public/blockchain/Substrate)
+
+    === "Publication"
+
+        * [Mastering Rust for System Programming_Book Reviewer_LOU](https://drive.google.com/file/d/16AvUw-28q4IZJWr6MuTDybdb2HCFOiwK/view?usp=drive_link)
+      
+        * [Rust-All-In-One(Available to purchase | En edition)](https://github.com/armanriazi/rust-all-in-one)
+
+        * [Rust Programming 3 Parts Multimedia | Fa edition](https://faradars.org/instructors/arman-riazi) [![DOI](https://cdn.faradars.org/wp-content/uploads/2022/11/22/faradarslogo.svg){ width="80" height="80" align=left }](https://faradars.org/instructors/arman-riazi)
+
+    === "Research"
+
+        * [Highlighted Deep Dive Into Polkadot/Substrate/Kusama/Rust-Lang](rust-lang-research-intro.md)
+
+        * [Rust-Lang-Ecosystem](rust-lang-ecosystem.md)
+
+        * [Rust-lang-Hello-World](rust-learning-plan-chapter-1-notes.md)
 
 ### Rust-All-In-One-Private
-> How to learn quickly ? I have the pleasure of introducing a repository that has more than 400 samples and has collected more than six significant references. I made a customised online book that contains md-files, and you can search for any gathered concept.
-> I was wondering if you wanted to contact me. To gain access online, books with codes have a value of $100.
 
-### Digital Multimedia
+`How to learn quickly ?`
 
-#### Teaching Complementary of Rust Programming Part1
+:   I have the pleasure of introducing a repository that has more than 800 samples and has collected more than seven significant references. I made a customised online book that contains md-files, and you can search for any gathered concept.
 
-- [![DOI](https://cdn.faradars.org/wp-content/uploads/2022/11/22/faradarslogo.svg){ width="80" height="80" align=left }](https://faradars.org/courses/supplementary-of-rust-programming-language-part-i-fvrust0105)
-
+    I was wondering if you wanted to contact me. To gain access online, books with codes have a value of $100.
 
 ## Videos
 
@@ -59,14 +74,4 @@ title: "Arman Riazi"
 [[Rust 2021 A Scratch Blockchain-2]]
 <iframe width="975" height="506" src="https://www.youtube.com/embed/gK0dFhtbB-M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-  >[ReadMe](../rust/rust-scratch-blockchain.md)
-
-### Research
-
-[Highlighted Deep Dive Into Polkadot/Substrate/Kusama/Rust-Lang](rust-lang-research-intro.md)
-
-
-[Rust-Lang-Ecosystem](rust-lang-ecosystem.md)
-
-
-[Rust-lang-Hello-World](rust-learning-plan-chapter-1-notes.md)
+> [Read Me](../rust/rust-scratch-blockchain.md)

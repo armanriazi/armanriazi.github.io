@@ -9,9 +9,11 @@ tags:
 
 ## Polkadot
 
-### Implement
+### Implementation
 
 Comming Soon...
+
+[Related-Polkadot-Is-Substrate](Substrate.md)
 
 ### Research
 

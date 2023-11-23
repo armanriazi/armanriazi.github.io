@@ -25,7 +25,8 @@ Ubuntu 20.04, Docker 19-20, Ngnix, Nodejs 16.13.2, ReactJs, VirtualBox(Optional)
 ## installing
 
 **Manifest for installing rust and build-essentials on ubuntu 20.04.03**
-```
+
+```markdown
 rustup self uninstall
 
 apt-get update
@@ -67,7 +68,9 @@ cargo install --git https://github.com/alexcrichton/wasm-gc --force
 
 No tested on me Fast Installation: Install all the required dependencies with a single command. (Be patient, this can take up to> 30 minutes)
 
-``` curl https://getsubstrate.io -sSf | bash -s -- --fast ```
+```bash
+curl https://getsubstrate.io -sSf | bash -s -- --fast 
+```
 
 > Finally step test:
 
@@ -101,7 +104,8 @@ linking_with_cc_failed_exit_code_1/build-essential-fails-because-of-unmet-depend
 
 **My Runner System**
 
-```
+```markdown
+
  -lsb_release -a
   No LSB modules are available.
   Distributor ID:	Ubuntu
@@ -127,6 +131,7 @@ linking_with_cc_failed_exit_code_1/build-essential-fails-because-of-unmet-depend
   ----------------
   nightly-x86_64-unknown-linux-gnu (default)
   rustc 1.60.0-nightly (f624427f8 2022-02-06)
+
 ```
 
 🤷‍♂️🤷‍♂️🤷‍♂️:🐱‍👤
@@ -156,7 +161,9 @@ Start the development chain with detailed logging:
 ✍️✍️✍️
 
 After Running Node(Limited Lines):
-```
+
+```markdown
+
 root@ubuntu:/home/substrate-node-template# ps -ef
 UID          PID    PPID  C STIME TTY          TIME CMD
 root           1       0  0 12:49 ?        00:00:02 /sbin/init splash

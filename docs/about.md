@@ -65,11 +65,13 @@ author: "Arman Riazi"
 | CryptocurrencyTrading | 1 Y  |  :material-check:      |   [Archived Cryptocurrency](public/archive/trading-archive-2021.md) |
 <!--[Experience losts liquid because of trading crypto in 2021 🤕](public/mynotes/exp-2021cryprotrading.md)-->
 
-> There is not exactly the time to estimate spent time since developing and learning would go with each other. In my opinion, developers who had a kind of skills like Frontend, Backend, or Database have been forced into the Blockchain ecosystem because of the charm of the subject and the rapid growth and evolution of the Technology. 
+!!! abstract
 
- >I wonder to let you know I am big on **Substrate and WASM** Substrate, WASM to apply for mixing experiences and technologies that lead to **#Defi 3.0 & #Web 3.0**. It is the only chance I get to find out what's going on in the technology world and catch up with current affairs.
+    There is not exactly the time to estimate spent time since developing and learning would go with each other. In my opinion, developers who had a kind of skills like Frontend, Backend, or Database have been forced into the Blockchain ecosystem because of the charm of the subject and the rapid growth and evolution of the Technology. I wonder to let you know I am big on **Substrate and WASM** Substrate, WASM to apply for mixing experiences and technologies that lead to **#Defi 3.0 & #Web 3.0**. It is the only chance I get to find out what's going on in the technology world and catch up with current affairs.
 
-> I worked for companies that were B2B or B2C. Therefore, I have developed projects based on the skills mentioned in the resume, which did not need to be introduced on the personal website because the material and intellectual rights of the works must be preserved. I have worked for 5 domestic companies in the field of support, development, and consulting, and when I decided to work internationally(or decentralized), I spent a lot of time learning again and more(because there are high inflation and economic pressure in the country and I estimated in the future will be harder but my top priority always have been gaining more experience in different places). You can see the prototypes of the works done on GitHub.
+!!! note "Companies scope"
+
+    I worked for companies that were B2B or B2C. Therefore, I have developed projects based on the skills mentioned in the resume, which did not need to be introduced on the personal website because the material and intellectual rights of the works must be preserved. I have worked for 5 domestic companies in the field of support, development, and consulting, and when I decided to work internationally(or decentralized), I spent a lot of time learning again and more(because there are a high inflation and economic pressure in the country so I estimated that the future will be harder but my top priority always have been gaining more experience in different places). You can see the prototypes of the works done on GitHub.
 
 ## Proof of Knowledge
 
@@ -167,17 +169,19 @@ author: "Arman Riazi"
 [Contact Me](links.md)
 
 ## Support Me/Sponsorship
-> You could be a sponsor on each of my repositories on GitHub.
->
-> It is for you to take advantage of services and code.
 
-* [liberapay-Github Sponsership](https://liberapay.com/armanriazi)
+!!! tip
 
+    You could be a sponsor on each of my repositories on GitHub. It is for you to take advantage of services and code.
 
-* [Sponsor a repository for you on the Github](https://github.com/sponsors/armanriazi)
+[Liberapay-Github Sponsership](https://liberapay.com/armanriazi){ .md-button .md-button--primary }
 
->
+[Sponsor a repository for you on the Github](https://github.com/sponsors/armanriazi){ .md-button .md-button--primary }
 
-* [(Join to our Organization Github): 0xde5D732a5AB44832E1c69b18be30834639F44A2c](https://github.com/21Crickets)
+[Join to our Organization Github](https://github.com/21Crickets){ .md-button .md-button--primary }
 
->
+!!! note "Metamask_Multichain_ADDR"
+
+    0xde5D732a5AB44832E1c69b18be30834639F44A2c
+
+ ❤️Author❤️Arman-Riazi❤️ 🤝🙏

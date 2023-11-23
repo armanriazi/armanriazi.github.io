@@ -46,9 +46,18 @@ author: "Arman Riazi"
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8105650.svg)](https://doi.org/10.5281/zenodo.8105650)
 
+
+`Available for purchase ownership with your fullname`
+
+:   Cite this NFT[^1]
+
 ### Towards Blanket Licensing Digitized Music NFT Decentralized
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8023208.svg)](https://doi.org/10.5281/zenodo.8023208)
+
+`Available for purchase ownership with your fullname`
+
+:   Cite this NFT[^2]
 
 ## Digital Multimedia
 
@@ -73,3 +82,8 @@ author: "Arman Riazi"
 - [DOCs-Blockchain n Github](https://github.com/armanriazi/Doc-Blockchain)
 
 - [DOCs on Github](https://github.com/armanriazi/Documents)
+
+
+[^1]: A. Riazi [Using ACO Algorithm to Improve Performance for  Container-based Scientific Workflows] - ScieNFT 2023 November NFTID: 163
+
+[^2]: A. Riazi [Towards a new Blanket Licensing Digitized NFT Music Decentralized] - ScieNFT 2023 November NFTID: 164
