@@ -48,6 +48,8 @@ permalink: /links
 #### Freelancing
 
 * [Freelancer WINA Talent platform](https://www.winatalent.com/cv/4de0a68d-3e79-4410-957f-b10b15e1956b)
+
+* [Invitation link of WINA Talent](winatalent.com/auth/client/sign-up/4de0a68d-3e79-4410-957f-b10b15e1956b)
   
 #### Start-Up
 
