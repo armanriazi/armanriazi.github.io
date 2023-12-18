@@ -45,7 +45,11 @@ permalink: /links
 
 * [RemoteHub](https://www.remotehub.com/armanriazi)
 
-#### Start Up
+#### Freelancing
+
+* [Freelancer WINA Talent platform](https://www.winatalent.com/cv/4de0a68d-3e79-4410-957f-b10b15e1956b)
+  
+#### Start-Up
 
 * [Producthunt](https://www.producthunt.com/@armanriazi)
 
@@ -128,7 +132,7 @@ permalink: /links
 If you require to contact me {
 Please mention your Name.
 Title armanriazi.github.io
-To set schedule meeting
+To set scheduled meeting
 }
 ```
 
@@ -152,7 +156,7 @@ To set schedule meeting
 >> I recommend signing up channels to keep in connect.
 
 
-#### Sponser
+#### Sponsor
 
 * [liberapay-Github Sponsership](https://liberapay.com/armanriazi)
 
@@ -166,7 +170,7 @@ To set schedule meeting
 
 >
 
-* [Join to our github-organization): 0xde5D732a5AB44832E1c69b18be30834639F44A2c](https://github.com/21Crickets)
+* [Join to our GitHub-organization): 0xde5D732a5AB44832E1c69b18be30834639F44A2c](https://github.com/21Crickets)
 
 >
 
