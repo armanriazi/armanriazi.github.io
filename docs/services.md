@@ -16,9 +16,9 @@ show:
 
 ---
 
-!!! Software Engineer
+!!! Software_Engineer
 
-    === "Free deliver design system based on DDD (Zero-cost)"
+    === "Free deliver system design based on DDD (Zero-cost)"
 
         * [PDF of domain-driven design](https://cutt.ly/armanriazi-service-ddd)
         * [Applicant form of DDD](forms/ddd.md)
@@ -35,7 +35,7 @@ show:
         If you would like getting commands that consist of: Ubuntu, Devops, Blockchain CLIs in form of compacted packages, please send me an Email to armanriyazi.github.io@gmail.com (Title: armanriazi_github_io_Commands_YourPackageName)
 
 
-!!! Research | Teaching
+!!! Research_Teaching
 
     === "Mind mapping of Substrate framework"
 
@@ -50,7 +50,7 @@ show:
         * [Rust-All-In-One-Private](https://github.com/armanriazi/rust-all-in-one)
         
 
-!!! Configuration | DevOps
+!!! Configuration_DevOps
 
     === "Configure full/master nodes"      
 
