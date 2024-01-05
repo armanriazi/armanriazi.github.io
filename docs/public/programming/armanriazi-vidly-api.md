@@ -1,4 +1,10 @@
 ---
+keywords:   armanriazi ArmanRiazi reactjs js nodejs
+title: "NodeJS ExpressJS CouchDB"
+author: "Arman Riazi"
+search:
+  exclude: false
+type:  Programming
 tags:
   - github
   - couchdb
@@ -6,15 +12,20 @@ tags:
   - reactjs
   - nodejs
   - expressjs
+  - nodejs
   - api
   - restapi
   - cloud
   - sample
   - cicd
   - devops
+feature:  Programming
+keywords:  github armanriazi api programming couchdb expressjs nodejs js restapi
+show:
+  - feedback
 ---
 
-# armanriazi-vidly-api
+# Vidly RestAPI
 [online: armanriazi-vidly-api.herokuapp](https://armanriazi-vidly-api.herokuapp.com/)
 
 > Improved speed and performance.

@@ -25,12 +25,19 @@ author: "Arman Riazi"
 
 >  `Tips:` **Horizental Scrolled** ,
 
-> `G`: GoogleDrive, `[number]`: Query direct link `C`: `https://Cutt.ly/armanriazi-` as an indirect
+> `G`: **GoogleDrive**  |  `[number]`: **Query direct link**  |  `C`: `https://Cutt.ly/armanriazi-` as an **indirect link**
+
+### 2024
+
+| Expert | Priod  | By | Supported By   | Inquiry | Documents 
+|:-------------------------------------------:|:-------:|:---------------:|:------------------|:------------|:-----------|
+|  Regenerative Finance  2023-2024     |    18W    |  Frankfurt University School of the Blockchain&Business    | ECOTA  | [1](https://web3-talents.io/refitalents/refi-profiles/refi-talents-arman-riazi/)     | [C](https://cutt.ly/armanriazi-refi) |
+|   Mastering PostgreSQL Databases    |    15H    |   educative & SkillUP  |  educative/simplilearn.com |  [1](https://www.educative.io/verify-certificate/l8oBvJ82GWmT62WKOyNL3JTjWAEw8DjrvhM)    | [C](https://cutt.ly/armanriazi-postgresql),[G](https://drive.google.com/file/d/1r7kHL2NiRnw8bTo7V3SkVBBB4zfY03VQ/view?usp=sharing)  |
+|   Design patterns,oop, and ddd    |    15H    |   educative  |  educative.com |  [1](https://www.educative.io/verify-certificate/2R50XYCRLLNAGpPoQhLZNGxR8LAQF3), [2](https://www.educative.io/verify-certificate/29lK9lGKG40F6KwLrnB0EKsLZNGxR8LAQF3), [3](https://www.educative.io/verify-certificate/xGD3yRSRynNJX5J8mtA9DyNr0AZ3IE)    | [C](https://cutt.ly/armanriazi-designpatterns-oop-ddd),[G](https://drive.google.com/file/d/18A7f7pgSqie3J7vpv6wf5g_8tztZgPos/view?usp=sharing)  |
 
 ### 2023
 | Expert | Priod  | By | Supported By   | Inquiry | Documents 
 |:-------------------------------------------:|:-------:|:---------------:|:------------------|:------------|:-----------|
-|  Regenerative Finance  2023-2024     | 18W       |  Frankfurt University School of the Blockchain&Business    | ECOTA  | [1](https://web3-talents.io/refitalents/refi-profiles/refi-talents-arman-riazi/)     | [C](https://cutt.ly/armanriazi-refi) |
 | BLOC529-MC Decentralized Finance(Spring)     | 6W       |  Nicosia University   | UNIC  | [1](https://courses.unic.ac.cy/)     | [C](https://cutt.ly/armanriazi-defi-unic) |
 | Become-A-Rust-Professional    | 138H       |  educative.io   | educative  | [1](https://www.educative.io/verify-certificate/1j8yMXCBKBYmXmK2GHOEA9mnpKwPUp),[2](https://www.educative.io/verify-certificate/QApPNYA64r2clVE5XBNYJGHQ2OZGYMKj7T9),[3](https://www.educative.io/verify-certificate/585DM2txV56KZx8NxulL9K43ywJquq),[4](https://www.educative.io/verify-certificate/Y6GKZ1ijpWw4oDO1XhjWwo2K9x18TJ)    | [C-Boundled](https://cutt.ly/armanriazi-rust-pro-educative)    |
 | Blockchain-DistributedSYS-CyberSec  | 20H       |  educative.io  | educative  |   [1](https://www.educative.io/verify-certificate/49vom8N6ngNh6rgGjvGAPYuNKXr3qBL2PcG),[2](https://www.educative.io/verify-certificate/985KjktxW9QrjWANLIZnQAGV3xWDFN),[3](https://www.educative.io/verify-certificate/vgA3wPFLmLVKzwkA2t8VE4wnzZBlul)   | [C-Bundled](https://cutt.ly/armanriazi-blockchain-dist-cyber-educative),[G](https://drive.google.com/file/d/1RPNVrAIhxBZqlhkMY5fBc6E53lydLPov/view?usp=share_link)  | 

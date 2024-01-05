@@ -1,14 +1,12 @@
 ---
 keywords:   armanriazi ArmanRiazi money sell service collaboration career monorepo
-title: "Arman Riazi"
+title: "Monorepo"
 author: "Arman Riazi"
 search:
   exclude: false
 type:  Programming
 feature:  Service
 keywords:  github armanriazi monorepo programming
-author: "Arman Riazi"
-title: "Arman Riazi"
 show:
   - feedback
 ---

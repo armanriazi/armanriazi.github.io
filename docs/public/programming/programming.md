@@ -36,17 +36,17 @@ tags:
     
     === "2020-2021"
 
-        * [Solidity-SmartContract-1](../programming/solidity/armanriazi-ethereum-market.md) 
+        * [Solidity-SmartContract-1](solidity/armanriazi-ethereum-market.md) 
 
-        * [Solidity-SmartContract-2](../programming/solidity/armanriazi-ethereum-in-real-estate.md) 
+        * [Solidity-SmartContract-2](solidity/armanriazi-ethereum-in-real-estate.md) 
 
         * [Java-Cloudsim](https://github.com/armanriazi/Cloudsim-Workflow-Function-Container-ACO)
         
     === "2019-2020"
         
-        * [Reactjs-API-CouchDB](../programming/armanriazi-movies-reactjs.md)
+        * [Reactjs-API-CouchDB](armanriazi-movies-reactjs.md)
 
-        * [API-CouchDB-IBMCloud](../programming/armanriazi-vidly-api.md)
+        * [API-CouchDB-IBMCloud](armanriazi-vidly-api.md)
 
         * [Java-Cloudsim](https://github.com/armanriazi/Cloudsim-Workflow-Function-Container-ACO)      
 
