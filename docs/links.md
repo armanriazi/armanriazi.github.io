@@ -103,6 +103,8 @@ permalink: /links
 
 * [Classcentral](https://www.classcentral.com/u/3962236)
 
+* [EDX](https://profile.edx.org/u/armanriazi_uni)
+
 * [Alison](https://alison.com/profile/public/28845085)
 
 * [LeetCode](https://leetcode.com/armanriazi)
