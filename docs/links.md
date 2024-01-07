@@ -92,6 +92,9 @@ permalink: /links
 
 #### Learning Profiles
 
+
+* [Linux Foundation](https://openprofile.dev/profile/armanriazi.github.io)
+
 * [Udemy](https://www.udemy.com/user/arman-1214/)
 
 * [Educative (1)](https://www.educative.io/profile/view/5215295720652800)
