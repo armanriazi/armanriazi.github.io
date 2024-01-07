@@ -94,7 +94,11 @@ permalink: /links
 
 * [Udemy](https://www.udemy.com/user/arman-1214/)
 
-* [Educative](https://www.educative.io/profile/view/5215295720652800)
+* [Educative (1)](https://www.educative.io/profile/view/5215295720652800)
+
+* [Educative (2)](https://www.educative.io/profile/view/5893384638169088)
+
+* [Classcentral](https://www.classcentral.com/u/3962236)
 
 * [Alison](https://alison.com/profile/public/28845085)
 

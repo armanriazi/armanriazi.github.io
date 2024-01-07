@@ -27,13 +27,16 @@ author: "Arman Riazi"
 
 > `G`: **GoogleDrive**  |  `[number]`: **Query direct link**  |  `C`: `https://Cutt.ly/armanriazi-` as an **indirect link**
 
+
+- [Out of the box](https://armanriazi.github.io/links/#learning-profiles)
+
 ### 2024
 
 | Expert | Priod  | By | Supported By   | Inquiry | Documents 
 |:-------------------------------------------:|:-------:|:---------------:|:------------------|:------------|:-----------|
 |  Regenerative Finance  2023-2024     |    18W    |  Frankfurt University School of the Blockchain&Business    | ECOTA  | [1](https://web3-talents.io/refitalents/refi-profiles/refi-talents-arman-riazi/)     | [C](https://cutt.ly/armanriazi-refi) |
-|   Mastering PostgreSQL Databases    |    12H    |   educative & SkillUP  |  educative/simplilearn.com |  [1](https://www.educative.io/verify-certificate/l8oBvJ82GWmT62WKOyNL3JTjWAEw8DjrvhM)    | [C](https://cutt.ly/armanriazi-postgresql),[G](https://drive.google.com/file/d/1r7kHL2NiRnw8bTo7V3SkVBBB4zfY03VQ/view?usp=sharing)  |
-|   Design patterns,oop, and ddd    |    45H    |   educative  |  educative.com |  [1](https://www.educative.io/verify-certificate/2R50XYCRLLNAGpPoQhLZNGxR8LAQF3), [2](https://www.educative.io/verify-certificate/29lK9lGKG40F6KwLrnB0EKsLZNGxR8LAQF3), [3](https://www.educative.io/verify-certificate/xGD3yRSRynNJX5J8mtA9DyNr0AZ3IE)    | [C](https://cutt.ly/armanriazi-designpatterns-oop-ddd),[G](https://drive.google.com/file/d/18A7f7pgSqie3J7vpv6wf5g_8tztZgPos/view?usp=sharing)  |
+|   Mastering PostgreSQL Databases    |    15H    |   educative & SkillUP  |  educative/simplilearn.com |  [1](https://www.educative.io/verify-certificate/l8oBvJ82GWmT62WKOyNL3JTjWAEw8DjrvhM)    | [C](https://cutt.ly/armanriazi-postgresql),[G](https://drive.google.com/file/d/1r7kHL2NiRnw8bTo7V3SkVBBB4zfY03VQ/view?usp=sharing)  |
+|   Design patterns,oop, and ddd    |    50H    |   educative  |  educative.com |  [1](https://www.educative.io/verify-certificate/2R50XYCRLLNAGpPoQhLZNGxR8LAQF3), [2](https://www.educative.io/verify-certificate/29lK9lGKG40F6KwLrnB0EKsLZNGxR8LAQF3), [3](https://www.educative.io/verify-certificate/xGD3yRSRynNJX5J8mtA9DyNr0AZ3IE)    | [C](https://cutt.ly/armanriazi-designpatterns-oop-ddd),[G](https://drive.google.com/file/d/18A7f7pgSqie3J7vpv6wf5g_8tztZgPos/view?usp=sharing)  |
 
 ### 2023
 | Expert | Priod  | By | Supported By   | Inquiry | Documents 
