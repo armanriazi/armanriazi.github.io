@@ -35,8 +35,9 @@ author: "Arman Riazi"
 | Expert | Priod  | By | Supported By   | Inquiry | Documents 
 |:-------------------------------------------:|:-------:|:---------------:|:------------------|:------------|:-----------|
 |  Regenerative Finance  2023-2024     |    18W    |  Frankfurt University School of the Blockchain&Business    | ECOTA  | [1](https://web3-talents.io/refitalents/refi-profiles/refi-talents-arman-riazi/)     | [C](https://cutt.ly/armanriazi-refi) |
-|   Mastering PostgreSQL Databases    |    15H    |   educative & SkillUP  |  educative/simplilearn.com |  [1](https://www.educative.io/verify-certificate/l8oBvJ82GWmT62WKOyNL3JTjWAEw8DjrvhM)    | [C](https://cutt.ly/armanriazi-postgresql),[G](https://drive.google.com/file/d/1r7kHL2NiRnw8bTo7V3SkVBBB4zfY03VQ/view?usp=sharing)  |
-|   Design Patterns,OOP, and DDD    |    50H    |   educative  |  educative.com |  [1](https://www.educative.io/verify-certificate/2R50XYCRLLNAGpPoQhLZNGxR8LAQF3), [2](https://www.educative.io/verify-certificate/29lK9lGKG40F6KwLrnB0EKsLZNGxR8LAQF3), [3](https://www.educative.io/verify-certificate/xGD3yRSRynNJX5J8mtA9DyNr0AZ3IE)    | [C](https://cutt.ly/armanriazi-designpatterns-oop-ddd),[G](https://drive.google.com/file/d/18A7f7pgSqie3J7vpv6wf5g_8tztZgPos/view?usp=sharing)  |
+|   Mastering PostgreSQL Databases    |    13H    |   educative & SkillUP  |  educative/simplilearn.com |  [1](https://www.educative.io/verify-certificate/l8oBvJ82GWmT62WKOyNL3JTjWAEw8DjrvhM), [2](https://simpli-web.app.link/e/RKOmVw3ffGb)    | [C](https://cutt.ly/armanriazi-postgresql),[G](https://drive.google.com/file/d/1r7kHL2NiRnw8bTo7V3SkVBBB4zfY03VQ/view?usp=sharing)  |
+|  NodeJS     |    20H    |  Getting started with NodeJS    | SimpliLearn  | [2](https://simpli-web.app.link/e/FnybGVtC8Cb)     | [C](https://cutt.ly/armanriazi-nodejs) |
+|   Design Patterns,OOP, and DDD    |    23H    |   educative  |  educative.com |  [1](https://www.educative.io/verify-certificate/2R50XYCRLLNAGpPoQhLZNGxR8LAQF3), [2](https://www.educative.io/verify-certificate/29lK9lGKG40F6KwLrnB0EKsLZNGxR8LAQF3), [3](https://www.educative.io/verify-certificate/xGD3yRSRynNJX5J8mtA9DyNr0AZ3IE)    | [C](https://cutt.ly/armanriazi-designpatterns-oop-ddd),[G](https://drive.google.com/file/d/18A7f7pgSqie3J7vpv6wf5g_8tztZgPos/view?usp=sharing)  |
 
 ### 2023
 | Expert | Priod  | By | Supported By   | Inquiry | Documents 
@@ -77,9 +78,10 @@ author: "Arman Riazi"
 | Project | Lang/Frameworks  | Duration | Reference
 |:------------------------------------------------------------------------------:|:-------------------:|:--------:|:----------------|
 | Customize Cloudsim framework to create scientific workflows on my suggested architecture based on vm-container to run written ACO Algorithm for [[master]] thesis     | Pure Java       |  2Y   | [Cloudsim-Workflow-Function-Container-ACO](https://github.com/armanriazi/Cloudsim-Workflow-Function-Container-ACO)  | 
-| armanriazi-awesome-rust     | Pure Rust       |  1Y   | [ArmanRiazi-Awesome-Rust](https://github.com/armanriazi/armanriazi-awesome-rust)  | 
-| a scratch blockchain(POW)     | Pure Rust       |  2M   | [Rust-Scratch-Blockchain](https://github.com/armanriazi/rust-scratch-blockchain)  | 
-| an enterprise project in the field of energy that I developed 2017-18    | Netcore, Apollo GraphQL, Swagger, ExpressJS, Angular 4      |  1.6Y   | [NetCore-GraphQl-RestApi-Angular](https://github.com/armanriazi/ApplicantPortal)  | 
+| Rust awesome    | Pure Rust       |  1Y   | [ArmanRiazi-Awesome-Rust](https://github.com/armanriazi/armanriazi-awesome-rust)  | 
+| A scratch blockchain(POW)     | Pure Rust       |  2M   | [Rust-Scratch-Blockchain](https://github.com/armanriazi/rust-scratch-blockchain)  | 
+| NestJS project     |  NestJS framework, TS, Postgresql, NodeJS       |  2M   | [ArmanRiazi-Js-Family](https://github.com/armanriazi/armanriazi-js-family)  | 
+| An enterprise project in the field of energy that I developed 2017-18    | Netcore, Apollo GraphQL, Swagger, ExpressJS, Angular 4      |  1.6Y   | [NetCore-GraphQl-RestApi-Angular](https://github.com/armanriazi/ApplicantPortal)  | 
 
 > `To get updated, please checkout pinned repositories on my github`
 
