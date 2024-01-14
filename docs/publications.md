@@ -40,7 +40,7 @@ author: "Arman Riazi"
 
 ## Papers
 
-**Journal of Innovations in Computer Science and Engineering (JICSE)[Comming Soon]**
+<!--**Journal of Innovations in Computer Science and Engineering (JICSE)[Comming Soon]**-->
 
 ### Using ACO Algorithm to Improve Performance for Container-based Scientific
 
