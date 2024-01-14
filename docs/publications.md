@@ -100,4 +100,4 @@ author: "Arman Riazi"
 
 [^2]: A. Riazi (2023), Towards a new Blanket Licensing Digitized NFT Music Decentralized. ScieNFT. https://scienft.com/nfts/156
 
-[^3] A. Riazi (2024), Understanding the Landscape of Regenerating Finance and Digital Transformation. ScieNFT. https://scienft.com/nfts/318
+[^3]: A. Riazi (2024), Understanding the Landscape of Regenerating Finance and Digital Transformation. ScieNFT. https://scienft.com/nfts/318
