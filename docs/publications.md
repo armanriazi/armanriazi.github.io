@@ -59,6 +59,16 @@ author: "Arman Riazi"
 
 :   Cite[^2] this [NFT](https://scienft.com/nfts/156)
 
+### Understanding the Landscape of Regenerating Finance and Digital Transformation
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10508232.svg)](https://doi.org/10.5281/zenodo.10508232)
+
+[Indexed in OpenAIRE](https://explore.openaire.eu/search/publication?pid=10.5281/zenodo.10508232)
+
+`Available for purchase NFT ownership with your full name`
+
+:   Cite[^3] this [NFT](https://scienft.com/nfts/318)
+
 ## Digital Multimedia
 
 ### Monorepo & Rust Programming
@@ -86,6 +96,8 @@ author: "Arman Riazi"
 - [DOCs on Github](https://github.com/armanriazi/Documents)
 
 
-[^1]: A. Riazi [Using ACO Algorithm to Improve Performance for  Container-based Scientific Workflows] - ScieNFT 2023 November NFTID: 163
+[^1]: A. Riazi (2023), Using ACO Algorithm to Improve Performance for  Container-based Scientific Workflows. ScieNFT. https://scienft.com/nfts/155
 
-[^2]: A. Riazi [Towards a new Blanket Licensing Digitized NFT Music Decentralized] - ScieNFT 2023 November NFTID: 164
+[^2]: A. Riazi (2023), Towards a new Blanket Licensing Digitized NFT Music Decentralized. ScieNFT. https://scienft.com/nfts/156
+
+[^3] A. Riazi (2024), Understanding the Landscape of Regenerating Finance and Digital Transformation. ScieNFT. https://scienft.com/nfts/318
