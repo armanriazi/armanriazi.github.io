@@ -77,7 +77,7 @@ permalink: /links
 
 * [Read.Cash](https://read.cash/@arman-riazi-science)
 
-* [Medium](https://arman-riazi-science.medium.com)
+* [Medium](https://armanriazi-github-io.medium.com)
 
 * [ResearchGate](https://www.researchgate.net/profile/Arman_Riazi2)
 
