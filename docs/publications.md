@@ -61,7 +61,7 @@ author: "Arman Riazi"
 
 ### Understanding the Landscape of Regenerating Finance and Digital Transformation
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10508232.svg)](https://doi.org/10.5281/zenodo.10508232)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10512397.svg)](https://doi.org/10.5281/zenodo.10512397)
 
 [Indexed in OpenAIRE](https://explore.openaire.eu/search/publication?pid=10.5281/zenodo.10508232)
 
