@@ -73,11 +73,13 @@ permalink: /links
 
 * [Academia.edu](https://independent.academia.edu/riaziarman)
   
+* [Medium](https://armanriazi-github-io.medium.com)
+
+* [Base Search(showing citation)](https://www.base-search.net/Search/Results?q=aut:%22Arman%20Riazi%22)
+
 * [ArmanRiazi-Doc](https://github.com/armanriazi/Documents)
 
 * [Read.Cash](https://read.cash/@arman-riazi-science)
-
-* [Medium](https://armanriazi-github-io.medium.com)
 
 * [ResearchGate](https://www.researchgate.net/profile/Arman_Riazi2)
 
