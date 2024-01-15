@@ -20,7 +20,7 @@ show:
 
     === "Free deliver system design based on DDD (Zero-cost)"
 
-        * [Domain-Driven Design](PDF)(https://drive.google.com/file/d/1ZFMDr7QjKBG62FKQH5B6kCTwuY3mQcSK/view?usp=sharing)
+        * [Domain-Driven Design(PDF)](https://drive.google.com/file/d/1ZFMDr7QjKBG62FKQH5B6kCTwuY3mQcSK/view?usp=sharing)
         * [Applicant form of DDD](forms/ddd.md)
 
     === "Monorepo a smart building system"
