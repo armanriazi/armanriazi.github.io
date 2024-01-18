@@ -75,15 +75,18 @@ author: "Arman Riazi"
 > Frontend and backend codes that writted alone.
 > I can not share so many projects that I did it for a company.
 
-| Project | Lang/Frameworks  | Duration | Reference
+| SubProject | Lang/Frameworks  | Duration | Branch Reference
 |:------------------------------------------------------------------------------:|:-------------------:|:--------:|:----------------|
 | Customize Cloudsim framework to create scientific workflows on my suggested architecture based on vm-container to run written ACO Algorithm for [[master]] thesis     | Pure Java       |  2Y   | [Cloudsim-Workflow-Function-Container-ACO](https://github.com/armanriazi/Cloudsim-Workflow-Function-Container-ACO)  | 
-| Rust awesome    | Pure Rust       |  1Y   | [ArmanRiazi-Awesome-Rust](https://github.com/armanriazi/armanriazi-awesome-rust)  | 
-| A scratch blockchain(POW)     | Pure Rust       |  2M   | [Rust-Scratch-Blockchain](https://github.com/armanriazi/rust-scratch-blockchain)  | 
-| NestJS project     |  NestJS framework, TS, Postgresql, NodeJS       |  2M   | [ArmanRiazi-Js-Family](https://github.com/armanriazi/armanriazi-js-family)  | 
-| An enterprise project in the field of energy that I developed 2017-18    | Netcore, Apollo GraphQL, Swagger, ExpressJS, Angular 4      |  1.6Y   | [NetCore-GraphQl-RestApi-Angular](https://github.com/armanriazi/ApplicantPortal)  | 
+| A scratch blockchain (POW)     | Pure Rust       |  1M   | [Blockchain](https://github.com/armanriazi/armanriazi-blockchain)  | 
+| Rust-All-In-One    | Pure Rust       |  1Y   | [Awesome-Rust](https://github.com/armanriazi/armanriazi-awesome-rust)  | 
+| TypeScript-All-In-One     |  TypeScript       |  2M   | [JS-Family](https://github.com/armanriazi/armanriazi-js-family)  | 
+| NestJS project     |  NestJS framework, TS, Postgresql, NodeJS       |  3M   | [JS-Family](https://github.com/armanriazi/armanriazi-js-family)  | 
+| An enterprise project in the field of energy that I developed 2017-18    | .Netcore, Apollo GraphQL, Swagger, ExpressJS (SSR), Angular      |  1.6Y   | [NetCore-GraphQl-RestApi-Angular](https://github.com/armanriazi/ApplicantPortal)  | 
 
-> `To get updated, please checkout pinned repositories on my github`
+- [Archive 2012-2019](./public/archive/archive.md)
+
+`To get updated, please checkout pinned repositories on my github`
 
 ## Publications
 
@@ -102,3 +105,8 @@ author: "Arman Riazi"
 - [A. Riazi [Towards a new Blanket Licensing Digitized NFT Music Decentralized] - ScieNFT 2023 November NFTID: 164](https://scienft.com/nfts/156)
 
 
+#### Understanding the Landscape of Regenerating Finance and Digital Transformation
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10512397.svg)](https://doi.org/10.5281/zenodo.10512397)
+
+- [A. Riazi [Understanding the Landscape of Regenerating Finance and Digital Transformation] - ScieNFT 2024 November NFTID: 318](https://scienft.com/nfts/318)
