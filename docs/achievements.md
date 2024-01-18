@@ -84,9 +84,9 @@ author: "Arman Riazi"
 | NestJS project     |  NestJS framework, TS, Postgresql, NodeJS       |  3M   | [JS-Family](https://github.com/armanriazi/armanriazi-js-family)  | 
 | An enterprise project in the field of energy that I developed 2017-18    | .Netcore, Apollo GraphQL, Swagger, ExpressJS (SSR), Angular      |  1.6Y   | [NetCore-GraphQl-RestApi-Angular](https://github.com/armanriazi/ApplicantPortal)  | 
 
-- [Archive 2012-2019](./public/archive/archive.md)
+- [Archive 2012-2020](./public/archive/archive.md)
 
-`To get updated, please checkout pinned repositories on my github`
+`To get updated, please checkout pinned repositories on the GitHub profile`
 
 ## Publications
 
@@ -96,17 +96,17 @@ author: "Arman Riazi"
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8105650.svg)](https://doi.org/10.5281/zenodo.8105650)
 
-- [A. Riazi [Using ACO Algorithm to Improve Performance for  Container-based Scientific Workflows] - ScieNFT 2023 November NFTID: 163](https://scienft.com/nfts/155)
+- [A. Riazi [Using ACO Algorithm to Improve Performance for  Container-based Scientific Workflows] - ScieNFT 2023 Nov NFTID: 163](https://scienft.com/nfts/155)
 
 #### MFS:Towards Blanket Licensing Digitized Music Decentralized
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8023208.svg)](https://doi.org/10.5281/zenodo.8023208)
 
-- [A. Riazi [Towards a new Blanket Licensing Digitized NFT Music Decentralized] - ScieNFT 2023 November NFTID: 164](https://scienft.com/nfts/156)
+- [A. Riazi [Towards a new Blanket Licensing Digitized NFT Music Decentralized] - ScieNFT 2023 Nov NFTID: 164](https://scienft.com/nfts/156)
 
 
 #### Understanding the Landscape of Regenerating Finance and Digital Transformation
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10512397.svg)](https://doi.org/10.5281/zenodo.10512397)
 
-- [A. Riazi [Understanding the Landscape of Regenerating Finance and Digital Transformation] - ScieNFT 2024 November NFTID: 318](https://scienft.com/nfts/318)
+- [A. Riazi [Understanding the Landscape of Regenerating Finance and Digital Transformation] - ScieNFT 2024 Jan NFTID: 318](https://scienft.com/nfts/318)
