@@ -80,7 +80,7 @@ author: "Arman Riazi"
 | Customize Cloudsim framework to create scientific workflows on my suggested architecture based on vm-container to run written ACO Algorithm for [[master]] thesis     | Pure Java       |  2Y   | [Cloudsim-Workflow-Function-Container-ACO](https://github.com/armanriazi/Cloudsim-Workflow-Function-Container-ACO)  | 
 | A scratch blockchain (POW)     | Pure Rust       |  1M   | [Blockchain](https://github.com/armanriazi/armanriazi-blockchain)  | 
 | BookRent Microservice     |  NestJS, TS, Postgresql, NATServer, TypeORm, CQRS, Monorepo, Microservice       |  1M   | [JS-Family](https://github.com/armanriazi/nestjs-microservice-projects/tree/main/bookrent-nats)  |
-| Vidly Web Application    |  Reactjs, Couchdb, IBM Cloud, Resful API       |  1M   | [JS-Family](https://github.com/armanriazi/armanriazi-reactjs-couchdb-cloud-api)  |
+| Vidly Web Application    |  Reactjs, Couchdb, IBM Cloud, Resful API       |  1M   | [Vidly Web Application](https://github.com/armanriazi/armanriazi-reactjs-couchdb-cloud-api)  |
 | An enterprise project in the field of energy(2017-18)    | .Netcore, Apollo GraphQL, Swagger, ExpressJS (SSR), Angular      |  1.6Y   | [NetCore-GraphQl-RestApi-Angular](https://github.com/armanriazi/ApplicantPortal)  | 
 
 ---
@@ -88,10 +88,10 @@ author: "Arman Riazi"
 | Major Projects | Lang/Frameworks  | Duration | Branch
 |:------------------------------------------------------------------------------:|:-------------------:|:--------:|:----------------|
 | Rust-All-In-One    | MDBook of Pure Rust       |  3M   | [All-In-One-Rust](https://github.com/armanriazi/rust-all-in-one)  | 
-| TypeScript-All-In-One     |  MDBook of TypeScript       |  1M   | [All-In-One-JS-Family](https://github.com/armanriazi/typescript-all-in-one)  | 
+| TypeScript-All-In-One     |  MDBook of TypeScript       |  1M   | [All-In-One-TS](https://github.com/armanriazi/typescript-all-in-one)  | 
 | Rust Awesome    | Pure Rust       |  1Y   | [Awesome-Rust](https://github.com/armanriazi/armanriazi-awesome-rust)  | 
 | JS-family     |  NestJS framework, TS, Postgresql, NodeJS       |  1Y  | [JS-Family](https://github.com/armanriazi/armanriazi-js-family)  | 
-| Blockchain     |  Blockchain, Rust, Solidity, Substrate       |  6M   | [JS-Family](https://github.com/armanriazi/armanriazi-blockchain)  | 
+| Blockchain     |  Blockchain, Rust, Solidity, Substrate       |  6M   | [Blockchain](https://github.com/armanriazi/armanriazi-blockchain)  | 
 
 - [Archive 2012-2020](./public/archive/archive.md)
 
