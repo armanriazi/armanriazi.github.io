@@ -9,6 +9,8 @@ nav:
         - 'Walk-through': 'public/public.md'          
     - 'Blockchain':       
         - 'Blockchain': 'public/blockchain/Blockchain.md'    
+    - 'Programming':       
+        - 'Programming': 'public/programming/programming.md'         
     - 'Achievements':       
         - 'Achievements': 'achievements.md'                
     - 'Services':       

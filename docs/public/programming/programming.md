@@ -16,6 +16,10 @@ tags:
   - github
 ---
 
+??? info "Don't miss it"
+
+    Intoxicating and deceptive microservices based on [Nestjs framework](https://player.vimeo.com/video/910976328)
+
 !!! Certificates_and_Seen_Toturials
 
     === "Programming Certificates"
@@ -27,6 +31,10 @@ tags:
         * [programming-tutorials](learning/programming-non-cert-toturials.md)
 
 !!! Experiences
+
+    === "2024"
+
+        * [NestJS](nestjs/nestjs.md)
 
     === "2022-2023"
 

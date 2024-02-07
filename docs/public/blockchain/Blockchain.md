@@ -42,8 +42,11 @@ show:
 </details>   
 
 ---
-        
 
+??? info "Don't miss it"
+
+    Write some smartcontract and customized consensus algorithm based on [Substrate framework](https://player.vimeo.com/video/883191398)
+       
 
 !!! Certificates_and_Seen_Toturials
 
