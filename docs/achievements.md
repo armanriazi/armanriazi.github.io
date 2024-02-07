@@ -34,7 +34,7 @@ author: "Arman Riazi"
 
 | Expert | Priod  | By | Supported By   | Inquiry | Documents 
 |:-------------------------------------------:|:-------:|:---------------:|:------------------|:------------|:-----------|
-|  Regenerative Finance  2023-2024     |    18W    |  Frankfurt University School of the Blockchain&Business    | ECOTA  | [1](https://web3-talents.io/refitalents/refi-profiles/refi-talents-arman-riazi/)     | [C](https://cutt.ly/armanriazi-refi) |
+|  Regenerative Finance  2023-2024     |    18W    |  Frankfurt University School of the Blockchain&Business    | ECOTA  | [1](https://web3-talents.io/refi-talents/refi-alumni/refi-talents-alumni-arman-riazi/)     | [C](https://cutt.ly/armanriazi-refi) |
 |   Mastering PostgreSQL Databases    |    13H    |   educative & SkillUP  |  educative/simplilearn.com |  [1](https://www.educative.io/verify-certificate/l8oBvJ82GWmT62WKOyNL3JTjWAEw8DjrvhM), [2](https://simpli-web.app.link/e/RKOmVw3ffGb)    | [C](https://cutt.ly/armanriazi-postgresql),[G](https://drive.google.com/file/d/1r7kHL2NiRnw8bTo7V3SkVBBB4zfY03VQ/view?usp=sharing)  |
 |  NodeJS     |    20H    |  Getting started with NodeJS    | SimpliLearn  | [2](https://simpli-web.app.link/e/rEcGRIBq0Gb)     | [C](https://cutt.ly/armanriazi-nodejs) |
 |   Design Patterns,OOP, and DDD    |    23H    |   educative  |  educative.com |  [1](https://www.educative.io/verify-certificate/2R50XYCRLLNAGpPoQhLZNGxR8LAQF3), [2](https://www.educative.io/verify-certificate/29lK9lGKG40F6KwLrnB0EKsLZNGxR8LAQF3), [3](https://www.educative.io/verify-certificate/xGD3yRSRynNJX5J8mtA9DyNr0AZ3IE)    | [C](https://cutt.ly/armanriazi-designpatterns-oop-ddd),[G](https://drive.google.com/file/d/18A7f7pgSqie3J7vpv6wf5g_8tztZgPos/view?usp=sharing)  |
@@ -75,14 +75,23 @@ author: "Arman Riazi"
 > Frontend and backend codes that writted alone.
 > I can not share so many projects that I did it for a company.
 
-| SubProject | Lang/Frameworks  | Duration | Branch Reference
+| SubProjects | Lang/Frameworks  | Duration | Reference
 |:------------------------------------------------------------------------------:|:-------------------:|:--------:|:----------------|
 | Customize Cloudsim framework to create scientific workflows on my suggested architecture based on vm-container to run written ACO Algorithm for [[master]] thesis     | Pure Java       |  2Y   | [Cloudsim-Workflow-Function-Container-ACO](https://github.com/armanriazi/Cloudsim-Workflow-Function-Container-ACO)  | 
 | A scratch blockchain (POW)     | Pure Rust       |  1M   | [Blockchain](https://github.com/armanriazi/armanriazi-blockchain)  | 
-| Rust-All-In-One    | Pure Rust       |  1Y   | [Awesome-Rust](https://github.com/armanriazi/armanriazi-awesome-rust)  | 
-| TypeScript-All-In-One     |  TypeScript       |  2M   | [JS-Family](https://github.com/armanriazi/armanriazi-js-family)  | 
-| NestJS project     |  NestJS framework, TS, Postgresql, NodeJS       |  3M   | [JS-Family](https://github.com/armanriazi/armanriazi-js-family)  | 
-| An enterprise project in the field of energy that I developed 2017-18    | .Netcore, Apollo GraphQL, Swagger, ExpressJS (SSR), Angular      |  1.6Y   | [NetCore-GraphQl-RestApi-Angular](https://github.com/armanriazi/ApplicantPortal)  | 
+| BookRent Microservice     |  NestJS, TS, Postgresql, NATServer, TypeORm, CQRS, Monorepo, Microservice       |  1M   | [JS-Family](https://github.com/armanriazi/nestjs-microservice-projects/tree/main/bookrent-nats)  |
+| Vidly Web Application    |  Reactjs, Couchdb, IBM Cloud, Resful API       |  1M   | [JS-Family](https://github.com/armanriazi/armanriazi-reactjs-couchdb-cloud-api)  |
+| An enterprise project in the field of energy(2017-18)    | .Netcore, Apollo GraphQL, Swagger, ExpressJS (SSR), Angular      |  1.6Y   | [NetCore-GraphQl-RestApi-Angular](https://github.com/armanriazi/ApplicantPortal)  | 
+
+---
+
+| Major Projects | Lang/Frameworks  | Duration | Branch
+|:------------------------------------------------------------------------------:|:-------------------:|:--------:|:----------------|
+| Rust-All-In-One    | MDBook of Pure Rust       |  3M   | [All-In-One-Rust](https://github.com/armanriazi/rust-all-in-one)  | 
+| TypeScript-All-In-One     |  MDBook of TypeScript       |  1M   | [All-In-One-JS-Family](https://github.com/armanriazi/typescript-all-in-one)  | 
+| Rust Awesome    | Pure Rust       |  1Y   | [Awesome-Rust](https://github.com/armanriazi/armanriazi-awesome-rust)  | 
+| JS-family     |  NestJS framework, TS, Postgresql, NodeJS       |  1Y  | [JS-Family](https://github.com/armanriazi/armanriazi-js-family)  | 
+| Blockchain     |  Blockchain, Rust, Solidity, Substrate       |  6M   | [JS-Family](https://github.com/armanriazi/armanriazi-blockchain)  | 
 
 - [Archive 2012-2020](./public/archive/archive.md)
 
