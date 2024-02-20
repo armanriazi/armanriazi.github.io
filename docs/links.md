@@ -103,6 +103,8 @@ permalink: /links
 
 * [Educative (2)](https://www.educative.io/profile/view/5893384638169088)
 
+* [Educative (3)](https://www.educative.io/profile/view/5483852580782080)
+
 * [Classcentral](https://www.classcentral.com/u/3962236)
 
 * [EDX](https://profile.edx.org/u/armanriazi_uni)
@@ -162,7 +164,7 @@ To set scheduled meeting
 
 > Telegram: `@arman_riazi`(Instant Message, Call)
 
-> Twitter/Insta: armanriazi_meta
+> Twitter: armanriazi.meta
 
 > Channel: Blockchain-Aramisit, Discord ID: **armanriyazi.github.io#5111**
 
