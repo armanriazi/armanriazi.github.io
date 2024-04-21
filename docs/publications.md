@@ -34,7 +34,8 @@ author: "Arman Riazi"
 
     === "RustBook"
 
-        * [Mastering Rust for System Programming_LOU_Reviewer](https://drive.google.com/file/d/16AvUw-28q4IZJWr6MuTDybdb2HCFOiwK/view?usp=drive_link)
+        * [Amazon](https://www.amazon.co.uk/Ultimate-Rust-Systems-Programming-Architecting/dp/8196994737)
+        * [Ultimate Rust Systems Programming_LOU_Reviewer](https://drive.google.com/file/d/16AvUw-28q4IZJWr6MuTDybdb2HCFOiwK/view?usp=drive_link)
 
 ---
 
@@ -72,7 +73,7 @@ author: "Arman Riazi"
 
 [Indexed in OpenAIRE](https://explore.openaire.eu/search/publication?pid=10.5281/zenodo.11002930)
 
-:   Cite[^4] this [NFT](https://scienft.com/nfts/318)
+:   Cite[^4] this [NFT](https://scienft.com/nfts/Digital_Transformation_in_Smart_Cities_Decentralized_Architecture_for_Sustainable_Development_within_the_Web_3.0_Ecosystem)
 
 ## Digital Multimedia
 

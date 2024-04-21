@@ -41,9 +41,8 @@ keywords:  github armanriazi programming rust
         * [Rust Blockchain Framework(Substrate)](https://armanriazi.github.io/public/blockchain/Substrate)
 
     === "Publication"
-
-        * [Mastering Rust for System Programming_Book Reviewer_LOU](https://drive.google.com/file/d/16AvUw-28q4IZJWr6MuTDybdb2HCFOiwK/view?usp=drive_link)
-      
+        
+        * [Amazon_Ultimate Rust Systems Programming Architecting](https://www.amazon.co.uk/Ultimate-Rust-Systems-Programming-Architecting/dp/8196994737)
         * [Rust-All-In-One(Available to purchase | En edition)](https://github.com/armanriazi/rust-all-in-one)
 
         * [Rust Programming 3 Parts Multimedia | Fa edition](https://faradars.org/instructors/arman-riazi) [![DOI](https://cdn.faradars.org/wp-content/uploads/2022/11/22/faradarslogo.svg){ width="80" height="80" align=left }](https://faradars.org/instructors/arman-riazi)

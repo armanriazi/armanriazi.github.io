@@ -101,6 +101,10 @@ author: "Arman Riazi"
 
 ## Publications
 
+### Books
+
+- [Amazon_Ultimate Rust Systems Programming Architecting](https://www.amazon.co.uk/Ultimate-Rust-Systems-Programming-Architecting/dp/8196994737)
+
 ### Papers
 
 #### Using ACO Algorithm to Improve Performance for Container-based Scientific
@@ -121,3 +125,10 @@ author: "Arman Riazi"
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10512397.svg)](https://doi.org/10.5281/zenodo.10512397)
 
 - [A. Riazi [Understanding the Landscape of Regenerating Finance and Digital Transformation] - ScieNFT 2024 Jan NFTID: 318](https://scienft.com/nfts/318)
+
+
+#### Digital Transformation in Smart Cities: Decentralized Architecture for Sustainable Development within the Web 3.0 Ecosystem
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.11002930.svg)](https://doi.org/10.5281/zenodo.11002930)
+
+- [A. Riazi [Digital Transformation in Smart_Cities Decentralized Architecture for Sustainable Development within the Web3.0 Ecosystem] - ScieNFT 2024 Apr NFTID:0](https://scienft.com/nfts/Digital_Transformation_in_Smart_Cities_Decentralized_Architecture_for_Sustainable_Development_within_the_Web_3.0_Ecosystem)
