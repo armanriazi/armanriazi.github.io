@@ -42,12 +42,11 @@ author: "Arman Riazi"
 
 <!--**Journal of Innovations in Computer Science and Engineering (JICSE)[Comming Soon]**-->
 
+`Available for purchase NFTs ownership with your full name`
+
 ### Using ACO Algorithm to Improve Performance for Container-based Scientific
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8105650.svg)](https://doi.org/10.5281/zenodo.8105650)
-
-
-`Available for purchase NFT ownership with your full name`
 
 :   Cite[^1] this [NFT](https://scienft.com/nfts/155)
 
@@ -65,9 +64,15 @@ author: "Arman Riazi"
 
 [Indexed in OpenAIRE](https://explore.openaire.eu/search/publication?pid=10.5281/zenodo.10508232)
 
-`Available for purchase NFT ownership with your full name`
-
 :   Cite[^3] this [NFT](https://scienft.com/nfts/318)
+
+### Digital Transformation in Smart Cities: Decentralized Architecture for Sustainable Development within the Web 3.0 Ecosystem
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.11002930.svg)](https://doi.org/10.5281/zenodo.11002930)
+
+[Indexed in OpenAIRE](https://explore.openaire.eu/search/publication?pid=10.5281/zenodo.11002930)
+
+:   Cite[^4] this [NFT](https://scienft.com/nfts/318)
 
 ## Digital Multimedia
 
