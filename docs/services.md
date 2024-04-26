@@ -52,7 +52,13 @@ show:
         How to learn quickly ? I have the pleasure of introducing a repository that has over 600 samples and has collected more than six significant references. I made a customised online book that contains md-files, and you can search for any gathered concepts.
         I was wondering if you wanted to contact me. To gain access online, books with codes have a value of $100.
         * [Rust-All-In-One-Private](https://github.com/armanriazi/rust-all-in-one)
-        
+
+    === "Writting Proposal"
+
+        Writing in a sort of article or published on a website.
+        * [NFT Music](https://21crickets.github.io)                
+        * [Regenerative Finance](https://armanriazi.github.io/refi)        
+        * [Smartcity](https://armanriazi.github.io/refi/smartcity/article_smartcity/)                
 
 !!! Configuration_DevOps
 

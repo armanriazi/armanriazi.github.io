@@ -85,9 +85,15 @@ author: "Arman Riazi"
 
 - [Youtube Channel](https://www.youtube.com/@arman-riazi)
 
-## ReFi
+## ReFi & Smartcity
 
+### Web content
 [Regenerative Finance](https://armanriazi.github.io/refi/)
+[Smartcity](https://armanriazi.github.io/refi/smartcity/article_smartcity/)
+
+### Pdf content
+[Sessions of ReFi Talents](https://drive.google.com/file/d/1JAidWG0Ks--AwQvgKK--367MzOhbAT0P/view?usp=sharing)
+[Pitch Deck of Smartcity](https://drive.google.com/file/d/1nOzRBQXmpvXp7e9jpHzTmqyrabPQXH_N/view?usp=sharing)
 
 ---
 
