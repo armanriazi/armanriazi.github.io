@@ -18,14 +18,14 @@ show:
 
 !!! Software_Engineer
 
-    === "Implementing Microservices"
-
-        * [Based on NestJS](public/programming/nestjs/nestjs.md)        
-
     === "Free deliver system design(Zero-cost)"
 
         * [Domain-Driven Design(PDF)](https://drive.google.com/file/d/1ZFMDr7QjKBG62FKQH5B6kCTwuY3mQcSK/view?usp=sharing)
         * [Applicant form of DDD](forms/ddd.md)
+        
+    === "Implementing Microservices"
+
+        * [Based on NestJS](public/programming/nestjs/nestjs.md)        
 
     === "Monorepo a smart building system"
 
@@ -38,27 +38,28 @@ show:
     === "Commands"
         If you would like getting commands that consist of: Ubuntu, Devops, Blockchain CLIs in form of compacted packages, please send me an Email to armanriyazi.github.io@gmail.com (Title: armanriazi_github_io_Commands_YourPackageName)
 
-
 !!! Research_Teaching
+ 
+    === "Teaching Rust"
+
+        How to learn quickly? I have the pleasure of introducing a repository that has over 600 samples and has collected more than six significant references. I made a customised online book that contains md-files, and you can search for any gathered concepts.
+        I was wondering if you wanted to contact me. To gain access online, books with codes have a value of $100.
+
+        * [Rust-All-In-One-Private](https://github.com/armanriazi/rust-all-in-one)
+
+    === "Writting Proposal"
+
+        Writing in a sort of article or published on a website.
+
+        * [NFT Music](https://21crickets.github.io)                
+        * [Regenerative Finance](https://armanriazi.github.io/refi)        
+        * [Smartcity](https://armanriazi.github.io/refi/smartcity/article_smartcity/)                
 
     === "Mind mapping of Substrate framework"
 
         If you want to get updated-mind-mapping image, send me Email to armanriazi.github.io@gmail.com 
         (Title: armanriazi.github.io_Substrate_MindMapping)
         ![Graph](assets/attachments/substrate-minmap.jpg)
-    
-    === "Teaching Rust"
-
-        How to learn quickly ? I have the pleasure of introducing a repository that has over 600 samples and has collected more than six significant references. I made a customised online book that contains md-files, and you can search for any gathered concepts.
-        I was wondering if you wanted to contact me. To gain access online, books with codes have a value of $100.
-        * [Rust-All-In-One-Private](https://github.com/armanriazi/rust-all-in-one)
-
-    === "Writting Proposal"
-
-        Writing in a sort of article or published on a website.
-        * [NFT Music](https://21crickets.github.io)                
-        * [Regenerative Finance](https://armanriazi.github.io/refi)        
-        * [Smartcity](https://armanriazi.github.io/refi/smartcity/article_smartcity/)                
 
 !!! Configuration_DevOps
 
