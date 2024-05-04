@@ -103,7 +103,7 @@ author: "Arman Riazi"
 
 ### Books
 
-- [Amazon_Ultimate Rust Systems Programming Architecting](https://www.amazon.co.uk/Ultimate-Rust-Systems-Programming-Architecting/dp/8196994737)
+- [Amazon (Ultimate Rust Systems Programming Architecting)](https://www.amazon.co.uk/Ultimate-Rust-Systems-Programming-Architecting/dp/8196994737)
 
 ### Papers
 
@@ -131,4 +131,4 @@ author: "Arman Riazi"
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.11002930.svg)](https://doi.org/10.5281/zenodo.11002930)
 
-- [A. Riazi [Digital Transformation in Smart_Cities Decentralized Architecture for Sustainable Development within the Web3.0 Ecosystem] - ScieNFT 2024 Apr NFTID:0](https://scienft.com/nfts/Digital_Transformation_in_Smart_Cities_Decentralized_Architecture_for_Sustainable_Development_within_the_Web_3.0_Ecosystem)
+- [A. Riazi [Digital Transformation in Smart Cities Decentralized Architecture for Sustainable Development within the Web3.0 Ecosystem] - ScieNFT 2024 Apr NFTID:5756](https://scienft.com/nfts/5756)

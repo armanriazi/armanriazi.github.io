@@ -49,7 +49,7 @@ author: "Arman Riazi"
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8105650.svg)](https://doi.org/10.5281/zenodo.8105650)
 
-:   Cite[^1] this [NFT](https://scienft.com/nfts/155)
+:   Cite[^1] this [Exchangable NFT](https://scienft.com/nfts/155)
 
 ### Towards Blanket Licensing Digitized Music NFT Decentralized
 
@@ -57,7 +57,7 @@ author: "Arman Riazi"
 
 `Available for purchase NFT ownership with your full name`
 
-:   Cite[^2] this [NFT](https://scienft.com/nfts/156)
+:   Cite[^2] this [Exchangable NFT](https://scienft.com/nfts/156)
 
 ### Understanding the Landscape of Regenerating Finance and Digital Transformation
 
@@ -65,7 +65,7 @@ author: "Arman Riazi"
 
 [Indexed in OpenAIRE](https://explore.openaire.eu/search/publication?pid=10.5281/zenodo.10508232)
 
-:   Cite[^3] this [NFT](https://scienft.com/nfts/318)
+:   Cite[^3] this [Exchangable NFT](https://scienft.com/nfts/318)
 
 ### Digital Transformation in Smart Cities: Decentralized Architecture for Sustainable Development within the Web 3.0 Ecosystem
 
@@ -73,7 +73,7 @@ author: "Arman Riazi"
 
 [Indexed in OpenAIRE](https://explore.openaire.eu/search/publication?pid=10.5281/zenodo.11002930)
 
-:   Cite[^4] this [NFT](https://scienft.com/nfts/Digital_Transformation_in_Smart_Cities_Decentralized_Architecture_for_Sustainable_Development_within_the_Web_3.0_Ecosystem)
+:   Cite[^4] this [Exchangable NFT](https://scienft.com/nfts/5756)
 
 ## Digital Multimedia
 
@@ -88,12 +88,14 @@ author: "Arman Riazi"
 ## ReFi & Smartcity
 
 ### Web content
-[Regenerative Finance](https://armanriazi.github.io/refi/)
-[Smartcity](https://armanriazi.github.io/refi/smartcity/article_smartcity/)
+- [Regenerative Finance](https://armanriazi.github.io/refi/)
+
+- [Smartcity](https://armanriazi.github.io/refi/smartcity/article_smartcity/)
 
 ### Pdf content
-[Sessions of ReFi Talents](https://drive.google.com/file/d/1JAidWG0Ks--AwQvgKK--367MzOhbAT0P/view?usp=sharing)
-[Pitch Deck of Smartcity](https://drive.google.com/file/d/1nOzRBQXmpvXp7e9jpHzTmqyrabPQXH_N/view?usp=sharing)
+- [Sessions of ReFi Talents](https://drive.google.com/file/d/1JAidWG0Ks--AwQvgKK--367MzOhbAT0P/view?usp=sharing)
+
+- [Pitch Deck of Smartcity](https://drive.google.com/file/d/1nOzRBQXmpvXp7e9jpHzTmqyrabPQXH_N/view?usp=sharing)
 
 ---
 
@@ -113,3 +115,5 @@ author: "Arman Riazi"
 [^2]: A. Riazi (2023), Towards a new Blanket Licensing Digitized NFT Music Decentralized. ScieNFT. https://scienft.com/nfts/156
 
 [^3]: A. Riazi (2024), Understanding the Landscape of Regenerating Finance and Digital Transformation. ScieNFT. https://scienft.com/nfts/318
+
+[^4]: A. Riazi (2024), Digital Transformation in Smart Cities  Decentralized Architecture for Sustainable Development within the Web 3.0 Ecosystem. ScieNFT. https://scienft.com/nfts/5756
