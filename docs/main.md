@@ -23,5 +23,5 @@ hide:
 > Through to my experiences. **[Main Menu](public/public.md)**
 
 
-![Welcome!HelloWorld!](assets/attachments/graph.jpg){ loading=lazy }
+![Please waitting](assets/attachments/graph.jpg){ loading=lazy }
 
