@@ -65,28 +65,13 @@ author: "Arman Riazi"
 
 ---
 
-### 2021
+### 2021 Academic
 
-Regarding for download master's degree, please send your request gainning access.
+Regarding for download master's degree, please send your request gaining access.
 
 | Expert | Priod  | By | Supported By   | Inquiry | Documents 
 |:--------------------------------------:|:-------:|:---------------:|:-------------------|:------------|:--------------|
 | Master Of Science-Information Technology     | 4Y       |  Azad Najafabad University   | IAUN  | [1500007081743684272588654](https://estelam.iau.ir/Home/SearechEstelamID)     | [G-Academic-Degree](https://drive.google.com/file/d/1VKXfPPTzVPonALERdxU4LcRRvJBRMNHV/view?usp=share_link) And [Credits'Details](https://drive.google.com/file/d/1h98c3oklzv-tyi6b3xvfR4QEUfdbNHXH/view?usp=share_link) |
-
-### 2013
-| Expert | Priod  | By | Supported By   | Inquiry | Documents 
-|:--------------------------------------:|:-------:|:---------------:|:-------------------|:------------|:--------------|
-| Bchelor's Degree of Software Engineer   | 2Y       |  Sina Kashan   | Non-profit University  | [14001947342241661127](http://portal.saorg.ir/inquiry?code=14001947342241661127)
-
-### 2010
-| Expert | Priod  | By | Supported By   | Inquiry | Documents 
-|:--------------------------------------:|:-------:|:---------------:|:-------------------|:------------|:--------------|
-| Associate Degree of Software   | 2Y       |  Shahid Mohajer  | Vocational/Polytechnic University  | [14031647255614882114](http://portal.saorg.ir/inquiry?code=14031647255614882114) | [G](https://drive.google.com/file/d/1ufkz_CoHfO4nSCJGZJEQRO0_OmQsDfZB/view?usp=sharing)
-
-### 2008
-| Expert | Priod  | By | Supported By   | Inquiry | Documents 
-|:--------------------------------------:|:-------:|:---------------:|:-------------------|:------------|:--------------|
-| Diploma Degree in Computer   | 2Y       |  Shahid Montazeri  | Diploma School  | [40302299964926](https://emt.medu.ir/) | [G](https://drive.google.com/file/d/1VUB3CYN3cWhbJn-wP50EV3ERBAFFbZtG/view?usp=sharing)
 
 ---
 
@@ -153,3 +138,22 @@ Regarding for download master's degree, please send your request gainning access
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.11002930.svg)](https://doi.org/10.5281/zenodo.11002930)
 
 - [A. Riazi [Digital Transformation in Smart Cities Decentralized Architecture for Sustainable Development within the Web3.0 Ecosystem] - ScieNFT 2024 Apr NFTID:5756](https://scienft.com/nfts/5756)
+
+---
+
+## Archived Academic 
+
+### 2013
+| Expert | Priod  | By | Supported By   | Inquiry | Documents 
+|:--------------------------------------:|:-------:|:---------------:|:-------------------|:------------|:--------------|
+| Bchelor's Degree of Software Engineer   | 2Y       |  Sina Kashan   | Non-profit University  | [14001947342241661127](http://portal.saorg.ir/inquiry?code=14001947342241661127)
+
+### 2010
+| Expert | Priod  | By | Supported By   | Inquiry | Documents 
+|:--------------------------------------:|:-------:|:---------------:|:-------------------|:------------|:--------------|
+| Associate Degree of Software   | 2Y       |  Shahid Mohajer  | Vocational/Polytechnic University  | [14031647255614882114](http://portal.saorg.ir/inquiry?code=14031647255614882114) | [G](https://drive.google.com/file/d/1ufkz_CoHfO4nSCJGZJEQRO0_OmQsDfZB/view?usp=sharing)
+
+### 2008
+| Expert | Priod  | By | Supported By   | Inquiry | Documents 
+|:--------------------------------------:|:-------:|:---------------:|:-------------------|:------------|:--------------|
+| Diploma Degree in Computer   | 2Y       |  Shahid Montazeri  | Diploma School  | [40302299964926](https://emt.medu.ir/) | [G](https://drive.google.com/file/d/1VUB3CYN3cWhbJn-wP50EV3ERBAFFbZtG/view?usp=sharing)
