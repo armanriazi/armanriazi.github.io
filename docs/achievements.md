@@ -66,6 +66,9 @@ author: "Arman Riazi"
 ---
 
 ### 2021
+
+Regarding for download master's degree, please send your request gainning access.
+
 | Expert | Priod  | By | Supported By   | Inquiry | Documents 
 |:--------------------------------------:|:-------:|:---------------:|:-------------------|:------------|:--------------|
 | Master Of Science-Information Technology     | 4Y       |  Azad Najafabad University   | IAUN  | [1500007081743684272588654](https://estelam.iau.ir/Home/SearechEstelamID)     | [G-Academic-Degree](https://drive.google.com/file/d/1VKXfPPTzVPonALERdxU4LcRRvJBRMNHV/view?usp=share_link) And [Credits'Details](https://drive.google.com/file/d/1h98c3oklzv-tyi6b3xvfR4QEUfdbNHXH/view?usp=share_link) |
@@ -78,12 +81,12 @@ author: "Arman Riazi"
 ### 2010
 | Expert | Priod  | By | Supported By   | Inquiry | Documents 
 |:--------------------------------------:|:-------:|:---------------:|:-------------------|:------------|:--------------|
-| Associate Degree of Software   | 2Y       |  Shahid Mohajer  | Vocational/Polytechnic University  | [14031647255614882114](http://portal.saorg.ir/inquiry?code=14031647255614882114)
+| Associate Degree of Software   | 2Y       |  Shahid Mohajer  | Vocational/Polytechnic University  | [14031647255614882114](http://portal.saorg.ir/inquiry?code=14031647255614882114) | [G](https://drive.google.com/file/d/1ufkz_CoHfO4nSCJGZJEQRO0_OmQsDfZB/view?usp=sharing)
 
 ### 2008
 | Expert | Priod  | By | Supported By   | Inquiry | Documents 
 |:--------------------------------------:|:-------:|:---------------:|:-------------------|:------------|:--------------|
-| Diploma Degree in Computer   | 2Y       |  Shahid Montazeri  | Diploma School  | [40302299964926](https://emt.medu.ir/)
+| Diploma Degree in Computer   | 2Y       |  Shahid Montazeri  | Diploma School  | [40302299964926](https://emt.medu.ir/) | [G](https://drive.google.com/file/d/1VUB3CYN3cWhbJn-wP50EV3ERBAFFbZtG/view?usp=sharing)
 
 ---
 
@@ -120,6 +123,8 @@ author: "Arman Riazi"
 ### Books
 
 - [Amazon (Ultimate Rust Systems Programming Architecting)](https://www.amazon.co.uk/Ultimate-Rust-Systems-Programming-Architecting/dp/8196994737)
+
+- [Motekhassesan (Rust as a Modern Mother Language Advanced Techniques for Developing Robust Applications)](https://www.motekhassesan.com/?s=%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87+%D9%86%D9%88%DB%8C%D8%B3%DB%8C+Rust&post_type=product&cat_id=)
 
 ### Papers
 
