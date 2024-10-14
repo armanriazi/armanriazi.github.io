@@ -36,8 +36,8 @@ author: "Arman Riazi"
 |:-------------------------------------------:|:-------:|:---------------:|:------------------|:------------|:-----------|
 |  Regenerative Finance  2023-2024     |    18W    |  Frankfurt University School of the Blockchain&Business    | ECOTA  | [1](https://web3-talents.io/refi-talents/refi-alumni/refi-talents-alumni-arman-riazi/)     | [C](https://cutt.ly/armanriazi-refi) |
 | Creative and Design Thinking process and tools for innovation     |    14H    |  Polimi De Milano University    | Polimi  | -  | [G](https://drive.google.com/file/d/1nMWz9OlOtLoyJ6P61WOWcQbnz_qMmUlY/view?usp=sharing) |
-| The Ultimate Cybersecurity Awareness Bundle |    56H    |  EC-Council University    | ECCouncil  | [1](consisting of 15 hands-on
-courses focused on building practical skills for real-world cybersecurity challenges)  | [G](consisting of 15 hands-on
+| The Ultimate Cybersecurity Awareness Bundle |    56H    |  EC-Council University    | ECCouncil  | [1](https://consisting of 15 hands-on
+courses focused on building practical skills for real-world cybersecurity challenges)  | [G](https://consisting of 15 hands-on
 courses focused on building practical skills for real-world cybersecurity challenges) |
 |  Mastering TypeScript     |    100H    |  educative.io    | educative.io  | [1](https://www.educative.io/verify-certificate/2R50XYC61v6Ln3y8QI0DWwmNykAkh3), [2](https://www.educative.io/verify-certificate/Q7w4Ok2DNk2SJVO7jKYJK3tQBVXnj4N3Nc9), [3](https://www.educative.io/verify-certificate/1j8yMXCLDGz9D9j8DhOjqg4wDx7xfp), [4](https://www.educative.io/verify-certificate/Q1wyXPtJ9j2Q7rAA3HQBVXnj4N3Nc9)     | [C](https://cutt.ly/armanriazi-typescript) |
 |   Microservice Principles and Concepts    |    10H    |  educative.io    | educative.io  | [1](https://www.educative.io/verify-certificate/xGD3yRSPXWLwANq56fgjXK4Do1Z1fE)     | [C](https://cutt.ly/QwBn94Gl) |
