@@ -47,6 +47,15 @@ keywords:  github armanriazi programming rust
 
         * [Rust Programming 3 Parts Multimedia | Fa edition](https://faradars.org/instructors/arman-riazi) [![DOI](https://cdn.faradars.org/wp-content/uploads/2022/11/22/faradarslogo.svg){ width="80" height="80" align=left }](https://faradars.org/instructors/arman-riazi)
 
+        * [Rust as a Modern Mother Lang Advanced Techniques for Developing Robust APPs.Vol.1](https://www.motekhassesan.com/?p=48543)
+
+        * [Rust as a Modern Mother Lang Advanced Techniques for Developing Robust APPs.Vol.2](https://www.motekhassesan.com/?p=48977)
+
+<figure markdown>
+![Rust as a Modern Mother Language Advanced Techniques for Developing Robust Applications](https://armanriazi.github.io/assets/attachments/myrustbook.jpg){ width=300 height=150 align=left }
+<figcaption>Rust as a Modern Mother Language Advanced Techniques for Developing Robust Applications</figcaption>
+</figure>
+
     === "Research"
 
         * [Highlighted Deep Dive Into Polkadot/Substrate/Kusama/Rust-Lang](rust-lang-research-intro.md)

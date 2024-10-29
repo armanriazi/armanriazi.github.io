@@ -51,6 +51,8 @@ author: "Arman Riazi"
 <figcaption>Rust as a Modern Mother Language Advanced Techniques for Developing Robust Applications</figcaption>
 </figure>
 
+> Availiable to buy on ketabrah.ir and digikala.com
+
 ### Ultimate Rust Systems Programming Architecting
 
 - [Amazon](https://www.amazon.co.uk/Ultimate-Rust-Systems-Programming-Architecting/dp/8196994737)

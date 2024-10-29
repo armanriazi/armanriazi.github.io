@@ -46,6 +46,7 @@ author: "Arman Riazi"
 |  NodeJS ExpressJS    |    20H    |  Getting started with NodeJS    | SimpliLearn  | [2](https://simpli-web.app.link/e/rEcGRIBq0Gb)     | [C](https://cutt.ly/armanriazi-nodejs) |
 |   Design Patterns,OOP, and DDD    |    23H    |   educative.io  |  educative |  [1](https://www.educative.io/verify-certificate/2R50XYCRLLNAGpPoQhLZNGxR8LAQF3), [2](https://www.educative.io/verify-certificate/29lK9lGKG40F6KwLrnB0EKsLZNGxR8LAQF3), [3](https://www.educative.io/verify-certificate/xGD3yRSRynNJX5J8mtA9DyNr0AZ3IE)    | [C](https://cutt.ly/armanriazi-designpatterns-oop-ddd),[G](https://drive.google.com/file/d/18A7f7pgSqie3J7vpv6wf5g_8tztZgPos/view?usp=sharing)  |
 |  IELTS Listening    |    11H    |  MaktabKhooneh.Org    | MaktabKhooneh  | [1](https://maktabkhooneh.org/certificates/MK-GCX33E/?print=true)     | [G](https://drive.google.com/file/d/1x8qAMMa8nH3bvw6FxnnSBIF5N6ZED--r/view?usp=sharing) |
+|  Network defense fundamentals Training for IT Beginners    |    4H    |  MaktabKhooneh.Org    | MaktabKhooneh  | [1](https://codered.eccouncil.org/certificate/39fcaf4d-c386-44ff-84a2-855286949454) |
 
 ### 2023
 
@@ -113,7 +114,9 @@ Regarding for download master's degree, please send your request gaining access.
 
 ### Books
 
-- [Amazon (Ultimate Rust Systems Programming Architecting)](https://www.amazon.co.uk/Ultimate-Rust-Systems-Programming-Architecting/dp/8196994737)
+#### Ultimate Rust Systems Programming Architecting
+
+- [Amazon](https://www.amazon.co.uk/Ultimate-Rust-Systems-Programming-Architecting/dp/8196994737)
 
 #### Rust as a Modern Mother Language Advanced Techniques for Developing Robust Applications
 
@@ -125,6 +128,8 @@ Regarding for download master's degree, please send your request gaining access.
 ![Rust as a Modern Mother Language Advanced Techniques for Developing Robust Applications](https://armanriazi.github.io/assets/attachments/myrustbook.jpg){ width=300 height=150 align=left }
 <figcaption>Rust as a Modern Mother Language Advanced Techniques for Developing Robust Applications</figcaption>
 </figure>
+
+> Availiable to buy on ketabrah.ir and digikala.com
 
 ### Papers
 
