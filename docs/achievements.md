@@ -33,6 +33,24 @@ author: "Arman Riazi"
 
 - [Out of the box](https://armanriazi.github.io/links/#learning-profiles)
 
+### 2025
+
+|  Network defense fundamentals Training for IT Beginners    |    4H    |  MaktabKhooneh.Org    | MaktabKhooneh  | [1](https://codered.eccouncil.org/certificate/39fcaf4d-c386-44ff-84a2-855286949454) |
+|  Learn Linux Security Through Practical Steps    |    4H    |  MaktabKhooneh.Org    | MaktabKhooneh  | [1](https://codered.eccouncil.org/certificate/39fcaf4d-c386-44ff-84a2-855286949454) |
+|  Linux Command Line for an Ethical Hacker    |    4H    |  MaktabKhooneh.Org    | MaktabKhooneh  | [1](https://codered.eccouncil.org/certificate/39fcaf4d-c386-44ff-84a2-855286949454) |
+|  AI Mastery in OT Security: Securing ICS/OT Infrastructures    |    4H    |  MaktabKhooneh.Org    | MaktabKhooneh  | [1](https://codered.eccouncil.org/certificate/39fcaf4d-c386-44ff-84a2-855286949454) |
+|  Open-source Identity and Access Management    |    4H    |  MaktabKhooneh.Org    | MaktabKhooneh  | [1](https://codered.eccouncil.org/certificate/39fcaf4d-c386-44ff-84a2-855286949454) |
+|  Practical Wireshark 3   |    4H    |  MaktabKhooneh.Org    | MaktabKhooneh  | [1](https://codered.eccouncil.org/certificate/39fcaf4d-c386-44ff-84a2-855286949454) |
+|  Security Automation with Ansible    |    4H    |  MaktabKhooneh.Org    | MaktabKhooneh  | [1](https://codered.eccouncil.org/certificate/39fcaf4d-c386-44ff-84a2-855286949454) |
+|  Demystifying Mobile Forensics    |    4H    |  MaktabKhooneh.Org    | MaktabKhooneh  | [1](https://codered.eccouncil.org/certificate/39fcaf4d-c386-44ff-84a2-855286949454) |
+|  Offensive Perspective - OWASP Security for Developers    |    4H    |  MaktabKhooneh.Org    | MaktabKhooneh  | [1](https://codered.eccouncil.org/certificate/39fcaf4d-c386-44ff-84a2-855286949454) |
+|  Kali for Penetration Testers    |    4H    |  MaktabKhooneh.Org    | MaktabKhooneh  | [1](https://codered.eccouncil.org/certificate/39fcaf4d-c386-44ff-84a2-855286949454) |
+|  Generative AI for Cybersecurity    |    4H    |  MaktabKhooneh.Org    | MaktabKhooneh  | [1](https://codered.eccouncil.org/certificate/39fcaf4d-c386-44ff-84a2-855286949454) |
+|  Practical Cyber Threat Intelligence    |    4H    |  MaktabKhooneh.Org    | MaktabKhooneh  | [1](https://codered.eccouncil.org/certificate/39fcaf4d-c386-44ff-84a2-855286949454) |
+|  Threat Modeling Deconstructed    |    4H    |  MaktabKhooneh.Org    | MaktabKhooneh  | [1](https://codered.eccouncil.org/certificate/39fcaf4d-c386-44ff-84a2-855286949454) |
+|  Expanding MITRE ATT&CK with ATT&CK Workbench    |    4H    |  MaktabKhooneh.Org    | MaktabKhooneh  | [1](https://codered.eccouncil.org/certificate/39fcaf4d-c386-44ff-84a2-855286949454) |
+|  Black Hat Python for Pentesters    |    4H    |  MaktabKhooneh.Org    | MaktabKhooneh  | [1](https://codered.eccouncil.org/certificate/39fcaf4d-c386-44ff-84a2-855286949454) |
+
 ### 2024
 
 | Expert | Priod  | By | Supported By   | Inquiry | Documents
@@ -46,7 +64,6 @@ author: "Arman Riazi"
 |  NodeJS ExpressJS    |    20H    |  Getting started with NodeJS    | SimpliLearn  | [2](https://simpli-web.app.link/e/rEcGRIBq0Gb)     | [C](https://cutt.ly/armanriazi-nodejs) |
 |   Design Patterns,OOP, and DDD    |    23H    |   educative.io  |  educative |  [1](https://www.educative.io/verify-certificate/2R50XYCRLLNAGpPoQhLZNGxR8LAQF3), [2](https://www.educative.io/verify-certificate/29lK9lGKG40F6KwLrnB0EKsLZNGxR8LAQF3), [3](https://www.educative.io/verify-certificate/xGD3yRSRynNJX5J8mtA9DyNr0AZ3IE)    | [C](https://cutt.ly/armanriazi-designpatterns-oop-ddd),[G](https://drive.google.com/file/d/18A7f7pgSqie3J7vpv6wf5g_8tztZgPos/view?usp=sharing)  |
 |  IELTS Listening    |    11H    |  MaktabKhooneh.Org    | MaktabKhooneh  | [1](https://maktabkhooneh.org/certificates/MK-GCX33E/?print=true)     | [G](https://drive.google.com/file/d/1x8qAMMa8nH3bvw6FxnnSBIF5N6ZED--r/view?usp=sharing) |
-|  Network defense fundamentals Training for IT Beginners    |    4H    |  MaktabKhooneh.Org    | MaktabKhooneh  | [1](https://codered.eccouncil.org/certificate/39fcaf4d-c386-44ff-84a2-855286949454) |
 
 ### 2023
 
