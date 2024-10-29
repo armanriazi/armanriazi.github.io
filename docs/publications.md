@@ -35,9 +35,25 @@ author: "Arman Riazi"
     === "RustBook"
 
         * [Amazon](https://www.amazon.co.uk/Ultimate-Rust-Systems-Programming-Architecting/dp/8196994737)
-        * [Ultimate Rust Systems Programming_LOU_Reviewer](https://drive.google.com/file/d/16AvUw-28q4IZJWr6MuTDybdb2HCFOiwK/view?usp=drive_link)
-
+        * [Ultimate Rust Systems Programming_LOU_Reviewer](https://drive.google.com/file/d/16AvUw-28q4IZJWr6MuTDybdb2HCFOiwK/view?usp=drive_link)        
 ---
+
+## Books
+
+### Rust as a Modern Mother Language Advanced Techniques for Developing Robust Applications
+
+- [Volume 1](https://www.motekhassesan.com/?p=48543)
+
+- [Volume 2](https://www.motekhassesan.com/?p=48977)
+
+<figure markdown>
+![Rust as a Modern Mother Language Advanced Techniques for Developing Robust Applications](https://armanriazi.github.io/assets/attachments/myrustbook.jpg){ width=400 height=200 align=center }
+<figcaption>Rust as a Modern Mother Language Advanced Techniques for Developing Robust Applications</figcaption>
+</figure>
+
+### Ultimate Rust Systems Programming Architecting
+
+- [Amazon](https://www.amazon.co.uk/Ultimate-Rust-Systems-Programming-Architecting/dp/8196994737)
 
 ## Papers
 
@@ -88,11 +104,13 @@ author: "Arman Riazi"
 ## ReFi & Smartcity
 
 ### Web content
+
 - [Regenerative Finance](https://armanriazi.github.io/refi/)
 
 - [Smartcity](https://armanriazi.github.io/refi/smartcity/article_smartcity/)
 
 ### Pdf content
+
 - [Sessions of ReFi Talents](https://drive.google.com/file/d/1JAidWG0Ks--AwQvgKK--367MzOhbAT0P/view?usp=sharing)
 
 - [Pitch Deck of Smartcity](https://drive.google.com/file/d/1nOzRBQXmpvXp7e9jpHzTmqyrabPQXH_N/view?usp=sharing)
@@ -109,11 +127,10 @@ author: "Arman Riazi"
 
 - [DOCs on Github](https://github.com/armanriazi/Documents)
 
+[^1]: A. Riazi (2023), Using ACO Algorithm to Improve Performance for  Container-based Scientific Workflows. ScieNFT. <https://scienft.com/nfts/155>
 
-[^1]: A. Riazi (2023), Using ACO Algorithm to Improve Performance for  Container-based Scientific Workflows. ScieNFT. https://scienft.com/nfts/155
+[^2]: A. Riazi (2023), Towards a new Blanket Licensing Digitized NFT Music Decentralized. ScieNFT. <https://scienft.com/nfts/156>
 
-[^2]: A. Riazi (2023), Towards a new Blanket Licensing Digitized NFT Music Decentralized. ScieNFT. https://scienft.com/nfts/156
+[^3]: A. Riazi (2024), Understanding the Landscape of Regenerating Finance and Digital Transformation. ScieNFT. <https://scienft.com/nfts/318>
 
-[^3]: A. Riazi (2024), Understanding the Landscape of Regenerating Finance and Digital Transformation. ScieNFT. https://scienft.com/nfts/318
-
-[^4]: A. Riazi (2024), Digital Transformation in Smart Cities  Decentralized Architecture for Sustainable Development within the Web 3.0 Ecosystem. ScieNFT. https://scienft.com/nfts/5756
+[^4]: A. Riazi (2024), Digital Transformation in Smart Cities  Decentralized Architecture for Sustainable Development within the Web 3.0 Ecosystem. ScieNFT. <https://scienft.com/nfts/5756>

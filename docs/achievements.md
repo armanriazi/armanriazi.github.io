@@ -9,6 +9,10 @@ tags:
 - skill
 - career
 - recuit
+- rust
+- security
+- cybersecurity
+- ceh
 search:
   exclude: true
 type:  achievements
@@ -23,16 +27,15 @@ author: "Arman Riazi"
 
 ## Certificates
 
->  `Tips:` **Horizental Scrolled** ,
+> `Tips:` **Horizental Scrolled** ,
 
 > `G`: **GoogleDrive**  |  `[number]`: **Query direct link**  |  `C`: `https://Cutt.ly/armanriazi-` as an **indirect link**
-
 
 - [Out of the box](https://armanriazi.github.io/links/#learning-profiles)
 
 ### 2024
 
-| Expert | Priod  | By | Supported By   | Inquiry | Documents 
+| Expert | Priod  | By | Supported By   | Inquiry | Documents
 |:-------------------------------------------:|:-------:|:---------------:|:------------------|:------------|:-----------|
 |  Regenerative Finance  2023-2024     |    18W    |  Frankfurt University School of the Blockchain&Business    | ECOTA  | [1](https://web3-talents.io/refi-talents/refi-alumni/refi-talents-alumni-arman-riazi/)     | [C](https://cutt.ly/armanriazi-refi) |
 | Creative and Design Thinking process and tools for innovation     |    14H    |  Polimi De Milano University    | Polimi  | -  | [G](https://drive.google.com/file/d/1nMWz9OlOtLoyJ6P61WOWcQbnz_qMmUlY/view?usp=sharing) |
@@ -45,11 +48,12 @@ author: "Arman Riazi"
 |  IELTS Listening    |    11H    |  MaktabKhooneh.Org    | MaktabKhooneh  | [1](https://maktabkhooneh.org/certificates/MK-GCX33E/?print=true)     | [G](https://drive.google.com/file/d/1x8qAMMa8nH3bvw6FxnnSBIF5N6ZED--r/view?usp=sharing) |
 
 ### 2023
-| Expert | Priod  | By | Supported By   | Inquiry | Documents 
+
+| Expert | Priod  | By | Supported By   | Inquiry | Documents
 |:-------------------------------------------:|:-------:|:---------------:|:------------------|:------------|:-----------|
 | BLOC529-MC Decentralized Finance(Spring)     | 6W       |  Nicosia University   | UNIC  | [1](https://courses.unic.ac.cy/)     | [C](https://cutt.ly/armanriazi-defi-unic) |
 | Become-A-Rust-Professional    | 138H       |  educative.io   | educative  | [1](https://www.educative.io/verify-certificate/1j8yMXCBKBYmXmK2GHOEA9mnpKwPUp),[2](https://www.educative.io/verify-certificate/QApPNYA64r2clVE5XBNYJGHQ2OZGYMKj7T9),[3](https://www.educative.io/verify-certificate/585DM2txV56KZx8NxulL9K43ywJquq),[4](https://www.educative.io/verify-certificate/Y6GKZ1ijpWw4oDO1XhjWwo2K9x18TJ)    | [C-Boundled](https://cutt.ly/armanriazi-rust-pro-educative)    |
-| Blockchain-DistributedSYS-CyberSec  | 20H       |  educative.io  | educative  |   [1](https://www.educative.io/verify-certificate/49vom8N6ngNh6rgGjvGAPYuNKXr3qBL2PcG),[2](https://www.educative.io/verify-certificate/985KjktxW9QrjWANLIZnQAGV3xWDFN),[3](https://www.educative.io/verify-certificate/vgA3wPFLmLVKzwkA2t8VE4wnzZBlul)   | [C-Bundled](https://cutt.ly/armanriazi-blockchain-dist-cyber-educative),[G](https://drive.google.com/file/d/1RPNVrAIhxBZqlhkMY5fBc6E53lydLPov/view?usp=share_link)  | 
+| Blockchain-DistributedSYS-CyberSec  | 20H       |  educative.io  | educative  |   [1](https://www.educative.io/verify-certificate/49vom8N6ngNh6rgGjvGAPYuNKXr3qBL2PcG),[2](https://www.educative.io/verify-certificate/985KjktxW9QrjWANLIZnQAGV3xWDFN),[3](https://www.educative.io/verify-certificate/vgA3wPFLmLVKzwkA2t8VE4wnzZBlul)   | [C-Bundled](https://cutt.ly/armanriazi-blockchain-dist-cyber-educative),[G](https://drive.google.com/file/d/1RPNVrAIhxBZqlhkMY5fBc6E53lydLPov/view?usp=share_link)  |
 | DevOps For Developers    | 50H       |  educative.io  | educative  |   Redirect   | [C](https://cutt.ly/armanriazi-devops-for-dev-educative)     |
 | DevOps Fundamentals Of eBPF-Istio   | Hands-On Lab  |  solo.io  | solo  |   Redirect   | [C-Bundled](https://cutt.ly/armanriazi-devops-ebpf-istio-solo)     |
 | Substrate-For-Analog(Rust, Java General Code)  | Hands-On Lab |  Karat, TripleByte.com  | Karat | [1](https://triplebyte.com/tb/arman-riazi-h4icoca) | [G](https://drive.google.com/file/d/1aC-Jpgd0j5wyn5QDDnOi6aGcfEe2TtkZ/view)     |
@@ -71,7 +75,7 @@ author: "Arman Riazi"
 
 Regarding for download master's degree, please send your request gaining access.
 
-| Expert | Priod  | By | Supported By   | Inquiry | Documents 
+| Expert | Priod  | By | Supported By   | Inquiry | Documents
 |:--------------------------------------:|:-------:|:---------------:|:-------------------|:------------|:--------------|
 | Master Of Science-Information Technology     | 4Y       |  Azad Najafabad University   | IAUN  | [1500007081743684272588654](https://estelam.iau.ir/Home/SearechEstelamID)     | [G-Academic-Degree](https://drive.google.com/file/d/1VKXfPPTzVPonALERdxU4LcRRvJBRMNHV/view?usp=share_link) And [Credits'Details](https://drive.google.com/file/d/1h98c3oklzv-tyi6b3xvfR4QEUfdbNHXH/view?usp=share_link) |
 
@@ -85,21 +89,21 @@ Regarding for download master's degree, please send your request gaining access.
 
 | SubProjects | Lang/Frameworks  | Duration | Reference
 |:------------------------------------------------------------------------------:|:-------------------:|:--------:|:----------------|
-| Customize Cloudsim framework to create scientific workflows on my suggested architecture based on vm-container to run written ACO Algorithm for [[master]] thesis     | Pure Java       |  2Y   | [Cloudsim-Workflow-Function-Container-ACO](https://github.com/armanriazi/Cloudsim-Workflow-Function-Container-ACO)  | 
-| A scratch blockchain (POW)     | Pure Rust       |  1M   | [Blockchain](https://github.com/armanriazi/armanriazi-blockchain)  | 
+| Customize Cloudsim framework to create scientific workflows on my suggested architecture based on vm-container to run written ACO Algorithm for [[master]] thesis     | Pure Java       |  2Y   | [Cloudsim-Workflow-Function-Container-ACO](https://github.com/armanriazi/Cloudsim-Workflow-Function-Container-ACO)  |
+| A scratch blockchain (POW)     | Pure Rust       |  1M   | [Blockchain](https://github.com/armanriazi/armanriazi-blockchain)  |
 | BookRent Microservice     |  NestJS, TS, Postgresql, NATServer, TypeORm, CQRS, Monorepo, Microservice       |  1M   | [JS-Family](https://github.com/armanriazi/nestjs-microservice-projects/tree/main/bookrent-nats)  |
 | Vidly Web Application    |  Reactjs, Couchdb, IBM Cloud, Resful API       |  1M   | [Vidly Web Application](https://github.com/armanriazi/armanriazi-reactjs-couchdb-cloud-api)  |
-| An enterprise project in the field of energy(2017-18)    | .Netcore, Apollo GraphQL, Swagger, ExpressJS (SSR), Angular      |  1.6Y   | [NetCore-GraphQl-RestApi-Angular](https://github.com/armanriazi/ApplicantPortal)  | 
+| An enterprise project in the field of energy(2017-18)    | .Netcore, Apollo GraphQL, Swagger, ExpressJS (SSR), Angular      |  1.6Y   | [NetCore-GraphQl-RestApi-Angular](https://github.com/armanriazi/ApplicantPortal)  |
 
 ---
 
 | Major Projects | Lang/Frameworks  | Duration | Branch
 |:------------------------------------------------------------------------------:|:-------------------:|:--------:|:----------------|
-| Rust-All-In-One    | MDBook of Pure Rust       |  3M   | [All-In-One-Rust](https://github.com/armanriazi/rust-all-in-one)  | 
-| TypeScript-All-In-One     |  MDBook of TypeScript       |  1M   | [All-In-One-TS](https://github.com/armanriazi/typescript-all-in-one)  | 
-| Rust Awesome    | Pure Rust       |  1Y   | [Awesome-Rust](https://github.com/armanriazi/armanriazi-awesome-rust)  | 
-| JS-family     |  NestJS framework, TS, Postgresql, NodeJS       |  1Y  | [JS-Family](https://github.com/armanriazi/armanriazi-js-family)  | 
-| Blockchain     |  Blockchain, Rust, Solidity, Substrate       |  6M   | [Blockchain](https://github.com/armanriazi/armanriazi-blockchain)  | 
+| Rust-All-In-One    | MDBook of Pure Rust       |  3M   | [All-In-One-Rust](https://github.com/armanriazi/rust-all-in-one)  |
+| TypeScript-All-In-One     |  MDBook of TypeScript       |  1M   | [All-In-One-TS](https://github.com/armanriazi/typescript-all-in-one)  |
+| Rust Awesome    | Pure Rust       |  1Y   | [Awesome-Rust](https://github.com/armanriazi/armanriazi-awesome-rust)  |
+| JS-family     |  NestJS framework, TS, Postgresql, NodeJS       |  1Y  | [JS-Family](https://github.com/armanriazi/armanriazi-js-family)  |
+| Blockchain     |  Blockchain, Rust, Solidity, Substrate       |  6M   | [Blockchain](https://github.com/armanriazi/armanriazi-blockchain)  |
 
 - [Archive 2012-2020](./public/archive/archive.md)
 
@@ -111,7 +115,16 @@ Regarding for download master's degree, please send your request gaining access.
 
 - [Amazon (Ultimate Rust Systems Programming Architecting)](https://www.amazon.co.uk/Ultimate-Rust-Systems-Programming-Architecting/dp/8196994737)
 
-- [Motekhassesan (Rust as a Modern Mother Language Advanced Techniques for Developing Robust Applications)](https://www.motekhassesan.com/?s=%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87+%D9%86%D9%88%DB%8C%D8%B3%DB%8C+Rust&post_type=product&cat_id=)
+#### Rust as a Modern Mother Language Advanced Techniques for Developing Robust Applications
+
+- [Volume 1](https://www.motekhassesan.com/?p=48543)
+
+- [Volume 2](https://www.motekhassesan.com/?p=48977)
+
+<figure markdown>
+![Rust as a Modern Mother Language Advanced Techniques for Developing Robust Applications](https://armanriazi.github.io/assets/attachments/myrustbook.jpg){ width=300 height=150 align=left }
+<figcaption>Rust as a Modern Mother Language Advanced Techniques for Developing Robust Applications</figcaption>
+</figure>
 
 ### Papers
 
@@ -127,13 +140,11 @@ Regarding for download master's degree, please send your request gaining access.
 
 - [A. Riazi [Towards a new Blanket Licensing Digitized NFT Music Decentralized] - ScieNFT 2023 Nov NFTID: 164](https://scienft.com/nfts/156)
 
-
 #### Understanding the Landscape of Regenerating Finance and Digital Transformation
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10512397.svg)](https://doi.org/10.5281/zenodo.10512397)
 
 - [A. Riazi [Understanding the Landscape of Regenerating Finance and Digital Transformation] - ScieNFT 2024 Jan NFTID: 318](https://scienft.com/nfts/318)
-
 
 #### Digital Transformation in Smart Cities: Decentralized Architecture for Sustainable Development within the Web 3.0 Ecosystem
 
@@ -143,19 +154,22 @@ Regarding for download master's degree, please send your request gaining access.
 
 ---
 
-## Archived Academic 
+## Archived Academic
 
 ### 2013
-| Expert | Priod  | By | Supported By   | Inquiry | Documents 
+
+| Expert | Priod  | By | Supported By   | Inquiry | Documents
 |:--------------------------------------:|:-------:|:---------------:|:-------------------|:------------|:--------------|
 | Bchelor's Degree of Software Engineer   | 2Y       |  Sina Kashan   | Non-profit University  | [14001947342241661127](http://portal.saorg.ir/inquiry?code=14001947342241661127)  |  [G](https://drive.google.com/file/d/1vfPRZqlndKi8aBK5ZfM0wdQTzug82YX6/view?usp=sharing)
 
 ### 2010
-| Expert | Priod  | By | Supported By   | Inquiry | Documents 
+
+| Expert | Priod  | By | Supported By   | Inquiry | Documents
 |:--------------------------------------:|:-------:|:---------------:|:-------------------|:------------|:--------------|
 | Associate Degree of Software   | 2Y       |  Shahid Mohajer  | Vocational/Polytechnic University  | [14031647255614882114](http://portal.saorg.ir/inquiry?code=14031647255614882114) | [G](https://drive.google.com/file/d/1ufkz_CoHfO4nSCJGZJEQRO0_OmQsDfZB/view?usp=sharing)
 
 ### 2008
-| Expert | Priod  | By | Supported By   | Inquiry | Documents 
+
+| Expert | Priod  | By | Supported By   | Inquiry | Documents
 |:--------------------------------------:|:-------:|:---------------:|:-------------------|:------------|:--------------|
 | Diploma Degree in Computer   | 2Y       |  Shahid Montazeri  | Diploma School  | [40302299964926](https://emt.medu.ir/) | [G](https://drive.google.com/file/d/1VUB3CYN3cWhbJn-wP50EV3ERBAFFbZtG/view?usp=sharing)
