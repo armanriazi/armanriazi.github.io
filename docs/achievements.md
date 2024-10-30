@@ -35,21 +35,23 @@ author: "Arman Riazi"
 
 ### 2025
 
-|  Network defense fundamentals Training for IT Beginners    |    4H    |  MaktabKhooneh.Org    | MaktabKhooneh  | [1](https://codered.eccouncil.org/certificate/39fcaf4d-c386-44ff-84a2-855286949454) |
-|  Learn Linux Security Through Practical Steps    |    4H    |  MaktabKhooneh.Org    | MaktabKhooneh  | [1](https://codered.eccouncil.org/certificate/39fcaf4d-c386-44ff-84a2-855286949454) |
-|  Linux Command Line for an Ethical Hacker    |    4H    |  MaktabKhooneh.Org    | MaktabKhooneh  | [1](https://codered.eccouncil.org/certificate/39fcaf4d-c386-44ff-84a2-855286949454) |
-|  AI Mastery in OT Security: Securing ICS/OT Infrastructures    |    4H    |  MaktabKhooneh.Org    | MaktabKhooneh  | [1](https://codered.eccouncil.org/certificate/39fcaf4d-c386-44ff-84a2-855286949454) |
-|  Open-source Identity and Access Management    |    4H    |  MaktabKhooneh.Org    | MaktabKhooneh  | [1](https://codered.eccouncil.org/certificate/39fcaf4d-c386-44ff-84a2-855286949454) |
-|  Practical Wireshark 3   |    4H    |  MaktabKhooneh.Org    | MaktabKhooneh  | [1](https://codered.eccouncil.org/certificate/39fcaf4d-c386-44ff-84a2-855286949454) |
-|  Security Automation with Ansible    |    4H    |  MaktabKhooneh.Org    | MaktabKhooneh  | [1](https://codered.eccouncil.org/certificate/39fcaf4d-c386-44ff-84a2-855286949454) |
-|  Demystifying Mobile Forensics    |    4H    |  MaktabKhooneh.Org    | MaktabKhooneh  | [1](https://codered.eccouncil.org/certificate/39fcaf4d-c386-44ff-84a2-855286949454) |
-|  Offensive Perspective - OWASP Security for Developers    |    4H    |  MaktabKhooneh.Org    | MaktabKhooneh  | [1](https://codered.eccouncil.org/certificate/39fcaf4d-c386-44ff-84a2-855286949454) |
-|  Kali for Penetration Testers    |    4H    |  MaktabKhooneh.Org    | MaktabKhooneh  | [1](https://codered.eccouncil.org/certificate/39fcaf4d-c386-44ff-84a2-855286949454) |
-|  Generative AI for Cybersecurity    |    4H    |  MaktabKhooneh.Org    | MaktabKhooneh  | [1](https://codered.eccouncil.org/certificate/39fcaf4d-c386-44ff-84a2-855286949454) |
-|  Practical Cyber Threat Intelligence    |    4H    |  MaktabKhooneh.Org    | MaktabKhooneh  | [1](https://codered.eccouncil.org/certificate/39fcaf4d-c386-44ff-84a2-855286949454) |
-|  Threat Modeling Deconstructed    |    4H    |  MaktabKhooneh.Org    | MaktabKhooneh  | [1](https://codered.eccouncil.org/certificate/39fcaf4d-c386-44ff-84a2-855286949454) |
-|  Expanding MITRE ATT&CK with ATT&CK Workbench    |    4H    |  MaktabKhooneh.Org    | MaktabKhooneh  | [1](https://codered.eccouncil.org/certificate/39fcaf4d-c386-44ff-84a2-855286949454) |
-|  Black Hat Python for Pentesters    |    4H    |  MaktabKhooneh.Org    | MaktabKhooneh  | [1](https://codered.eccouncil.org/certificate/39fcaf4d-c386-44ff-84a2-855286949454) |
+| Expert | Priod  | By | Supported By   | Inquiry | Documents
+|:-------------------------------------------:|:-------:|:---------------:|:------------------|:------------|:-----------|
+|  Network defense fundamentals Training for IT Beginners    |    4H    |  CodeRed.EcCouncil.org    | EC-Council  | [1](https://codered.eccouncil.org/certificate/39fcaf4d-c386-44ff-84a2-855286949454) |
+|  Learn Linux Security Through Practical Steps    |    4H    |  CodeRed.EcCouncil.org    | EC-Council  | [1](https://codered.eccouncil.org/certificate/39fcaf4d-c386-44ff-84a2-855286949454) |
+|  Linux Command Line for an Ethical Hacker    |    4H    |CodeRed.EcCouncil.org    | EC-Council  | [1](https://codered.eccouncil.org/certificate/39fcaf4d-c386-44ff-84a2-855286949454) |
+|  AI Mastery in OT Security: Securing ICS/OT Infrastructures    |    4H    |  CodeRed.EcCouncil.org    | EC-Council  | [1](https://codered.eccouncil.org/certificate/39fcaf4d-c386-44ff-84a2-855286949454) |
+|  Open-source Identity and Access Management    |    4H    |  CodeRed.EcCouncil.org    | EC-Council  | [1](https://codered.eccouncil.org/certificate/39fcaf4d-c386-44ff-84a2-855286949454) |
+|  Practical Wireshark 3   |    4H    |  CodeRed.EcCouncil.org    | EC-Council  | [1](https://codered.eccouncil.org/certificate/39fcaf4d-c386-44ff-84a2-855286949454) |
+|  Security Automation with Ansible    |    4H    |  CodeRed.EcCouncil.org    | EC-Council  | [1](https://codered.eccouncil.org/certificate/39fcaf4d-c386-44ff-84a2-855286949454) |
+|  Demystifying Mobile Forensics    |    4H    | CodeRed.EcCouncil.org    | EC-Council  | [1](https://codered.eccouncil.org/certificate/39fcaf4d-c386-44ff-84a2-855286949454) |
+|  Offensive Perspective - OWASP Security for Developers    |    4H    |  CodeRed.EcCouncil.org    | EC-Council  | [1](https://codered.eccouncil.org/certificate/39fcaf4d-c386-44ff-84a2-855286949454) |
+|  Kali for Penetration Testers    |    4H    |  CodeRed.EcCouncil.org    | EC-Council  | [1](https://codered.eccouncil.org/certificate/39fcaf4d-c386-44ff-84a2-855286949454) |
+|  Generative AI for Cybersecurity    |    4H    |  CodeRed.EcCouncil.org    | EC-Council  | [1](https://codered.eccouncil.org/certificate/39fcaf4d-c386-44ff-84a2-855286949454) |
+|  Practical Cyber Threat Intelligence    |    4H    |  CodeRed.EcCouncil.org    | EC-Council  | [1](https://codered.eccouncil.org/certificate/39fcaf4d-c386-44ff-84a2-855286949454) |
+|  Threat Modeling Deconstructed    |    4H    |  CodeRed.EcCouncil.org    | EC-Council  | [1](https://codered.eccouncil.org/certificate/39fcaf4d-c386-44ff-84a2-855286949454) |
+|  Expanding MITRE ATT&CK with ATT&CK Workbench    |    4H    |  CodeRed.EcCouncil.org    | EC-Council  | [1](https://codered.eccouncil.org/certificate/39fcaf4d-c386-44ff-84a2-855286949454) |
+|  Black Hat Python for Pentesters    |    4H    |  CodeRed.EcCouncil.org    | EC-Council  | [1](https://codered.eccouncil.org/certificate/39fcaf4d-c386-44ff-84a2-855286949454) |
 
 ### 2024
 
