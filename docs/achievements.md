@@ -38,7 +38,7 @@ author: "Arman Riazi"
 | Expert | Priod  | By | Supported By   | Inquiry | Documents
 |:-------------------------------------------:|:-------:|:---------------:|:------------------|:------------|:-----------|
 |  Network defense fundamentals Training for IT Beginners    |    4H    |  CodeRed.EcCouncil.org    | EC-Council  | [1](https://codered.eccouncil.org/certificate/39fcaf4d-c386-44ff-84a2-855286949454) |
-|  Learn Linux Security Through Practical Steps    |    4H    |  CodeRed.EcCouncil.org    | EC-Council  | [1](https://codered.eccouncil.org/certificate/39fcaf4d-c386-44ff-84a2-855286949454) |
+|  Learn Linux Security Through Practical Steps    |    2H    |  CodeRed.EcCouncil.org    | EC-Council  | [1](https://codered.eccouncil.org/certificate/79b5bf15-c296-48e7-a367-2297902e28b1) |
 |  Linux Command Line for an Ethical Hacker    |    4H    |CodeRed.EcCouncil.org    | EC-Council  | [1](https://codered.eccouncil.org/certificate/39fcaf4d-c386-44ff-84a2-855286949454) |
 |  AI Mastery in OT Security: Securing ICS/OT Infrastructures    |    4H    |  CodeRed.EcCouncil.org    | EC-Council  | [1](https://codered.eccouncil.org/certificate/39fcaf4d-c386-44ff-84a2-855286949454) |
 |  Open-source Identity and Access Management    |    4H    |  CodeRed.EcCouncil.org    | EC-Council  | [1](https://codered.eccouncil.org/certificate/39fcaf4d-c386-44ff-84a2-855286949454) |
