@@ -69,6 +69,11 @@ author: "Arman Riazi"
 
 :   Cite[^1] this [Exchangable NFT](https://scienft.com/nfts/155)
 
+
+### Estimating Mental Health by Analyzing the Impact of Cognitive Load on Working Memory Using AI
+    
+[Reviewer_Springer](https://link.springer.com/journal/42486)
+
 ### Towards Blanket Licensing Digitized Music NFT Decentralized
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8023208.svg)](https://doi.org/10.5281/zenodo.8023208)
