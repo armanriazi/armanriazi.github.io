@@ -44,7 +44,7 @@ author: "Arman Riazi"
 
 ??? Bundle Certifications 2024
 
-    === Experts
+    === "Experts"
     
     | Expert | Priod  | By | Supported By   | Inquiry | Documents
     |:-------------------------------------------:|:-------:|:---------------:|:------------------|:------------|:-----------|
@@ -62,7 +62,7 @@ author: "Arman Riazi"
 
 ??? The Ultimate Cybersecurity Awareness Bundle 2024
 
-    === Expertss
+    === "Expertss"
         | Expert | Priod  | By | Supported By   | Inquiry | Documents
         |:-------------------------------------------:|:-------:|:---------------:|:------------------|:------------|:-----------|
         |  Network defense fundamentals Training for IT Beginners    |    4H    |  CodeRed.EcCouncil.org    | EC-Council  | [1](https://codered.eccouncil.org/certificate/39fcaf4d-c386-44ff-84a2-855286949454) |
