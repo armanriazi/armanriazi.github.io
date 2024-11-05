@@ -215,7 +215,9 @@ Regarding for download master's degree, please send your request gaining access.
     <br>
     <b>Estimating Mental Health by Analyzing the Impact of Cognitive Load on Working Memory Using AI</b>
     <br>
+    
     <a href="https://link.springer.com/journal/42486">Reviewer_Springer</a>
+      <br>
     <br>
     <!--https://www.researchsquare.com/article/rs-5382132/private/timeline-->    
     <b> MFS:Towards Blanket Licensing Digitized Music Decentralized </b>
@@ -237,7 +239,7 @@ Regarding for download master's degree, please send your request gaining access.
     <b> Digital Transformation in Smart Cities: Decentralized Architecture for Sustainable Development within the Web 3.0 Ecosystem </b>
     <br>
     <a href="https://doi.org/10.5281/zenodo.11002930" target="_blank">  
-       <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.11002930.sv" alt="DOI" />  
+       <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.11002930.svg" alt="DOI" />  
     </a>       
     <br>
     <a href="https://scienft.com/nfts/5756"> A. Riazi [Digital Transformation in Smart Cities Decentralized Architecture for Sustainable Development within the Web3.0 Ecosystem] - ScieNFT 2024 Apr NFTID:5756 </a>
