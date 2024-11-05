@@ -181,17 +181,18 @@ Regarding for download master's degree, please send your request gaining access.
 
 <details>  
   <summary>Books</summary>  
-<b>Ultimate Rust Systems Programming Architecting</b>
-
+  
+  <b>Ultimate Rust Systems Programming Architecting</b>
+  <br>
   <a href="https://www.amazon.co.uk/Ultimate-Rust-Systems-Programming-Architecting/dp/8196994737">Amazon</a>
-
+  <br>
   <b> Rust as a Modern Mother Language Advanced Techniques for Developing Robust Applications </b>
-
+  <br>
   <a href="https://www.motekhassesan.com/?p=48543">Volume 1</a>
-
+   <br>
   <a href="https://www.motekhassesan.com/?p=48977">Volume 2</a>
 
-<!-- </details> -->
+ </details>
 
 <figure markdown>
 ![Rust as a Modern Mother Language Advanced Techniques for Developing Robust Applications](https://armanriazi.github.io/assets/attachments/myrustbook.jpg){ width=300 height=150 align=left }
@@ -200,46 +201,46 @@ Regarding for download master's degree, please send your request gaining access.
 
 > Availiable to buy on `ketabrah.ir` and `digikala.com`
 
-<!--
+
 <details>  
   <summary>Papers</summary>  
--->
 
     <b>Using ACO Algorithm to Improve Performance for Container-based Scientific</b>
+    <br>
     <a href="https://doi.org/10.5281/zenodo.8105650" target="_blank">  
        <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.8105650.svg" alt="DOI" />  
-    </a>          
+    </a>
+    <br>
     <a href="https://scienft.com/nfts/155"> A. Riazi [Using ACO Algorithm to Improve Performance for  Container-based Scientific Workflows] - ScieNFT 2023 Nov NFTID: 163</a>
-    
+    <br>
     <b>Estimating Mental Health by Analyzing the Impact of Cognitive Load on Working Memory Using AI</b>
-    
+    <br>
     <a href="https://link.springer.com/journal/42486">Reviewer_Springer</a>
-    
-    <!--https://www.researchsquare.com/article/rs-5382132/private/timeline-->
-    
+    <br>
+    <!--https://www.researchsquare.com/article/rs-5382132/private/timeline-->    
     <b> MFS:Towards Blanket Licensing Digitized Music Decentralized </b>
-    
+    <br>
     <a href="https://doi.org/10.5281/zenodo.8023208" target="_blank">  
        <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.8023208.svg" alt="DOI" />  
     </a>   
-    
+    <br>
     <a href="https://scienft.com/nfts/156">A. Riazi [Towards a new Blanket Licensing Digitized NFT Music Decentralized] - ScieNFT 2023 Nov NFTID: 164</a>
-    
+    <br>
     <b> Understanding the Landscape of Regenerating Finance and Digital Transformation </b>
-
+    <br>
     <a href="https://doi.org/10.5281/zenodo.10512397" target="_blank">  
        <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.10512397.svg" alt="DOI" />  
     </a>     
-    
+    <br>
     <a href="https://scienft.com/nfts/318"> A. Riazi [Understanding the Landscape of Regenerating Finance and Digital Transformation] - ScieNFT 2024 Jan NFTID: 318</a>
-    
+    <br>
     <b> Digital Transformation in Smart Cities: Decentralized Architecture for Sustainable Development within the Web 3.0 Ecosystem </b>
-
+    <br>
     <a href="https://doi.org/10.5281/zenodo.11002930" target="_blank">  
        <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.11002930.sv" alt="DOI" />  
     </a>       
-    
+    <br>
     <a href="https://scienft.com/nfts/5756"> A. Riazi [Digital Transformation in Smart Cities Decentralized Architecture for Sustainable Development within the Web3.0 Ecosystem] - ScieNFT 2024 Apr NFTID:5756 </a>
-
-<!-- </details>  -->
+ 
+ </details>
 
