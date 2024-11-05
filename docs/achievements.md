@@ -35,10 +35,27 @@ author: "Arman Riazi"
 
 ### 2025
 
+|  IELTS  |   2Y    |  IELTS IDP    | IELTS  | [1](https://maktabkhooneh.org/certificates/MK-GCX33E/?print=true)     | [G](https://drive.google.com/file/d/1x8qAMMa8nH3bvw6FxnnSBIF5N6ZED--r/view?usp=sharing) |
 
 
 ### 2024
 
+<details>
+<summary>Bundle Certifications 2024</summary>
+  
+| Expert | Priod  | By | Supported By   | Inquiry | Documents
+|:-------------------------------------------:|:-------:|:---------------:|:------------------|:------------|:-----------|
+|  Regenerative Finance  2023-2024     |    18W    |  Frankfurt University School of the Blockchain&Business    | ECOTA  | [1](https://web3-talents.io/refi-talents/refi-alumni/refi-talents-alumni-arman-riazi/)     | [C](https://cutt.ly/armanriazi-refi) |
+| Creative and Design Thinking process and tools for innovation     |    14H    |  Polimi De Milano University    | Polimi  | -  | [G](https://drive.google.com/file/d/1nMWz9OlOtLoyJ6P61WOWcQbnz_qMmUlY/view?usp=sharing) |
+| The Ultimate Cybersecurity Awareness Bundle |    56H    |  EC-Council University    | ECCouncil  | [1](https://consisting-of-15-hands-on-courses-focused-on-building-practical-skills-for-real-world-cybersecurity-challenges)  | [G](https://https://consisting-of-15-hands-on-courses-focused-on-building-practical-skills-for-real-world-cybersecurity-challenge) |
+|  Mastering TypeScript     |    100H    |  educative.io    | educative.io  | [1](https://www.educative.io/verify-certificate/2R50XYC61v6Ln3y8QI0DWwmNykAkh3), [2](https://www.educative.io/verify-certificate/Q7w4Ok2DNk2SJVO7jKYJK3tQBVXnj4N3Nc9), [3](https://www.educative.io/verify-certificate/1j8yMXCLDGz9D9j8DhOjqg4wDx7xfp), [4](https://www.educative.io/verify-certificate/Q1wyXPtJ9j2Q7rAA3HQBVXnj4N3Nc9)     | [C](https://cutt.ly/armanriazi-typescript) |
+|   Microservice Principles and Concepts    |    10H    |  educative.io    | educative.io  | [1](https://www.educative.io/verify-certificate/xGD3yRSPXWLwANq56fgjXK4Do1Z1fE)     | [C](https://cutt.ly/QwBn94Gl) |
+|   Mastering PostgreSQL Databases    |    13H    |   educative & SkillUP  |  educative/simplilearn.com |  [1](https://www.educative.io/verify-certificate/l8oBvJ82GWmT62WKOyNL3JTjWAEw8DjrvhM), [2](https://simpli-web.app.link/e/RKOmVw3ffGb)    | [C](https://cutt.ly/armanriazi-postgresql),[G](https://drive.google.com/file/d/1r7kHL2NiRnw8bTo7V3SkVBBB4zfY03VQ/view?usp=sharing)  |
+|  NodeJS ExpressJS    |    20H    |  Getting started with NodeJS    | SimpliLearn  | [2](https://simpli-web.app.link/e/rEcGRIBq0Gb)     | [C](https://cutt.ly/armanriazi-nodejs) |
+|   Design Patterns,OOP, and DDD    |    23H    |   educative.io  |  educative |  [1](https://www.educative.io/verify-certificate/2R50XYCRLLNAGpPoQhLZNGxR8LAQF3), [2](https://www.educative.io/verify-certificate/29lK9lGKG40F6KwLrnB0EKsLZNGxR8LAQF3), [3](https://www.educative.io/verify-certificate/xGD3yRSRynNJX5J8mtA9DyNr0AZ3IE)    | [C](https://cutt.ly/armanriazi-designpatterns-oop-ddd),[G](https://drive.google.com/file/d/18A7f7pgSqie3J7vpv6wf5g_8tztZgPos/view?usp=sharing)  |
+|  IELTS Listening    |    11H    |  MaktabKhooneh.Org    | MaktabKhooneh  | [1](https://maktabkhooneh.org/certificates/MK-GCX33E/?print=true)     | [G](https://drive.google.com/file/d/1x8qAMMa8nH3bvw6FxnnSBIF5N6ZED--r/view?usp=sharing) |
+
+</details>
 
 <details>
 <summary>The Ultimate Cybersecurity Awareness Bundle 2024</summary>
@@ -63,19 +80,10 @@ author: "Arman Riazi"
 
 </details>
 
-| Expert | Priod  | By | Supported By   | Inquiry | Documents
-|:-------------------------------------------:|:-------:|:---------------:|:------------------|:------------|:-----------|
-|  Regenerative Finance  2023-2024     |    18W    |  Frankfurt University School of the Blockchain&Business    | ECOTA  | [1](https://web3-talents.io/refi-talents/refi-alumni/refi-talents-alumni-arman-riazi/)     | [C](https://cutt.ly/armanriazi-refi) |
-| Creative and Design Thinking process and tools for innovation     |    14H    |  Polimi De Milano University    | Polimi  | -  | [G](https://drive.google.com/file/d/1nMWz9OlOtLoyJ6P61WOWcQbnz_qMmUlY/view?usp=sharing) |
-| The Ultimate Cybersecurity Awareness Bundle |    56H    |  EC-Council University    | ECCouncil  | [1](https://consisting-of-15-hands-on-courses-focused-on-building-practical-skills-for-real-world-cybersecurity-challenges)  | [G](https://https://consisting-of-15-hands-on-courses-focused-on-building-practical-skills-for-real-world-cybersecurity-challenge) |
-|  Mastering TypeScript     |    100H    |  educative.io    | educative.io  | [1](https://www.educative.io/verify-certificate/2R50XYC61v6Ln3y8QI0DWwmNykAkh3), [2](https://www.educative.io/verify-certificate/Q7w4Ok2DNk2SJVO7jKYJK3tQBVXnj4N3Nc9), [3](https://www.educative.io/verify-certificate/1j8yMXCLDGz9D9j8DhOjqg4wDx7xfp), [4](https://www.educative.io/verify-certificate/Q1wyXPtJ9j2Q7rAA3HQBVXnj4N3Nc9)     | [C](https://cutt.ly/armanriazi-typescript) |
-|   Microservice Principles and Concepts    |    10H    |  educative.io    | educative.io  | [1](https://www.educative.io/verify-certificate/xGD3yRSPXWLwANq56fgjXK4Do1Z1fE)     | [C](https://cutt.ly/QwBn94Gl) |
-|   Mastering PostgreSQL Databases    |    13H    |   educative & SkillUP  |  educative/simplilearn.com |  [1](https://www.educative.io/verify-certificate/l8oBvJ82GWmT62WKOyNL3JTjWAEw8DjrvhM), [2](https://simpli-web.app.link/e/RKOmVw3ffGb)    | [C](https://cutt.ly/armanriazi-postgresql),[G](https://drive.google.com/file/d/1r7kHL2NiRnw8bTo7V3SkVBBB4zfY03VQ/view?usp=sharing)  |
-|  NodeJS ExpressJS    |    20H    |  Getting started with NodeJS    | SimpliLearn  | [2](https://simpli-web.app.link/e/rEcGRIBq0Gb)     | [C](https://cutt.ly/armanriazi-nodejs) |
-|   Design Patterns,OOP, and DDD    |    23H    |   educative.io  |  educative |  [1](https://www.educative.io/verify-certificate/2R50XYCRLLNAGpPoQhLZNGxR8LAQF3), [2](https://www.educative.io/verify-certificate/29lK9lGKG40F6KwLrnB0EKsLZNGxR8LAQF3), [3](https://www.educative.io/verify-certificate/xGD3yRSRynNJX5J8mtA9DyNr0AZ3IE)    | [C](https://cutt.ly/armanriazi-designpatterns-oop-ddd),[G](https://drive.google.com/file/d/18A7f7pgSqie3J7vpv6wf5g_8tztZgPos/view?usp=sharing)  |
-|  IELTS Listening    |    11H    |  MaktabKhooneh.Org    | MaktabKhooneh  | [1](https://maktabkhooneh.org/certificates/MK-GCX33E/?print=true)     | [G](https://drive.google.com/file/d/1x8qAMMa8nH3bvw6FxnnSBIF5N6ZED--r/view?usp=sharing) |
-
 ### 2023
+
+<details>
+<summary>Bundle Certification 2023</summary>
 
 | Expert | Priod  | By | Supported By   | Inquiry | Documents
 |:-------------------------------------------:|:-------:|:---------------:|:------------------|:------------|:-----------|
@@ -97,24 +105,35 @@ author: "Arman Riazi"
 | NFT Web 3.0, The Metaverse     | 4H       |  Alison.com  | Alison  |  [1](https://alison.com/certification/check/$2y$10$oxjbgXtM04Os0lTQMWtaUeLlqaKY8BbzbjkS5KIWDS69NW1dOMsi)    | [C-Boundled](https://cutt.ly/metaverse-nft-web3-alison-image)   |
 |  Soft Skills  | 09:30 H       |  Udemy – The Open University  | udemy.com, open.ac.uk  |  Boundled    | [G](https://drive.google.com/file/d/1P4JMz3Sv2CtimgMQ4dyXmbFhYrcp-SFC/view?usp=share_link)    |
 
+</details>
+  
 ---
 
-### 2021 Academic
+### Academic
 
 Regarding for download master's degree, please send your request gaining access.
 
+<details>
+<summary>Universities</summary>
+  
 | Expert | Priod  | By | Supported By   | Inquiry | Documents
 |:--------------------------------------:|:-------:|:---------------:|:-------------------|:------------|:--------------|
 | Master Of Science-Information Technology     | 4Y       |  Azad Najafabad University   | IAUN  | [1500007081743684272588654](https://estelam.iau.ir/Home/SearechEstelamID)     | [G-Academic-Degree](https://drive.google.com/file/d/1VKXfPPTzVPonALERdxU4LcRRvJBRMNHV/view?usp=share_link) And [Credits'Details](https://drive.google.com/file/d/1h98c3oklzv-tyi6b3xvfR4QEUfdbNHXH/view?usp=share_link) |
+| Bchelor's Degree of Software Engineer 2023   | 2Y       |  Sina Kashan   | Non-profit University  | [14001947342241661127](http://portal.saorg.ir/inquiry?code=14001947342241661127)  |  [G](https://drive.google.com/file/d/1vfPRZqlndKi8aBK5ZfM0wdQTzug82YX6/view?usp=sharing) |
+| Associate Degree of Software 2010   | 2Y       |  Shahid Mohajer  | Vocational/Polytechnic University  | [14031647255614882114](http://portal.saorg.ir/inquiry?code=14031647255614882114) | [G](https://drive.google.com/file/d/1ufkz_CoHfO4nSCJGZJEQRO0_OmQsDfZB/view?usp=sharing) |
+| Diploma Degree in Computer 2008   | 2Y       |  Shahid Montazeri  | Diploma School  | [40302299964926](https://emt.medu.ir/) | [G](https://drive.google.com/file/d/1VUB3CYN3cWhbJn-wP50EV3ERBAFFbZtG/view?usp=sharing) |
 
+</details>
 
----
 
 ## Projects
 
 > This table is significant projects that I fulfilled so far.
 > Frontend and backend codes that writted alone.
 > I can not share so many projects that I did it for a company.
+
+<details>
+<summary>Sub Projects</summary>
 
 | SubProjects | Lang/Frameworks  | Duration | Reference
 |:------------------------------------------------------------------------------:|:-------------------:|:--------:|:----------------|
@@ -124,8 +143,14 @@ Regarding for download master's degree, please send your request gaining access.
 | Vidly Web Application    |  Reactjs, Couchdb, IBM Cloud, Resful API       |  1M   | [Vidly Web Application](https://github.com/armanriazi/armanriazi-reactjs-couchdb-cloud-api)  |
 | An enterprise project in the field of energy(2017-18)    | .Netcore, Apollo GraphQL, Swagger, ExpressJS (SSR), Angular      |  1.6Y   | [NetCore-GraphQl-RestApi-Angular](https://github.com/armanriazi/ApplicantPortal)  |
 
+</details>
+
 ---
 
+
+<details>
+<summary>Major Projects</summary>
+  
 | Major Projects | Lang/Frameworks  | Duration | Branch
 |:------------------------------------------------------------------------------:|:-------------------:|:--------:|:----------------|
 | Rust-All-In-One    | MDBook of Pure Rust       |  3M   | [All-In-One-Rust](https://github.com/armanriazi/rust-all-in-one)  |
@@ -133,6 +158,8 @@ Regarding for download master's degree, please send your request gaining access.
 | Rust Awesome    | Pure Rust       |  1Y   | [Awesome-Rust](https://github.com/armanriazi/armanriazi-awesome-rust)  |
 | JS-family     |  NestJS framework, TS, Postgresql, NodeJS       |  1Y  | [JS-Family](https://github.com/armanriazi/armanriazi-js-family)  |
 | Blockchain     |  Blockchain, Rust, Solidity, Substrate       |  6M   | [Blockchain](https://github.com/armanriazi/armanriazi-blockchain)  |
+
+</details>
 
 - [Archive 2012-2020](./public/archive/archive.md)
 
@@ -157,59 +184,42 @@ Regarding for download master's degree, please send your request gaining access.
 <figcaption>Rust as a Modern Mother Language Advanced Techniques for Developing Robust Applications</figcaption>
 </figure>
 
-> Availiable to buy on ketabrah.ir and digikala.com
+> Availiable to buy on `ketabrah.ir` and `digikala.com`
 
 ### Papers
 
+<details>
+<summary>SubProjects</summary>
 
-
-#### Using ACO Algorithm to Improve Performance for Container-based Scientific
+<b>Using ACO Algorithm to Improve Performance for Container-based Scientific</b>
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8105650.svg)](https://doi.org/10.5281/zenodo.8105650)
 
 - [A. Riazi [Using ACO Algorithm to Improve Performance for  Container-based Scientific Workflows] - ScieNFT 2023 Nov NFTID: 163](https://scienft.com/nfts/155)
 
-#### Estimating Mental Health by Analyzing the Impact of Cognitive Load on Working Memory Using AI
+<b>Estimating Mental Health by Analyzing the Impact of Cognitive Load on Working Memory Using AI</b>
 
-[Reviewer_springer](https://link.springer.com/journal/42486)
+- [Reviewer_Springer](https://link.springer.com/journal/42486)
 <!--https://www.researchsquare.com/article/rs-5382132/private/timeline-->
 
-#### MFS:Towards Blanket Licensing Digitized Music Decentralized
+<b> MFS:Towards Blanket Licensing Digitized Music Decentralized </b>
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8023208.svg)](https://doi.org/10.5281/zenodo.8023208)
 
 - [A. Riazi [Towards a new Blanket Licensing Digitized NFT Music Decentralized] - ScieNFT 2023 Nov NFTID: 164](https://scienft.com/nfts/156)
 
-#### Understanding the Landscape of Regenerating Finance and Digital Transformation
+<b> Understanding the Landscape of Regenerating Finance and Digital Transformation </b>
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10512397.svg)](https://doi.org/10.5281/zenodo.10512397)
 
 - [A. Riazi [Understanding the Landscape of Regenerating Finance and Digital Transformation] - ScieNFT 2024 Jan NFTID: 318](https://scienft.com/nfts/318)
 
-#### Digital Transformation in Smart Cities: Decentralized Architecture for Sustainable Development within the Web 3.0 Ecosystem
+<b> Digital Transformation in Smart Cities: Decentralized Architecture for Sustainable Development within the Web 3.0 Ecosystem </b>
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.11002930.svg)](https://doi.org/10.5281/zenodo.11002930)
 
 - [A. Riazi [Digital Transformation in Smart Cities Decentralized Architecture for Sustainable Development within the Web3.0 Ecosystem] - ScieNFT 2024 Apr NFTID:5756](https://scienft.com/nfts/5756)
 
----
+</details>
 
-## Archived Academic
 
-### 2013
-
-| Expert | Priod  | By | Supported By   | Inquiry | Documents
-|:--------------------------------------:|:-------:|:---------------:|:-------------------|:------------|:--------------|
-| Bchelor's Degree of Software Engineer   | 2Y       |  Sina Kashan   | Non-profit University  | [14001947342241661127](http://portal.saorg.ir/inquiry?code=14001947342241661127)  |  [G](https://drive.google.com/file/d/1vfPRZqlndKi8aBK5ZfM0wdQTzug82YX6/view?usp=sharing)
-
-### 2010
-
-| Expert | Priod  | By | Supported By   | Inquiry | Documents
-|:--------------------------------------:|:-------:|:---------------:|:-------------------|:------------|:--------------|
-| Associate Degree of Software   | 2Y       |  Shahid Mohajer  | Vocational/Polytechnic University  | [14031647255614882114](http://portal.saorg.ir/inquiry?code=14031647255614882114) | [G](https://drive.google.com/file/d/1ufkz_CoHfO4nSCJGZJEQRO0_OmQsDfZB/view?usp=sharing)
-
-### 2008
-
-| Expert | Priod  | By | Supported By   | Inquiry | Documents
-|:--------------------------------------:|:-------:|:---------------:|:-------------------|:------------|:--------------|
-| Diploma Degree in Computer   | 2Y       |  Shahid Montazeri  | Diploma School  | [40302299964926](https://emt.medu.ir/) | [G](https://drive.google.com/file/d/1VUB3CYN3cWhbJn-wP50EV3ERBAFFbZtG/view?usp=sharing)
