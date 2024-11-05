@@ -36,7 +36,7 @@ author: "Arman Riazi"
 ### 2025
 
 | Expert | Priod  | By | Supported By   | Inquiry | Documents
-|:-------------------------------------------:|:-------:|:---------------:|:------------------|:------------|:-----------|
+|-------------------------------------------|-------|---------------|------------------|------------|-----------|
 |  IELTS  |   2Y    |  IELTS IDP    | IELTS  | [1](https://maktabkhooneh.org/certificates/MK-GCX33E/?print=true)     | [G](https://drive.google.com/file/d/1x8qAMMa8nH3bvw6FxnnSBIF5N6ZED--r/view?usp=sharing) |
 
 
@@ -47,7 +47,7 @@ author: "Arman Riazi"
   <summary>Bundle Certifications 2024</summary>  
 
     | Expert | Priod  | By | Supported By   | Inquiry | Documents
-    |:-------------------------------------------:|:-------:|:---------------:|:------------------|:------------|:-----------|
+    |-------------------------------------------|-------|---------------|------------------|------------|-----------|
     |  Regenerative Finance  2023-2024     |    18W    |  Frankfurt University School of the Blockchain&Business    | ECOTA  | [1](https://web3-talents.io/refi-talents/refi-alumni/refi-talents-alumni-arman-riazi/)     | [C](https://cutt.ly/armanriazi-refi) |
     | Creative and Design Thinking process and tools for innovation     |    14H    |  Polimi De Milano University    | Polimi  | -  | [G](https://drive.google.com/file/d/1nMWz9OlOtLoyJ6P61WOWcQbnz_qMmUlY/view?usp=sharing) |
     | The Ultimate Cybersecurity Awareness Bundle |    56H    |  EC-Council University    | ECCouncil  | [1](https://consisting-of-15-hands-on-courses-focused-on-building-practical-skills-for-real-world-cybersecurity-challenges)  | [G](https://https://consisting-of-15-hands-on-courses-focused-on-building-practical-skills-for-real-world-cybersecurity-challenge) |
@@ -65,7 +65,7 @@ author: "Arman Riazi"
 
     === "Expertss"
         | Expert | Priod  | By | Supported By   | Inquiry | Documents
-        |:-------------------------------------------:|:-------:|:---------------:|:------------------|:------------|:-----------|
+        |-------------------------------------------|-------|---------------|------------------|------------|-----------|
         |  Network defense fundamentals Training for IT Beginners    |    4H    |  CodeRed.EcCouncil.org    | EC-Council  | [1](https://codered.eccouncil.org/certificate/39fcaf4d-c386-44ff-84a2-855286949454) |
         |  Learn Linux Security Through Practical Steps    |    2H    |  CodeRed.EcCouncil.org    | EC-Council  | [1](https://codered.eccouncil.org/certificate/79b5bf15-c296-48e7-a367-2297902e28b1) |
         |  Linux Command Line for an Ethical Hacker    |    4H    |CodeRed.EcCouncil.org    | EC-Council  | [1](https://codered.eccouncil.org/certificate/39fcaf4d-c386-44ff-84a2-855286949454) |
@@ -90,7 +90,7 @@ author: "Arman Riazi"
   <summary>Bundle Certifications 2023</summary>  
 
     | Expert | Priod  | By | Supported By   | Inquiry | Documents
-    |:-------------------------------------------:|:-------:|:---------------:|:------------------|:------------|:-----------|
+    |-------------------------------------------|-------|---------------|------------------|------------|-----------|
     | BLOC529-MC Decentralized Finance(Spring)     | 6W       |  Nicosia University   | UNIC  | [1](https://courses.unic.ac.cy/)     | [C](https://cutt.ly/armanriazi-defi-unic) |
     | Become-A-Rust-Professional    | 138H       |  educative.io   | educative  | [1](https://www.educative.io/verify-certificate/1j8yMXCBKBYmXmK2GHOEA9mnpKwPUp),[2](https://www.educative.io/verify-certificate/QApPNYA64r2clVE5XBNYJGHQ2OZGYMKj7T9),[3](https://www.educative.io/verify-certificate/585DM2txV56KZx8NxulL9K43ywJquq),[4](https://www.educative.io/verify-certificate/Y6GKZ1ijpWw4oDO1XhjWwo2K9x18TJ)    | [C-Boundled](https://cutt.ly/armanriazi-rust-pro-educative)    |
     | Blockchain-DistributedSYS-CyberSec  | 20H       |  educative.io  | educative  |   [1](https://www.educative.io/verify-certificate/49vom8N6ngNh6rgGjvGAPYuNKXr3qBL2PcG),[2](https://www.educative.io/verify-certificate/985KjktxW9QrjWANLIZnQAGV3xWDFN),[3](https://www.educative.io/verify-certificate/vgA3wPFLmLVKzwkA2t8VE4wnzZBlul)   | [C-Bundled](https://cutt.ly/armanriazi-blockchain-dist-cyber-educative),[G](https://drive.google.com/file/d/1RPNVrAIhxBZqlhkMY5fBc6E53lydLPov/view?usp=share_link)  |
@@ -119,7 +119,7 @@ Regarding for download master's degree, please send your request gaining access.
   <summary> Universities </summary>  
   
     | Expert | Priod  | By | Supported By   | Inquiry | Documents
-    |:--------------------------------------:|:-------:|:---------------:|:-------------------|:------------|:--------------|
+    |--------------------------------------|-------|---------------|-------------------|------------|--------------|
     | Master Of Science-Information Technology     | 4Y       |  Azad Najafabad University   | IAUN  | [1500007081743684272588654](https://estelam.iau.ir/Home/SearechEstelamID)     | [G-Academic-Degree](https://drive.google.com/file/d/1VKXfPPTzVPonALERdxU4LcRRvJBRMNHV/view?usp=share_link) And [Credits'Details](https://drive.google.com/file/d/1h98c3oklzv-tyi6b3xvfR4QEUfdbNHXH/view?usp=share_link) |
     | Bchelor's Degree of Software Engineer 2023   | 2Y       |  Sina Kashan   | Non-profit University  | [14001947342241661127](http://portal.saorg.ir/inquiry?code=14001947342241661127)  |  [G](https://drive.google.com/file/d/1vfPRZqlndKi8aBK5ZfM0wdQTzug82YX6/view?usp=sharing) |
     | Associate Degree of Software 2010   | 2Y       |  Shahid Mohajer  | Vocational/Polytechnic University  | [14031647255614882114](http://portal.saorg.ir/inquiry?code=14031647255614882114) | [G](https://drive.google.com/file/d/1ufkz_CoHfO4nSCJGZJEQRO0_OmQsDfZB/view?usp=sharing) |
@@ -138,7 +138,7 @@ Regarding for download master's degree, please send your request gaining access.
   <summary>Major Projects</summary>  
   
     | Major Projects | Lang/Frameworks  | Duration | Branch
-    |:------------------------------------------------------------------------------:|:-------------------:|:--------:|:----------------|
+    |------------------------------------------------------------------------------|-------------------|--------|----------------|
     | Rust-All-In-One    | MDBook of Pure Rust       |  3M   | [All-In-One-Rust](https://github.com/armanriazi/rust-all-in-one)  |
     | TypeScript-All-In-One     |  MDBook of TypeScript       |  1M   | [All-In-One-TS](https://github.com/armanriazi/typescript-all-in-one)  |
     | Rust Awesome    | Pure Rust       |  1Y   | [Awesome-Rust](https://github.com/armanriazi/armanriazi-awesome-rust)  |
@@ -153,7 +153,7 @@ Regarding for download master's degree, please send your request gaining access.
   <summary>Sub Projects</summary>  
 
     | SubProjects | Lang/Frameworks  | Duration | Reference
-    |:------------------------------------------------------------------------------:|:-------------------:|:--------:|:----------------|
+    |------------------------------------------------------------------------------|-------------------|--------|----------------|
     | Customize Cloudsim framework to create scientific workflows on my suggested architecture based on vm-container to run written ACO Algorithm for [[master]] thesis     | Pure Java       |  2Y   | [Cloudsim-Workflow-Function-Container-ACO](https://github.com/armanriazi/Cloudsim-Workflow-Function-Container-ACO)  |
     | A scratch blockchain (POW)     | Pure Rust       |  1M   | [Blockchain](https://github.com/armanriazi/armanriazi-blockchain)  |
     | BookRent Microservice     |  NestJS, TS, Postgresql, NATServer, TypeORm, CQRS, Monorepo, Microservice       |  1M   | [JS-Family](https://github.com/armanriazi/nestjs-microservice-projects/tree/main/bookrent-nats)  |
@@ -168,16 +168,14 @@ Regarding for download master's degree, please send your request gaining access.
 
 ## Publications
 
-### Books
-
-#### Ultimate Rust Systems Programming Architecting
-
+<details>  
+  <summary>Books</summary>  
+<b>Ultimate Rust Systems Programming Architecting</b>
 - [Amazon](https://www.amazon.co.uk/Ultimate-Rust-Systems-Programming-Architecting/dp/8196994737)
 
-#### Rust as a Modern Mother Language Advanced Techniques for Developing Robust Applications
-
+<b>Rust as a Modern Mother Language Advanced Techniques for Developing Robust Applications</b>
 - [Volume 1](https://www.motekhassesan.com/?p=48543)
-
+  
 - [Volume 2](https://www.motekhassesan.com/?p=48977)
 
 <figure markdown>
@@ -187,10 +185,10 @@ Regarding for download master's degree, please send your request gaining access.
 
 > Availiable to buy on `ketabrah.ir` and `digikala.com`
 
-### Papers
+</details>
 
 <details>  
-  <summary>Expanded Table</summary>  
+  <summary>Papers</summary>  
 
     <b>Using ACO Algorithm to Improve Performance for Container-based Scientific</b>
     [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8105650.svg)](https://doi.org/10.5281/zenodo.8105650)
