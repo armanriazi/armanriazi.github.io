@@ -192,34 +192,40 @@ Regarding for download master's degree, please send your request gaining access.
   <summary>Papers</summary>  
 
     <b>Using ACO Algorithm to Improve Performance for Container-based Scientific</b>
-    
-    [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8105650.svg)](https://doi.org/10.5281/zenodo.8105650)
-    
-    - [A. Riazi [Using ACO Algorithm to Improve Performance for  Container-based Scientific Workflows] - ScieNFT 2023 Nov NFTID: 163](https://scienft.com/nfts/155)
+    <a href="https://doi.org/10.5281/zenodo.8105650" target="_blank">  
+       <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.8105650.svg" alt="DOI" />  
+    </a>          
+    <a href="https://scienft.com/nfts/155"> A. Riazi [Using ACO Algorithm to Improve Performance for  Container-based Scientific Workflows] - ScieNFT 2023 Nov NFTID: 163</a>
     
     <b>Estimating Mental Health by Analyzing the Impact of Cognitive Load on Working Memory Using AI</b>
     
-    - [Reviewer_Springer](https://link.springer.com/journal/42486)
+    <a href="https://link.springer.com/journal/42486">Reviewer_Springer</a>
     
     <!--https://www.researchsquare.com/article/rs-5382132/private/timeline-->
     
     <b> MFS:Towards Blanket Licensing Digitized Music Decentralized </b>
     
-    [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8023208.svg)](https://doi.org/10.5281/zenodo.8023208)
+    <a href="https://doi.org/10.5281/zenodo.8023208" target="_blank">  
+       <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.8023208.svg" alt="DOI" />  
+    </a>   
     
-    - [A. Riazi [Towards a new Blanket Licensing Digitized NFT Music Decentralized] - ScieNFT 2023 Nov NFTID: 164](https://scienft.com/nfts/156)
+    <a href="https://scienft.com/nfts/156">A. Riazi [Towards a new Blanket Licensing Digitized NFT Music Decentralized] - ScieNFT 2023 Nov NFTID: 164</a>
     
     <b> Understanding the Landscape of Regenerating Finance and Digital Transformation </b>
+
+    <a href="https://doi.org/10.5281/zenodo.10512397" target="_blank">  
+       <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.10512397.svg" alt="DOI" />  
+    </a>     
     
-    [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10512397.svg)](https://doi.org/10.5281/zenodo.10512397)
-    
-    - [A. Riazi [Understanding the Landscape of Regenerating Finance and Digital Transformation] - ScieNFT 2024 Jan NFTID: 318](https://scienft.com/nfts/318)
+    <a href="https://scienft.com/nfts/318"> A. Riazi [Understanding the Landscape of Regenerating Finance and Digital Transformation] - ScieNFT 2024 Jan NFTID: 318</a>
     
     <b> Digital Transformation in Smart Cities: Decentralized Architecture for Sustainable Development within the Web 3.0 Ecosystem </b>
+
+    <a href="https://doi.org/10.5281/zenodo.11002930" target="_blank">  
+       <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.11002930.sv" alt="DOI" />  
+    </a>       
     
-    [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.11002930.svg)](https://doi.org/10.5281/zenodo.11002930)
-    
-    - [A. Riazi [Digital Transformation in Smart Cities Decentralized Architecture for Sustainable Development within the Web3.0 Ecosystem] - ScieNFT 2024 Apr NFTID:5756](https://scienft.com/nfts/5756)
+    <a href="https://scienft.com/nfts/5756"> A. Riazi [Digital Transformation in Smart Cities Decentralized Architecture for Sustainable Development within the Web3.0 Ecosystem] - ScieNFT 2024 Apr NFTID:5756 </a>
 
 </details>  
 
