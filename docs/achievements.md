@@ -33,21 +33,6 @@ author: "Arman Riazi"
 
 - [Out of the box](https://armanriazi.github.io/links/#learning-profiles)
 
-# My Documentation  
-
-## Collapsible Table Section  
-
-<details>  
-  <summary>Click to expand/collapse the table</summary>  
-
-  | Column 1 | Column 2 | Column 3 |  
-  |----------|----------|----------|  
-  | Row 1    | Data 1   | Data 2   |  
-  | Row 2    | Data 3   | Data 4   |  
-  | Row 3    | Data 5   | Data 6   |  
-
-</details>
-
 ### 2025
 
 | Expert | Priod  | By | Supported By   | Inquiry | Documents
@@ -57,7 +42,9 @@ author: "Arman Riazi"
 
 ### 2024
 
-??? Bundle Certifications 2024
+
+<details>  
+  <summary>Bundle Certifications 2024</summary>  
 
     | Expert | Priod  | By | Supported By   | Inquiry | Documents
     |:-------------------------------------------:|:-------:|:---------------:|:------------------|:------------|:-----------|
@@ -71,9 +58,10 @@ author: "Arman Riazi"
     |   Design Patterns,OOP, and DDD    |    23H    |   educative.io  |  educative |  [1](https://www.educative.io/verify-certificate/2R50XYCRLLNAGpPoQhLZNGxR8LAQF3), [2](https://www.educative.io/verify-certificate/29lK9lGKG40F6KwLrnB0EKsLZNGxR8LAQF3), [3](https://www.educative.io/verify-certificate/xGD3yRSRynNJX5J8mtA9DyNr0AZ3IE)    | [C](https://cutt.ly/armanriazi-designpatterns-oop-ddd),[G](https://drive.google.com/file/d/18A7f7pgSqie3J7vpv6wf5g_8tztZgPos/view?usp=sharing)  |
     |  IELTS Listening    |    11H    |  MaktabKhooneh.Org    | MaktabKhooneh  | [1](https://maktabkhooneh.org/certificates/MK-GCX33E/?print=true)     | [G](https://drive.google.com/file/d/1x8qAMMa8nH3bvw6FxnnSBIF5N6ZED--r/view?usp=sharing) |
 
+</details>  
 
-
-??? The Ultimate Cybersecurity Awareness Bundle 2024
+<details>  
+  <summary>The Ultimate Cybersecurity Awareness Bundle 2024</summary>  
 
     === "Expertss"
         | Expert | Priod  | By | Supported By   | Inquiry | Documents
@@ -94,10 +82,12 @@ author: "Arman Riazi"
         |  Expanding MITRE ATT&CK with ATT&CK Workbench    |    4H    |  CodeRed.EcCouncil.org    | EC-Council  | [1](https://codered.eccouncil.org/certificate/39fcaf4d-c386-44ff-84a2-855286949454) |
         |  Black Hat Python for Pentesters    |    4H    |  CodeRed.EcCouncil.org    | EC-Council  | [1](https://codered.eccouncil.org/certificate/39fcaf4d-c386-44ff-84a2-855286949454) |
 
+</details>  
 
 ### 2023
 
-??? Bundle Certifications 2023
+<details>  
+  <summary>Bundle Certifications 2023</summary>  
 
     | Expert | Priod  | By | Supported By   | Inquiry | Documents
     |:-------------------------------------------:|:-------:|:---------------:|:------------------|:------------|:-----------|
@@ -119,12 +109,14 @@ author: "Arman Riazi"
     | NFT Web 3.0, The Metaverse     | 4H       |  Alison.com  | Alison  |  [1](https://alison.com/certification/check/$2y$10$oxjbgXtM04Os0lTQMWtaUeLlqaKY8BbzbjkS5KIWDS69NW1dOMsi)    | [C-Boundled](https://cutt.ly/metaverse-nft-web3-alison-image)   |
     |  Soft Skills  | 09:30 H       |  Udemy – The Open University  | udemy.com, open.ac.uk  |  Boundled    | [G](https://drive.google.com/file/d/1P4JMz3Sv2CtimgMQ4dyXmbFhYrcp-SFC/view?usp=share_link)    |
 
+</details>  
 
 ### Academic
 
 Regarding for download master's degree, please send your request gaining access.
 
-??? Universities
+<details>  
+  <summary> Universities </summary>  
   
     | Expert | Priod  | By | Supported By   | Inquiry | Documents
     |:--------------------------------------:|:-------:|:---------------:|:-------------------|:------------|:--------------|
@@ -133,26 +125,17 @@ Regarding for download master's degree, please send your request gaining access.
     | Associate Degree of Software 2010   | 2Y       |  Shahid Mohajer  | Vocational/Polytechnic University  | [14031647255614882114](http://portal.saorg.ir/inquiry?code=14031647255614882114) | [G](https://drive.google.com/file/d/1ufkz_CoHfO4nSCJGZJEQRO0_OmQsDfZB/view?usp=sharing) |
     | Diploma Degree in Computer 2008   | 2Y       |  Shahid Montazeri  | Diploma School  | [40302299964926](https://emt.medu.ir/) | [G](https://drive.google.com/file/d/1VUB3CYN3cWhbJn-wP50EV3ERBAFFbZtG/view?usp=sharing) |
 
+</details>  
+
 ## Projects
 
 > This table is significant projects that I fulfilled so far.
 > Frontend and backend codes that writted alone.
 > I can not share so many projects that I did it for a company.
 
-??? Sub Projects
 
-    | SubProjects | Lang/Frameworks  | Duration | Reference
-    |:------------------------------------------------------------------------------:|:-------------------:|:--------:|:----------------|
-    | Customize Cloudsim framework to create scientific workflows on my suggested architecture based on vm-container to run written ACO Algorithm for [[master]] thesis     | Pure Java       |  2Y   | [Cloudsim-Workflow-Function-Container-ACO](https://github.com/armanriazi/Cloudsim-Workflow-Function-Container-ACO)  |
-    | A scratch blockchain (POW)     | Pure Rust       |  1M   | [Blockchain](https://github.com/armanriazi/armanriazi-blockchain)  |
-    | BookRent Microservice     |  NestJS, TS, Postgresql, NATServer, TypeORm, CQRS, Monorepo, Microservice       |  1M   | [JS-Family](https://github.com/armanriazi/nestjs-microservice-projects/tree/main/bookrent-nats)  |
-    | Vidly Web Application    |  Reactjs, Couchdb, IBM Cloud, Resful API       |  1M   | [Vidly Web Application](https://github.com/armanriazi/armanriazi-reactjs-couchdb-cloud-api)  |
-    | An enterprise project in the field of energy(2017-18)    | .Netcore, Apollo GraphQL, Swagger, ExpressJS (SSR), Angular      |  1.6Y   | [NetCore-GraphQl-RestApi-Angular](https://github.com/armanriazi/ApplicantPortal)  |
-
----
-
-
-??? Major Projects
+<details>  
+  <summary>Major Projects</summary>  
   
     | Major Projects | Lang/Frameworks  | Duration | Branch
     |:------------------------------------------------------------------------------:|:-------------------:|:--------:|:----------------|
@@ -162,7 +145,24 @@ Regarding for download master's degree, please send your request gaining access.
     | JS-family     |  NestJS framework, TS, Postgresql, NodeJS       |  1Y  | [JS-Family](https://github.com/armanriazi/armanriazi-js-family)  |
     | Blockchain     |  Blockchain, Rust, Solidity, Substrate       |  6M   | [Blockchain](https://github.com/armanriazi/armanriazi-blockchain)  |
 
-- [Archive 2012-2020](./public/archive/archive.md)
+</details> 
+
+---
+
+<details>  
+  <summary>Sub Projects</summary>  
+
+    | SubProjects | Lang/Frameworks  | Duration | Reference
+    |:------------------------------------------------------------------------------:|:-------------------:|:--------:|:----------------|
+    | Customize Cloudsim framework to create scientific workflows on my suggested architecture based on vm-container to run written ACO Algorithm for [[master]] thesis     | Pure Java       |  2Y   | [Cloudsim-Workflow-Function-Container-ACO](https://github.com/armanriazi/Cloudsim-Workflow-Function-Container-ACO)  |
+    | A scratch blockchain (POW)     | Pure Rust       |  1M   | [Blockchain](https://github.com/armanriazi/armanriazi-blockchain)  |
+    | BookRent Microservice     |  NestJS, TS, Postgresql, NATServer, TypeORm, CQRS, Monorepo, Microservice       |  1M   | [JS-Family](https://github.com/armanriazi/nestjs-microservice-projects/tree/main/bookrent-nats)  |
+    | Vidly Web Application    |  Reactjs, Couchdb, IBM Cloud, Resful API       |  1M   | [Vidly Web Application](https://github.com/armanriazi/armanriazi-reactjs-couchdb-cloud-api)  |
+    | An enterprise project in the field of energy(2017-18)    | .Netcore, Apollo GraphQL, Swagger, ExpressJS (SSR), Angular      |  1.6Y   | [NetCore-GraphQl-RestApi-Angular](https://github.com/armanriazi/ApplicantPortal)  |
+
+</details>  
+
+[Archive 2012-2020](./public/archive/archive.md)
 
 `To get updated, please checkout pinned repositories on the GitHub profile`
 
@@ -189,7 +189,8 @@ Regarding for download master's degree, please send your request gaining access.
 
 ### Papers
 
-??? Expand it
+<details>  
+  <summary>Expanded Table</summary>  
 
     <b>Using ACO Algorithm to Improve Performance for Container-based Scientific</b>
     [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8105650.svg)](https://doi.org/10.5281/zenodo.8105650)
@@ -211,4 +212,5 @@ Regarding for download master's degree, please send your request gaining access.
     [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.11002930.svg)](https://doi.org/10.5281/zenodo.11002930)
     - [A. Riazi [Digital Transformation in Smart Cities Decentralized Architecture for Sustainable Development within the Web3.0 Ecosystem] - ScieNFT 2024 Apr NFTID:5756](https://scienft.com/nfts/5756)
 
+</details>  
 
