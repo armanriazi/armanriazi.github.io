@@ -33,6 +33,21 @@ author: "Arman Riazi"
 
 - [Out of the box](https://armanriazi.github.io/links/#learning-profiles)
 
+# My Documentation  
+
+## Collapsible Table Section  
+
+<details>  
+  <summary>Click to expand/collapse the table</summary>  
+
+  | Column 1 | Column 2 | Column 3 |  
+  |----------|----------|----------|  
+  | Row 1    | Data 1   | Data 2   |  
+  | Row 2    | Data 3   | Data 4   |  
+  | Row 3    | Data 5   | Data 6   |  
+
+</details>
+
 ### 2025
 
 | Expert | Priod  | By | Supported By   | Inquiry | Documents
@@ -44,8 +59,6 @@ author: "Arman Riazi"
 
 ??? Bundle Certifications 2024
 
-    === "Experts"
-    
     | Expert | Priod  | By | Supported By   | Inquiry | Documents
     |:-------------------------------------------:|:-------:|:---------------:|:------------------|:------------|:-----------|
     |  Regenerative Finance  2023-2024     |    18W    |  Frankfurt University School of the Blockchain&Business    | ECOTA  | [1](https://web3-talents.io/refi-talents/refi-alumni/refi-talents-alumni-arman-riazi/)     | [C](https://cutt.ly/armanriazi-refi) |
