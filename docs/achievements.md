@@ -42,9 +42,10 @@ author: "Arman Riazi"
 
 ### 2024
 
-
+<!--
 <details>  
   <summary>Bundle Certifications 2024</summary>  
+-->
 
   | Expert | Priod  | By | Supported By   | Inquiry | Documents
   |-------------------------------------------|-------|---------------|------------------|------------|-----------|
@@ -58,10 +59,12 @@ author: "Arman Riazi"
   |   Design Patterns,OOP, and DDD    |    23H    |   educative.io  |  educative |  [1](https://www.educative.io/verify-certificate/2R50XYCRLLNAGpPoQhLZNGxR8LAQF3), [2](https://www.educative.io/verify-certificate/29lK9lGKG40F6KwLrnB0EKsLZNGxR8LAQF3), [3](https://www.educative.io/verify-certificate/xGD3yRSRynNJX5J8mtA9DyNr0AZ3IE)    | [C](https://cutt.ly/armanriazi-designpatterns-oop-ddd),[G](https://drive.google.com/file/d/18A7f7pgSqie3J7vpv6wf5g_8tztZgPos/view?usp=sharing)  |
   |  IELTS Listening    |    11H    |  MaktabKhooneh.Org    | MaktabKhooneh  | [1](https://maktabkhooneh.org/certificates/MK-GCX33E/?print=true)     | [G](https://drive.google.com/file/d/1x8qAMMa8nH3bvw6FxnnSBIF5N6ZED--r/view?usp=sharing) |
 
+<!--
 </details>  
 
 <details>  
   <summary>The Ultimate Cybersecurity Awareness Bundle 2024</summary>  
+-->
 
   | Expert | Priod  | By | Supported By   | Inquiry | Documents
   |-------------------------------------------|-------|---------------|------------------|------------|-----------|
@@ -81,12 +84,14 @@ author: "Arman Riazi"
   |  Expanding MITRE ATT&CK with ATT&CK Workbench    |    4H    |  CodeRed.EcCouncil.org    | EC-Council  | [1](https://codered.eccouncil.org/certificate/39fcaf4d-c386-44ff-84a2-855286949454) |
   |  Black Hat Python for Pentesters    |    4H    |  CodeRed.EcCouncil.org    | EC-Council  | [1](https://codered.eccouncil.org/certificate/39fcaf4d-c386-44ff-84a2-855286949454) |
 
-</details>  
+<!--</details>  -->
 
 ### 2023
 
+<!--
 <details>  
   <summary>Bundle Certifications 2023</summary>  
+-->
 
   | Expert | Priod  | By | Supported By   | Inquiry | Documents
   |-------------------------------------------|-------|---------------|------------------|------------|-----------|
@@ -108,14 +113,17 @@ author: "Arman Riazi"
   | NFT Web 3.0, The Metaverse     | 4H       |  Alison.com  | Alison  |  [1](https://alison.com/certification/check/$2y$10$oxjbgXtM04Os0lTQMWtaUeLlqaKY8BbzbjkS5KIWDS69NW1dOMsi)    | [C-Boundled](https://cutt.ly/metaverse-nft-web3-alison-image)   |
   |  Soft Skills  | 09:30 H       |  Udemy – The Open University  | udemy.com, open.ac.uk  |  Boundled    | [G](https://drive.google.com/file/d/1P4JMz3Sv2CtimgMQ4dyXmbFhYrcp-SFC/view?usp=share_link)    |
 
-</details>  
+
+<!--</details> -->
 
 ### Academic
 
 Regarding for download master's degree, please send your request gaining access.
 
+<!--
 <details>  
   <summary> Universities </summary>  
+-->
   
   | Expert | Priod  | By | Supported By   | Inquiry | Documents
   |--------------------------------------|-------|---------------|-------------------|------------|--------------|
@@ -124,7 +132,7 @@ Regarding for download master's degree, please send your request gaining access.
   | Associate Degree of Software 2010   | 2Y       |  Shahid Mohajer  | Vocational/Polytechnic University  | [14031647255614882114](http://portal.saorg.ir/inquiry?code=14031647255614882114) | [G](https://drive.google.com/file/d/1ufkz_CoHfO4nSCJGZJEQRO0_OmQsDfZB/view?usp=sharing) |
   | Diploma Degree in Computer 2008   | 2Y       |  Shahid Montazeri  | Diploma School  | [40302299964926](https://emt.medu.ir/) | [G](https://drive.google.com/file/d/1VUB3CYN3cWhbJn-wP50EV3ERBAFFbZtG/view?usp=sharing) |
 
-</details>  
+<!--</details>-->
 
 ## Projects
 
@@ -133,8 +141,10 @@ Regarding for download master's degree, please send your request gaining access.
 > I can not share so many projects that I did it for a company.
 
 
+<!--
 <details>  
   <summary>Major Projects</summary>  
+-->
   
   | Major Projects | Lang/Frameworks  | Duration | Branch
   |------------------------------------------------------------------------------|-------------------|--------|----------------|
@@ -148,8 +158,10 @@ Regarding for download master's degree, please send your request gaining access.
 
 ---
 
+<!--
 <details>  
   <summary>Sub Projects</summary>  
+-->
 
   | SubProjects | Lang/Frameworks  | Duration | Reference
   |------------------------------------------------------------------------------|-------------------|--------|----------------|
@@ -159,7 +171,7 @@ Regarding for download master's degree, please send your request gaining access.
   | Vidly Web Application    |  Reactjs, Couchdb, IBM Cloud, Resful API       |  1M   | [Vidly Web Application](https://github.com/armanriazi/armanriazi-reactjs-couchdb-cloud-api)  |
   | An enterprise project in the field of energy(2017-18)    | .Netcore, Apollo GraphQL, Swagger, ExpressJS (SSR), Angular      |  1.6Y   | [NetCore-GraphQl-RestApi-Angular](https://github.com/armanriazi/ApplicantPortal)  |
 
-</details>  
+<!-- </details>  -->
 
 [Archive 2012-2020](./public/archive/archive.md)
 
@@ -179,7 +191,7 @@ Regarding for download master's degree, please send your request gaining access.
 
   <a href="https://www.motekhassesan.com/?p=48977">Volume 2</a>
 
-</details>
+<!-- </details> -->
 
 <figure markdown>
 ![Rust as a Modern Mother Language Advanced Techniques for Developing Robust Applications](https://armanriazi.github.io/assets/attachments/myrustbook.jpg){ width=300 height=150 align=left }
@@ -188,8 +200,10 @@ Regarding for download master's degree, please send your request gaining access.
 
 > Availiable to buy on `ketabrah.ir` and `digikala.com`
 
+<!--
 <details>  
   <summary>Papers</summary>  
+-->
 
     <b>Using ACO Algorithm to Improve Performance for Container-based Scientific</b>
     <a href="https://doi.org/10.5281/zenodo.8105650" target="_blank">  
@@ -227,5 +241,5 @@ Regarding for download master's degree, please send your request gaining access.
     
     <a href="https://scienft.com/nfts/5756"> A. Riazi [Digital Transformation in Smart Cities Decentralized Architecture for Sustainable Development within the Web3.0 Ecosystem] - ScieNFT 2024 Apr NFTID:5756 </a>
 
-</details>  
+<!-- </details>  -->
 
