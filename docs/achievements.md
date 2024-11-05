@@ -62,8 +62,7 @@ author: "Arman Riazi"
 |  Black Hat Python for Pentesters    |    4H    |  CodeRed.EcCouncil.org    | EC-Council  | [1](https://codered.eccouncil.org/certificate/39fcaf4d-c386-44ff-84a2-855286949454) |
 
 </details>
-<details>
-  
+
 | Expert | Priod  | By | Supported By   | Inquiry | Documents
 |:-------------------------------------------:|:-------:|:---------------:|:------------------|:------------|:-----------|
 |  Regenerative Finance  2023-2024     |    18W    |  Frankfurt University School of the Blockchain&Business    | ECOTA  | [1](https://web3-talents.io/refi-talents/refi-alumni/refi-talents-alumni-arman-riazi/)     | [C](https://cutt.ly/armanriazi-refi) |
