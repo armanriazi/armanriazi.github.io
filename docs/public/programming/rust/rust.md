@@ -9,12 +9,16 @@ feature:  Rust
 keywords:  github armanriazi programming rust
 ---
 
-## Certificate 2023
+## Certification 2023
 
 | Expert | Priod  | By | Supported By   | Inquiry | Documents 
 |:-----------:|:-----:|:-------------:|:----------------|:------------|:---------------------|
 | Become-A-Rust-Professional    | 138H       |  educative.io/profile/view/5215295720652800    | educative.io  | [1](https://www.educative.io/verify-certificate/1j8yMXCBKBYmXmK2GHOEA9mnpKwPUp), [2](https://www.educative.io/verify-certificate/QApPNYA64r2clVE5XBNYJGHQ2OZGYMKj7T9), [3](https://www.educative.io/verify-certificate/585DM2txV56KZx8NxulL9K43ywJquq), [4](https://www.educative.io/verify-certificate/Y6GKZ1ijpWw4oDO1XhjWwo2K9x18TJ)    | [Boundled](https://cutt.ly/armanriazi-rust-pro-educative)    |
 | Substrate-For-Analog(Rust, Java General Code)  | Hands-On Lab |  Karat  | Karat, TripleByte | [1](https://triplebyte.com/tb/arman-riazi-h4icoca) | [G](https://drive.google.com/file/d/1aC-Jpgd0j5wyn5QDDnOi6aGcfEe2TtkZ/view)     |
+
+## Listed on the packaging hub of Repology
+
+[Rust-scratch-blockchain](https://repology.org/project/rust:blockchain-scratch-rust/information)
 
 ## Rust-Language
 
@@ -36,7 +40,7 @@ keywords:  github armanriazi programming rust
 
         * [Rust-All-In-One-non private ver 0.1.0](https://github.com/armanriazi/rust-all-in-one-2022-archived)
 
-    === "Relation page"
+    === "Related page"
 
         * [Rust Blockchain Framework(Substrate)](https://armanriazi.github.io/public/blockchain/Substrate)
 
@@ -51,11 +55,6 @@ keywords:  github armanriazi programming rust
 
         * [Rust as a Modern Mother Lang Advanced Techniques for Developing Robust APPs.Vol.2](https://www.motekhassesan.com/?p=48977)
 
-<figure markdown>
-![Rust as a Modern Mother Language Advanced Techniques for Developing Robust Applications](https://armanriazi.github.io/assets/attachments/myrustbook.jpg){ width=300 height=150 align=left }
-<figcaption>Rust as a Modern Mother Language Advanced Techniques for Developing Robust Applications</figcaption>
-</figure>
-
     === "Research"
 
         * [Highlighted Deep Dive Into Polkadot/Substrate/Kusama/Rust-Lang](rust-lang-research-intro.md)
@@ -63,6 +62,20 @@ keywords:  github armanriazi programming rust
         * [Rust-Lang-Ecosystem](rust-lang-ecosystem.md)
 
         * [Rust-lang-Hello-World](rust-learning-plan-chapter-1-notes.md)
+
+---
+
+<figure markdown>
+![Rust as a Modern Mother Language Advanced Techniques for Developing Robust Applications](https://armanriazi.github.io/assets/attachments/myrustbook.png){ width=300 height=150 align=left }
+<figcaption>Rust as a Modern Mother Language Advanced Techniques for Developing Robust Applications</figcaption>
+</figure>
+
+The book "RUST as a Modern Mother Language (Volume One)" contains advanced techniques for Rust programming aimed at developing robust applications. This comprehensive guide addresses advanced error and memory management techniques, as well as parallel and concurrent processing in Rust. It seeks to provide readers with an effective pathway for learning and utilizing Rust by integrating principles of object-oriented design with performance optimization concepts.
+
+In April 2021, Google, which supports the development of Android using Rust, initiated efforts to incorporate the Rust language into the Linux kernel. According to a report from The New Stack, Linus Torvalds noted that some attempts to integrate new languages into the Linux kernel have not been successful: "We tried C++ 25 years ago. We experimented for two weeks and then abandoned the effort.” The book delves into advanced techniques for error and memory management, parallel and concurrent processing in Rust, while aiming to combine object-oriented design and performance optimization concepts to create an effective learning and application pathway for readers. This book is divided into two volumes; the first volume covers introductory topics, language syntax, advanced memory management, unsafe code writing, pointers anatomy, and behavior patterns. The second volume focuses specifically on advanced object-oriented and functional programming topics, debugging, code correctness, concurrent programming, and introduces other recent studies in Rust programming. Additionally, the second section of the second volume offers project-based solutions for the exercises from both volumes for our esteemed readers.
+
+“One of the common questions is: if we are familiar with a programming language and utilize online resources for learning, why should we use this book to learn Rust?
+It should be noted that learning Rust differs from other languages, and half of the learning curve involves understanding conceptual frameworks; thus, this language extends beyond simple command instruction. The author's aim is to establish an effective connection between concepts and practical application, thereby facilitating the learning process for our valued readers.”
 
 ### Rust-All-In-One-Private
 
