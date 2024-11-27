@@ -20,6 +20,8 @@ keywords:  github armanriazi programming rust
 
 [Rust-scratch-blockchain](https://repology.org/project/rust:blockchain-scratch-rust/information)
 
+*The crate has been downloaded 1,522 times as of September 27, 2024.*
+
 ## Rust-Language
 
 !!! Savvy
