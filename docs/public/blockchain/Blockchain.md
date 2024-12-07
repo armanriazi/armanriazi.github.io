@@ -50,6 +50,33 @@ show:
        
 ---
 
+
+## Blockchain Experience
+
+``` Exprt: Experience ```
+``` Prd: Period ```
+``` Desc: Description ```
+``` Priority: My Interest priority for keeping in continuing ```
+
+| Exprt | Prd  |  MyPriority | Desc
+|:----------:|:-------------:|:---------------:|:---------------|
+| Rust-Lang      | 2Y       |  :material-check-all::material-check:        |      Fantastic, complex language for decentralized/distributed     |
+| Substrate     |  3 M           |       :material-check-all::material-check:          |        Awsome work of 🙏Dr.Gavin and parity.io community        |
+| Polkadot & Kusuma        |      1 M     |        :material-check-all::material-check:          |       Crowdloan, tokenization💲, parachain and parathreads         |
+| Blockchain Research       |      2 Y        |        :material-check-all::material-check:          |        It is always included in my routine activity during the day        |
+|    Solidity  | 2 M         |    :material-check-all:   | It seems to me that there would be better languages for development so in the near future we need to low-level lang for improve the performance of hardware resources |
+| IBM HyperLedger       |      1 M        |        :material-check-all:          |  HyperLedger is suited for organizations especially. Hyperledger has got good community and uses cloud-native tools but I think it is not a real decentralized blockchain framework for scalability and governance so I used to decide a little bit work on it           |
+| CryptocurrencyTrading | 1 Y  |  :material-check:      |   [Archived Cryptocurrency](public/archive/trading-archive-2021.md) |
+<!--[Experience losts liquid because of trading crypto in 2021 🤕](public/mynotes/exp-2021cryprotrading.md)-->
+
+!!! Abstract
+
+    There is not exactly the time to estimate spent time since developing and learning would go with each other. In my opinion, developers who had a kind of skills like Frontend, Backend, or Database have been forced into the Blockchain ecosystem because of the charm of the subject and the rapid growth and evolution of the Technology. I wonder to let you know I am big on **Substrate and WASM** Substrate, WASM to apply for mixing experiences and technologies that lead to **#Defi 3.0 & #Web 3.0**. It is the only chance I get to find out what's going on in the technology world and catch up with current affairs.
+
+!!! note "Companies scope"
+
+    I worked for companies that were B2B or B2C. Therefore, I have developed projects based on the skills mentioned in the resume, which did not need to be introduced on the personal website because the material and intellectual rights of the works must be preserved. I have worked for 5 domestic companies in the field of support, development, and consulting, and when I decided to work internationally(or decentralized), I spent a lot of time learning again and more(because there are a high inflation and economic pressure in the country so I estimated that the future will be harder but my top priority always have been gaining more experience in different places). You can see the prototypes of the works done on GitHub.
+
 !!! Certificates_and_Seen_Toturials
 
     === "Blockchain Certificates"

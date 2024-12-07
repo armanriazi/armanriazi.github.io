@@ -56,9 +56,9 @@ tags:
         
     === "2019-2020"
         
-        * [Reactjs-API-CouchDB](armanriazi-movies-reactjs.md)
+        * [Reactjs-API-CouchDB](nodejs/armanriazi-movies-reactjs.md)
 
-        * [API-CouchDB-IBMCloud](armanriazi-vidly-api.md)
+        * [API-CouchDB-IBMCloud](nodejs/armanriazi-vidly-api.md)
 
         * [Java-Cloudsim](https://github.com/armanriazi/Cloudsim-Workflow-Function-Container-ACO)      
 
