@@ -37,7 +37,7 @@ author: "Arman Riazi"
 
 | Expert | Priod  | By | Supported By   | Inquiry | Documents
 |-------------------------------------------|-------|---------------|------------------|------------|-----------|
-|  IELTS  |   2Y    |  IELTS IDP    | IELTS  | [1](https://maktabkhooneh.org/certificates/MK-GCX33E/?print=true)     | [G](https://drive.google.com/file/d/1x8qAMMa8nH3bvw6FxnnSBIF5N6ZED--r/view?usp=sharing) |
+|  IELTS  |   2Y    |  IELTS IDP    | IELTS  | [1](https://ielts.org/certificates/MK-GCX33E/?print=true)     | [G](https://drive.google.com/file/d/1x8qAMMa8nH3bvw6FxnnSBIF5N6ZED--r/view?usp=sharing) |
 
 ### 2024-2025
 
@@ -47,22 +47,9 @@ author: "Arman Riazi"
 
   | Expert | Priod  | By | Supported By   | Inquiry | Documents
   |-------------------------------------------|-------|---------------|------------------|------------|-----------|
-  |  Network defense fundamentals Training for IT Beginners    |    4H    |  CodeRed.EcCouncil.org    | EC-Council  | [1](https://codered.eccouncil.org/certificate/39fcaf4d-c386-44ff-84a2-855286949454) |
-  |  Learn Linux Security Through Practical Steps    |    2H    |  CodeRed.EcCouncil.org    | EC-Council  | [1](https://codered.eccouncil.org/certificate/79b5bf15-c296-48e7-a367-2297902e28b1) |
-  |  Linux Command Line for an Ethical Hacker    |    4H    |CodeRed.EcCouncil.org    | EC-Council  | [1](https://codered.eccouncil.org/certificate/39fcaf4d-c386-44ff-84a2-855286949454) |
-  |  AI Mastery in OT Security: Securing ICS/OT Infrastructures    |    4H    |  CodeRed.EcCouncil.org    | EC-Council  | [1](https://codered.eccouncil.org/certificate/39fcaf4d-c386-44ff-84a2-855286949454) |
-  |  Open-source Identity and Access Management    |    4H    |  CodeRed.EcCouncil.org    | EC-Council  | [1](https://codered.eccouncil.org/certificate/39fcaf4d-c386-44ff-84a2-855286949454) |
-  |  Practical Wireshark 3   |    4H    |  CodeRed.EcCouncil.org    | EC-Council  | [1](https://codered.eccouncil.org/certificate/39fcaf4d-c386-44ff-84a2-855286949454) |
-  |  Security Automation with Ansible    |    4H    |  CodeRed.EcCouncil.org    | EC-Council  | [1](https://codered.eccouncil.org/certificate/39fcaf4d-c386-44ff-84a2-855286949454) |
-  |  Demystifying Mobile Forensics    |    4H    | CodeRed.EcCouncil.org    | EC-Council  | [1](https://codered.eccouncil.org/certificate/39fcaf4d-c386-44ff-84a2-855286949454) |
-  |  Offensive Perspective - OWASP Security for Developers    |    4H    |  CodeRed.EcCouncil.org    | EC-Council  | [1](https://codered.eccouncil.org/certificate/39fcaf4d-c386-44ff-84a2-855286949454) |
-  |  Kali for Penetration Testers    |    4H    |  CodeRed.EcCouncil.org    | EC-Council  | [1](https://codered.eccouncil.org/certificate/39fcaf4d-c386-44ff-84a2-855286949454) |
-  |  Generative AI for Cybersecurity    |    4H    |  CodeRed.EcCouncil.org    | EC-Council  | [1](https://codered.eccouncil.org/certificate/39fcaf4d-c386-44ff-84a2-855286949454) |
-  |  Practical Cyber Threat Intelligence    |    4H    |  CodeRed.EcCouncil.org    | EC-Council  | [1](https://codered.eccouncil.org/certificate/39fcaf4d-c386-44ff-84a2-855286949454) |
-  |  Threat Modeling Deconstructed    |    4H    |  CodeRed.EcCouncil.org    | EC-Council  | [1](https://codered.eccouncil.org/certificate/39fcaf4d-c386-44ff-84a2-855286949454) |
-  |  Expanding MITRE ATT&CK with ATT&CK Workbench    |    4H    |  CodeRed.EcCouncil.org    | EC-Council  | [1](https://codered.eccouncil.org/certificate/39fcaf4d-c386-44ff-84a2-855286949454) |
-  |  Black Hat Python for Pentesters    |    4H    |  CodeRed.EcCouncil.org    | EC-Council  | [1](https://codered.eccouncil.org/certificate/39fcaf4d-c386-44ff-84a2-855286949454) |
-
+  | The Ultimate Cybersecurity Awareness Bundle |    56H    |  CodeRed.EcCouncil.org    | EC-Council  | [1](https://codered.eccouncil.org/certificate/39fcaf4d-c386-44ff-84a2-855286949454),  [G](https://drive.google.com/file/d/1x8qAMMa8nH3bvw6FxnnSBIF5N6ZED--r/view?usp=sharing) |
+  |  ISE, Access Management Training for Network Administrators - Cisco    |    14H    |  MaktabKhooneh.org    | MaktabKhooneh  | [1](https://maktabkhooneh.org/certificates/MK-GCX33E/?print=true),  [G](https://drive.google.com/file/d/1x8qAMMa8nH3bvw6FxnnSBIF5N6ZED--r/view?usp=sharing) |
+  |  CCNA, Cisco Network Assistant Certificate    |    69H    |  MaktabKhooneh.org    | MaktabKhooneh  | [1](https://maktabkhooneh.org/certificates/MK-GCX33E/?print=true),  [G](https://drive.google.com/file/d/1x8qAMMa8nH3bvw6FxnnSBIF5N6ZED--r/view?usp=sharing) |
 
 ### 2024
 
@@ -75,7 +62,6 @@ author: "Arman Riazi"
   |-------------------------------------------|-------|---------------|------------------|------------|-----------|
   |  Regenerative Finance  2023-2024     |    18W    |  Frankfurt University School of the Blockchain&Business    | ECOTA  | [1](https://web3-talents.io/refi-talents/refi-alumni/refi-talents-alumni-arman-riazi/)     | [C](https://cutt.ly/armanriazi-refi) |
   | Creative and Design Thinking process and tools for innovation     |    14H    |  Polimi De Milano University    | Polimi  | -  | [G](https://drive.google.com/file/d/1nMWz9OlOtLoyJ6P61WOWcQbnz_qMmUlY/view?usp=sharing) |
-  | The Ultimate Cybersecurity Awareness Bundle |    56H    |  EC-Council University    | ECCouncil  | [1](https://consisting-of-15-hands-on-courses-focused-on-building-practical-skills-for-real-world-cybersecurity-challenges)  | [G](https://https://consisting-of-15-hands-on-courses-focused-on-building-practical-skills-for-real-world-cybersecurity-challenge) |
   |  Mastering TypeScript     |    100H    |  educative.io    | educative.io  | [1](https://www.educative.io/verify-certificate/2R50XYC61v6Ln3y8QI0DWwmNykAkh3), [2](https://www.educative.io/verify-certificate/Q7w4Ok2DNk2SJVO7jKYJK3tQBVXnj4N3Nc9), [3](https://www.educative.io/verify-certificate/1j8yMXCLDGz9D9j8DhOjqg4wDx7xfp), [4](https://www.educative.io/verify-certificate/Q1wyXPtJ9j2Q7rAA3HQBVXnj4N3Nc9)     | [C](https://cutt.ly/armanriazi-typescript) |
   |   Microservice Principles and Concepts    |    10H    |  educative.io    | educative.io  | [1](https://www.educative.io/verify-certificate/xGD3yRSPXWLwANq56fgjXK4Do1Z1fE)     | [C](https://cutt.ly/QwBn94Gl) |
   |   Mastering PostgreSQL Databases    |    13H    |   educative & SkillUP  |  educative/simplilearn.com |  [1](https://www.educative.io/verify-certificate/l8oBvJ82GWmT62WKOyNL3JTjWAEw8DjrvhM), [2](https://simpli-web.app.link/e/RKOmVw3ffGb)    | [C](https://cutt.ly/armanriazi-postgresql),[G](https://drive.google.com/file/d/1r7kHL2NiRnw8bTo7V3SkVBBB4zfY03VQ/view?usp=sharing)  |

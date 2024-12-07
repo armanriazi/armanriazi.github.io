@@ -16,11 +16,10 @@ hide:
 
 [![mkdocs-ci](https://github.com/armanriazi/armanriazi.github.io/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/armanriazi/armanriazi.github.io/actions/workflows/ci.yml)
 
->  I've always enjoyed creating doc-knowledge for my work and then sharing it with others. 
-
->  The philosophy behind the creation of this page is to solve this issue.
+**I have always wanted to create a knowledge base for myself and then share it. The philosophy behind creating these pages is to address this issue.**
 
 > Through to my experiences. 
+
 > **[Main Menu](public/public.md)**
 
 > **[Video Guide-Website](public/other/guide-website.md)**

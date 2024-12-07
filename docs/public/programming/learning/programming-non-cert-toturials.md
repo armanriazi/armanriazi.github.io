@@ -4,7 +4,7 @@
 !!! Learnt Toturials 
 
     === "Rust Books Epub On Desktop 2023"
-        > I prefer to find important seasons that related to my work specially blockchain. I gather significant info on my desktop(offline documentation)
+        > I prefer to find important chapters that related to my work specially blockchain. I gathered significant info on my desktop(offline documentation)
         * Sendil Kumar Nellaiyapen - Practical WebAssembly_ Explore the fundamentals of WebAssembly programming using Rust-Packt Publishing (2022)
         * Rust-In-Action Tim McNamara
         * Mastering In Rust - Rahul Sharma
@@ -14,7 +14,7 @@
 
     === "Video courses 2019-2022"
 
-        * There are some integration on language and technologies so it is a part of blockhchain toturials. [Blockchain-Toturials](../../blockchain/learning/blockchain-non-cert-toturials.md)        
+        * There are some integration on language and technologies, so it is a part of blockhchain toturials. [Blockchain-Toturials](../../blockchain/learning/blockchain-non-cert-toturials.md)        
 
     === "Video courses 2010-2019"
 

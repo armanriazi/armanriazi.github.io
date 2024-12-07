@@ -1,6 +1,6 @@
 ---
 keywords:   armanriazi ArmanRiazi Github Blockchain Developer Polkadot Kusama Substrate Rust
-title: "Arman Riazi"
+title: "Blockchain"
 author: "Arman Riazi"
 search:
   exclude: false

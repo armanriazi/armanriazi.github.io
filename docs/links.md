@@ -35,7 +35,7 @@ permalink: /links
 
 #### Job
 
-* [Linkedin](https://www.linkedin.com/in/arman-riazi)
+* [Linkedin](https://www.linkedin.com/in/armanriazi-github-io)
 
 * [Xing](https://www.xing.com/profile/Arman_Riazi)
 

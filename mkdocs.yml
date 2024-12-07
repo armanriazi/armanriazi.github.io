@@ -5,18 +5,20 @@ repo_url: https://github.com/armanriazi/armanriazi.github.io
 nav:    
     - 'Home':
         - 'Index': 'index.md'                  
-    - 'Walk-through': 
-        - 'Walk-through': 'public/public.md'          
-    - 'Blockchain':       
-        - 'Blockchain': 'public/blockchain/Blockchain.md'    
-    - 'Programming':       
-        - 'Programming': 'public/programming/programming.md'         
     - 'Achievements':       
         - 'Achievements': 'achievements.md'                
+    - 'Walk-through': 
+        - 'Walk-through': 'public/public.md'          
     - 'Services':       
-        - 'Services': 'services.md'           
+        - 'Services': 'services.md'                   
+    - 'Programming':       
+        - 'Programming': 'public/programming/Programming.md'                 
+    - 'Cybersecurity':       
+        - 'Cybersecurity': 'public/cybersecurity/Cybersecurity.md'                        
+    - 'Blockchain':       
+        - 'Blockchain': 'public/blockchain/Blockchain.md'    
     - 'Publications':
-        - 'Publications': 'publications.md'                   
+        - 'Publications': 'publications.md'    
     - 'Tags':
         - 'Tags': 'tags.md'      
     - 'Forms':

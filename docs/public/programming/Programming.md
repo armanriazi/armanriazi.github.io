@@ -1,6 +1,6 @@
 ---
 keywords:   armanriazi ArmanRiazi Github Programming Developer NetCore DotNet Nodejs Rust Api Rest
-title: "Arman Riazi"
+title: "Programming"
 author: "Arman Riazi"
 search:
   exclude: false
@@ -36,6 +36,8 @@ tags:
 
     === "2024"
 
+        * [Rust](rust/rust.md)
+        
         * [NestJS](nestjs/nestjs.md)
 
     === "2022-2023"
