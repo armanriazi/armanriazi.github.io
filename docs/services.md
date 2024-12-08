@@ -11,14 +11,13 @@ show:
   - feedback
 ---
 
-`Getting Luxury services that you can afford`
-:   You may be a co-founder or a developer with limited time, and I can help. I have invested significant time and effort into learning and have developed a roadmap for completing these tasks. As a counselor, I am here to assist you.
+**Getting Luxury services that you can afford**
+You may be a co-founder or a developer with limited time, and I can help. I have invested significant time and effort into learning and have developed a roadmap for completing these tasks. As a counselor, I am here to assist you.
 
-`Free of charge`
+## Free of Charge
 
-- [Get a Consultation for Free for 1 Month](https://drive.google.com/drive/folders/1gjhYlIHiVfApF8A1trsUf8HdKMKvQhdA?usp=sharing)
-- [Domain-Driven Design(PDF)](https://drive.google.com/file/d/1ZFMDr7QjKBG62FKQH5B6kCTwuY3mQcSK/view?usp=sharing)
-- [Applicant form of DDD](forms/ddd.md)
+- [Get a 1 Month Consultation for Free](https://drive.google.com/drive/folders/1gjhYlIHiVfApF8A1trsUf8HdKMKvQhdA?usp=sharing)
+- [Domain-Driven Design(PDF)](https://drive.google.com/file/d/1ZFMDr7QjKBG62FKQH5B6kCTwuY3mQcSK/view?usp=sharing), [Applicant form of DDD](forms/ddd.md)
 
 ---
 

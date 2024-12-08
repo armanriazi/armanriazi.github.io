@@ -20,6 +20,8 @@ layout: page
 author: "Arman Riazi"
 ---
 
+## English Version
+
 * [Domain-Driven Design freely 0$](./forms/ddd.md)
 
 * [Help yourCompany/Yourself/Me](./forms/blockchain_form.md)

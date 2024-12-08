@@ -1,10 +1,11 @@
 
 # Video Toturials Self-Study
 
+> I prefer to find important chapters that related to my work specially cybersecurity. I gathered significant INFOs on my desktop(offline documentation)
+
 !!! Learnt Toturials
 
-    === "Cybersecurity Books Epub On Desktop 2025"
-        > I prefer to find important chapters that related to my work specially cybersecurity. I gathered significant info on my desktop(offline documentation)                
+    === "Cybersecurity Books Epub On Desktop 2025"               
         * Gray Hat Hacking The Ethical Hacker’s Handbook, Third Edition, Allen Harper, Shon Harris, Jonathan Ness, Chris Eagle, Gideon Lenkey, and Terron Williams.
         * Information Security Management An Executive View Marcos Sêmola Translation from original version by Ricardo Bruno Beckman Soares da Cruz.        
         * MASTERING CYBERSECURITY MEASUREMENT, axonius
@@ -34,4 +35,4 @@
 
 #### Resources
 
-![Learning-Cybersecurity-1](../../../assets/attachments/learning-cysec1.jpg)
+- [Learning Cybersecurity](../../../assets/attachments/learning-cysec1.jpg)
