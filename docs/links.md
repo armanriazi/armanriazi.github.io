@@ -75,7 +75,7 @@ permalink: /links
 
 * [Aparat Channel](https://aparat.ir/armanriazi)
 
-#### Science, Papers
+#### Academic
 
 * [Academia.edu](https://independent.academia.edu/riaziarman)
   
@@ -85,6 +85,8 @@ permalink: /links
 
 * [ArmanRiazi-Doc](https://github.com/armanriazi/Documents)
 
+* [Civilica](https://civilica.com/p/462252/)
+* 
 * [Read.Cash](https://read.cash/@arman-riazi-science)
 
 * [ResearchGate](https://www.researchgate.net/profile/Arman_Riazi2)
