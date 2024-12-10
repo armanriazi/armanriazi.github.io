@@ -20,21 +20,21 @@ You may be a co-founder or a developer with limited time, and I can help. I have
 - [Domain-Driven Design(PDF)](https://drive.google.com/file/d/1ZFMDr7QjKBG62FKQH5B6kCTwuY3mQcSK/view?usp=sharing), [Applicant form of DDD](forms/ddd.md)
 - [Cybersecurity Assessment Report Template](./report-template.md)
 
-!!! note "Subject: Tailored Cybersecurity Solutions for Your Unique Challenges"
+??? note "Tailored Cybersecurity Solutions for Your Unique Challenges"
 
     Dear Client,
     I hope this message finds you well. As a cybersecurity consultant, I understand that each organization faces distinct challenges when it comes to safeguarding their digital assets. That’s why I want to offer you a customizable Cybersecurity Assessment Report that addresses your specific needs and concerns.
     My assessment template is flexible and can be tailored to reflect your unique risk profile, regulatory requirements, and technological landscape. Here are just a few aspects we can customize:
-    Risk Management Strategies: Align with your organizational risk appetite.
-    Compliance Needs: Tailor the assessment to meet industry-specific regulations, such as [insert relevant regulations].
+    Risk Management Strategies-> Compliance Needs-> Threat assessment-> Vulnerability assessment-> Risk assessment-> Malicious assessment along side remedations.
     I’d love to discuss your specific needs and how we can tailor our assessment to empower your organization. Would you be available for a brief call next week?
-    In then meantime, For now you can send me an [email](armanriazi.service@gmail.com) to receive a filled out a report sample and discuss your project further.
+    At this time, please feel free to send me an [email](armanriazi.service@gmail.com) to request a completed report sample and to further discuss your project.
     Looking forward to your response.
     Best regards,
     Arman Riazi    
+
 ---
 
-All of the following sections include a wage/fee. Please do not hesitate to contact me if you have any questions.
+Each of the following sections outlines the fees associated with the services provided. If you have any questions or need further clarification regarding any aspect of the fees or services, please feel free to reach out. I’m here to assist you.
 
 !!! Software_Engineer
 
@@ -55,7 +55,7 @@ All of the following sections include a wage/fee. Please do not hesitate to cont
         If you would like getting commands that consist of: Ubuntu, Devops, Blockchain CLIs in form of compacted packages, please send me an Email to armanriyazi.github.io@gmail.com (Title: armanriazi_github_io_Commands_YourPackageName)
 
 !!! Research_Teaching
- 
+
     === "Mentoring Rust"
 
         How to learn quickly? I have the pleasure of introducing a repository that has over 600 samples and has collected more than six significant references. I made a customised online book that contains md-files, and you can search for any gathered concepts.
@@ -86,7 +86,6 @@ All of the following sections include a wage/fee. Please do not hesitate to cont
     === "DevOps"      
 
         * [Continuous Integrity](public/devops/Devops.md)        
-
 
 !!! Decentralized_Finance_Consultant
 

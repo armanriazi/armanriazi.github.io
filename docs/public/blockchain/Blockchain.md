@@ -13,6 +13,7 @@ show:
 ---
 
 ## Blockchain
+
 <details>
 <summary>Blockchain 4.0</summary>
 <img src="https://armanriazi.github.io/assets/attachments/Blockchain4.JPG" width="650" height="650" />
@@ -38,18 +39,16 @@ show:
 <p> To Email Address </p>
 <p>armanriazi.github.io@gmail.com</p>
 
-<img src="https://armanriazi.github.io/assets/attachments/substrate-minmap.jpg"width="650" height="650" />
-</details>   
+<img src="<https://armanriazi.github.io/assets/attachments/substrate-minmap.jpg"width="650>" height="650" />
+</details>
 
 ---
-
 
 ??? info "Don't miss it"
 
     Write some smartcontract and customized consensus algorithm based on [Substrate framework](https://player.vimeo.com/video/883191398)
        
 ---
-
 
 ## Blockchain Experience
 
@@ -101,7 +100,6 @@ show:
 
 ---
 
-
 !!! Experience_2020-2023
 
     === "Rust Implemented in Blockchain"
@@ -146,7 +144,6 @@ show:
 
         * [Highlighted Deep Dive Into Polkadot/Substrate/Kusama/NodeSetup/Part(8)](substrate-polka-kus/substrate-setup-research-intro.md)
 
-
 !!! Experience_2019-2020
 
     === "Implemented"
@@ -163,10 +160,7 @@ show:
 
         * [Blockchain-tutorials](Blockchain-tutorials.md)
 
-
-
 # Intro Blockchain Summery
-
 
 ## Blockchain
 
@@ -178,7 +172,7 @@ show:
 - [x] Data: There are two fundamental elements of the blockchain data structure: **Pointers, A linked list**
 - [x] HD/Infra:The hardware structure layer consists of servers. **Blockchain is a prevalent example of this P2P network**. In a P2P network, the computer is designated as a node.
 
-### Decentralization 
+### Decentralization
 
 Decentralization is a type of network redundancy that ensures that the network control is not under a few entities.
 
@@ -218,30 +212,31 @@ This refers to the ability to secure data on the blockchain from different attac
 
 #### Connection Between Scalability and Security
 
-Now, if the two blockchains (with same proof-of-work) have the equal degree of decentralization along with the security as their hash rate, 
+Now, if the two blockchains (with same proof-of-work) have the equal degree of decentralization along with the security as their hash rate,
 
-**the confirmation time will be decreased with the increase in hash rates**. Similarly, 
+**the confirmation time will be decreased with the increase in hash rates**. Similarly,
 
 **the scalability will rise with the improvement of security**. This shows that: Scalability is directly proportional to security (if decentralization remains constant)
 
 Since all of the three components of the blockchain trilemma are unable to interact with each other at the same time, the blockchain has to make trade-offs. A prominent example of this was Ethereum which saw a rise in usage because of the growth of DeFi (Decentralized Finance) applications. Due to this sudden rise in demand, transaction fees also surged to a level where many people were unable to engage with the blockchain.
-
 
 ### Blockchain Layers
 
 The Role of Blockchain Layers in **Increasing Scalability**.
 
 Currently, work is underway to increase the scalability of the blockchain networks.
+
 - [x] The Layer One Blockchain has been designed for providing **speed, security, and expansion**.
 - [x] The Layer Two Blockchain refers to technological enhancements and products for utilizing the expansion of **scalability of blockchain networks** already present.
   
 ### Merkle Tree
 
-In the blockchain, the Merkle tree refers to **a binary tree of hashes**. 
+In the blockchain, the Merkle tree refers to **a binary tree of hashes**.
 **Inside each block**, there is *a root hash of the Merkle tree and other information, such as block’s hash, nonce, block version number, current difficulty goal, and timestamp.*
-In Blockchain, *the Merkle tree* **protects the integrity and security of the blockchain data**. 
+In Blockchain, *the Merkle tree* **protects the integrity and security of the blockchain data**.
 
 ### Benefits of Digital Signature
+
 - [x] The role of digital signature in this scenario is to **detect any manipulation in information**.
 - [x] They also ensure unity as the **data is encrypted**. Therefore, any manipulation being made will result in the invalidity of the signature
 - [x] The data **cannot be discovered** due to being encrypted with digital signatures
@@ -284,7 +279,7 @@ The inaugural ceremony of 2019 NFT.NYC ceremony witnessed NFT-controlled access.
 
 ## The Metaverse
 
-- [x] Meta means Virtual 
+- [x] Meta means Virtual
 - [x] Verse refers to the Universe
 
 The metaverse can be called as a virtual fashion industry.
@@ -292,33 +287,35 @@ The metaverse can be called as a virtual fashion industry.
 This term was first introduced by Neal Stephenson, an American fiction writer. He coined the term in his 1992 novel, **Snow Crash**. He mentioned a 3D virtual space where human beings live as programmable avatars in his book. These avatars interact with each other as well as with software agents.
 
 `Examples of Companies Investing in Metaverse`
-- [x] An investment company **Grayscale** conducted research in which it indicated that the global revenue that will be generated from virtual gaming can surpass $400 billion by 2025. 
+
+- [x] An investment company **Grayscale** conducted research in which it indicated that the global revenue that will be generated from virtual gaming can surpass $400 billion by 2025.
 - [x] **Sotheby** is a famous art gallery.
 - [x] Microsoft $68.7 billion
 - [x] NVIDIA
 - [x]Fashion Ind
-    - [1] Givenchy
-    - [2] Gucci
-    - [3] Dolce & Gabbana, and
-    - [4] Adidas
+  - [1] Givenchy
+  - [2] Gucci
+  - [3] Dolce & Gabbana, and
+  - [4] Adidas
 
 It furnishes enticing, interactive experiences that are not possible in the real world.
 
-The metaverse has the possibility to change the way people interact and meet with each other. 
+The metaverse has the possibility to change the way people interact and meet with each other.
 
-This means that it will change the entire cosmos, work or employment model, retail and commercial model, gaming industry, and more. 
+This means that it will change the entire cosmos, work or employment model, retail and commercial model, gaming industry, and more.
 
 `The four different layers of the metaverse pyramid are`
+
 - [x] True
-   - [1] Real-life examples
-   - [2] Unlimited creation of the virtual environment
-   - [3] Economic system of the virtual environment
+  - [1] Real-life examples
+  - [2] Unlimited creation of the virtual environment
+  - [3] Economic system of the virtual environment
 - [x] Content: Games providing multiple virtual worlds
 - [x] Infrastructure
-   - [1] Hardware industry
-   - [2] Technologies for builders, and
-   - [3] Blockchain
-- [x] Foundation: Internet 
+  - [1] Hardware industry
+  - [2] Technologies for builders, and
+  - [3] Blockchain
+- [x] Foundation: Internet
 
 ### Impacts of Metaverse on Online Retail
 
@@ -338,7 +335,7 @@ The following computer interface that is now emerging does not have a single nam
 
 A vital idea to be mentioned here is the digital twin. This refers to the **physical objects using gaming engines and sensor data** to create their **simulated** software copy inside a computer. The humans can then interact with this software **copy**, just like they interact with a computer.
 
-### Virtual environments 
+### Virtual environments
 
 **Virtual environments are artificially** created environments. Two popular platforms mentioned in this regard are **Twitter and Discord.**
 **Second Life** where users can engage in trading activities using the platform’s currency, **Linden Dollars.** The virtual world Second Life mentioned previously has its currency, and it supports an annual economy of **$500 million**. In fact, its GDP surpasses the GDP of many real-world countries.
@@ -353,17 +350,18 @@ The purely digital environments are those traditional virtual environments where
 
 ### XR
 
-Extended Reality (XR) refers to immersing computer texts and graphics into real-world and virtual environments. XR encompasses VR, MR, and AR under its umbrella. 
+Extended Reality (XR) refers to immersing computer texts and graphics into real-world and virtual environments. XR encompasses VR, MR, and AR under its umbrella.
 
 Virtual reality is an artificial digital environment that completely substitutes the real world.
 
 Augmented reality is the superimposition of digital content over the real-world environment.
 
-In mixed reality, virtual content is not only superimposed on the real environment but is tied up and engages with that environment. 
+In mixed reality, virtual content is not only superimposed on the real environment but is tied up and engages with that environment.
 
 **Extended reality focuses on** *all real and virtual environments and human-machine interactions* developed by computer technology and wearables.
 
 `The core components of all XR devices include`
+
 - [x] Visual input methods of object
 - [x] Gesture tracking
 - [x] Gaze tracking
@@ -388,4 +386,3 @@ Although AR has seen quite an improvement in the last decade, its applications a
 ### AR VS VR
 
 In contrast to VR, AR headsets require features, such as **intuitive and secure navigation**. Other features that can be part of **an AR headset are depth, orientation, pose, position, location, and eye and gesture tracking.**
-
