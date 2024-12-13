@@ -34,6 +34,13 @@ You may be a co-founder or a developer with limited time, and I can help. I have
 
 ---
 
+<details>
+<summary>Letter of Counselor</summary>
+<img src="https://armanriazi.github.io/assets/attachments/cyberconsultant.png" width="650" height="650" />
+</details>
+
+---
+
 Each of the following sections outlines the fees associated with the services provided. If you have any questions or need further clarification regarding any aspect of the fees or services, please feel free to reach out. I’m here to assist you.
 
 !!! Software_Engineer

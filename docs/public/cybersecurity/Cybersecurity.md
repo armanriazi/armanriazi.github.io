@@ -30,7 +30,7 @@ tags:
 
 My professional experiences with various companies are detailed in my CV. I can provide verification of these experiences during interviews or upon request for consulting services. We could have a limited speaking about companies that I have worked obviously cos the context!
 
-![CyberSecurity Consultant](./assets/attachments/cyberconsultant.png)
+![CyberSecurity Consultant](../../assets/attachments/cyberconsultant.png)
 
 ??? note "Tailored Cybersecurity Solutions for Your Unique Challenges"
 
