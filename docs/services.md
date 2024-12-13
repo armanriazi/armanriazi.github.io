@@ -20,6 +20,8 @@ You may be a co-founder or a developer with limited time, and I can help. I have
 - [Domain-Driven Design(PDF)](https://drive.google.com/file/d/1ZFMDr7QjKBG62FKQH5B6kCTwuY3mQcSK/view?usp=sharing), [Applicant form of DDD](forms/ddd.md)
 - [Cybersecurity Assessment Report Template](./report-template.md)
 
+Cybersecurity Assessment Reports: Conducted over 100 customized cybersecurity assessment reports for diverse organizations, addressing unique risk profiles and requirements.
+
 ??? note "Tailored Cybersecurity Solutions for Your Unique Challenges"
 
     Dear Client,

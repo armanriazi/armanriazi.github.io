@@ -28,7 +28,7 @@ tags:
 
 ## Experiences
 
-My professional experiences with various companies are detailed in my CV. I can provide verification of these experiences during interviews or upon request for consulting services. We could have a limited speaking about companies that I have worked obviously cos the context!
+Cybersecurity Assessment Reports: Conducted over 100 customized cybersecurity assessment reports for diverse organizations, addressing unique risk profiles and requirements.
 
 ![CyberSecurity Consultant](../../assets/attachments/cyberconsultant.png)
 
