@@ -10,7 +10,7 @@
   |  Linux Command Line for an Ethical Hacker    |    4H    |CodeRed.EcCouncil.org    | EC-Council  | [1](https://codered.eccouncil.org/certificate/eb4326d0-a20e-44ca-bd46-571c5fd8ec75) |
   |  AI Mastery in OT Security: Securing ICS/OT Infrastructures    |    4H    |  CodeRed.EcCouncil.org    | EC-Council  | [1](https://codered.eccouncil.org/certificate/39fcaf4d-c386-44ff-84a2-855286949454) |
   |  Open-source Identity and Access Management    |    4H    |  CodeRed.EcCouncil.org    | EC-Council  | [1](https://codered.eccouncil.org/certificate/39fcaf4d-c386-44ff-84a2-855286949454) |
-  |  Practical Wireshark 3   |    4H    |  CodeRed.EcCouncil.org    | EC-Council  | [1](https://codered.eccouncil.org/certificate/39fcaf4d-c386-44ff-84a2-855286949454) |
+  |  Practical Wireshark 3   |    2H    |  CodeRed.EcCouncil.org    | EC-Council  | [1](https://codered.eccouncil.org/certificate/a509daa9-8a7d-461e-b329-54e6b64d745d) |
   |  Security Automation with Ansible    |    4H    |  CodeRed.EcCouncil.org    | EC-Council  | [1](https://codered.eccouncil.org/certificate/39fcaf4d-c386-44ff-84a2-855286949454) |
   |  Demystifying Mobile Forensics    |    4H    | CodeRed.EcCouncil.org    | EC-Council  | [1](https://codered.eccouncil.org/certificate/39fcaf4d-c386-44ff-84a2-855286949454) |
   |  Offensive Perspective - OWASP Security for Developers    |    5H    |  CodeRed.EcCouncil.org    | EC-Council  | [1](https://codered.eccouncil.org/certificate/e29b2e03-11df-4802-92b4-fb07ebb5c749) |
