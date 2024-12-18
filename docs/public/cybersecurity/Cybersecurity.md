@@ -30,7 +30,10 @@ tags:
 
 Cybersecurity Assessment Reports: Conducted over 100 customized cybersecurity assessment reports for diverse organizations, addressing unique risk profiles and requirements.
 
-![CyberSecurity Consultant](../../assets/attachments/cyberconsultant.png)
+<details>
+<summary>Letter of Counselor</summary>
+<img src="https://armanriazi.github.io/assets/attachments/cyberconsultant-me.png" width="350" height="350" />
+</details>
 
 ??? note "Tailored Cybersecurity Solutions for Your Unique Challenges"
 

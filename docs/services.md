@@ -38,7 +38,7 @@ Cybersecurity Assessment Reports: Conducted over 100 customized cybersecurity as
 
 <details>
 <summary>Letter of Counselor</summary>
-<img src="https://armanriazi.github.io/assets/attachments/cyberconsultant.png" width="650" height="650" />
+<img src="https://armanriazi.github.io/assets/attachments/cyberconsultant-me.png" width="350" height="350" />
 </details>
 
 ---
