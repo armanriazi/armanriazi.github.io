@@ -9,6 +9,9 @@ layout: page
 permalink: /links
 ---
 
+#### Membership
+
+* [Ecota](https://ecota.org/fellow)
 
 #### Development
 
@@ -31,7 +34,6 @@ permalink: /links
 * [CodeGrepper](https://www.codegrepper.com/profile/arman)
 
 * [Social.Network](https://social.network/accounts/3qHDkhut4vn1ELsd89zVFFeVfFUmsXaonH4xAEwukUxYNuUP)
-
 
 #### Job
 
@@ -86,7 +88,7 @@ permalink: /links
 * [ArmanRiazi-Doc](https://github.com/armanriazi/Documents)
 
 * [Civilica](https://civilica.com/p/462252/)
-* 
+*
 * [Read.Cash](https://read.cash/@arman-riazi-science)
 
 * [ResearchGate](https://www.researchgate.net/profile/Arman_Riazi2)
@@ -99,9 +101,7 @@ permalink: /links
 
 * [Web Of Science](https://www.webofscience.com/wos/author/record/HMD-2276-2023)
 
-
 #### Learning Profiles
-
 
 * [Linux Foundation](https://openprofile.dev/profile/armanriazi.github.io)
 
@@ -120,7 +120,6 @@ permalink: /links
 * [Alison](https://alison.com/profile/public/28845085)
 
 * [LeetCode](https://leetcode.com/armanriazi)
-
 
 <!-- 
 * [Triplebyte-prev-website-archived2023march](https://triplebyte.com/tb/arman-riazi-h4icoca)
@@ -148,7 +147,6 @@ permalink: /links
 
 * [Matrix](https://matrix.to/#/@armanriyazi.github.io:matrix.org)
 
-
 #### Email addresses
 
 ```
@@ -165,7 +163,6 @@ To set scheduled meeting
 
 <!-- [Scholar](mailto:arman2riazi@sco.iaun.ac.ir) -->
 
-
 #### I am here
 
 > Skype: ==armanriazi== (Video Call)
@@ -177,7 +174,6 @@ To set scheduled meeting
 > Channel: Blockchain-Aramisit, Discord ID: **armanriyazi.github.io#5111**
 
 >> I recommend signing up channels to keep in connect.
-
 
 #### Sponsor
 
@@ -199,6 +195,3 @@ To set scheduled meeting
 
 <p align="left"> <a href="https://www.github.com/armanriazi" target="_blank" rel="noreferrer">
 <img src="https://cdn-icons-png.flaticon.com/512/1051/1051326.png" width="32" height="32" /></a> <a href="https://www.linkedin.com/in/armanriazi/" target="_blank" rel="noreferrer"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111532.png" width="32" height="32" /></a></p>
-
-
-
