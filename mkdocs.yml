@@ -19,6 +19,8 @@ nav:
         - 'Blockchain': 'public/blockchain/Blockchain.md'    
     - 'Publications':
         - 'Publications': 'publications.md'    
+    - 'Recommedations':
+        - 'Recommedations': 'recommedations.md'    
     - 'Tags':
         - 'Tags': 'tags.md'      
     - 'Forms':

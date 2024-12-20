@@ -1,0 +1,19 @@
+---
+keywords:   armanriazi ArmanRiazi Recommedation Letter Company University
+title: "Recommedation"
+author: "Arman Riazi"
+search:
+  exclude: false
+type:  Recommedation
+feature:  Recommedation
+author: "Arman Riazi"
+title: "Arman Riazi"
+show:
+  - feedback
+---
+
+|          Name     |           Entity       |      Date        |                    Description              |
+|:-----------------:|:----------------------:|:---------------:|:--------------------------------------------|
+|   ECOTA  |   [Search Arman Riazi](https://ecota.org/fellow)   |   2023-2024   |    [Received Email](./assets/recommendations/ecota.jpg)    |
+|   Dr.Mohammad Nili  |   Faculty Member of Azad Najafabad (Supervisor)   |   2019- 2021   |    [Letter](./assets/recommendations/nili.jpg)    |
+|   Dr.Mahdi akbari  |   Faculty Member of Azad Najafabad (Advisor)   |   2019- 2021   |    [Letter](./assets/recommendations/akbari.jpg)    |

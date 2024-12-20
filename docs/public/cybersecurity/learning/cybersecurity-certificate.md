@@ -18,7 +18,7 @@
   |  Generative AI for Cybersecurity    |    4H    |  CodeRed.EcCouncil.org    | EC-Council  | [1](https://codered.eccouncil.org/certificate/39fcaf4d-c386-44ff-84a2-855286949454) |
   |  Practical Cyber Threat Intelligence    |    4H    |  CodeRed.EcCouncil.org    | EC-Council  | [1](https://codered.eccouncil.org/certificate/39fcaf4d-c386-44ff-84a2-855286949454) |
   |  Threat Modeling Deconstructed    |    4H    |  CodeRed.EcCouncil.org    | EC-Council  | [1](https://codered.eccouncil.org/certificate/39fcaf4d-c386-44ff-84a2-855286949454) |
-  |  Expanding MITRE ATT&CK with ATT&CK Workbench    |    4H    |  CodeRed.EcCouncil.org    | EC-Council  | [1](https://codered.eccouncil.org/certificate/39fcaf4d-c386-44ff-84a2-855286949454) |
+  |  Expanding MITRE ATT&CK with ATT&CK Workbench    |    3H    |  CodeRed.EcCouncil.org    | EC-Council  | [1](https://codered.eccouncil.org/certificate/e0c20674-8984-40c6-98c7-b37c1dc2d28c) |
   |  Black Hat Python for Pentesters    |    4H    |  CodeRed.EcCouncil.org    | EC-Council  | [1](https://codered.eccouncil.org/certificate/39fcaf4d-c386-44ff-84a2-855286949454) |
   |  ISE, Access Management Training for Network Administrators - Cisco    |    14H    |  MaktabKhooneh.org    | MaktabKhooneh  | [1](https://maktabkhooneh.org/certificates/MK-GCX33E/?print=true),  [G](https://drive.google.com/file/d/1x8qAMMa8nH3bvw6FxnnSBIF5N6ZED--r/view?usp=sharing) |
   |  CCNA, Cisco Network Assistant Certificate    |    69H    |  MaktabKhooneh.org    | MaktabKhooneh  | [1](https://maktabkhooneh.org/certificates/MK-GCX33E/?print=true),  [G](https://drive.google.com/file/d/1x8qAMMa8nH3bvw6FxnnSBIF5N6ZED--r/view?usp=sharing) |

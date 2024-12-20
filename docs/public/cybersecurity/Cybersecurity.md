@@ -26,6 +26,10 @@ tags:
 
         * [Cybersecurity-tutorials](./learning/cybersecurity-non-cert-toturials.md)
 
+    === "Public E-Book"
+
+        * [Cybersecurity All-In-One](https://armanriazi.github.io/cysec-all-in-one/)
+
 ## Experiences
 
 Cybersecurity Assessment Reports: Conducted over 100 customized cybersecurity assessment reports for diverse organizations, addressing unique risk profiles and requirements.
