@@ -8,13 +8,13 @@
   |  Network defense fundamentals Training for IT Beginners    |    4H    |  CodeRed.EcCouncil.org    | EC-Council  | [1](https://codered.eccouncil.org/certificate/39fcaf4d-c386-44ff-84a2-855286949454) |
   |  Learn Linux Security Through Practical Steps    |    2H    |  CodeRed.EcCouncil.org    | EC-Council  | [1](https://codered.eccouncil.org/certificate/79b5bf15-c296-48e7-a367-2297902e28b1) |
   |  Linux Command Line for an Ethical Hacker    |    4H    |CodeRed.EcCouncil.org    | EC-Council  | [1](https://codered.eccouncil.org/certificate/eb4326d0-a20e-44ca-bd46-571c5fd8ec75) |
-  |  AI Mastery in OT Security: Securing ICS/OT Infrastructures    |    4H    |  CodeRed.EcCouncil.org    | EC-Council  | [1](https://codered.eccouncil.org/certificate/39fcaf4d-c386-44ff-84a2-855286949454) |
+  |  AI Mastery in OT Security: Securing ICS/OT Infrastructures    |    3H    |  CodeRed.EcCouncil.org    | EC-Council  | [1](https://codered.eccouncil.org/certificate/1fb8bfe4-49e5-49cd-8009-7e38d7d6c467) |
   |  Open-source Identity and Access Management    |    4H    |  CodeRed.EcCouncil.org    | EC-Council  | [1](https://codered.eccouncil.org/certificate/39fcaf4d-c386-44ff-84a2-855286949454) |
   |  Practical Wireshark 3   |    2H    |  CodeRed.EcCouncil.org    | EC-Council  | [1](https://codered.eccouncil.org/certificate/a509daa9-8a7d-461e-b329-54e6b64d745d) |
   |  Security Automation with Ansible    |    4H    |  CodeRed.EcCouncil.org    | EC-Council  | [1](https://codered.eccouncil.org/certificate/39fcaf4d-c386-44ff-84a2-855286949454) |
   |  Demystifying Mobile Forensics    |    4H    | CodeRed.EcCouncil.org    | EC-Council  | [1](https://codered.eccouncil.org/certificate/39fcaf4d-c386-44ff-84a2-855286949454) |
   |  Offensive Perspective - OWASP Security for Developers    |    5H    |  CodeRed.EcCouncil.org    | EC-Council  | [1](https://codered.eccouncil.org/certificate/e29b2e03-11df-4802-92b4-fb07ebb5c749) |
-  |  Kali for Penetration Testers    |    4H    |  CodeRed.EcCouncil.org    | EC-Council  | [1](https://codered.eccouncil.org/certificate/39fcaf4d-c386-44ff-84a2-855286949454) |
+  |  Kali for Penetration Testers    |    7H    |  CodeRed.EcCouncil.org    | EC-Council  | [1](https://codered.eccouncil.org/certificate/72b4e3a7-5353-48fb-92c8-319c3d46f0da) |
   |  Generative AI for Cybersecurity    |    4H    |  CodeRed.EcCouncil.org    | EC-Council  | [1](https://codered.eccouncil.org/certificate/39fcaf4d-c386-44ff-84a2-855286949454) |
   |  Practical Cyber Threat Intelligence    |    4H    |  CodeRed.EcCouncil.org    | EC-Council  | [1](https://codered.eccouncil.org/certificate/39fcaf4d-c386-44ff-84a2-855286949454) |
   |  Threat Modeling Deconstructed    |    4H    |  CodeRed.EcCouncil.org    | EC-Council  | [1](https://codered.eccouncil.org/certificate/39fcaf4d-c386-44ff-84a2-855286949454) |
