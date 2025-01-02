@@ -23,4 +23,3 @@ hide:
 > Through to my experiences. **[Main Menu](public/public.md)**
 
 ![Please waitting](assets/attachments/graph.jpg){ loading=lazy }
-

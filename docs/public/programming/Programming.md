@@ -27,7 +27,7 @@ tags:
     === "Programming Certificates"
 
         * [programming-certificates](learning/programming-certificate.md)
-    
+
     === "Passed Self-Study Tutorials"
 
         * [programming-tutorials](learning/programming-non-cert-toturials.md)
@@ -37,37 +37,37 @@ tags:
     === "2024"
 
         * [Rust](rust/rust.md)
-        
+
         * [NestJS](nestjs/nestjs.md)
 
     === "2022-2023"
 
         * [Rust](rust/rust.md)
-      
+
         * [Monorepo](monorepo/monorepo.md)
-    
+
     === "2020-2021"
 
-        * [Solidity-SmartContract-1](solidity/armanriazi-ethereum-market.md) 
+        * [Solidity-SmartContract-1](solidity/armanriazi-ethereum-market.md)
 
-        * [Solidity-SmartContract-2](solidity/armanriazi-ethereum-in-real-estate.md) 
+        * [Solidity-SmartContract-2](solidity/armanriazi-ethereum-in-real-estate.md)
 
         * [Java-Cloudsim](https://github.com/armanriazi/Cloudsim-Workflow-Function-Container-ACO)
-        
+
     === "2019-2020"
-        
+
         * [Reactjs-API-CouchDB](nodejs/armanriazi-movies-reactjs.md)
 
         * [API-CouchDB-IBMCloud](nodejs/armanriazi-vidly-api.md)
 
-        * [Java-Cloudsim](https://github.com/armanriazi/Cloudsim-Workflow-Function-Container-ACO)      
+        * [Java-Cloudsim](https://github.com/armanriazi/Cloudsim-Workflow-Function-Container-ACO)
 
     === "2016-2019"
 
         * [2016-2019](../archive/archive-2016-2019.md)
-        
+
         * [Advanced .Net/Core](microsoft/dotnet.md)
-    
+
     === "Until_2016"
 
         * [Until-2016](../archive/archive-until-2016.md)

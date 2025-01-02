@@ -12,7 +12,8 @@ DevOps: Docker registry Basic Authentication and HTTPS
 ![Docker](https://miro.medium.com/max/406/1*8uXBBUlyJePLINh-xPzlJQ.jpeg)
 
 There are two links for handling insecure and docker’ notices about different solutions although we proposed a secure registry so it is better to know a little bit of another information. (Registry, Insecure)
-``` ufw allow http
+
+````ufw allow http
 ufw allow https
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -apt-key fingerprint 0EBFCD88
 apt install ca-certificates curl openssh-server ufw apt-transport-https -y
@@ -32,5 +33,6 @@ docker pull registry:2
 *curl -kiv -H “Authorization: Basic $(echo -n “dockerregistry:dockerregistry” | base64)” https://localhost:5000/v2
 *docker login localhost:5000
 *docker pull nginx:latest
-```
+````
+
 Good luck :face_with_cowboy_hat:

@@ -16,9 +16,9 @@ Rancher Kubernetes Engine (RKE) is a CNCF-certified #[[Kubernetes]] distribution
 ![Rancher](https://www.suse.com/c/wp-content/uploads/2021/09/rancher_blog_Rancher-2.0.png)
 
 ??? quote
-     Rancher is a CaaS platform and service provider that you can use it on cloud or #air-gap #high-avalibility.
-     I deployed the Rancher via Helm and It was fascinated when I found kubernetes on rancher without trying to scratch.
-     Rancher has got RKE-Cli  like Google kubernetes and Amazon kubernetes.
+Rancher is a CaaS platform and service provider that you can use it on cloud or #air-gap #high-avalibility.
+I deployed the Rancher via Helm and It was fascinated when I found kubernetes on rancher without trying to scratch.
+Rancher has got RKE-Cli like Google kubernetes and Amazon kubernetes.
 
 > Air-Gap configuration:
 
@@ -41,6 +41,7 @@ services:
   etcd:
     snapshot: true
 ```
+
 > For Air-Gap HA you need to getting docker images(Version-2018):
 
 ```
@@ -117,7 +118,8 @@ rancher/nginx-ingress-controller-defaultbackend:1.4
 rancher/metrics-server-amd64:v0.2.1
 
 ```
+
 I deployed Microservice .Netcore Ecommerce on Air-Gap as HA
 
-??? info     
-     ![deployed Microservice](../../assets/attachments/ranc.jpg)
+??? info  
+ ![deployed Microservice](../../assets/attachments/ranc.jpg)

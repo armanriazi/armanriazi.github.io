@@ -32,7 +32,7 @@ Cybersecurity Assessment Reports: Conducted over 100 customized cybersecurity as
     At this time, please feel free to send me an [email](armanriazi.service@gmail.com) to request a completed report sample and to further discuss your project.
     Looking forward to your response.
     Best regards,
-    Arman Riazi    
+    Arman Riazi
 
 ---
 
@@ -49,16 +49,16 @@ Each of the following sections outlines the fees associated with the services pr
 
     === "Implementing Microservices"
 
-        * [Based on NestJS](public/programming/nestjs/nestjs.md)        
+        * [Based on NestJS](public/programming/nestjs/nestjs.md)
 
     === "Monorepo a smart building system"
 
         * [Monorepo for complex projects](public/programming/monorepo/monorepo.md)
-    
+
     === "NFT platform"
 
         What is the best solution to developing a Web 3.0 application. There are so many solutions in business. But which one has high quality and security, quickly development, has low resources, and has no additional overhead(a light development framework). To keep you tuned, I am going to inter-reference this section. I have engaged on the project, and if I have enough time, you should be in contact with me to explain more about the proposed architecture.[MFS as an NFT music platform](https://21crickets.github.io/)
-    
+
     === "Commands"
 
         If you would like getting commands that consist of: Ubuntu, Devops, Blockchain CLIs in form of compacted packages, please send me an Email to armanriyazi.github.io@gmail.com (Title: armanriazi_github_io_Commands_YourPackageName)
@@ -76,28 +76,28 @@ Each of the following sections outlines the fees associated with the services pr
 
         Writing in a sort of article or published on a website.
 
-        * [NFT Music](https://21crickets.github.io)                
-        * [Regenerative Finance](https://armanriazi.github.io/refi)        
-        * [Smartcity](https://armanriazi.github.io/refi/smartcity/article_smartcity/)                
+        * [NFT Music](https://21crickets.github.io)
+        * [Regenerative Finance](https://armanriazi.github.io/refi)
+        * [Smartcity](https://armanriazi.github.io/refi/smartcity/article_smartcity/)
 
     === "Mind mapping of Substrate framework"
 
-        If you want to get updated-mind-mapping image, send me Email to armanriazi.github.io@gmail.com 
+        If you want to get updated-mind-mapping image, send me Email to armanriazi.github.io@gmail.com
         (Title: armanriazi.github.io_Substrate_MindMapping)
         ![Graph](assets/attachments/substrate-minmap.jpg)
 
 !!! Configuration_DevOps
 
-    === "Configure full/master nodes"      
+    === "Configure full/master nodes"
 
         * [Running Decentralized Ledgers in any kind of network](public/blockchain/Substrate.md)
-    
-    === "DevOps"      
 
-        * [Continuous Integrity](public/devops/Devops.md)        
+    === "DevOps"
+
+        * [Continuous Integrity](public/devops/Devops.md)
 
 !!! Decentralized_Finance_Consultant
 
-    === "DEFI | Trade | Cryptocurrency"            
+    === "DEFI | Trade | Cryptocurrency"
 
         * [Defi-Technical-Fundamental](./public/defi/defi.md)

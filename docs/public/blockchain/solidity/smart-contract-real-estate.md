@@ -16,7 +16,6 @@ tags:
   - github
 ---
 
-
 ## A guide to demoing the [[real-estate]] contract
 
 ## Prerequisites
@@ -25,16 +24,17 @@ This documentation has been intended for readers with a basic understanding on t
 the demo requires the following software to be installed. For verified functionality, the specified versions are recommended:
 
 > Ubuntu 16.04.2 LTS
-> 
+>
 > Test[[RPC]], version 3.0.4
-> 
+>
 > Truffle, version 3.2.1
-> 
+>
 > Node.js, version 7.9.0
 
 Running an [[Ethereum]] client
 
 ### Run a deterministic TestRPC session
+
 At first, an Ethereum client needs to be run
 
 ```shell
@@ -42,6 +42,7 @@ testrpc -d
 ```
 
 ### Deploy the contract
+
 For demoing purposes, Test[[RPC]] is a good choice for a client, for a number of reasons. First
 ly, TestRPC creates a new blockchain instance and transactions can be paid with tokens of the
 said blockchain. The creator of the TestRPC session gains access to the tokens for free and
@@ -56,18 +57,19 @@ The smart contracts written in Solidity need to be compiled and deployed to the 
 This can be achieved by using a development environment for Ethereum called Truffle. A sim
 ple migration script needs to be created for Truffle, after which the contracts can be deployed
 using the following command:
+
 ```shell
 truffle migrate
 ```
 
-### Open the status view  in browser
+### Open the status view in browser
 
 Without a graphical user interface, none of the process steps can be visually observed in any
 way. Therefore, a simple web-browser-based status viewer has been added to the demo application. It shows the changes in the status of the different entities as a crude HTML table. The
 status viewer can be accessed by opening the web page index.html in any web browser.
 Open `scripts/status/index.html` in browser.
 
-### Run the issuer script that creates real estates, owners and agents in the contract.
+### Run the issuer script that creates real estates, owners and agents in the contract
 
 Creating the assets and the agents, and establishing ownership
 For the demo, agents are needed in order to facilitate a workflow between them. Furthermore,
@@ -111,7 +113,7 @@ We first run the following command to set up a local IPFS node.
 ipfs daemon
 ```
 
-We then open the web user interface at http://localhost:5001/webui in browser, drag-and-drop
+We then open the web user interface at <http://localhost:5001/webui> in browser, drag-and-drop
 the information pool documents to the web user interface to upload them, and make note of
 the hash values of the documents
 
@@ -120,7 +122,7 @@ the hash values of the documents
 Upload the document to IPFS by drag-and-drop in the web UI. See what the hash of the document is and announce it in the smart contract.
 As the next step, the command above is executed three times, each time replacing <document
 hash> with the hash of a different document. We then run the following command once to upload the actual housing manager’s certificate, compiled from the already uploaded documents:
-  
+
 ```shell
 node 2-uploadDocument <document hash>
 ```
@@ -130,7 +132,7 @@ node 2-uploadDocument <document hash>
 As the next step, the command above is executed three times, each time replacing <document
 hash> with the hash of a different document. We then run the following command once to up
 load the actual housing manager’s certificate, compiled from the already uploaded documents:
-  
+
 ```shell
 node 3-uploadConfirmationLetter <document hash>
 ```
@@ -141,11 +143,10 @@ Create offers from real estate agents to sell the property
 When the housing manager’s certificate has been received, the real estate can be sold. In the
 workflow of our demo application, real estate agents compete for who gets to sell the real estate by making offers to the seller of the real estate, specifying a fee (e.g. a percentual cut) that
 they’ll sell it for.
-  
+
 ```shell
 node 4-makeAgentOffer <fee>
 ```
-
 
 ### As the owner of the real estate, accept one of the agent offers
 
@@ -156,7 +157,7 @@ As the last step of the workflow modelled in our demo application, the seller of
 stocks in a housing company chooses one of the listing offers made by one of the agents. This
 is emulated by executing the command below, along with the proper offer ID from the status
 viewer window.
-  
+
 ```shell
 node 5-chooseAgentOffer <offer id>
 ```
@@ -167,22 +168,21 @@ npm run ganache
 ganache-cli --accounts
 
 ### Smart Contract
-  
+
 The logic of the smart contract facilitating the workflow is defined in the Solidity file RealEstateMarket.sol. The contract defines the public methods for initiating sales, creating housing manager certificates, as well as creating listing offers and accepting them.
- 
- 
+
 ### GUI
-  
+
 The status viewer is a web page which is useful for observing changes in the blockchain while
 running the demo. It shows the status of the workflow process, with all the contributions to it
 by the various participants. The status viewer can be run by opening the file index.html in any
 web browser.
 
 ### Sourcecode
+
 [Armanriazi-Github-RealState-Sample Project](https://github.com/armanriazi/armanriazi-armanriazi-ethereum-in-real-estate)
 
-#nodejs #truffle #ganache #eth #ethereum
-
+# nodejs #truffle #ganache #eth #ethereum
 
 [[Ethereum_Ecosystem_Research]]
 

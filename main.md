@@ -18,7 +18,7 @@ hide:
 
 **I have always wanted to create a knowledge base for myself and then share it. The philosophy behind creating these pages is to address this issue.**
 
-> Through to my experiences. 
+> Through to my experiences.
 
 > **[Main Menu](public/public.md)**
 
@@ -27,4 +27,3 @@ hide:
 ---
 
 ![Welcome!HelloWorld!](assets/attachments/graph.jpg){ loading=lazy }
-

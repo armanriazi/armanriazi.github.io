@@ -1,5 +1,4 @@
-
-!!! Video Learned Packages 
+!!! Video Learned Packages
 
     === "2019-2021"
 

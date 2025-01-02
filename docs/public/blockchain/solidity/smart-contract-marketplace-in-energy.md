@@ -17,10 +17,10 @@ tags:
   - github
 ---
 
-
 ## A guide to demoing the [[energy]] contract
 
 ### Prerequisites
+
 This documentation has been intended for readers with a basic understanding on the Solidity smart contract programming language and on basic web developing tools. In order to run,
 the demo requires the following software to be installed. For verified functionality, the specified versions are recommended:
 
@@ -31,7 +31,6 @@ the demo requires the following software to be installed. For verified functiona
 > Truffle, version 3.2.1
 
 > Node.js, version 7.9.0
-
 
 Running an [[Ethereum]] client
 
@@ -143,22 +142,24 @@ case the assets are sent to their rightful owner, as determined by the logic of 
 node withdraw [<index>]
 ```
 
-* A part of this project was got from an article 
+- A part of this project was got from an article
 
 ### Smart Contracts
 
 The logic of the electricity market smart contract is defined in the Solidity file ElectricityMarket.sol. The contract defines the public methods for creating sell offers, accepting them, sending smart meter reports and withdrawing assets.
 
 ### GUI
+
 The status viewer is a web page which is useful for observing changes in the blockchain while
 running the demo. It shows the status of all the created sell offers and the account balances of
 the buyer, the seller and the electricity market smart contract. The status viewer can be run by
 opening the file index.html in any web browser.
 
 ### Sourcecode
+
 [Armanriazi-Github-Energy-Sample Project](https://github.com/armanriazi/armanriazi-ethereum-marketplace-in-energy)
 
-#nodejs #metamask #rpc
+# nodejs #metamask #rpc
 
 [[Ethereum_Ecosystem_Research]]
 

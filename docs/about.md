@@ -1,19 +1,19 @@
 ---
 tags:
-- about
-- me
-- i
-- armanriazi
-- riazi
-- experience
-- skill
-- career
-- recuit
+  - about
+  - me
+  - i
+  - armanriazi
+  - riazi
+  - experience
+  - skill
+  - career
+  - recuit
 search:
   exclude: true
-type:  About
-keywords:  About armanriazi
-feature:  About 
+type: About
+keywords: About armanriazi
+feature: About
 title: "About Me"
 layout: page
 author: "Arman Riazi"
@@ -29,21 +29,19 @@ Experienced Developer and Researcher in Information Technology in creating innov
 
 <iframe width="900" height="506" src="https://www.youtube.com/embed/1EK0OnvpOgQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-
 ## Soft Skills, Certificates 2023-25
 
-| Expert | Priod  | By | Supported By   | Inquiry | Documents 
-|:--------------------------------------:|:-------:|:---------------:|:-------------------|:------------|:--------------|
-| Creative and Design Thinking process and tools for innovation     |    14H    |  Polimi De Milano University    | Polimi  | -  | [G](https://drive.google.com/file/d/1nMWz9OlOtLoyJ6P61WOWcQbnz_qMmUlY/view?usp=sharing) |
-|  Soft Skills  | 09:30 H       |  Udemy – The Open University  | udemy.com, open.ac.uk  |  Boundled    | [Link](https://github.com/armanriazi/armanriazi/blob/self/Soft-Skills-Bundled-2023-Jan.pdf)    |
-
+|                            Expert                             |  Priod  |             By              | Supported By          | Inquiry  | Documents                                                                                   |
+| :-----------------------------------------------------------: | :-----: | :-------------------------: | :-------------------- | :------- | :------------------------------------------------------------------------------------------ |
+| Creative and Design Thinking process and tools for innovation |   14H   | Polimi De Milano University | Polimi                | -        | [G](https://drive.google.com/file/d/1nMWz9OlOtLoyJ6P61WOWcQbnz_qMmUlY/view?usp=sharing)     |
+|                          Soft Skills                          | 09:30 H | Udemy – The Open University | udemy.com, open.ac.uk | Boundled | [Link](https://github.com/armanriazi/armanriazi/blob/self/Soft-Skills-Bundled-2023-Jan.pdf) |
 
 ## Proof of Knowledge
 
-- [x] Good communication, problem-solving, documentation, and analytical. 
-- [x] Capable of learning new skills and concepts quickly. 
-- [x] Maintain effective relationships with others. 
-- [x] General features including Research, Creative, Analyze, Self-Developing. 
+- [x] Good communication, problem-solving, documentation, and analytical.
+- [x] Capable of learning new skills and concepts quickly.
+- [x] Maintain effective relationships with others.
+- [x] General features including Research, Creative, Analyze, Self-Developing.
 - [x] Highly organized, motivated, and confident.
 
 > [Knowledgement tags of website](tags.md)
@@ -86,4 +84,4 @@ Experienced Developer and Researcher in Information Technology in creating innov
 
     0xde5D732a5AB44832E1c69b18be30834639F44A2c
 
- ❤️Author❤️Arman-Riazi❤️ 🤝🙏
+❤️Author❤️Arman-Riazi❤️ 🤝🙏

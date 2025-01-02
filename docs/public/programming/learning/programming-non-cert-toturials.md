@@ -1,7 +1,6 @@
-
 # Video Toturials Self-Study
 
-!!! Learnt Toturials 
+!!! Learnt Toturials
 
     === "Rust Books Epub On Desktop 2023"
         > I prefer to find important chapters that related to my work specially blockchain. I gathered significant info on my desktop(offline documentation)
@@ -14,21 +13,20 @@
 
     === "Video courses 2019-2022"
 
-        * There are some integration on language and technologies, so it is a part of blockhchain toturials. [Blockchain-Toturials](../../blockchain/learning/blockchain-non-cert-toturials.md)        
+        * There are some integration on language and technologies, so it is a part of blockhchain toturials. [Blockchain-Toturials](../../blockchain/learning/blockchain-non-cert-toturials.md)
 
     === "Video courses 2010-2019"
 
         * Below list shows my external HD(archived)
         * After all of them I just think I dunno anymore
         * I still have way to go
-       
+
 ---
 
 #### Followed Youtube Channels
 
-* Everything about Rust Programming
-* I do not remember there are so many playlists
-
+- Everything about Rust Programming
+- I do not remember there are so many playlists
 
 #### Resources
 

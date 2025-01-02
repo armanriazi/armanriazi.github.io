@@ -40,26 +40,26 @@ The goal is to create a structured report while maximizing the use of tables for
 
 - **Vulnerability Results Matrix**
 
-  | Severity | Vulnerability Type | Impact | Count |
-  |----------|-------------------|--------|-------|
-  | High     | [List]            | [List] | [Count] |
-  | Medium   | [List]            | [List] | [Count] |
-  | Low      | [List]            | [List] | [Count] |
+  | Severity | Vulnerability Type | Impact | Count   |
+  | -------- | ------------------ | ------ | ------- |
+  | High     | [List]             | [List] | [Count] |
+  | Medium   | [List]             | [List] | [Count] |
+  | Low      | [List]             | [List] | [Count] |
 
 - **Risk Assessment Results Matrix**
 
   | Risk Level | Threat Type | Impact | Mitigation Status |
-  |------------|-------------|--------|------------------|
-  | High       | [List]      | [List] | [Action Taken]   |
-  | Medium     | [List]      | [List] | [Action Taken]   |
-  | Low        | [List]      | [List] | [Action Taken]   |
+  | ---------- | ----------- | ------ | ----------------- |
+  | High       | [List]      | [List] | [Action Taken]    |
+  | Medium     | [List]      | [List] | [Action Taken]    |
+  | Low        | [List]      | [List] | [Action Taken]    |
 
 - **Malicious Assessment Summary**
 
-  | Test Scenario | Result | Vulnerabilities Discovered |
-  |---------------|--------|---------------------------|
-  | [Scenario 1]  | [Pass/Fail] | [List] |
-  | [Scenario 2]  | [Pass/Fail] | [List] |
+  | Test Scenario | Result      | Vulnerabilities Discovered |
+  | ------------- | ----------- | -------------------------- |
+  | [Scenario 1]  | [Pass/Fail] | [List]                     |
+  | [Scenario 2]  | [Pass/Fail] | [List]                     |
 
 ---
 
@@ -67,11 +67,11 @@ The goal is to create a structured report while maximizing the use of tables for
 
 - **Key Recommendations Table**
 
-  | Recommendation | Priority | Responsible Party | Timeline | Status |
-  |----------------|----------|-------------------|----------|--------|
-  | Implement MFA  | High     | IT Security Team   | 30 Days  | [In Progress/Complete] |
-  | Patch Vulnerabilities | High | System Administrators | Immediate | [In Progress/Complete] |
-  | Conduct User Training | Medium | HR Department | 60 Days | [In Progress/Complete] |
+  | Recommendation        | Priority | Responsible Party     | Timeline  | Status                 |
+  | --------------------- | -------- | --------------------- | --------- | ---------------------- |
+  | Implement MFA         | High     | IT Security Team      | 30 Days   | [In Progress/Complete] |
+  | Patch Vulnerabilities | High     | System Administrators | Immediate | [In Progress/Complete] |
+  | Conduct User Training | Medium   | HR Department         | 60 Days   | [In Progress/Complete] |
 
 ### Implementation Details
 
@@ -91,7 +91,7 @@ In this section, we outline practical steps and command lines necessary for exec
 - **Supporting Documentation:** Any additional data or charts.
 - **Glossary of Terms:** Definitions for technical terms.
 - **Implementation Details**
-In this section, we outline practical steps and command lines necessary for executing the recommendations specified in the cybersecurity assessment report. Following these steps will help [You input and maybe related to background section] Corporation mitigate identified risks associated with [goal and title of the context] effectively.
+  In this section, we outline practical steps and command lines necessary for executing the recommendations specified in the cybersecurity assessment report. Following these steps will help [You input and maybe related to background section] Corporation mitigate identified risks associated with [goal and title of the context] effectively.
 
 [Insert detailed implementation steps and command lines here.]
 
@@ -104,14 +104,14 @@ By adopting this approach, you would enhance the overall organization of the doc
 #### Vulnerability Matrix by Department
 
 | Department | High Severity | Medium Severity | Low Severity |
-|------------|---------------|-----------------|--------------|
-| [List]     | [Count]      | [Count]         | [Count]      |
+| ---------- | ------------- | --------------- | ------------ |
+| [List]     | [Count]       | [Count]         | [Count]      |
 
 #### Risk Assessment Timeline
 
-| Date       | Risk Level | Threat Type | Impact | Action Taken |
-|------------|------------|-------------|--------|--------------|
-| [List]     | [Risk Level] | [Threat]  | [Impact] | [Status]    |
+| Date   | Risk Level   | Threat Type | Impact   | Action Taken |
+| ------ | ------------ | ----------- | -------- | ------------ |
+| [List] | [Risk Level] | [Threat]    | [Impact] | [Status]     |
 
 ---
 

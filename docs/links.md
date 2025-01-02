@@ -1,9 +1,9 @@
 ---
 search:
-    exclude: false
-type:  Link
-keywords:  Link armanriazi
-feature:  Link
+  exclude: false
+type: Link
+keywords: Link armanriazi
+feature: Link
 author: "Arman Riazi"
 layout: page
 permalink: /links
@@ -11,123 +11,122 @@ permalink: /links
 
 #### Membership
 
-* [Ecota](https://ecota.org/fellow)
+- [Ecota](https://ecota.org/fellow)
 
 #### Development
 
-* [Github](http://github.com/armanriazi)
+- [Github](http://github.com/armanriazi)
 
-* [Gitlab](http://gitlab.com/gitlabarmanriazi)
+- [Gitlab](http://gitlab.com/gitlabarmanriazi)
 
-* [My Meta environment](https://oncyber.io/@armanriazi)
+- [My Meta environment](https://oncyber.io/@armanriazi)
 
-* [Rust-Lang](https://users.rust-lang.org/u/armanriazi)
+- [Rust-Lang](https://users.rust-lang.org/u/armanriazi)
 
-* [Linux foundation](https://identity.linuxfoundation.org/users/armanriazi)
+- [Linux foundation](https://identity.linuxfoundation.org/users/armanriazi)
 
-* [Web3Dev](https://www.web3dev.com.br/armanriazi)
+- [Web3Dev](https://www.web3dev.com.br/armanriazi)
 
-* [Dev.to](https://dev.to/@armanriazi)
+- [Dev.to](https://dev.to/@armanriazi)
 
-* [Stackoverflow](https://stackoverflow.com/users/2095704/arman-riazi)
+- [Stackoverflow](https://stackoverflow.com/users/2095704/arman-riazi)
 
-* [CodeGrepper](https://www.codegrepper.com/profile/arman)
+- [CodeGrepper](https://www.codegrepper.com/profile/arman)
 
-* [Social.Network](https://social.network/accounts/3qHDkhut4vn1ELsd89zVFFeVfFUmsXaonH4xAEwukUxYNuUP)
+- [Social.Network](https://social.network/accounts/3qHDkhut4vn1ELsd89zVFFeVfFUmsXaonH4xAEwukUxYNuUP)
 
 #### Job
 
-* [Linkedin](https://www.linkedin.com/in/armanriazi-github-io)
+- [Linkedin](https://www.linkedin.com/in/armanriazi-github-io)
 
-* [Xing](https://www.xing.com/profile/Arman_Riazi)
+- [Xing](https://www.xing.com/profile/Arman_Riazi)
 
-* [Nexxt](https://www.nexxt.com/p/armanriazi)
+- [Nexxt](https://www.nexxt.com/p/armanriazi)
 
-* [Linktr.ee](https://linktr.ee/armanriazi)
+- [Linktr.ee](https://linktr.ee/armanriazi)
 
-* [RemoteHub](https://www.remotehub.com/armanriazi)
+- [RemoteHub](https://www.remotehub.com/armanriazi)
 
 #### Freelancing
 
-* [Freelancer WINA Talent platform](https://www.winatalent.com/cv/4de0a68d-3e79-4410-957f-b10b15e1956b)
+- [Freelancer WINA Talent platform](https://www.winatalent.com/cv/4de0a68d-3e79-4410-957f-b10b15e1956b)
 
-* [Invitation link of WINA Talent](winatalent.com/auth/client/sign-up/4de0a68d-3e79-4410-957f-b10b15e1956b)
+- [Invitation link of WINA Talent](winatalent.com/auth/client/sign-up/4de0a68d-3e79-4410-957f-b10b15e1956b)
 
 #### Teaching
 
 > English & IT
 
-* [Nachhilfeunterricht](https://www.nachhilfeunterricht.de/lehrer/arman-riazi.htm)
+- [Nachhilfeunterricht](https://www.nachhilfeunterricht.de/lehrer/arman-riazi.htm)
 
 #### Start-Up
 
-* [Producthunt](https://www.producthunt.com/@armanriazi)
+- [Producthunt](https://www.producthunt.com/@armanriazi)
 
 #### Mentoring
 
-* [Nachhilfeunterricht](https://www.nachhilfeunterricht.de/bewertung/arman-riazi)
-  
+- [Nachhilfeunterricht](https://www.nachhilfeunterricht.de/bewertung/arman-riazi)
+
 #### MultiMedia
 
-* [Vimo Channel Blockchain](https://vimeo.com/user210919767)
+- [Vimo Channel Blockchain](https://vimeo.com/user210919767)
 
-* [Youtube Channel Blockchain](https://www.youtube.com/channel/UC4DbYxk3q_6MPNNpHa-C7ag)
+- [Youtube Channel Blockchain](https://www.youtube.com/channel/UC4DbYxk3q_6MPNNpHa-C7ag)
 
-* [Youtube Channel-Archived](https://cutt.ly/pyKrYMh)
+- [Youtube Channel-Archived](https://cutt.ly/pyKrYMh)
 
-* [Aparat Channel](https://aparat.ir/armanriazi)
+- [Aparat Channel](https://aparat.ir/armanriazi)
 
 #### Academic
 
-* [Academia.edu](https://independent.academia.edu/riaziarman)
-  
-* [Medium](https://armanriazi-github-io.medium.com)
+- [Academia.edu](https://independent.academia.edu/riaziarman)
+- [Medium](https://armanriazi-github-io.medium.com)
 
-* [Base Search(showing citation)](https://www.base-search.net/Search/Results?q=aut:%22Arman%20Riazi%22)
+- [Base Search(showing citation)](https://www.base-search.net/Search/Results?q=aut:%22Arman%20Riazi%22)
 
-* [ArmanRiazi-Doc](https://github.com/armanriazi/Documents)
+- [ArmanRiazi-Doc](https://github.com/armanriazi/Documents)
 
-* [Civilica](https://civilica.com/p/462252/)
-*
-* [Read.Cash](https://read.cash/@arman-riazi-science)
+- [Civilica](https://civilica.com/p/462252/)
+-
+- [Read.Cash](https://read.cash/@arman-riazi-science)
 
-* [ResearchGate](https://www.researchgate.net/profile/Arman_Riazi2)
+- [ResearchGate](https://www.researchgate.net/profile/Arman_Riazi2)
 
-* [Ordchid](https://orcid.org/0000-0003-3729-6290)
+- [Ordchid](https://orcid.org/0000-0003-3729-6290)
 
-* [Ecency](https://ecency.com/@arman-riazi)
+- [Ecency](https://ecency.com/@arman-riazi)
 
-* [Repo-Doc-Blockchain](https://github.com/armanriazi/Doc-Blockchain)
+- [Repo-Doc-Blockchain](https://github.com/armanriazi/Doc-Blockchain)
 
-* [Web Of Science](https://www.webofscience.com/wos/author/record/HMD-2276-2023)
+- [Web Of Science](https://www.webofscience.com/wos/author/record/HMD-2276-2023)
 
 #### Learning Profiles
 
-* [Linux Foundation](https://openprofile.dev/profile/armanriazi.github.io)
+- [Linux Foundation](https://openprofile.dev/profile/armanriazi.github.io)
 
-* [Udemy](https://www.udemy.com/user/arman-1214/)
+- [Udemy](https://www.udemy.com/user/arman-1214/)
 
-* [Educative (1)](https://www.educative.io/profile/view/5215295720652800)
+- [Educative (1)](https://www.educative.io/profile/view/5215295720652800)
 
-* [Educative (2)](https://www.educative.io/profile/view/5893384638169088)
+- [Educative (2)](https://www.educative.io/profile/view/5893384638169088)
 
-* [Educative (3)](https://www.educative.io/profile/view/5483852580782080)
+- [Educative (3)](https://www.educative.io/profile/view/5483852580782080)
 
-* [Classcentral](https://www.classcentral.com/u/3962236)
+- [Classcentral](https://www.classcentral.com/u/3962236)
 
-* [EDX](https://profile.edx.org/u/armanriazi_uni)
+- [EDX](https://profile.edx.org/u/armanriazi_uni)
 
-* [Alison](https://alison.com/profile/public/28845085)
+- [Alison](https://alison.com/profile/public/28845085)
 
-* [LeetCode](https://leetcode.com/armanriazi)
+- [LeetCode](https://leetcode.com/armanriazi)
 
-<!-- 
+<!--
 * [Triplebyte-prev-website-archived2023march](https://triplebyte.com/tb/arman-riazi-h4icoca)
 -->
 
-<!-- 
+<!--
 #### Personal WebSite(Archived)
-  
+
 > [Arazhit](http://arazhit.webredirect.org)
 
 > [Aramisit](http://aramisit.theworkpc.com)
@@ -137,15 +136,15 @@ permalink: /links
 
 #### Feedback
 
-* [Disqus](https://armanriyazi-github-io.disqus.com)
+- [Disqus](https://armanriyazi-github-io.disqus.com)
 
 #### Direct-Contact
 
-* [Calendly](https://calendly.com/armanriyazi-github-io/15min)
+- [Calendly](https://calendly.com/armanriyazi-github-io/15min)
 
-* [Discord](https://discord.com/users/armanriyazi.github.io#5111)
+- [Discord](https://discord.com/users/armanriyazi.github.io#5111)
 
-* [Matrix](https://matrix.to/#/@armanriyazi.github.io:matrix.org)
+- [Matrix](https://matrix.to/#/@armanriyazi.github.io:matrix.org)
 
 #### Email addresses
 
@@ -157,9 +156,9 @@ To set scheduled meeting
 }
 ```
 
-* [Job](mailto:arman2job@gmail.com)
+- [Job](mailto:arman2job@gmail.com)
 
-* [Email of website](mailto:armanriazi.github.io@gmail.com)
+- [Email of website](mailto:armanriazi.github.io@gmail.com)
 
 <!-- [Scholar](mailto:arman2riazi@sco.iaun.ac.ir) -->
 
@@ -173,23 +172,23 @@ To set scheduled meeting
 
 > Channel: Blockchain-Aramisit, Discord ID: **armanriyazi.github.io#5111**
 
->> I recommend signing up channels to keep in connect.
+> > I recommend signing up channels to keep in connect.
 
 #### Sponsor
 
-* [liberapay-Github Sponsership](https://liberapay.com/armanriazi)
+- [liberapay-Github Sponsership](https://liberapay.com/armanriazi)
 
 >
 
-* [MetaMask(MultiNet): 0xde5D732a5AB44832E1c69b18be30834639F44A2c](https://armanriazi.github.io/)
+- [MetaMask(MultiNet): 0xde5D732a5AB44832E1c69b18be30834639F44A2c](https://armanriazi.github.io/)
 
 >
 
-* [Sponsor me on github](https://github.com/sponsors/armanriazi)
+- [Sponsor me on github](https://github.com/sponsors/armanriazi)
 
 >
 
-* [Join to our GitHub-organization): 0xde5D732a5AB44832E1c69b18be30834639F44A2c](https://github.com/21Crickets)
+- [Join to our GitHub-organization): 0xde5D732a5AB44832E1c69b18be30834639F44A2c](https://github.com/21Crickets)
 
 >
 

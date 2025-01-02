@@ -1,23 +1,23 @@
 ---
 tags:
-- achievements
-- publications
-- publisher
-- articles
-- me
-- i
-- paper
-- armanriazi
-- riazi
-- experience
-- skill
-- career
-- recuit
+  - achievements
+  - publications
+  - publisher
+  - articles
+  - me
+  - i
+  - paper
+  - armanriazi
+  - riazi
+  - experience
+  - skill
+  - career
+  - recuit
 search:
   exclude: false
-type:  publications
-keywords:  achievements armanriazi publications
-feature:  achievements publications
+type: publications
+keywords: achievements armanriazi publications
+feature: achievements publications
 title: "publications"
 author: "Arman Riazi"
 ---
@@ -27,7 +27,7 @@ author: "Arman Riazi"
     === "Academic"
 
         * [Using ACO Algorithm to Improve Performance for Container-based Scientific](https://drive.google.com/file/d/1XC8KsoMRar3xE-IB-mynw9f8xfSjWY7q/view?usp=sharing)
-    
+
     === "Blockchain"
 
         * [Towards Blanket Licensing Digitized Music Decentralized](https://drive.google.com/file/d/1zeHc_yeuk6FQXyMYRqgW3iaHMOb0M62C/view?usp=sharing)
@@ -35,7 +35,8 @@ author: "Arman Riazi"
     === "RustBook"
 
         * [Amazon](https://www.amazon.co.uk/Ultimate-Rust-Systems-Programming-Architecting/dp/8196994737)
-        * [Ultimate Rust Systems Programming_LOU_Reviewer](https://drive.google.com/file/d/16AvUw-28q4IZJWr6MuTDybdb2HCFOiwK/view?usp=drive_link)        
+        * [Ultimate Rust Systems Programming_LOU_Reviewer](https://drive.google.com/file/d/16AvUw-28q4IZJWr6MuTDybdb2HCFOiwK/view?usp=drive_link)
+
 ---
 
 ## Books
@@ -67,11 +68,10 @@ author: "Arman Riazi"
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8105650.svg)](https://doi.org/10.5281/zenodo.8105650)
 
-:   Cite[^1] this [Exchangable NFT](https://scienft.com/nfts/155)
-
+: Cite[^1] this [Exchangable NFT](https://scienft.com/nfts/155)
 
 ### Estimating Mental Health by Analyzing the Impact of Cognitive Load on Working Memory Using AI
-    
+
 [Reviewer_Springer](https://link.springer.com/journal/42486)
 
 ### Towards Blanket Licensing Digitized Music NFT Decentralized
@@ -80,7 +80,7 @@ author: "Arman Riazi"
 
 `Available for purchase NFT ownership with your full name`
 
-:   Cite[^2] this [Exchangable NFT](https://scienft.com/nfts/156)
+: Cite[^2] this [Exchangable NFT](https://scienft.com/nfts/156)
 
 ### Understanding the Landscape of Regenerating Finance and Digital Transformation
 
@@ -88,7 +88,7 @@ author: "Arman Riazi"
 
 [Indexed in OpenAIRE](https://explore.openaire.eu/search/publication?pid=10.5281/zenodo.10508232)
 
-:   Cite[^3] this [Exchangable NFT](https://scienft.com/nfts/318)
+: Cite[^3] this [Exchangable NFT](https://scienft.com/nfts/318)
 
 ### Digital Transformation in Smart Cities: Decentralized Architecture for Sustainable Development within the Web 3.0 Ecosystem
 
@@ -96,7 +96,7 @@ author: "Arman Riazi"
 
 [Indexed in OpenAIRE](https://explore.openaire.eu/search/publication?pid=10.5281/zenodo.11002930)
 
-:   Cite[^4] this [Exchangable NFT](https://scienft.com/nfts/5756)
+: Cite[^4] this [Exchangable NFT](https://scienft.com/nfts/5756)
 
 ## Digital Multimedia
 
@@ -134,10 +134,10 @@ author: "Arman Riazi"
 
 - [DOCs on Github](https://github.com/armanriazi/Documents)
 
-[^1]: A. Riazi (2023), Using ACO Algorithm to Improve Performance for  Container-based Scientific Workflows. ScieNFT. <https://scienft.com/nfts/155>
+[^1]: A. Riazi (2023), Using ACO Algorithm to Improve Performance for Container-based Scientific Workflows. ScieNFT. <https://scienft.com/nfts/155>
 
 [^2]: A. Riazi (2023), Towards a new Blanket Licensing Digitized NFT Music Decentralized. ScieNFT. <https://scienft.com/nfts/156>
 
 [^3]: A. Riazi (2024), Understanding the Landscape of Regenerating Finance and Digital Transformation. ScieNFT. <https://scienft.com/nfts/318>
 
-[^4]: A. Riazi (2024), Digital Transformation in Smart Cities  Decentralized Architecture for Sustainable Development within the Web 3.0 Ecosystem. ScieNFT. <https://scienft.com/nfts/5756>
+[^4]: A. Riazi (2024), Digital Transformation in Smart Cities Decentralized Architecture for Sustainable Development within the Web 3.0 Ecosystem. ScieNFT. <https://scienft.com/nfts/5756>

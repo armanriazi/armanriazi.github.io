@@ -8,7 +8,7 @@ tags:
 ## HyperLedger-IBM
 
 ??? quote
-    I remember, used hyperledger-fabric with composer, kubernetes, and even Node-Red.The framework is suit for specialist who have experience with [[Devops]] and I can say that Composer is good idea for this developing.
+I remember, used hyperledger-fabric with composer, kubernetes, and even Node-Red.The framework is suit for specialist who have experience with [[Devops]] and I can say that Composer is good idea for this developing.
 
 Using standards defined: flexibility, scalability, availability of service under any circumstances, the above mentioned through another branch of technology called DevOps that is compatible with web applications and blockchain, the ability to implement and strengthen the blockchain The author of this project has been working on it.
 
@@ -39,9 +39,8 @@ In short, we are not dealing with occasional challenges, but rather "wheels will
 > No need for pay-as-you-go services
 
 > Complex implementation
- 
-![HyperLedger-IBM](../../assets/attachments/hyperleger-go.JPG)
 
+![HyperLedger-IBM](../../assets/attachments/hyperleger-go.JPG)
 
 ## Hyperledger-Azure
 
@@ -60,6 +59,5 @@ In short, we are not dealing with occasional challenges, but rather "wheels will
 > Secured by Microsoft
 
 ![HyperLedger-IBM](../../assets/attachments/hyperleger-azure.JPG)
-
 
 [[IBM]]

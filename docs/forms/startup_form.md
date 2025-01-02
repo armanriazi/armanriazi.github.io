@@ -7,13 +7,13 @@ tags:
   - me
   - i
   - armanriazi
-  - riazi    
+  - riazi
   - feedback
 search:
   exclude: true
-type:  About
-keywords:  About armanriazi Social-Contact 
-feature:  Social
+type: About
+keywords: About armanriazi Social-Contact
+feature: Social
 title: "Start-Up"
 layout: page
 author: "Arman Riazi"

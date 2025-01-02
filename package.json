@@ -1,0 +1,27 @@
+{
+  "name": "armanriazi.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve":"mdbook serve --port 8080",
+    "build":"mdbook build",
+    "lint:md": "markdownlint '**/*.md' --fix",
+    "format:md": "prettier --write '**/*.md'",
+    "fix:md": "npm run lint:md && npm run format:md"
+  },
+  "keywords": [],
+  "author": "Arman Riazi",
+  "license": "ISC",
+  "devDependencies": {    
+    "jsdom-quokka-plugin": "^1.0.16",
+    "lint-staged": "^15.2.11",
+    "markdownlint-cli": "^0.43.0",
+    "prettier": "^3.4.2"     
+  },
+  "dependencies": {
+    "jsdom": "^24.0.0"
+  }
+}

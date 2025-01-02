@@ -18,6 +18,4 @@ Comming Soon...
 
 [Parastate-Research-Intro](parastate/parastate-research-intro.md)
 
-
 [[Polkadot-Ecosystem-Research]]
-

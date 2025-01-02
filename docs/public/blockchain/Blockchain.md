@@ -40,6 +40,7 @@ show:
 <p>armanriazi.github.io@gmail.com</p>
 
 <img src="<https://armanriazi.github.io/assets/attachments/substrate-minmap.jpg"width="650>" height="650" />
+
 </details>
 
 ---
@@ -47,25 +48,26 @@ show:
 ??? info "Don't miss it"
 
     Write some smartcontract and customized consensus algorithm based on [Substrate framework](https://player.vimeo.com/video/883191398)
-       
+
 ---
 
 ## Blockchain Experience
 
-``` Exprt: Experience ```
-``` Prd: Period ```
-``` Desc: Description ```
-``` Priority: My Interest priority for keeping in continuing ```
+`Exprt: Experience`
+`Prd: Period`
+`Desc: Description`
+`Priority: My Interest priority for keeping in continuing`
 
-| Exprt | Prd  |  MyPriority | Desc
-|:----------:|:-------------:|:---------------:|:---------------|
-| Rust-Lang      | 2Y       |  :material-check-all::material-check:        |      Fantastic, complex language for decentralized/distributed     |
-| Substrate     |  3 M           |       :material-check-all::material-check:          |        Awsome work of 🙏Dr.Gavin and parity.io community        |
-| Polkadot & Kusuma        |      1 M     |        :material-check-all::material-check:          |       Crowdloan, tokenization💲, parachain and parathreads         |
-| Blockchain Research       |      2 Y        |        :material-check-all::material-check:          |        It is always included in my routine activity during the day        |
-|    Solidity  | 2 M         |    :material-check-all:   | It seems to me that there would be better languages for development so in the near future we need to low-level lang for improve the performance of hardware resources |
-| IBM HyperLedger       |      1 M        |        :material-check-all:          |  HyperLedger is suited for organizations especially. Hyperledger has got good community and uses cloud-native tools but I think it is not a real decentralized blockchain framework for scalability and governance so I used to decide a little bit work on it           |
-| CryptocurrencyTrading | 1 Y  |  :material-check:      |   [Archived Cryptocurrency](public/archive/trading-archive-2021.md) |
+|         Exprt         | Prd |              MyPriority              | Desc                                                                                                                                                                                                                                                          |
+| :-------------------: | :-: | :----------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+|       Rust-Lang       | 2Y  | :material-check-all::material-check: | Fantastic, complex language for decentralized/distributed                                                                                                                                                                                                     |
+|       Substrate       | 3 M | :material-check-all::material-check: | Awsome work of 🙏Dr.Gavin and parity.io community                                                                                                                                                                                                             |
+|   Polkadot & Kusuma   | 1 M | :material-check-all::material-check: | Crowdloan, tokenization💲, parachain and parathreads                                                                                                                                                                                                          |
+|  Blockchain Research  | 2 Y | :material-check-all::material-check: | It is always included in my routine activity during the day                                                                                                                                                                                                   |
+|       Solidity        | 2 M |         :material-check-all:         | It seems to me that there would be better languages for development so in the near future we need to low-level lang for improve the performance of hardware resources                                                                                         |
+|    IBM HyperLedger    | 1 M |         :material-check-all:         | HyperLedger is suited for organizations especially. Hyperledger has got good community and uses cloud-native tools but I think it is not a real decentralized blockchain framework for scalability and governance so I used to decide a little bit work on it |
+| CryptocurrencyTrading | 1 Y |           :material-check:           | [Archived Cryptocurrency](public/archive/trading-archive-2021.md)                                                                                                                                                                                             |
+
 <!--[Experience losts liquid because of trading crypto in 2021 🤕](public/mynotes/exp-2021cryprotrading.md)-->
 
 !!! Abstract
@@ -81,7 +83,7 @@ show:
     === "Blockchain Certificates"
 
         * [blockchain-certificates](learning/blockchain-certificate.md)
-    
+
     === "Passed Self-Study Tutorials"
 
         * [blockchain-tutorials](learning/blockchain-non-cert-toturials.md)
@@ -93,7 +95,7 @@ show:
     === "Regeneraive Finance"
 
         * [Regeneraive Finance ReFi 18 Weeks](https://armanriazi.github.io/refi)
-    
+
     === "Decentralized Finance 2023"
 
         * [DeFi 6 Weeks](../defi/defi.md)
@@ -155,7 +157,7 @@ show:
         * DAapp university by web3.js (Reactjs,Js)-[Solidity](Solidity.md)
         * Solidity (build a game)
         * Build a scratch blockchain by Golang (Websocket)
- 
+
     === "Research"
 
         * [Blockchain-tutorials](Blockchain-tutorials.md)
@@ -228,12 +230,12 @@ Currently, work is underway to increase the scalability of the blockchain networ
 
 - [x] The Layer One Blockchain has been designed for providing **speed, security, and expansion**.
 - [x] The Layer Two Blockchain refers to technological enhancements and products for utilizing the expansion of **scalability of blockchain networks** already present.
-  
+
 ### Merkle Tree
 
 In the blockchain, the Merkle tree refers to **a binary tree of hashes**.
-**Inside each block**, there is *a root hash of the Merkle tree and other information, such as block’s hash, nonce, block version number, current difficulty goal, and timestamp.*
-In Blockchain, *the Merkle tree* **protects the integrity and security of the blockchain data**.
+**Inside each block**, there is _a root hash of the Merkle tree and other information, such as block’s hash, nonce, block version number, current difficulty goal, and timestamp._
+In Blockchain, _the Merkle tree_ **protects the integrity and security of the blockchain data**.
 
 ### Benefits of Digital Signature
 
@@ -358,7 +360,7 @@ Augmented reality is the superimposition of digital content over the real-world 
 
 In mixed reality, virtual content is not only superimposed on the real environment but is tied up and engages with that environment.
 
-**Extended reality focuses on** *all real and virtual environments and human-machine interactions* developed by computer technology and wearables.
+**Extended reality focuses on** _all real and virtual environments and human-machine interactions_ developed by computer technology and wearables.
 
 `The core components of all XR devices include`
 

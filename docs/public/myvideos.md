@@ -13,7 +13,9 @@ show:
 ---
 
 # NestJS Backend
+
 ## 2024
+
 <details>
 <summary>NestJS Miceoservices</summary>
 [Main Link](https://vimeo.com/883191398)
@@ -21,6 +23,7 @@ show:
 </details>
 
 # Rust & Substrate
+
 ## 2023
 
 <details>

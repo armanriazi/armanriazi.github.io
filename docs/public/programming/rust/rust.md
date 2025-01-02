@@ -11,16 +11,16 @@ keywords:  github armanriazi programming rust
 
 ## Certification 2023
 
-| Expert | Priod  | By | Supported By   | Inquiry | Documents 
-|:-----------:|:-----:|:-------------:|:----------------|:------------|:---------------------|
-| Become-A-Rust-Professional    | 138H       |  educative.io/profile/view/5215295720652800    | educative.io  | [1](https://www.educative.io/verify-certificate/1j8yMXCBKBYmXmK2GHOEA9mnpKwPUp), [2](https://www.educative.io/verify-certificate/QApPNYA64r2clVE5XBNYJGHQ2OZGYMKj7T9), [3](https://www.educative.io/verify-certificate/585DM2txV56KZx8NxulL9K43ywJquq), [4](https://www.educative.io/verify-certificate/Y6GKZ1ijpWw4oDO1XhjWwo2K9x18TJ)    | [Boundled](https://cutt.ly/armanriazi-rust-pro-educative)    |
-| Substrate-For-Analog(Rust, Java General Code)  | Hands-On Lab |  Karat  | Karat, TripleByte | [1](https://triplebyte.com/tb/arman-riazi-h4icoca) | [G](https://drive.google.com/file/d/1aC-Jpgd0j5wyn5QDDnOi6aGcfEe2TtkZ/view)     |
+|                    Expert                     |    Priod     |                     By                     | Supported By      | Inquiry                                                                                                                                                                                                                                                                                                                                 | Documents                                                                   |
+| :-------------------------------------------: | :----------: | :----------------------------------------: | :---------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------- |
+|          Become-A-Rust-Professional           |     138H     | educative.io/profile/view/5215295720652800 | educative.io      | [1](https://www.educative.io/verify-certificate/1j8yMXCBKBYmXmK2GHOEA9mnpKwPUp), [2](https://www.educative.io/verify-certificate/QApPNYA64r2clVE5XBNYJGHQ2OZGYMKj7T9), [3](https://www.educative.io/verify-certificate/585DM2txV56KZx8NxulL9K43ywJquq), [4](https://www.educative.io/verify-certificate/Y6GKZ1ijpWw4oDO1XhjWwo2K9x18TJ) | [Boundled](https://cutt.ly/armanriazi-rust-pro-educative)                   |
+| Substrate-For-Analog(Rust, Java General Code) | Hands-On Lab |                   Karat                    | Karat, TripleByte | [1](https://triplebyte.com/tb/arman-riazi-h4icoca)                                                                                                                                                                                                                                                                                      | [G](https://drive.google.com/file/d/1aC-Jpgd0j5wyn5QDDnOi6aGcfEe2TtkZ/view) |
 
 ## Listed on the packaging hub of Repology
 
 [Rust-scratch-blockchain](https://repology.org/project/rust:blockchain-scratch-rust/information)
 
-*The crate has been downloaded 1,522 times as of September 27, 2024.*
+_The crate has been downloaded 1,522 times as of September 27, 2024._
 
 ## Rust-Language
 
@@ -28,13 +28,13 @@ keywords:  github armanriazi programming rust
 
     === "Repositories"
 
-        * [Awesome Rust](https://github.com/armanriazi/armanriazi-awesome-rust)        
+        * [Awesome Rust](https://github.com/armanriazi/armanriazi-awesome-rust)
 
         * [Rust-Scratch-Blockchain](https://github.com/armanriazi/rust-scratch-blockchain)
 
         * [Rust-Web-Programming](https://github.com/armanriazi/rust-web)
 
-        * [Rust-All-In-One projects](https://github.com/armanriazi/rust-all-in-one-projects)  
+        * [Rust-All-In-One projects](https://github.com/armanriazi/rust-all-in-one-projects)
 
         * [Rust-Survey-Json](https://github.com/armanriazi/rust-survey-json)
 
@@ -47,7 +47,7 @@ keywords:  github armanriazi programming rust
         * [Rust Blockchain Framework(Substrate)](https://armanriazi.github.io/public/blockchain/Substrate)
 
     === "Publication"
-        
+
         * [Amazon_Ultimate Rust Systems Programming Architecting](https://www.amazon.co.uk/Ultimate-Rust-Systems-Programming-Architecting/dp/8196994737)
         * [Rust-All-In-One(Available to purchase | En edition)](https://github.com/armanriazi/rust-all-in-one)
 
@@ -83,16 +83,18 @@ It should be noted that learning Rust differs from other languages, and half of 
 
 `How to learn quickly ?`
 
-:   I have the pleasure of introducing a repository that has more than 800 samples and has collected more than seven significant references. I made a customised online book that contains md-files, and you can search for any gathered concept.
+: I have the pleasure of introducing a repository that has more than 800 samples and has collected more than seven significant references. I made a customised online book that contains md-files, and you can search for any gathered concept.
 
     I was wondering if you wanted to contact me. To gain access online, books with codes have a value of $100.
 
 ## Videos
 
 [[Rust 2021 A Scratch Blockchain-1]]
+
 <iframe width="975" height="506" src="https://www.youtube.com/embed/hiYHzmqn6MY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 [[Rust 2021 A Scratch Blockchain-2]]
+
 <iframe width="975" height="506" src="https://www.youtube.com/embed/gK0dFhtbB-M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 > [Read Me](../rust/rust-scratch-blockchain.md)

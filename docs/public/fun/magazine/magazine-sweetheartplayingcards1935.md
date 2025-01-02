@@ -1,10 +1,9 @@
-
-<iframe     frameborder="0" 
+<iframe     frameborder="0"
             display: block;
-            marginheight="0" 
-            marginwidth="0" 
-            width="100%" 
-            height="100%" 
+            marginheight="0"
+            marginwidth="0"
+            width="100%"
+            height="100%"
             background-position: center
             background-repeat: no-repeat
             background-size: cover

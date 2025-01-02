@@ -7,9 +7,7 @@ tags:
   - polkadot
 ---
 
-
 **Highlighted Deep Dive Into Polkadot/Substrate/Kusama/Part(1)**
-
 
 👩‍🏫👩‍🏫👩‍🏫
 
@@ -25,13 +23,13 @@ Polkadot unites a network of heterogeneous blockchain shards called parachains. 
 
 ![Polkadot](https://cdn.rcimg.net/arman-riazi-science/4c5d5b50/5c9e40866efbc7b0adeeb92dc8fdc6ca.png)
 
-#Inbound-outboundTransaction
+# Inbound-outboundTransaction
 
 @Ingress
 
 Dynamic information includes aspects of the transaction routing system that must have global agreement such
 
-as the parachain’s ingress queue 
+as the parachain’s ingress queue
 
 @Egress
 
@@ -43,9 +41,9 @@ as the parachain’s ingress queue
 
 A first parachain implementation, likely to be based heavily on an existing blockchain protocol such as Bitcoin or (more likely, since it provides for rich transactions) Ethereum. This will include an integration with the proof-of-stake chain, allowing the parachain to gain consensus without its own internal consensus mechanism.
 
-Each parachain is defined in  this registry. It is a relatively simple database-like construct and holds both static and dynamic information on each chain.Static information includes the chain index (a simple integer), along with the validation protocol identity.
+Each parachain is defined in this registry. It is a relatively simple database-like construct and holds both static and dynamic information on each chain.Static information includes the chain index (a simple integer), along with the validation protocol identity.
 
- Each parachain brings with it the potential to grief validators with an
+Each parachain brings with it the potential to grief validators with an
 
 over-burdensome validation algorithm.
 
@@ -81,9 +79,9 @@ kind of direct routing.
 
 Hyper-cube Routing. Hyper-cube routing is a mechanism which can mostly be build as an extension to the basic routing mechanism described above.
 
-## Validators 
+## Validators
 
-Validators may provide only a \null" block containing no external "transactions" data, but may run the risk of getting a reduced reward if they do. 
+Validators may provide only a \null" block containing no external "transactions" data, but may run the risk of getting a reduced reward if they do.
 
 List of punishable validator misbehaviour includes:
 
@@ -137,7 +135,7 @@ The sealing process takes place under a single consensus-generating mechanism ad
 
 **Public Participation**. One more possible direction is to enlist public participation in the process through a micro-complaints system. Similar to the fishermen, there could be external parties to police the validators who claim availability. Their task is to find one who appears unable to demonstrate such availability.
 
-**Availability Guarantors**.  A (this may be represented by Validators in the basic form of the protocol).
+**Availability Guarantors**. A (this may be represented by Validators in the basic form of the protocol).
 
 Availability guarantors will mostly aim to maintain a stable connection to each other and to validators.
 
@@ -151,7 +149,7 @@ To ensure validators can predict when they may be proposing an overweight block,
 
 Collator Insurance. One issue remains for validators: unlike with PoW networks, to check a collator’s block for validity, they must actually execute the transactions in it. Malicious collators can feed invalid or overweight blocks to validators causing them grief and exacting a potentially substantial opportunity cost.
 
-To mitigate this, we propose a simple strategy on the part of validators. Firstly, parachain block candidates sent to validators must be signed from a relay chain account with funds; if they are not, then the validator should drop it immediately. 
+To mitigate this, we propose a simple strategy on the part of validators. Firstly, parachain block candidates sent to validators must be signed from a relay chain account with funds; if they are not, then the validator should drop it immediately.
 
 Collator Preferences. One important aspect of this system is to ensure that there is a healthy selection of collators creating the blocks in any given parachain. If a single collator dominated a parachain then some attacks become more feasible.
 
@@ -161,7 +159,7 @@ it is quite possible that this mechanism enables even very small stakeholders to
 
 This is the delivery of an alternative chain-specific collator functionality. It includes proof creation (for collators), parachain misbehaviour detection (for fishermen) and the validation function (for validators). It also includes any additional networking required to allow the two to discover and communicate.
 
-@zero-knowledge@gossip 
+@zero-knowledge@gossip
 
 Validators work alongside a parachain gossip protocol with collators individuals who collate **transactions into blocks** and provide a noninteractive, zero-knowledge proof that the block constitutes a valid child of its parent (and taking any transaction fees for their trouble
 
@@ -181,7 +179,7 @@ status; this way a failed attempt to post a transaction
 
 to a stalled destination may be reported synchronously.
 
-*(Though since no return path exists, if a secondary transaction failed for that reason.)*
+_(Though since no return path exists, if a secondary transaction failed for that reason.)_
 
 ## Networking
 
@@ -189,7 +187,7 @@ to a stalled destination may be reported synchronously.
 
 solved around a few request and answer message types. While Ethereum made progress on current protocol offerings with the devp2p protocol, which allowed for many subprotocols to be multiplexed over a single peer connection and thus have the same peer overlay support many p2p protocols simultaneously.To ensure an efficient transport mechanism, a "flat" overlay network like Ethereum’s devp2p.
 
-Polkadot are rather more substantial. Rather then a wholly uniform network, Polkadot has several types of participants each with different requirements over their peer makeup and several network "avenues" whose participants will tend to converse about particular data. This means a substantially more structured network overlay|and a protocol supporting that will likely be necessary. 
+Polkadot are rather more substantial. Rather then a wholly uniform network, Polkadot has several types of participants each with different requirements over their peer makeup and several network "avenues" whose participants will tend to converse about particular data. This means a substantially more structured network overlay|and a protocol supporting that will likely be necessary.
 
 network participants into two sets (relay-chain, parachains) each of three subsets.
 
@@ -213,7 +211,7 @@ In short, we envision that transactions from Polkadot can be signed by validator
 
 ### Break-in-contract
 
-Ethereum is able to host a "break-in contract" which can maintain the 144 signatories and be controlled by them. 
+Ethereum is able to host a "break-in contract" which can maintain the 144 signatories and be controlled by them.
 
 we can imagine a "break-in" contract within a parachain which allows a
 
@@ -233,7 +231,7 @@ Delivering a transaction from Bitcoin to Polkadot can in principle be done with 
 
 ## Staking-Contract
 
- This contract maintains the validator set. It manages:
+This contract maintains the validator set. It manages:
 
 • which accounts are currently validators;
 
@@ -253,7 +251,7 @@ Proof-of-stake chain: Extending the consensus mechanism into proof-of stake terr
 
 @Stake-Token-Liquidity
 
-Keeping with our tenets, we elect for the simplest solution: **not all tokens be staked**. This would mean that some proportion (perhaps *20%) of tokens will forcibly remain liquid. Though this is imperfect from a security perspective*, it is unlikely to make a fundamental difference in the security of the network; 80% of the reparations possible from bond confiscations would still be able to be made compared to the perfect case" of 100% staking.
+Keeping with our tenets, we elect for the simplest solution: **not all tokens be staked**. This would mean that some proportion (perhaps _20%) of tokens will forcibly remain liquid. Though this is imperfect from a security perspective_, it is unlikely to make a fundamental difference in the security of the network; 80% of the reparations possible from bond confiscations would still be able to be made compared to the perfect case" of 100% staking.
 
 sessions would happen regularly, perhaps as often as once per hour.
 
@@ -321,7 +319,7 @@ Calling into another such chain would mean proxying through this bridge, which w
 
 **cost of Ethereum confirming** that an instruction was properly validated as coming from the Polkadot network would be no more than 300,000 gas|a mere 6% of the total block gas limit at 5.5M.
 
-then the cost to the network of maintaining this **Ethereum-forwarding bridge** would be around 540,000 gas per day or, at present gas prices, $45 per year. 
+then the cost to the network of maintaining this **Ethereum-forwarding bridge** would be around 540,000 gas per day or, at present gas prices, $45 per year.
 
 without gas, how does one parachain avoid another parachain from forcing it to do computation? While we can rely on transaction-post ingress queue buffers to prevent one chain from spamming another with transaction data, there is no equivalent mechanism provided by the protocol to prevent the spamming of transaction processing.
 
@@ -331,11 +329,11 @@ Because of Substrate’s modularity, gas is completely optional, and the introdu
 
 ### Signature
 
-One interesting, and cheaper, *alternative to this multisignature contract model would be to use ✍️threshold signatures in order to achieve the multi-lateral ownership semantics*. While threshold signature schemes for **ECDSA** are computationally expensive, those for other schemes such as ✍️ **Schnorr signatures are very reasonable.**
+One interesting, and cheaper, _alternative to this multisignature contract model would be to use ✍️threshold signatures in order to achieve the multi-lateral ownership semantics_. While threshold signature schemes for **ECDSA** are computationally expensive, those for other schemes such as ✍️ **Schnorr signatures are very reasonable.**
 
 Bitcoin is substantially more limited, with most clients accepting only multisignature transactions with a maximum of 3 parties
 
-### SPV 
+### SPV
 
 refers to Simplified Payment Verification in Bitcoin and describes a method for clients to verify transactions while keeping only **a copy of all blocks headers** of the longest PoW chain.
 
@@ -343,15 +341,15 @@ refers to Simplified Payment Verification in Bitcoin and describes a method for 
 
 Appendix B. Frequently Asked Questions
 
-*Is Polkadot designed to replace (insert blockchain here)?* No. The goal of Polkadot is to provide a framework under which new blockchains may be created and to which existing blockchains can, if their communities desire, be transitioned.
+_Is Polkadot designed to replace (insert blockchain here)?_ No. The goal of Polkadot is to provide a framework under which new blockchains may be created and to which existing blockchains can, if their communities desire, be transitioned.
 
-*Is Polkadot designed to replace (insert crypto-currency here)?* No. Polkadot tokens are neither intended nor designed to be used as a currency. They would make a bad currency: most will remain illiquid in the staking system and those that are liquid will face substantial fees for transfer of ownership. Rather, the purpose of Polkadot tokens is to be a direct representation of stake in the Polkadot network.
+_Is Polkadot designed to replace (insert crypto-currency here)?_ No. Polkadot tokens are neither intended nor designed to be used as a currency. They would make a bad currency: most will remain illiquid in the staking system and those that are liquid will face substantial fees for transfer of ownership. Rather, the purpose of Polkadot tokens is to be a direct representation of stake in the Polkadot network.
 
-*What is the inflation rate for Polkadot staking tokens?* The Polkadot staking token base expansion is unlimited. It rises and lowers according to market effects in order to target a particular proportion of tokens held
+_What is the inflation rate for Polkadot staking tokens?_ The Polkadot staking token base expansion is unlimited. It rises and lowers according to market effects in order to target a particular proportion of tokens held
 
 under long-term bond in the validation process.
 
-*Why does staking token ownership reflect stakeholding?* This is a mechanism realised by the fact that they underpin the network’s security. As such their value is tied to the overall economic value that Polkadot provides. Any actors who gain overall value from Polkadot operating correctly are incentivised to ensure it continues to do so. The best means of doing so is to take part in the validation process. This generally implies ownership of staking tokens.
+_Why does staking token ownership reflect stakeholding?_ This is a mechanism realised by the fact that they underpin the network’s security. As such their value is tied to the overall economic value that Polkadot provides. Any actors who gain overall value from Polkadot operating correctly are incentivised to ensure it continues to do so. The best means of doing so is to take part in the validation process. This generally implies ownership of staking tokens.
 
 📚📚📚
 
@@ -373,13 +371,13 @@ runtime = state transition function
 
 If you liked this article or if it helped you please clap on this post to help the Read.Cash algorithm recommend it to more people. If you have any questions or remarks please feel free to leave a comment below.
 
-Alternatively, please feel free to send donations 
+Alternatively, please feel free to send donations
 
 > 0xde5D732a5AB44832E1c69b18be30834639F44A2c
 
 ❤️❤️❤️
 
-Reseacher & Organized by: 
+Reseacher & Organized by:
 
 🙏Arman-Riazi🤝
 

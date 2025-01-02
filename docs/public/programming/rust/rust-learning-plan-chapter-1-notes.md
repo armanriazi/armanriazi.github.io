@@ -55,7 +55,7 @@ Like all good rules in programming languages, there is an exception! If you donâ
 
 // Rust
 if x < 5 {
-    x + 1
+x + 1
 }
 There is no semicolon but this will still return x plus 1. Reminds me of the arrow function implicit return in JavaScript:
 
@@ -136,7 +136,7 @@ Cheatsheet
 Most of the commands that were covered in Chapter 1:
 
 Install Rust with rustup
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+curl --proto '=https' --tlsv1.2 -sSf <https://sh.rustup.rs> | sh
 Update to the latest version of Rust
 rustup update
 Check your version of Rust
@@ -151,6 +151,7 @@ Create a new Rust program
 cargo new <project_name>
 
 ## Example for a project named hello_world
+
 cargo new hello_world
 Check that Rust program compiles
 cargo check

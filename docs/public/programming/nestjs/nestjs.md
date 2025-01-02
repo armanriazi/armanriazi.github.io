@@ -1,19 +1,21 @@
-
 # NestJS
+
 ## Microservice
+
 ### Implementation
 
 <details>
 <summary>Vimeo 16min</summary>
 
 [Main Link](https://vimeo.com/883191398)
+
 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/910976328?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="NestJS-Microservices-Part-1"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 </details>
 
 ## Installation
 
 ```bash
-$ pnpm install
+pnpm install
 ```
 
 ## Running the app
@@ -42,14 +44,13 @@ $ pnpm run test:e2e
 $ pnpm run test:cov
 ```
 
-
-## Environment 
+## Environment
 
 ```bash
 NEST_DEBUG = true
 ```
 
-## Watch Directory 
+## Watch Directory
 
 The strategy for how entire directory trees are watched under systems that lack recursive file-watching functionality.
 
@@ -62,7 +63,7 @@ The strategy for how entire directory trees are watched under systems that lack 
 "watchOptions": {
     "watchFile": "fixedPollingInterval"
   }
-}  
+}
 ```
 
 ## Circular Dependency Packages
@@ -85,7 +86,6 @@ The strategy for how entire directory trees are watched under systems that lack 
   }
 }
 ```
-
 
 # Nest.js Microservices
 
@@ -131,8 +131,7 @@ This is a sample microservice that has a createOrder event handler from the NATS
 
 This is a user microservice that has a createUser event handler from the NATS server whenever it is triggered. It will create a user record and save it to the database.
 
-
-# Monorepo 
+# Monorepo
 
 Config file for subprojects to build independent of the other projects or monorepo building. Before building with Monorepo, we must build sub-projects independently based on the following configuration.
 
@@ -160,10 +159,7 @@ Config file for subprojects to build independent of the other projects or monore
   "watchOptions": {
     "watchFile": "dynamicPriorityPolling",
     "watchDirectory": "dynamicPriorityPolling",
-    "excludeDirectories": [
-      "**/node_modules",
-      "dist"
-    ]
+    "excludeDirectories": ["**/node_modules", "dist"]
   }
 }
 ```

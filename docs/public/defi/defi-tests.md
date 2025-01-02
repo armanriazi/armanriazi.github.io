@@ -13,23 +13,22 @@ show:
   - feedback
 ---
 
-
 # Download sources
 
 [PDFs](https://drive.google.com/file/d/1npJcOjQuPrD5RJ2KnNXG7jYLQLALLdBb/view?usp=sharing)
 
 > Send to me for taking out a link(Request Access)
-:     `armanriazi.github.io@gmail.com`
+> : `armanriazi.github.io@gmail.com`
 
 # Questions
 
 Which type of solution enables communication, interaction, and value transfer between different blockchain networks?
 
-- [x] Bridge 
+- [x] Bridge
 - [ ] Omnichain
 - [ ] P2P
 - [ ] Lib2p
-  
+
 Which of the following are token use cases?
 
 - [x] Voting
@@ -37,16 +36,14 @@ Which of the following are token use cases?
 - [x] Attestation
 - [x] Utility
 
-
-Proof of Work does not require the staking of tokens. Therefore, miners in proof of work are not placing anything at risk to create valid blocks? 
+Proof of Work does not require the staking of tokens. Therefore, miners in proof of work are not placing anything at risk to create valid blocks?
 
 - [x] False
 - [ ] True
 
-
 What is the primary function of a locking mechanism in a bridge?
 
-- [x] To lock the original tokens on the source chain. 
+- [x] To lock the original tokens on the source chain.
 - [ ] To enable cross-chain transfers. X
 - [ ] To improve the efficiency of smart contracts
 - [ ] To issue wrapped tokens on the destination chain
@@ -62,19 +59,19 @@ A CBDC could help a Central Bank implement monetary policy in a more effective m
 
 - [x] True
 - [ ] False
-  
+
 A decentralized stablecoin would be less transparent than a custodial stablecoin
 
 - [ ] True
 - [x] False
-  
+
 Central Bank Digital Currencies (CBDCs): (Choose all that apply)
 
 - [ ] Would only be used by commercial banks and other financial institutions
 - [ ] Would necessarily be based upon blockchains
 - [ ] Are widely deployed today
 - [x] Are a digital form of money issued by a Central Bank
-  
+
 Central Bank Digital Currencies are under consideration due to which of the following considerations? (Choose all that apply)
 
 - [x] Possible use as another tool to implement monetary policy
@@ -102,14 +99,14 @@ In which of the following CBDC management schemes would an individual have a cla
 - [ ] indirect
 - [ ]UTXO
 - [x] Hybrid
-  
+
 Most stablecoins are pegged to
 
 - [ ] A market basket of currencies
 - [ ] Barrels of oil
 - [x] The US Dollar
 - [ ] The Euro
-  
+
 Stablecoins seek to address which of the following shortcomings of cryptocurrencies
 
 - [ ]User Experience
@@ -123,7 +120,7 @@ The most popular stablecoin is: (Choose the best answer)
 - [ ] BTC
 - [ ] ETH
 - [x] USDT
-  
+
 The stablecoin trilemma: (Choose all that apply)
 
 - [x] Shows the tradeoffs between different methods of maintaining stability with stablecoins.
@@ -137,14 +134,14 @@ What are the drawbacks of a custodial stablecoin? (Choose all that apply)
 - [x] Counterparty risk
 - [ ] They aren’t based upon a blockchain
 - [ ] inefficient usage of capital
-  
+
 What are the three areas of the CBDC design space? (Choose the best answer)
 
 - [x] Access Method
 - [x] Infrastructure
 - [x] Management Scheme
 - [ ] Blockchain Choice
-  
+
 What techniques are used to minimize stablecoin volatility? (Choose all that apply)
 
 - [x] On-chain collateral
@@ -166,13 +163,13 @@ Which of the following approaches for maintaining stability utilizes non-blockch
 - [ ] On-chain
 - [ ] All the above
 
-Which of the following approaches for maintaining stability with stablecoins does not depend upon collateral? (Choose the best answer)  
+Which of the following approaches for maintaining stability with stablecoins does not depend upon collateral? (Choose the best answer)
 
 - [x] Algorithmic
 - [ ] All the above
 - [ ] On-chain
 - [ ] Off-chain
-  
+
 Which of the following best describes the position of most major Central Banks regarding CBDCs? (Choose the best answer)
 
 - [ ] They have deployed CBDCs
@@ -195,7 +192,7 @@ Liquidation Threshold (choose all that apply)
 - [ ] Is the dollar value at which the loan will be liquidated
 - [x] Is set by the controlling smart contract
 - [ ] Is the dollar value of the collateral
-  
+
 A Flash loan (choose all that apply)
 
 - [ ] Is possible with either TradFi or DeFi loans
@@ -275,7 +272,7 @@ What happens when a loan reaches the Liquidation Threshold (LT)
 - [x] It is sold to liquidators (partially
 - [ ] Nothing. It is informational only
 - [ ] The collateral and loan are returned
-  
+
 What is used to guard against the volatility of digital assets when used as collateral in Decentralized Borrowing? (Choose all that apply)
 
 - [ ] Use of KYC
@@ -419,7 +416,7 @@ Which of the following are not Decentralized Exchanges? (Choose all that apply)
 - [ ]Uniswap
 - [ ] Balancer
 - [x] Coinbase
-  
+
 Which of the following is not a reason that it is difficult to build DEX with order books?
 
 - [x] Government Regulations
@@ -457,7 +454,6 @@ Which of the following statements regarding Decentralized Exchanges are false? (
 
 Why are cryptocurrency CEXs possibly even more centralized than TradFi Centralized Exchanges? (Choose all that apply)
 
-
 There are generally more intermediaries in TradFi CEXs
 
 - [x] Their use of Smart Contracts
@@ -471,7 +467,7 @@ A DeFi application based upon Ethereum that requires the final score of a future
 
 - [ ] False
 - [x] True
-  
+
 How would a smart contract use the services of an oracle? (Choose all that apply)
 
 - [ ] By contacting the company that provides the oracle for a private key
@@ -548,7 +544,7 @@ Which of the following could be tokenized (choose all that apply)?
 - [x] Real Estate
 - [x] ETH
 - [x] Silver
-- [x] Apple 
+- [x] Apple
 
 Which of the following is not true of synthetic assets?
 
@@ -607,7 +603,7 @@ DAOs are governed:
 - [ ] Both Off-chain and On-Chain
 - [ ] Off-Chain
 - [x] On-Chain
-  
+
 Governance in DeFi projects is typically enabled and expressed through
 
 - [ ] Staking Ethereum
@@ -781,7 +777,7 @@ Total Token Supply is
 
 What are the benefits of tokenizing physical assets? (Choose all that apply)
 
-- [x] Tokens would easily be used and traded. 
+- [x] Tokens would easily be used and traded.
 - [x] Tokens would enable fractional ownership of expensive assets.
 - [ ] Tokens would remove the need for any centralized intermediaries.
 - [ ] Physical assets cannot be tokenized.
@@ -789,7 +785,7 @@ What are the benefits of tokenizing physical assets? (Choose all that apply)
 What are the challenges tokenizing physical assets (Choose all that apply)
 
 - [ ] Technical difficulty representing a physical asset in a token
-- [x] The need for centralized intermediaries 
+- [x] The need for centralized intermediaries
 - [ ] There are no significant issues with tokenizing physical assets.Legal recognition for tokens representing physical assets is a significant hurdle. Ownership of physical assets (particularly significant physical assets like a home or car) interact with the legal system. This will require centralized intermediaries to mediate between the physical world and blockchain world.
 - [x] Legal recognition
 
@@ -913,6 +909,7 @@ What is a key difference between DeFi games and NFT games?
 - [ ] DeFi games have no in-game assets
 
 What is a rug pull?
+
 - [ ] A type of flooring
 - [x] A sudden withdrawal of liquidity
 - [ ] A type of phishing attack
@@ -925,15 +922,12 @@ What is one advantage of using a password manager?
 - [ ] It provides a list of known phishing sites
 - [ ] It monitors DeFi transactions for front-running attacks
 
-
-
 What is the purpose of connecting a hardware wallet to MetaMask?
 
 - [x] To enable phishing protection
 - [ ] To generate strong passwords
 - [ ] To track token balances
 - [x] To allow interaction with DeFi applications while maintaining secure storage of crypto assets
-
 
 What is the purpose of MetaMask's phishing protection feature?
 
@@ -955,7 +949,6 @@ Which of the following are common types of scams in the DeFi ecosystem?
 - [x] Smart contract exploits
 - [x] Rug pulls
 - [x] Exit scams
-
 
 Which of the following can help you maintain a secure browsing environment while using MetaMask?
 
@@ -1069,7 +1062,7 @@ Suppose you want to take a USDC loan, posting 1 ETH as collateral, in a platform
 
 Suppose that you are building a new DEX and your highest priority is to provide the best support for exchanging tokens with the same price while avoiding slippage for your users. You are more likely to utilize (Where x and y are the liquidity of provided tokens)
 
-- [ ] The constant product formula (k=x*y)
+- [ ] The constant product formula (k=x\*y)
 - [x] The constant sum formula (k=x+y)
 
 Which of the following are false about Liquidity Pools?

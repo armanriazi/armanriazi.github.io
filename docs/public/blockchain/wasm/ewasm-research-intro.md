@@ -6,6 +6,7 @@ tags:
   - wasm
   - llvm
 ---
+
 **Highlighted Deep Dive Into Polkadot/Substrate/Kusama/EWASM(5)**
 
 👩‍🏫👩‍🏫👩‍🏫
@@ -24,11 +25,9 @@ Portable. WebAssembly apps can be written in C, C++, Rust, Go, and run without c
 
 Manageable. WebAssembly programs can be provisioned, started, hot swapped, stopped, and **moved around by other applications.**
 
-
 ![EWASM](https://cdn.rcimg.net/arman-riazi-science/591674c4/c73b32d67af1318276dd9888e75c8ca8.png)
 
 ![EWASM](https://cdn.rcimg.net/arman-riazi-science/591674c4/070dd66796872ae6e3dc63c77176a748.png)
-
 
 ### Goals
 
@@ -60,32 +59,29 @@ Ethereum defines the EEI to allow the client Corresponding **function libraries 
 
 The smart contract of **Ewasm 2.0 is renamed Execution Environments (EE).**
 
-## LLVM 
+## LLVM
 
-**LLVM includes a WebAssembly backend to generate WASM output.** Major browser JavaScript engines will notably have native support for WebAssembly, including but not limited to: Google's V8 engine (Node.js and Chromium-based browsers), Microsoft's Chakra engine (Microsoft Edge), Mozilla's Spidermonkey engine (Firefox and Thunderbird). * Other non-browser implementations exist too: wasm-jit-prototype (a standalone VM using an LLVM backend), wabt (a stack-based interpreter), ml-proto (the OCaml reference interpreter), etc.
+**LLVM includes a WebAssembly backend to generate WASM output.** Major browser JavaScript engines will notably have native support for WebAssembly, including but not limited to: Google's V8 engine (Node.js and Chromium-based browsers), Microsoft's Chakra engine (Microsoft Edge), Mozilla's Spidermonkey engine (Firefox and Thunderbird). \* Other non-browser implementations exist too: wasm-jit-prototype (a standalone VM using an LLVM backend), wabt (a stack-based interpreter), ml-proto (the OCaml reference interpreter), etc.
 
 it future-proofs the Ethereum protocol by bringing the **LLVM** and WebAssembly developer communities into the Polkadot ecosystem. It is your best choice among one-stop development platforms for next-gen Web3 applications. **It is Ethereum on Steroids.**
 
 SecondState developers recently built a Solidity to Ewasm compiler called Soll.
 
- 
 ![EWASM](https://cdn.rcimg.net/arman-riazi-science/591674c4/b7c9671dd8b831841383864f615382e4.png)
 
 ![EWASM](https://cdn.rcimg.net/arman-riazi-science/591674c4/54616ed0162c79fb98ff115bf19525c1.png)
 
-```solc/solc --strict-assembly --optimize ~/simple_storage/simple_storage_yul_ir.txt```
-
+`solc/solc --strict-assembly --optimize ~/simple_storage/simple_storage_yul_ir.txt`
 
 ## SewUp
 
-**The Second State EWasm Utility Program (SewUp)** is a library that helps you sew up your Ethereum project with Rust, just like development in a common backend. 
+**The Second State EWasm Utility Program (SewUp)** is a library that helps you sew up your Ethereum project with Rust, just like development in a common backend.
 
- ![EWASM](https://cdn.rcimg.net/arman-riazi-science/591674c4/abef4b5add46893a5c5be2fb268b62d2.png)
-
+![EWASM](https://cdn.rcimg.net/arman-riazi-science/591674c4/abef4b5add46893a5c5be2fb268b62d2.png)
 
 [Set-up-Sewup](https://docs.parastate.io/developers-resources/sewup-ewasm/set-up-sewup)
 
-[Tutorial-Hello-World]](https://docs.parastate.io/developers-resources/sewup-ewasm/tutorial-hello-world)
+[Tutorial-Hello-World]](<https://docs.parastate.io/developers-resources/sewup-ewasm/tutorial-hello-world>)
 
 ![EWASM](https://cdn.rcimg.net/arman-riazi-science/591674c4/e120f04193d2f6aed497d0d10a40224e.png)
 ![EWASM](https://cdn.rcimg.net/arman-riazi-science/591674c4/90ad2987d86671619e2d1bf735dd5e72.png)
@@ -129,17 +125,8 @@ EVM transcompiler: an EVM bytecode (the current Ethereum VM) to ewasm transcompi
 
 Reseacher & Organized by:
 
-🙏Arman-Riazi🤝 
-
+🙏Arman-Riazi🤝
 
 [[Polkadot-Ecosystem-Research]]
 
 [[Substrate]]
- 
-
- 
-
- 
-
- 
-

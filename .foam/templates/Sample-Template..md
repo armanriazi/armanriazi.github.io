@@ -1,22 +1,23 @@
 ---
 search:
 exclude: true
-type:  English
-keywords:  English
-feature:  English
+type: English
+keywords: English
+feature: English
 title: "English"
 author: "ArmanRiazi"
 ---
 
 # Foam Note Templates
 
-Foam includes note templates! 
+Foam includes note templates!
 This allows you to easily create notes that have similar structure without having to use copy/paste :)
 
 Templates support the [VS Code's Snippet Syntax](https://code.visualstudio.com/docs/editor/userdefinedsnippets#_snippet-syntax), which means you can:
+
 - add variables to the newly created note
 - add tabstop to automatically navigate to the key parts of the note, just like a form
-Below you can see an example showing a todo list and a timestamp.
+  Below you can see an example showing a todo list and a timestamp.
 
 ## Todo List
 
@@ -36,7 +37,7 @@ Enjoy!
 
 [An Internal Link to a Section Heading](/guides/content/editing-an-existing-page#modifying-front-matter)
 
-This is how you *italicise* text
+This is how you _italicise_ text
 This is how you **bold** text
 This is how you add additional line spacing
 &nbsp;
@@ -58,5 +59,3 @@ between lines.
         </code>
     </pre>
 </figure>
-
-

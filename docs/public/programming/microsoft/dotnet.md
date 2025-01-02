@@ -11,12 +11,13 @@ keywords:  github armanriazi programming DotNet Microsoft Netcore
 
 ## Certificates
 
-* [Design Patterns & OOP & DDD](../learning/programming-certificate.md)
+- [Design Patterns & OOP & DDD](../learning/programming-certificate.md)
 
 ## Github Projects
+
 [Applicant-Portal](https://github.com/armanriazi/ApplicantPortal)
 
-[Cryptography.NetCore](https://github.com/armanriazi/Cryptography.NetCore)      
+[Cryptography.NetCore](https://github.com/armanriazi/Cryptography.NetCore)
 
 [.NET-Core-Microservices(NonProduction)](https://github.com/armanriazi/.NET-Core-Microservices)
 

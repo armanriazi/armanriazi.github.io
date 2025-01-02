@@ -7,14 +7,14 @@ tags:
   - me
   - i
   - armanriazi
-  - riazi  
+  - riazi
   - career
   - recuit
 search:
   exclude: true
-type:  About
-keywords:  About armanriazi Social-Contact 
-feature:  Social
+type: About
+keywords: About armanriazi Social-Contact
+feature: Social
 title: "Future Participants"
 layout: page
 author: "Arman Riazi"

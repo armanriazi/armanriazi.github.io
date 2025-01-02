@@ -4,6 +4,7 @@ tags:
   - polkadot_ecosystem
   - pos
 ---
+
 **Highlighted Deep Dive Into Polkadot/Substrate/Kusama/Parastate(4)**
 
 👩‍🏫👩‍🏫👩‍🏫
@@ -13,8 +14,6 @@ tags:
 ParaState is a **proof-of-stake blockchain** platform that says its goal is to ParaState aims to become a Polkadot parachain that extends the frontier of Ethereum with substrate framework. By supporting 20+ programming languages to create Ethereum-compatible multi-chain smart contract.
 
 ![ParaState](https://cdn.rcimg.net/arman-riazi-science/3b3da967/40ba9fc24ab6110b7f3ab9a155a8492f.png)
-
-
 
 @State-Token
 
@@ -40,18 +39,8 @@ Polkadot (bridge assets via Snowfork/Interlay).
 
 Reseacher & Organized by:
 
-🙏Arman-Riazi🤝 
+🙏Arman-Riazi🤝
 
 [[Polkadot-Ecosystem-Research]]
 
 [[Substrate]]
-
-
- 
-
- 
-
- 
-
- 
-

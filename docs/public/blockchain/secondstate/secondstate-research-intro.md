@@ -3,13 +3,14 @@ tags:
   - secondstate
   - iot
 ---
+
 **Highlighted Deep Dive Into Polkadot/Substrate/Kusama/Secondstate(6)**
 
 👩‍🏫👩‍🏫👩‍🏫
 
 ## Introducing
 
-For automakers, the runtime isolation reduces complexity in integration and operation. For parts makers, the virtualized runtime supports “write once run on any car”. Second State is developing a real-time, deterministic, and efficient runtime sandbox for automotive applications. It is completely open source and already used by leading auto suppliers. 
+For automakers, the runtime isolation reduces complexity in integration and operation. For parts makers, the virtualized runtime supports “write once run on any car”. Second State is developing a real-time, deterministic, and efficient runtime sandbox for automotive applications. It is completely open source and already used by leading auto suppliers.
 
  Rust could be 25x faster than Python for machine learning.
 ![Secondstate](https://cdn.rcimg.net/arman-riazi-science/a8138de8/409ef0bb0cbfb8a3d66daa64d0027c6a.png)
@@ -36,7 +37,7 @@ Allows precise metering of computational resources for serverless apps.
 
 ## Serverless
 
-@FaaS 
+@FaaS
 
 is one of the fastest growing areas of cloud computing. FaaS allows developers to **focus on the code.** Once the developer uploads the code, the FaaS takes care of deployment, service availability, and scalability. The developer only **pays for resources the service uses, not reserved idle time.** This approach, known as serverless computing, is the way to build inter-connected and microservice-based applications. The result are fast development turn around, easy deployment, high availability, infinite scalability, at low cost.
 
@@ -48,7 +49,7 @@ However, traditional FaaS are based on microVM (eg Firecracker and gVisor) and a
 
 ## Features
 
-@WasmEdge 
+@WasmEdge
 
 WasmEdge is a lightweight, high-performance, and extensible WebAssembly runtime for cloud native, edge, and decentralized applications. **It powers serverless apps, embedded functions, microservices, smart contracts, and IoT devices.**
 
@@ -74,7 +75,7 @@ Second State FaaS provides a Rust API to run Tensorflow-based MTCNN models at na
 
 ## Literature
 
-WebAssembly System Interface  = WASI
+WebAssembly System Interface = WASI
 
 Convolutional Neural Networks = CNN
 
@@ -84,16 +85,8 @@ Function as a Service = FaaS
 
 Reseacher & Organized by:
 
-🙏Arman-Riazi🤝 
+🙏Arman-Riazi🤝
 
- 
 [[Polkadot-Ecosystem-Research]]
 
 [[Substrate]]
-
- 
-
- 
-
- 
-

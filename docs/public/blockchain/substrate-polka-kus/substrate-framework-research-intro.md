@@ -16,7 +16,7 @@ tags:
 
 Substrate is a fully modular blockchain framework that unleashes developers **instead of forcing them to work within the confines of others' design decisions.** Building a custom blockchain with Substrate offers greater freedom, flexibility, and optimization than **building on top of a** general-purpose smart-contract blockchain.
 
-you're not only free to choose your parameters such gas costs, governance, and consensus, you're also free to choose how your blockchain is deployed and if/how it should communicate with other networks. 
+you're not only free to choose your parameters such gas costs, governance, and consensus, you're also free to choose how your blockchain is deployed and if/how it should communicate with other networks.
 
 ![Polkadot](https://cdn.rcimg.net/arman-riazi-science/83a5d0a4/29595a4f69cc12a98a7f5acb9d464ae8.png)
 
@@ -32,9 +32,7 @@ you're not only free to choose your parameters such gas costs, governance, and c
 
 ![Polkadot](https://cdn.rcimg.net/arman-riazi-science/83a5d0a4/a6f9ed5e5be643255ea03b35917493e0.png)
 
-
-On my opinion for  substrate future(DNA Replication)
-
+On my opinion for substrate future(DNA Replication)
 
 ## Limitations-Resolved
 
@@ -44,7 +42,7 @@ For example, reusing the Ethereum codebase implies several limitations: **having
 
 ## MainModules
 
-###Frame
+### Frame
 
  business logic is provided through a **modular system known as FRAME**.
 
@@ -78,7 +76,7 @@ Hooks
 
 Extrinsics
 
-An example is as follows: https://docs.substrate.io/v3/runtime/frame/
+An example is as follows: <https://docs.substrate.io/v3/runtime/frame/>
 
 Pallets can be composed of as many sections as needed, giving runtime engineers a lot of flexibility on top of the basic skeletons depicted above. Refer to **the Substrate Runtime Macros to learn more about adding functionality to a FRAME pallet.**
 
@@ -88,29 +86,28 @@ The FRAME System crate frame_system provides low-level types, storage, and fu
 
 **The System crate defines all the core types for the Substrate runtime**, such as:
 
-*Origin
+\*Origin
 
-*Block Number
+\*Block Number
 
-*Account Id
+\*Account Id
 
-*Hash
-*
-*Header
-*Version
-*
-*etc...
+\*Hash
 
-*It also has a number of system-critical storage items, such as:
+- *Header
+  *Version
+- \*etc...
 
-*Account Nonce
-*
-*Block Hash
+  \*It also has a number of system-critical storage items, such as:
 
-*Block Number
+  \*Account Nonce
 
-*Events
-*etc...
+- \*Block Hash
+
+  \*Block Number
+
+  *Events
+  *etc...
 
 Finally, it defines a number of low level functions which can access your blockchain storage, verify the origin of an extrinsic, and more.
 
@@ -142,7 +139,7 @@ When building with FRAME, **the Substrate runtime is composed of several smaller
 
 @Prebuilt pallets
 
-https://docs.substrate.io/v3/runtime/frame/
+<https://docs.substrate.io/v3/runtime/frame/>
 
 Atomic Swap, Aura, Authority Discovery, Authorship, BABE , Balances, Benchmark, Collective, Contracts, Democracy, Elections Phragmén, Elections, GRANDPA, Identity, I'm Online, Indices, Membership, Multisig, Nicks, Offences, Proxy, Recovery, Randomness Collective Flip, Scheduler, Scored Pool, Session, Society, Staking, Sudo, Timestamp, Transaction Payment, Treasury, Utility, Vesting
 
@@ -160,7 +157,7 @@ An extrinsic is a piece of information that comes from outside the chain and is 
 
 @Inherents
 
-Inherents are pieces of information that are **not signed** and only **inserted into a block by the block author**. They are not gossiped on the network or stored in the transaction queue.  **For example, the author of the block may insert a timestamp inherent into the block. There is no way to prove that a timestamp is true** the way the desire to send funds is proved with a signature. Rather, validators accept or reject the block based on how reasonable the other validators find the timestamp, which may mean it is within some acceptable range of their own system clocks.
+Inherents are pieces of information that are **not signed** and only **inserted into a block by the block author**. They are not gossiped on the network or stored in the transaction queue. **For example, the author of the block may insert a timestamp inherent into the block. There is no way to prove that a timestamp is true** the way the desire to send funds is proved with a signature. Rather, validators accept or reject the block based on how reasonable the other validators find the timestamp, which may mean it is within some acceptable range of their own system clocks.
 
 @SignedTransactions
 
@@ -174,7 +171,7 @@ Since the transaction is not signed, there is **nobody to pay a fee**. Because o
 
 👆👆👆
 
-##Features
+## Features
 
 ### Configurable
 
@@ -188,7 +185,7 @@ Another unique attribute of Substrate is its “light-client-first” design whi
 
 ## Security
 
-Substrate chains can inherit security from Substrate-based relay chains like Polkadot or Kusama. 
+Substrate chains can inherit security from Substrate-based relay chains like Polkadot or Kusama.
 
 ## Offchain
 
@@ -212,7 +209,7 @@ Access to the node's precise local time.
 
 The ability to sleep and resume work.
 
-Note that the results from off-chain workers are not subject to regular transaction verification. **A verification mechanism  should be implemented to determine what information gets into the chain.**
+Note that the results from off-chain workers are not subject to regular transaction verification. **A verification mechanism should be implemented to determine what information gets into the chain.**
 
 **Off-Chain Storage** offers storage that is local to a Substrate node that can be accessed both by **off-chain workers (both read and write access) and on-chain logic (write access via off-chain indexing but not read access).** This allows different worker threads to communicate to each other and to store user or node-specific data that does not require consensus over the whole network.
 
@@ -250,7 +247,7 @@ In addition, the underlying EVM engine (**SputnikVM**) has been modified to make
 
 **Substrate EVM is an SRML** module that provides an EVM execution environment for running unmodified Solidity code “natively” on a Substrate-based blockchain. In essence, Substrate EVM will allow Substrate-based blockchains, including Polkadot parachains, to host a nearly-complete instance of the Ethereum state transition function on-chain, alongside any additional Substrate modules as required for custom functionality.
 
-Existing Solidity applications can be deployed and executed in this environment, and will gain the added benefits of being part of a Substrate-based blockchain. 
+Existing Solidity applications can be deployed and executed in this environment, and will gain the added benefits of being part of a Substrate-based blockchain.
 
 **Interoperability** with other Substrate modules is possible thanks to custom-built **"pre-compiled contract"** APIs, which will allow all basic SRML functionality, including calls between modules, balance transfers, and interchain messaging.
 
@@ -258,13 +255,13 @@ Existing Solidity applications can be deployed and executed in this environment,
 
 ## Literature
 
-hot-swap components = pallets 
+hot-swap components = pallets
 
 Off-Chain Worker = OCW
 
 Remote procedure calls = RPC
 
-Framework for Runtime Aggregation of Modularized Entities  = FRAME
+Framework for Runtime Aggregation of Modularized Entities = FRAME
 
 runtime = state transition function
 

@@ -13,5 +13,6 @@
       <!-- <a-text font="Waitting.. width="6" position="-2.5 0.25 -1.5"
               rotation="0 15 0"></a-text> -->
     </a-scene>
+
   </body>
 </html>

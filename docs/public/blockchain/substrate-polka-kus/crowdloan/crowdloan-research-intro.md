@@ -12,7 +12,7 @@ tags:
 
 ## Introducing
 
-Kusama is a **canary** network for Polkadot; Kusama is a **proving ground for runtime upgrades, on-chain governance, and parachains**. The network is a permissionless.Kusama does not support smart contracts natively.The Kusama network is Polkadot's experimental, community-focused R&D network.  
+Kusama is a **canary** network for Polkadot; Kusama is a **proving ground for runtime upgrades, on-chain governance, and parachains**. The network is a permissionless.Kusama does not support smart contracts natively.The Kusama network is Polkadot's experimental, community-focused R&D network.
 
 👆👆👆
 
@@ -20,7 +20,7 @@ AccountThese are transfer and transfer_keep_alive. transfer will allow you 
 
 By default, Polkadot-JS Apps will use transfer_keep_alive, ensuring that the account you send from cannot drop below the existential deposit of 0.001666 KSM.
 
-it may be that you **do not want to keep this account alive (for example, because you are moving all of your funds to a different address). **
+it may be that you **do not want to keep this account alive (for example, because you are moving all of your funds to a different address).**
 
 Note: Even if the transfer fails due to a keep-alive check, the transaction fee will be deducted from the sending account if you attempt to transfer.
 
@@ -42,7 +42,7 @@ To participate in the PolkadotParachain Auction and compete for a slot, prospect
 
 **Parachains can bid their own DOT, through a single account**
 
-**Parachains can use crowdloans to crowdsource DOT and bid it in the auctions **
+**Parachains can use crowdloans to crowdsource DOT and bid it in the auctions**
 
 Users cannot participate in the Polkadot Parachain Auction directly. Users can only participate indirectly via crowd loans by contributing and locking DOT.
 
@@ -50,11 +50,11 @@ Shared security and processing of transactions don’t come for free. One of the
 
 A Parachain slot is a scarce resource. Given an increase in the number of Parachains, every few months new Parachains slots will be added. The Polkadot ultimate goal is to have 100 slots.
 
-## crowdsale-VS-crowdloan 
+## crowdsale-VS-crowdloan
 
-crowdsale and crowdloan which makes sense because they sound the same. they are similar but there are some very key differences for example **crowdsale** I am sure you're familiar with it's kind of like platforms along the lines of **kickstarter** so you fund a project say **creating a backpack that sings and lights up and then you give the funds to eventually get the product knowing that it's not created yet** and then the creator uses those funds to make the product and then eventually you'll get that product in the mail so you are buying an actual thing and then you get that thing but you never get your original funds back  where a **crowdloan is very different** so you're finding a specific function for example a parachain slot and it can only be used for that purpose it can't be used for anything else and then all funds that you contribute are delivered back to you once the lease is up so anything you contributed originally comes right back to you and it's not like you're putting funds down and you never see them again but you get something else in return and so parachain teams don't have control over the funds it's locked in the relay chain which prevents rug pull so all of a sudden funds can't just disappear or someone takes all of them it's pretty much impossible for that to happen and then if the first attempt to score slot isn't successful the crowd loan continues to try to score a parachain slot in the next round and then the next round until they do and all crowdloans do have an expiration date and that will all be specified in the outset so you should never be left in the dark you'll always have all the information you need so you can look forward to all the exciting things to come.
+crowdsale and crowdloan which makes sense because they sound the same. they are similar but there are some very key differences for example **crowdsale** I am sure you're familiar with it's kind of like platforms along the lines of **kickstarter** so you fund a project say **creating a backpack that sings and lights up and then you give the funds to eventually get the product knowing that it's not created yet** and then the creator uses those funds to make the product and then eventually you'll get that product in the mail so you are buying an actual thing and then you get that thing but you never get your original funds back where a **crowdloan is very different** so you're finding a specific function for example a parachain slot and it can only be used for that purpose it can't be used for anything else and then all funds that you contribute are delivered back to you once the lease is up so anything you contributed originally comes right back to you and it's not like you're putting funds down and you never see them again but you get something else in return and so parachain teams don't have control over the funds it's locked in the relay chain which prevents rug pull so all of a sudden funds can't just disappear or someone takes all of them it's pretty much impossible for that to happen and then if the first attempt to score slot isn't successful the crowd loan continues to try to score a parachain slot in the next round and then the next round until they do and all crowdloans do have an expiration date and that will all be specified in the outset so you should never be left in the dark you'll always have all the information you need so you can look forward to all the exciting things to come.
 
- the other thing to keep in mind is some projects have a **rewards** cap for their crowd loans so they can only give out so many rewards or they can only take so many contributions to the crowd loan or a certain amount so if you are set on wanting to participate it's always good to do it as soon as you feel ready um just in case you know there's a cut off or in case you can get bonus rewards.
+the other thing to keep in mind is some projects have a **rewards** cap for their crowd loans so they can only give out so many rewards or they can only take so many contributions to the crowd loan or a certain amount so if you are set on wanting to participate it's always good to do it as soon as you feel ready um just in case you know there's a cut off or in case you can get bonus rewards.
 
 ## ParachainAcution-vs-eBayAcution
 
@@ -66,15 +66,15 @@ For this reason, Vickrey auctions, a variant of second price auction in which b
 
 Polkadot will use a random beacon based on the VRF that's used also in other places of the protocol. The **VRF** will provide the base of the randomness, which will retroactively **determine the end-time of the auction.**
 
-1) Slot Action compatition(Weekly)
+1. Slot Action compatition(Weekly)
 
-2) if Won then
+2. if Won then
 
-3) Parachain Lease Relay chain (Yearly)
+3. Parachain Lease Relay chain (Yearly)
 
 The slot durations are capped to 1 year and divided into 6-week periods(KSM- 12m/3m=4m); The slot durations are capped to 2 years and divided into 3-month periods (DOT- 24m/3m=8m);Once the parachain lease ends (48 weeks maximum on Kusama, 96 weeks on Polkadot), funds are returned to the contributors.
 
- Parachains may lease a slot for any combination of periods of the slot duration. Parachains may lease more than one slot over time, meaning that they could extend their lease to Polkadot past the maximum duration by leasing a contiguous slot.
+Parachains may lease a slot for any combination of periods of the slot duration. Parachains may lease more than one slot over time, meaning that they could extend their lease to Polkadot past the maximum duration by leasing a contiguous slot.
 
 Note: Individual parachain slots are fungible. This means that parachains do not need to always inhabit the same slot, but **as long as a parachain inhabits any slot it can continue as a parachain.**You Can’t (Technically) Combine Crowdloans and Private Bids
 
@@ -96,15 +96,15 @@ Emily bids 40 for the range 1 - 4.
 
 Let's calculate each bidder's valuation according to the algorithm. We do this by multiplying the bond amount by the number of periods in the specified range of the bid.
 
-**Charlie - 75 * 8 = 600 for range 1 - 8**
+**Charlie - 75 \* 8 = 600 for range 1 - 8**
 
-Dave - 100 * 4 = 400 for range 5 - 8
+Dave - 100 \* 4 = 400 for range 5 - 8
 
-Emily - 40 * 4 = 160 for range 1 - 4
+Emily - 40 \* 4 = 160 for range 1 - 4
 
 Although Dave had the highest bid in accordance to token amount, when we do the calculations we see that since he only bid for a range of 4, he would need to share the slot with Emily who bid much less. Together Dave's and Emily's bids only equals a valuation of 560.
 
-A random number, which is based on the VRF used by Polkadot, is determined at each block. Additionally, each auction will have a threshold that starts at 0 and increases to 1. The random number produced by the VRF is examined next to the threshold to determine if that block is the end of the auction within the so-called ending period. 
+A random number, which is based on the VRF used by Polkadot, is determined at each block. Additionally, each auction will have a threshold that starts at 0 and increases to 1. The random number produced by the VRF is examined next to the threshold to determine if that block is the end of the auction within the so-called ending period.
 
 **Charlie's valuation for the entire range is 600. Therefore Charlie is awarded the complete range of the parachain slot.**
 
@@ -112,7 +112,7 @@ While each parachain auction is scheduled for seven days, the candle auction for
 
 ![Polkadot](https://cdn.rcimg.net/arman-riazi-science/b817f983/a360186ca4671c7895f36c69f26ff047.png)
 
-**The first two days** are confirmed to be an “open” period of the auction. 
+**The first two days** are confirmed to be an “open” period of the auction.
 
 **The following five days,** however, fall within the “wick” of this theoretical candle, and the auction will end sometime in this five-day period.  so you won’t actually know in real-time when the auction ends.
 
@@ -124,7 +124,7 @@ First and Last Slot **(the lease is broken into 8 increments,** and projects can
 
 ![Polkadot](https://cdn.rcimg.net/arman-riazi-science/b817f983/fd7cc5419a9d958125eea5fe12b7a67f.png)
 
- While these crowdloan bids occur, the private-bid projects (Turquoise/Salmon) don’t have to enter additional bids. However, after Day 2, it becomes risky to wait since the auction can end at any time.
+While these crowdloan bids occur, the private-bid projects (Turquoise/Salmon) don’t have to enter additional bids. However, after Day 2, it becomes risky to wait since the auction can end at any time.
 
 Finally, on Day 4, Salmon Parachain enters a private bid of 5000 DOT and briefly takes the lead in the auction.
 
@@ -146,7 +146,7 @@ The remaining parachains must continue to compete for a slot, assuming their cro
 
  authorities win slots based on a verifiable random function = VRF
 
-the private-bid projects =  Individual parachain
+the private-bid projects = Individual parachain
 
 [Substrate-Glossary](https://docs.substrate.io/v3/getting-started/glossary/)
 

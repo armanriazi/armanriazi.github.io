@@ -1,5 +1,3 @@
-
-
 okay so I want to set a few
 expectations.
 
@@ -152,9 +150,10 @@ parity we've got a team of like two or
 three people working on it basically
 the
 
-bitcoin style you 
+bitcoin style you
 
-# UTXO model 
+# UTXO model
+
 is kind of an interesting hybrid between the
 
 stripped/stricked all full nodes must validate
@@ -1070,11 +1069,10 @@ the demo that I gave earlier by using
 
 the - - dev option which is shorthand
 
-for - - chain equals dev - - validator
--
+## for - - chain equals dev - - validator
 
 - key Alice but I could have typed
-those
+  those
 
 in and it would have done the same
 thing
@@ -2224,10 +2222,8 @@ work
 in the etherium model there has to be
 a
 
-
 sent by me one with index 0 1 with
 index
-
 
 yeah and that would make 10 to be the
 
@@ -3481,7 +3477,6 @@ implication
 that if you voted for block I don't
 know
 
-
 that that 68 references by virtue of
 its
 
@@ -3490,7 +3485,6 @@ for
 
 that right you've also voted for 66
 or
-
 
 Genesis block assuming that the
 network
@@ -3521,7 +3515,6 @@ production
 
 stage then it's important that any
 vote
-
 
 not allowed to do under this
 transitive
@@ -3581,7 +3574,6 @@ happen is that under Undershaft these
 
 votes we would always be running at
 the
-
 
 actually no because we only need 2/3
 so
@@ -4147,7 +4139,6 @@ case of increment we just query the
 contract storage by certain key which
 is
 
-
 the specified value and then save it
 
 back into the storage encoding it and
@@ -4335,7 +4326,6 @@ arbitrary
 
 size at values so you can put not
 only
-
 
 you query it you you can basically
 
@@ -4661,7 +4651,6 @@ first one is a 32 byte public key from
 
 that represents a point on the edy 255
 1
-
 
 nine public key and the other one is
 an
@@ -5960,7 +5949,7 @@ production is on a individual basis
 like
 
 - so - are competing with each other
-to
+  to
 
 produce these blocks it's not really
 the
@@ -6139,7 +6128,6 @@ market
 effects are such that 5% of that 20%
 so
 
-
 the total are being replicated to root
 
 for their rewards so I mean this is a
@@ -6188,9 +6176,7 @@ tokens again yep so we're going to
 
 dilute by 25% we take a fifth of that
 
-
 so validators whatever so that's that
-
 
 and with the other 20% which which
 

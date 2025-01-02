@@ -21,7 +21,6 @@ show:
 
 ---
 
-
 !!! Certificates_and_Seen_Toturials_2023
 
     === "Decentralized Finance Certificates 2023"
@@ -42,7 +41,7 @@ show:
 
     === "Passed Self-Study Tutorials"
 
-        * [Cryptocurrency-tutorials](learning/crypto-trade-non-certificate.md)        
+        * [Cryptocurrency-tutorials](learning/crypto-trade-non-certificate.md)
 
 ---
 

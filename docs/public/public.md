@@ -1,57 +1,57 @@
 ## Index
 
-* [Portfolio](../achievements.md)
+- [Portfolio](../achievements.md)
 
 ---
 
-* [Programming](programming/programming.md)
+- [Programming](programming/programming.md)
 
-  * [Rust](programming/rust/rust.md)
+  - [Rust](programming/rust/rust.md)
 
-  * [NestJS](programming/nestjs/nestjs.md)
+  - [NestJS](programming/nestjs/nestjs.md)
 
-  * [NodeJS](programming/nodejs/nodejs.md)
+  - [NodeJS](programming/nodejs/nodejs.md)
 
-  * [Monorepo](programming/monorepo/monorepo.md)
+  - [Monorepo](programming/monorepo/monorepo.md)
 
-  * [Solidity](programming/solidity/solidity.md)
+  - [Solidity](programming/solidity/solidity.md)
 
-  * [DotNet](programming/microsoft/dotnet.md)
-
----
-
-* [Cybersecurity](cybersecurity/Cybersecurity.md)
+  - [DotNet](programming/microsoft/dotnet.md)
 
 ---
 
-* [DevOps Engineer](devops/Devops.md)
-
-  * [Message Brokers](devops/MessageBrokers.md)  
+- [Cybersecurity](cybersecurity/Cybersecurity.md)
 
 ---
 
-* [Blockchain](blockchain/Blockchain.md)
+- [DevOps Engineer](devops/Devops.md)
 
-  * [ReFi](https://armanriazi.github.io/refi/)
-
-  * [DeFI](defi/defi.md)
-  
----
-
-* [Master Thesis](university/master.md)
-
-  * [Preferred Films of Website](myvideos.md)
-
-  * [Archived Projects](archive/main.md)
+  - [Message Brokers](devops/MessageBrokers.md)
 
 ---
 
-* [Other Links](other/main.md)
+- [Blockchain](blockchain/Blockchain.md)
 
-  * [How to learn quickly](other/learn-quickly.md)
+  - [ReFi](https://armanriazi.github.io/refi/)
 
-  * [RoadMap](other/roadmap.md)
+  - [DeFI](defi/defi.md)
 
 ---
 
-* [GLOSSARY](GLOSSARY.md)
+- [Master Thesis](university/master.md)
+
+  - [Preferred Films of Website](myvideos.md)
+
+  - [Archived Projects](archive/main.md)
+
+---
+
+- [Other Links](other/main.md)
+
+  - [How to learn quickly](other/learn-quickly.md)
+
+  - [RoadMap](other/roadmap.md)
+
+---
+
+- [GLOSSARY](GLOSSARY.md)

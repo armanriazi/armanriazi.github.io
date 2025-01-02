@@ -9,7 +9,6 @@ tags:
 
 # Message Brokers
 
-* [Documentation](https://armanriazi.github.io/messagebrokers)
+- [Documentation](https://armanriazi.github.io/messagebrokers)
 
-* [Repository](https://github.com/armanriazi/messagebrokers)
-
+- [Repository](https://github.com/armanriazi/messagebrokers)

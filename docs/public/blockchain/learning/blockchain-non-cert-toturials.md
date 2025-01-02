@@ -1,7 +1,6 @@
-
 ## Video Toturials Self-Study
 
-!!! Learnt Toturials 
+!!! Learnt Toturials
 
     === "Video courses 2023"
 
@@ -25,22 +24,24 @@
         * StoneRiverElearning Starting with NEM (Not yet)
         * TechnicsPublications Data Modeling and Blockchain
         * Build a Blockchain and a cryptocurrnecy from scratch
-        * IBM Blockchain Solutions 
-       
+        * IBM Blockchain Solutions
+
 ---
 
 #### Followed Youtube Channels
+
     * Polkadot
     * Kusama
     * Alchemy
     * Hyperledger
-    * IBM 
+    * IBM
     * DApp university
     * Skycoin
     * Blockstack
     * Ethereum
 
-◘ And so many bookmarks that taked my attention and time archived draft of blockchain issued proposals  ◘
+◘ And so many bookmarks that taked my attention and time archived draft of blockchain issued proposals ◘
 
 #### Sharable Research White Papers(archived 2020)
- [OneNote-Online](https://1drv.ms/u/s!AiPa0TLEgzJ7jQ6q5Uj5CYjJKcik) 
+
+[OneNote-Online](https://1drv.ms/u/s!AiPa0TLEgzJ7jQ6q5Uj5CYjJKcik)
