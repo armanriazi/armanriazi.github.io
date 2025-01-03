@@ -16,9 +16,11 @@ tags:
   - Penetration test
 ---
 
-[Arman Riazi CySec Portfolio](https://tryhackme.com/api/v2/badges/public-profile?userPublicId=3868609)
+## Cybersecurity Portfolio
 
-<!--<img src="https://tryhackme-badges.s3.amazonaws.com/armanriazi.png" alt="Arman Riazi CySec Portfolio" />-->
+Click here to get updated badgests and scores.
+
+[![Portfolio](https://tryhackme-badges.s3.amazonaws.com/armanriazi.png)](https://tryhackme.com/api/v2/badges/public-profile?userPublicId=3868609)
 
 !!! Certificates_and_Seen_Toturials
 
