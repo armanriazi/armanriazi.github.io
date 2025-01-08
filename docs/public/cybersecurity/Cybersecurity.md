@@ -16,9 +16,7 @@ tags:
   - Penetration test
 ---
 
-## Cybersecurity Portfolio
-
-Click here to get updated badgests and scores.
+**Click on here to get updated badges and scores.**
 
 [![Portfolio](https://tryhackme-badges.s3.amazonaws.com/armanriazi.png)](https://tryhackme.com/api/v2/badges/public-profile?userPublicId=3868609)
 
