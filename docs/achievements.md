@@ -181,10 +181,8 @@ Regarding for download master's degree, please send your request gaining access.
 <figcaption>Rust as a Modern Mother Language Advanced Techniques for Developing Robust Applications</figcaption>
 </figure>
 
-> Availiable to buy on `ketabrah.ir` and `digikala.com`
-
 <details>  
-  <summary>Papers</summary>
+  <summary>Papers:Shortedlist </summary>
 
     <b>Using ACO Algorithm to Improve Performance for Container-based Scientific</b>
     <br>
@@ -193,12 +191,6 @@ Regarding for download master's degree, please send your request gaining access.
     </a>
     <br>
     <a href="https://scienft.com/nfts/155"> A. Riazi [Using ACO Algorithm to Improve Performance for  Container-based Scientific Workflows] - ScieNFT 2023 Nov NFTID: 163</a>
-    <br>
-    <b>Estimating Mental Health by Analyzing the Impact of Cognitive Load on Working Memory Using AI</b>
-    <br>
-
-    <a href="https://link.springer.com/journal/42486">Reviewer_Springer</a>
-      <br>
     <br>
     <!--https://www.researchsquare.com/article/rs-5382132/private/timeline-->
     <b> MFS:Towards Blanket Licensing Digitized Music Decentralized </b>
