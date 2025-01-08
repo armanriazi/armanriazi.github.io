@@ -74,6 +74,12 @@ author: "Arman Riazi"
 
 [Reviewer_Springer](https://link.springer.com/journal/42486)
 
+### The Role of Serverless Architectures in Revolutionizing FinTech Solutions
+
+[Asian Journal of Mathematics and Computer Research](https://download.ikpress.info/search.php?search=armanriazi.uni@gmail.com)
+
+[Pdf](https://drive.google.com/file/d/1NJneLaiMOBLgKhLZuROaQc6YOz0YXKwv/view?usp=sharing)
+
 ### Towards Blanket Licensing Digitized Music NFT Decentralized
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8023208.svg)](https://doi.org/10.5281/zenodo.8023208)
