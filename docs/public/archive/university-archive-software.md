@@ -16,7 +16,7 @@
 
 ##### #Windows
 
-##### C #
+##### C
 
 ??? info
 ![Sales Photo](../../assets/attachments/uni-net.gif)

@@ -33,13 +33,16 @@ author: "Arman Riazi"
 
 - [Out of the box](https://armanriazi.github.io/links/#learning-profiles)
 
-### 2025
+### 2025(In process)
 
-| Expert | Priod | By        | Supported By | Inquiry                                                   | Documents                                                                               |
-| ------ | ----- | --------- | ------------ | --------------------------------------------------------- | --------------------------------------------------------------------------------------- |
-| IELTS  | 2Y    | IELTS IDP | IELTS        | [1](https://ielts.org/certificates/MK-GCX33E/?print=true) | [G](https://drive.google.com/file/d/1x8qAMMa8nH3bvw6FxnnSBIF5N6ZED--r/view?usp=sharing) |
+| Expert                                                      | Priod | By         | Supported By | Inquiry                                                   | Documents                                                                               |
+| ----------------------------------------------------------- | ----- | ---------- | ------------ | --------------------------------------------------------- | --------------------------------------------------------------------------------------- |
+| IELTS                                                       | 2Y    | IELTS IDP  | IELTS        | [1](https://ielts.org/certificates/MK-GCX33E/?print=true) | [G](https://drive.google.com/file/d/1x8qAMMa8nH3bvw6FxnnSBIF5N6ZED--r/view?usp=sharing) |
+| CEH Practice Projects and Exam Simulators                   | 2M    | LearnKartS | Coursera     | [1](https://www.coursera.org/learner/arman-riazi)         | [G](https://www.coursera.org/learner/arman-riazi)                                       |
+| Professional Certificates/IBM ISC2 Cybersecurity Specialist | 3M    | IBM&ISC2   | Coursera     | [1](https://www.coursera.org/learner/arman-riazi)         | [G](https://www.coursera.org/learner/arman-riazi)                                       |
+| CyberSecurity Badgets and Certifications                    | 1Y    | TryHackMe  | TryHackMe    | [1](https://tryhackme.com/p/armanriazi)                   | [G](https://tryhackme.com/p/armanriazi)                                                 |
 
-### 2024-2025
+### 2024
 
 <!--<details>
   <summary>The Ultimate Cybersecurity Awareness Bundle 2024</summary>
@@ -47,7 +50,7 @@ author: "Arman Riazi"
 
 | Expert                                                             | Priod | By                    | Supported By  | Inquiry                                                                                                                                                    | Documents |
 | ------------------------------------------------------------------ | ----- | --------------------- | ------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | --------- |
-| The Ultimate Cybersecurity Awareness Bundle                        | 56H   | CodeRed.EcCouncil.org | EC-Council    | [1](./public/cybersecurity/learning/cybersecurity-certificate.md)                                                                                          |
+| The Ultimate Cybersecurity Awareness Bundle                        | 56H   | CodeRed.EcCouncil.org | EC-Council    | [1](https://armanriazi.github.io/public/cybersecurity/learning/cybersecurity-certificate/#2024-25eccouncil)                                                |
 | ISE, Access Management Training for Network Administrators - Cisco | 14H   | MaktabKhooneh.org     | MaktabKhooneh | [1](https://maktabkhooneh.org/certificates/MK-GCX33E/?print=true), [G](https://drive.google.com/file/d/1x8qAMMa8nH3bvw6FxnnSBIF5N6ZED--r/view?usp=sharing) |
 | CCNA, Cisco Network Assistant Certificate                          | 69H   | MaktabKhooneh.org     | MaktabKhooneh | [1](https://maktabkhooneh.org/certificates/MK-GCX33E/?print=true), [G](https://drive.google.com/file/d/1x8qAMMa8nH3bvw6FxnnSBIF5N6ZED--r/view?usp=sharing) |
 

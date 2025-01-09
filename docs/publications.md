@@ -43,16 +43,20 @@ author: "Arman Riazi"
 
 ### Rust as a Modern Mother Language Advanced Techniques for Developing Robust Applications
 
+#### Physical Book
+
 - [Volume 1](https://www.motekhassesan.com/?p=48543)
 
 - [Volume 2](https://www.motekhassesan.com/?p=48977)
+
+#### E-Books
+
+> Availiable to buy on Taghcheh.ir and Digikala.com
 
 <figure markdown>
 ![Rust as a Modern Mother Language Advanced Techniques for Developing Robust Applications](https://armanriazi.github.io/assets/attachments/myrustbook.jpg){ width=400 height=200 align=center }
 <figcaption>Rust as a Modern Mother Language Advanced Techniques for Developing Robust Applications</figcaption>
 </figure>
-
-> Availiable to buy on ketabrah.ir and digikala.com
 
 ### Ultimate Rust Systems Programming Architecting
 
@@ -70,15 +74,13 @@ author: "Arman Riazi"
 
 : Cite[^1] this [Exchangable NFT](https://scienft.com/nfts/155)
 
-### Estimating Mental Health by Analyzing the Impact of Cognitive Load on Working Memory Using AI
+### Digital Transformation in Smart Cities: Decentralized Architecture for Sustainable Development within the Web 3.0 Ecosystem
 
-[Reviewer_Springer](https://link.springer.com/journal/42486)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.11002930.svg)](https://doi.org/10.5281/zenodo.11002930)
 
-### The Role of Serverless Architectures in Revolutionizing FinTech Solutions
+[Indexed in OpenAIRE](https://explore.openaire.eu/search/publication?pid=10.5281/zenodo.11002930)
 
-[Asian Journal of Mathematics and Computer Research](https://download.ikpress.info/search.php?search=armanriazi.uni@gmail.com)
-
-[Pdf](https://drive.google.com/file/d/1NJneLaiMOBLgKhLZuROaQc6YOz0YXKwv/view?usp=sharing)
+: Cite[^4] this [Exchangable NFT](https://scienft.com/nfts/5756)
 
 ### Towards Blanket Licensing Digitized Music NFT Decentralized
 
@@ -96,13 +98,14 @@ author: "Arman Riazi"
 
 : Cite[^3] this [Exchangable NFT](https://scienft.com/nfts/318)
 
-### Digital Transformation in Smart Cities: Decentralized Architecture for Sustainable Development within the Web 3.0 Ecosystem
+### Estimating Mental Health by Analyzing the Impact of Cognitive Load on Working Memory Using AI(Reviewer)
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.11002930.svg)](https://doi.org/10.5281/zenodo.11002930)
+[Reviewer_Springer](https://link.springer.com/journal/42486)
 
-[Indexed in OpenAIRE](https://explore.openaire.eu/search/publication?pid=10.5281/zenodo.11002930)
+### The Role of Serverless Architectures in Revolutionizing FinTech Solutions(Reviewer)
 
-: Cite[^4] this [Exchangable NFT](https://scienft.com/nfts/5756)
+[Asian Journal of Mathematics and Computer Research](https://download.ikpress.info/search.php?search=armanriazi.uni@gmail.com)
+[Pdf](https://drive.google.com/file/d/1NJneLaiMOBLgKhLZuROaQc6YOz0YXKwv/view?usp=sharing)
 
 ## Digital Multimedia
 

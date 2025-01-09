@@ -546,7 +546,7 @@ fn main() {
 }
 ```
 
-5. Due to the file sample-three-block-noerror.json in the repo you might copy it and manipulate it, in spite of that you can use generators of your database or ORMs for producing a file.json as the same as following content. Get attention to keys in the file for example we must have transaction{number} and if we write 'mytransaction 1' and run it we will get error.
+5.  Due to the file sample-three-block-noerror.json in the repo you might copy it and manipulate it, in spite of that you can use generators of your database or ORMs for producing a file.json as the same as following content. Get attention to keys in the file for example we must have transaction{number} and if we write 'mytransaction 1' and run it we will get error.
 
        <details>
         <summary><em>Json File</em></summary>

@@ -31,6 +31,7 @@ I captured 6h about implement of ci-cd with kubernetes and docker that I did not
 
 ??? info  
  #VSTS #CICD #Pipline
+
 <iframe width="835" height="506" src="https://www.youtube.com/embed/Fc5UO50ZC4k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
  #TFS-Code2018
 <iframe width="835" height="506" src="https://www.youtube.com/embed/w4FU5JQkg_4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

@@ -15,7 +15,7 @@
 
 ##### #Electronic Payment
 
-##### C #
+##### C
 
 ??? info
 ![Sales Photo](../../assets/attachments/mvcbuy.gif)

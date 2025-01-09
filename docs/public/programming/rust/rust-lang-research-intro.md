@@ -15,7 +15,9 @@
 👆👆👆
 
 ## Crates
+
 # Alloc
+
 The Rust core allocation and collections library
 
 This library provides **smart pointers and collections** for managing heap-allocated values. This library, like libcore, **normally doesn’t need to be used directly since its contents are re-exported in the std crate. Crates that use the #![no_std] attribute however will typically not depend on std, so they’d use this crate instead.**
@@ -23,6 +25,7 @@ This library provides **smart pointers and collections** for managing heap-alloc
 <https://doc.rust-lang.org/alloc/index.html>
 
 # **Core**
+
 The Rust Core Library
 
 The Rust Core Library is the **dependency-free1 foundation of The Rust Standard Library.** It is the portable **glue between the language and its libraries,** defining the intrinsic and primitive building blocks of all Rust code. **It links to no upstream libraries, no system libraries, and no libc.**
@@ -32,6 +35,7 @@ The core library is minimal: it **isn’t even aware of heap allocation, nor doe
 <https://doc.rust-lang.org/core/index.html>
 
 # **Crate proc_macroCopy**
+
 A support library for macro authors when defining new macros.
 
 This library, provided by the standard distribution, provides the types consumed in the interfaces of procedurally defined macro definitions such **as function-like macros #[proc_macro], macro attributes #[proc_macro_attribute] and custom derive attributes#[proc_macro_derive].**
@@ -39,6 +43,7 @@ This library, provided by the standard distribution, provides the types consumed
 <https://doc.rust-lang.org/proc_macro/index.html>
 
 # **Std(The Rust Standard Library)**
+
 The Rust Standard Library is the foundation of portable Rust software, a set of minimal and battle-tested shared abstractions for the broader Rust ecosystem. It offers core types, like Vec<T> and Option<T>, library-defined operations on language primitives, standard macros, I/O and multithreading, among many other things.
 
 **std is available to all Rust crates by default.** Therefore, the standard library can be accessed in use statements through the path std, as in use std::env.
@@ -46,6 +51,7 @@ The Rust Standard Library is the foundation of portable Rust software, a set of 
 <https://doc.rust-lang.org/std/index.html>
 
 # Test
+
 Support code for rustc’s built in unit-test and **micro-benchmarking framework.**
 
 Almost all user code will only be interested in Bencher and **black_box**. All other interactions (such as writing tests and benchmarks themselves) should be done via the #[test] and #[bench] attributes.
@@ -55,7 +61,9 @@ See the Testing Chapter of the book for more details.
 <https://doc.rust-lang.org/test/index.html>
 
 👆👆👆
+
 ## Memory
+
 Rust programs have 3 memory regions where data is stored:
 
 > Data memory - For data that is fixed in size and **static (i.e. always available through life of program).** Consider the text in your program (e.g. "Hello World!"): This text's bytes are only ever read from one place and therefore can be stored in this region. Compilers make lots of optimizations with this kind of data, and they are generally considered **very fast to use since locations are known and fixed.**
@@ -65,7 +73,9 @@ Rust programs have 3 memory regions where data is stored:
 > Heap memory - **For data that is created while the application is running.** Data in this region may be added, moved, removed, resized, etc. Because of its **dynamic** nature it's generally considered **slower** to use, but it allows for much more creative usages of memory. When data is added to this region we call it an **allocation**. When data is removed from this section we call it a **deallocation**.
 
 ## Thread
+
 # LifeTime
+
 @Static
 
 A static variable is a memory resource created at **compile-time** that exists through a **program start to finish**. They must have their types explicitly specified so special lifetime lasting the entire program execution.
@@ -146,6 +156,7 @@ If you still had access to (via unsafe) they might still look like valid S, but 
 Try to avoid "unsafe {}", often safer, faster solution without it. Exception: FFI.
 
 # Arc
+
 @Safe
 
 Arc presents us with a couple of use statements that include threads and something called Arc. **Arc represents a thread-safe reference-counting pointer, and Arc stands for Atomically Reference Counted.** You may know of this idea from old iOS Objective-C code or something like that.

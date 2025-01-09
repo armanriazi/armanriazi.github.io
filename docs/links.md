@@ -53,54 +53,9 @@ permalink: /links
 
 - [Invitation link of WINA Talent](winatalent.com/auth/client/sign-up/4de0a68d-3e79-4410-957f-b10b15e1956b)
 
-#### Teaching
-
-> English & IT
-
-- [Nachhilfeunterricht](https://www.nachhilfeunterricht.de/lehrer/arman-riazi.htm)
-
-#### Start-Up
-
-- [Producthunt](https://www.producthunt.com/@armanriazi)
-
-#### Mentoring
-
-- [Nachhilfeunterricht](https://www.nachhilfeunterricht.de/bewertung/arman-riazi)
-
-#### MultiMedia
-
-- [Vimo Channel Blockchain](https://vimeo.com/user210919767)
-
-- [Youtube Channel Blockchain](https://www.youtube.com/channel/UC4DbYxk3q_6MPNNpHa-C7ag)
-
-- [Youtube Channel-Archived](https://cutt.ly/pyKrYMh)
-
-- [Aparat Channel](https://aparat.ir/armanriazi)
-
-#### Academic
-
-- [Academia.edu](https://independent.academia.edu/riaziarman)
-- [Medium](https://armanriazi-github-io.medium.com)
-
-- [Base Search(showing citation)](https://www.base-search.net/Search/Results?q=aut:%22Arman%20Riazi%22)
-
-- [ArmanRiazi-Doc](https://github.com/armanriazi/Documents)
-
-- [Civilica](https://civilica.com/p/462252/)
--
-- [Read.Cash](https://read.cash/@arman-riazi-science)
-
-- [ResearchGate](https://www.researchgate.net/profile/Arman_Riazi2)
-
-- [Ordchid](https://orcid.org/0000-0003-3729-6290)
-
-- [Ecency](https://ecency.com/@arman-riazi)
-
-- [Repo-Doc-Blockchain](https://github.com/armanriazi/Doc-Blockchain)
-
-- [Web Of Science](https://www.webofscience.com/wos/author/record/HMD-2276-2023)
-
 #### Learning Profiles
+
+- [Coursera](https://www.coursera.org/learner/arman-riazi)
 
 - [Linux Foundation](https://openprofile.dev/profile/armanriazi.github.io)
 
@@ -133,6 +88,54 @@ permalink: /links
 
 > [ArmanRiazi](https://armanriazi.ir)
 -->
+
+#### Academic
+
+- [Academia.edu](https://independent.academia.edu/riaziarman)
+
+- [Medium](https://armanriazi-github-io.medium.com)
+
+- [Base Search(showing citation)](https://www.base-search.net/Search/Results?q=aut:%22Arman%20Riazi%22)
+
+- [ArmanRiazi-Doc](https://github.com/armanriazi/Documents)
+
+- [Civilica](https://civilica.com/p/462252/)
+-
+- [Read.Cash](https://read.cash/@arman-riazi-science)
+
+- [ResearchGate](https://www.researchgate.net/profile/Arman_Riazi2)
+
+- [Ordchid](https://orcid.org/0000-0003-3729-6290)
+
+- [Ecency](https://ecency.com/@arman-riazi)
+
+- [Repo-Doc-Blockchain](https://github.com/armanriazi/Doc-Blockchain)
+
+- [Web Of Science](https://www.webofscience.com/wos/author/record/HMD-2276-2023)
+
+#### Teaching
+
+> English & IT
+
+- [Nachhilfeunterricht](https://www.nachhilfeunterricht.de/lehrer/arman-riazi.htm)
+
+#### Start-Up
+
+- [Producthunt](https://www.producthunt.com/@armanriazi)
+
+#### Mentoring
+
+- [Nachhilfeunterricht](https://www.nachhilfeunterricht.de/bewertung/arman-riazi)
+
+#### MultiMedia
+
+- [Vimo Channel Blockchain](https://vimeo.com/user210919767)
+
+- [Youtube Channel Blockchain](https://www.youtube.com/channel/UC4DbYxk3q_6MPNNpHa-C7ag)
+
+- [Youtube Channel-Archived](https://cutt.ly/pyKrYMh)
+
+- [Aparat Channel](https://aparat.ir/armanriazi)
 
 #### Feedback
 
