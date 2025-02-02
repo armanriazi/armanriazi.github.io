@@ -27,13 +27,13 @@ author: "Arman Riazi"
 
 ## Certificates
 
+- [Out of the box](https://armanriazi.github.io/links/#learning-profiles)
+
 ```plaintext
 `Tips`: **Horizental Scrolled** 
 
 `G`: **GoogleDrive** | `[number]`: **Query direct link** | `C`: `https://Cutt.ly/armanriazi-` as an **indirect link**
 ```
-
-- [Out of the box](https://armanriazi.github.io/links/#learning-profiles)
 
 ### 2025
 
