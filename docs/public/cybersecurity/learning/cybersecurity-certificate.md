@@ -1,5 +1,11 @@
 # Cybersecurity
 
+## 2024-25(TryHackMe)
+
+| Expert                                                             | Priod | By                    | Supported By  | Inquiry                                                                                                                                                    | Documents |
+| ------------------------------------------------------------------ | ----- | --------------------- | ------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | --------- |
+| Jr Penetration Tester             | 30H    | TryhackMe.com | [Profile](https://tryhackme.com/p/armanriazi)    | [1](https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-MDQTPZQ06T.png), [2](https://tryhackme.com/r/certificate/THM-MDQTPZQ06T)                                                                        |
+
 ## 2024-25(ECCouncil)
 
 | Expert                                                             | Priod | By                    | Supported By  | Inquiry                                                                                                                                                    | Documents |
