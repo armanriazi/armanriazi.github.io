@@ -6,6 +6,8 @@ tags:
 
 # DevOps
 
+!!! info "Updated Date: Jan, 2023"
+
 ## Certificate 2023
 
 |        Expert         | Priod |                     By                     | Supported By | Inquiry  | Documents                                                   |
@@ -29,4 +31,5 @@ tags:
 - [Virtualization](Virtualization.md)
 
 ??? quote
-I success to launched #Microservice either of [[dotnetcore]] and a sample with python I captured 6h about implement of ci-cd with [[kubernetes]] and docker that I did not want upload it. For devOps you should better know a little bit about programing languages but it will be ok, if you do not know. e.g I have not write any code by python but I was able to [[[deploy]] it.For devops you need to know about configuration, esxi, on-permise, cloud, windows server, linux dist/ubuntu that is out of scope for now surely.
+
+    I successfully launched a #Microservice using both [[dotnetcore]] and Python. I spent around 34 hours implementing CI/CD with [[kubernetes]] and Docker, but I did not want to upload it yet. In DevOps, it’s beneficial to have some knowledge of programming languages, although it will be okay if you do not know any. For example, I have not written any code in Python, but I was still able to [[deploy]] it. Additionally, you need to know about configuration management, ESXi, on-premises infrastructure, cloud, Windows Server, and Linux distributions like Ubuntu; but those topics are beyond the scope for now.

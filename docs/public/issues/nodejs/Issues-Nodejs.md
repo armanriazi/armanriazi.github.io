@@ -1,1 +1,0 @@
-[Failure: NodeJs AssertionError [ERR_ASSERTION]](https://arman-riazi-science.medium.com/let-me-show-you-error-on-stackoverflow-c83af0d0c8a7)

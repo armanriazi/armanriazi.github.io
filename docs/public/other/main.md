@@ -1,5 +1,7 @@
-[Video Guide-Website](guide-website.md)
+!!! info "Updated Date: Apr, 2022"
 
-[Roadmap](roadmap.md)
+- [Video Guide-Website](guide-website.md)
 
-[learn-quickly](learn-quickly.md)
+- [Roadmap](roadmap.md)
+
+- [learn-quickly](learn-quickly.md)

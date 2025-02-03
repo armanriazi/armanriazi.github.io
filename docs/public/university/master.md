@@ -14,6 +14,8 @@ tags:
   - github
 ---
 
+!!! info "Updated Date: Oct, 2021"
+
 # About University
 
 <figure markdown>

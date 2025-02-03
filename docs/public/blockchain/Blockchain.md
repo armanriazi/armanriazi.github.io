@@ -14,6 +14,8 @@ show:
 
 ## Blockchain
 
+!!! info "Updated Date: Apr, 2023"
+
 <details>
 <summary>Blockchain 4.0</summary>
 <img src="https://armanriazi.github.io/assets/attachments/Blockchain4.JPG" width="650" height="650" />
@@ -38,9 +40,9 @@ show:
 <p>armanriazi.Github.Io_MindMapping_Substrate</p>
 <p> To Email Address </p>
 <p>armanriazi.github.io@gmail.com</p>
-
-<img src="<https://armanriazi.github.io/assets/attachments/substrate-minmap.jpg"width="650>" height="650" />
-
+<p align="center">
+  <img src="https://armanriazi.github.io/assets/attachments/substrate-minmap.jpg" alt="substrate" width="650" height="650">
+</p>
 </details>
 
 ---
@@ -60,7 +62,7 @@ show:
 
 |         Exprt         | Prd |              MyPriority              | Desc                                                                                                                                                                                                                                                          |
 | :-------------------: | :-: | :----------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-|       Rust-Lang       | 2Y  | :material-check-all::material-check: | Fantastic, complex language for decentralized/distributed                                                                                                                                                                                                     |
+|       Rust-Lang       | 3Y  | :material-check-all::material-check: | Fantastic, complex language for decentralized/distributed                                                                                                                                                                                                     |
 |       Substrate       | 3 M | :material-check-all::material-check: | Awsome work of 🙏Dr.Gavin and parity.io community                                                                                                                                                                                                             |
 |   Polkadot & Kusuma   | 1 M | :material-check-all::material-check: | Crowdloan, tokenization💲, parachain and parathreads                                                                                                                                                                                                          |
 |  Blockchain Research  | 2 Y | :material-check-all::material-check: | It is always included in my routine activity during the day                                                                                                                                                                                                   |

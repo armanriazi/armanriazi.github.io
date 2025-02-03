@@ -23,6 +23,8 @@ layout: page
 author: "Arman Riazi"
 ---
 
+!!! info "Updated Date: Feb, 2025"
+
 # Achievements
 
 ## Certificates

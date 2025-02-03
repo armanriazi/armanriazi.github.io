@@ -12,6 +12,8 @@ show:
   - feedback
 ---
 
+!!! info "Updated Date: Aug, 2024"
+
 # NestJS Backend
 
 ## 2024

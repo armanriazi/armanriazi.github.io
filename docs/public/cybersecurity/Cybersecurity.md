@@ -16,6 +16,8 @@ tags:
   - Penetration test
 ---
 
+!!! info "Updated Date: Feb, 2025"
+
 **Please Click on here to get updated badges and scores.**
 
 [![Portfolio](https://tryhackme-badges.s3.amazonaws.com/armanriazi.png)](https://tryhackme.com/api/v2/badges/public-profile?userPublicId=3868609)

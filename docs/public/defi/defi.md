@@ -13,6 +13,8 @@ show:
   - feedback
 ---
 
+!!! info "Updated Date: Apr, 2024"
+
 !!! Frankfurt-School_Ecota_ReFi_2023-2024
 
     === "Member of ReFi 2023-2024"

@@ -22,6 +22,8 @@ title: "publications"
 author: "Arman Riazi"
 ---
 
+!!! info "Updated Date: Jan, 2025"
+
 !!! Certificates
 
     === "Academic"
