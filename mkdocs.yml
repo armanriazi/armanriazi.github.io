@@ -1,7 +1,7 @@
 ## yaml-language-server: $schema=https://armanriazi.github.io/mkdocs-material/schema.json
 
 site_name: Arman Riazi
-repo_url: https://github.com/armanriazi/armanriazi.github.io/
+repo_url: https://github.com/armanriazi/
 nav:    
     - 'Home':
         - 'Index': 'index.md'                  
@@ -41,8 +41,7 @@ theme:
   - announce.dismiss
   - content.tooltips
   - content.code.copy
-  - content.tabs.link
-  - content.action.view  
+  - content.tabs.link 
   - content.code.annotate
   - header.autohide
   - navigation.top
