@@ -1,7 +1,7 @@
 ## yaml-language-server: $schema=https://armanriazi.github.io/mkdocs-material/schema.json
 
 site_name: Arman Riazi
-repo_url: https://github.com/armanriazi/armanriazi.github.io
+repo_url: https://github.com/armanriazi/armanriazi.github.io/
 nav:    
     - 'Home':
         - 'Index': 'index.md'                  
@@ -31,6 +31,7 @@ nav:
         - 'About': 'about.md'                
 theme:
   name: material
+  custom_dir: overrides  
   logo: assets/attachments/me.png
   favicon: assets/attachments/favicon.ico
   features:    
@@ -56,8 +57,7 @@ theme:
   - navigation.expand  
   - toc.follow
   - toc.integrate
-  language: en
-    custom_dir: overrides
+  language: en    
   color_mode: auto
   user_color_mode_toggle: true
   icon:
@@ -99,7 +99,7 @@ extra:
       lang: de
   social:
     - icon: fontawesome/brands/github-alt
-      link: 'https://github.com/armanriazi/armanriyazi.github.io'      
+      link: 'https://github.com/armanriazi'      
   icon:
     admonition:
       note: octicons/tag-16
@@ -202,11 +202,11 @@ extra:
             using our <a href="https://docs.google.com/forms/d/e/1FAIpQLSePtZh6Upj2tconoH43yqadxL2W-wo0coms41yjysY_Amyqzw/viewform?usp=pp_url&entry.853143515=/browser-support/" target="_blank" rel="noopener">feedback form</a>.  
   social:
     - icon: fontawesome/brands/twitter 
-      link: https://twitter.com/arman_riazi_science
+      link: https://twitter.com/meta_armanriazi
       name: ArmanRiazi on Twitter
     - icon: fontawesome/brands/github
       link: https://github.com/armanriazi
     - icon: fontawesome/brands/linkedin
-      link: https://linkedin.com/in/armanriazi            
+      link: https://linkedin.com/in/armanriazi-github-io            
 copyright: |
   &copy; 2023 <a href="https://github.com/armanriazi"  target="_blank" rel="noopener">Arman Riazi</a>
