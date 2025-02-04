@@ -27,14 +27,17 @@ author: "Arman Riazi"
 
 # Achievements
 
+I embarked on a journey driven by curiosity and a deep love for learning. For me, I always exploring the endless possibilities of technology and sharing that knowledge with others. My path has been filled with moments of discovery—mastering Rust, diving into blockchain, and delving into cybersecurity. Each certificate I earned and every project I completed was a stepping stone, not for personal glory, but to build bridges within the tech community. I’ve always believed that the real achievement lies in the connections we make and the knowledge we share.
+
+Along the way, I’ve been fortunate to work on projects that challenged me, from creating customer-centric solutions to designing microservices and contributing to open-source communities. These experiences taught me the value of collaboration and the importance of giving back. I often remind myself that success isn’t measured by physical assets but by the impact we have on others and the relationships we nurture. My story is one of humility, continuous learning, and a commitment to building a network that thrives on collective growth. I’m here to connect, learn, and grow—together. After all, **The best journeys are the ones we take with others.**
+
 ## Certificates
 
 - [Out of the box](https://armanriazi.github.io/links/#learning-profiles)
 
 ```plaintext
-`Tips`: **Horizental Scrolled** 
-
-`G`: **GoogleDrive** | `[number]`: **Query direct link** | `C`: `https://Cutt.ly/armanriazi-` as an **indirect link**
+`Tips`: Horizental Scrolled
+`G`: Shared on Google Drive | `[number]`: Query direct link | `C`: `https://Cutt.ly/armanriazi-` as an Indirect link
 ```
 
 ### 2025
