@@ -16,13 +16,13 @@ hide:
 
 [![mkdocs-ci](https://github.com/armanriazi/armanriazi.github.io/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/armanriazi/armanriazi.github.io/actions/workflows/ci.yml)
 
-!!! info "Updated Date: Jan, 2022"
+!!! info "Hello, How do you do?"
 
-**I have always wanted to create a knowledge base for myself and then share it. The philosophy behind creating these pages is to address this issue.**
+**I have always aspired to build a personal knowledge-base and share it with others. This initiative is rooted in my desire to tackle that goal through the creation of these pages.**
 
 > **[Video Guide-Website](public/other/guide-website.md)**
 
-> Through to my experiences.
+> Immersing to the experiences.
 
 **[Main Menu](public/public.md)**
 
