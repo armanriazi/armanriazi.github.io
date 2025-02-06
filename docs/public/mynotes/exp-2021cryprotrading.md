@@ -6,4 +6,4 @@
 
 > Due to my interest in and experience with the blockchain, these things will still be worth something when I have finished paying off his debt! especially worthy of friendship.
 
-"To everyone who finds the current investment climate hard, diffcult, and somewhat confusing, I would say, Welcome to adult life."  **[[Charlie Munger]]**
+"To everyone who finds the current investment climate hard, diffcult, and somewhat confusing, I would say, Welcome to adult life." **[[Charlie Munger]]**

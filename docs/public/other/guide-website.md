@@ -1,4 +1,3 @@
 !!! info "Updated Date: Apr, 2022"
 
-
 <iframe width="975" height="506" src="https://www.youtube.com/embed/mbC6H8IE0d8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
