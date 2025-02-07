@@ -34,7 +34,7 @@ tags:
 
     === "Public E-Book"
 
-        * [Cybersecurity All-In-One](https://armanriazi.github.io/cysec-all-in-one/)
+        * [CySec All-In-One(updated 2024_non full-ver)](https://armanriazi.github.io/cysec-all-in-one/)
 
 ## Experiences
 

