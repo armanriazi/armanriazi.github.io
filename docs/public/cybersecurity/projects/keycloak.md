@@ -19,7 +19,7 @@
 
 ### **2. Keycloak Architecture**
 
-Below is an  diagram showing how Keycloak interacts with various IAM components:
+Below is an diagram showing how Keycloak interacts with various IAM components:
 
 ```
           +---------------------+

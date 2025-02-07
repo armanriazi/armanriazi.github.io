@@ -209,6 +209,7 @@ Get-FileHash -Algorithm SHA256 .\capture.pcapng
 For TimelineExplorer.exe, we can load the exported CSV file by doing the following: File > Open > Choose sysmon.csv from C:\Users\user\Desktop\Incident Files directory
 
 ![Msdt](../../../assets/attachments/cysec/incident/sub-process.jpg){ width=550 height=550 align=center }
+
 <p align="center">
   Google: "msdt.exe Windows CVE", you will find CVE code.
 </p>
@@ -232,6 +233,7 @@ C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -w hidden -noni certut
 ```
 
 ![Events Log 2](../../../assets/attachments/cysec/incident/brim2.jpg){ width=500 height=700 align=center }
+
 <p align="center">
  The stage 2 payload downloaded establishes a connection to a c2 server. What is the domain and port used by the attacker?
 </p>
@@ -366,6 +368,7 @@ Hint: External research needed. Find out what event ID logs successful addition 
 ![Events Log 2](../../../assets/attachments/cysec/incident/4732.jpg){ width=500 height=700 align=center }
 
 Based on windows event logs, the account was successfully added to a sensitive group. What is the event ID that indicates the addition to a sensitive local group?
+
 </p>
 
 ![Final Step](../../../assets/attachments/cysec/incident/final.jpg){ width=600 height=700 align=center }

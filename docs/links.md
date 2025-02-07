@@ -91,6 +91,8 @@ permalink: /links
 
 #### Academic
 
+- [ORDCHID](https://orcid.org/0000-0003-3729-6290)
+
 - [Academia.edu](https://independent.academia.edu/riaziarman)
 
 - [Medium](https://armanriazi-github-io.medium.com)
@@ -100,12 +102,10 @@ permalink: /links
 - [ArmanRiazi-Doc](https://github.com/armanriazi/Documents)
 
 - [Civilica](https://civilica.com/p/462252/)
--
+
 - [Read.Cash](https://read.cash/@arman-riazi-science)
 
 - [ResearchGate](https://www.researchgate.net/profile/Arman_Riazi2)
-
-- [Ordchid](https://orcid.org/0000-0003-3729-6290)
 
 - [Ecency](https://ecency.com/@arman-riazi)
 
