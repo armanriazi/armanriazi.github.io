@@ -40,6 +40,7 @@ show:
 <p>armanriazi.Github.Io_MindMapping_Substrate</p>
 <p> To Email Address </p>
 <p>armanriazi.github.io@gmail.com</p>
+
 <p align="center">
   <img src="https://armanriazi.github.io/assets/attachments/substrate-minmap.jpg" alt="substrate" width="650" height="650">
 </p>

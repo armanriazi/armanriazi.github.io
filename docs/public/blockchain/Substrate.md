@@ -45,10 +45,10 @@ show:
 <iframe width="900" height="506" src="https://www.youtube.com/embed/BjrLAb5ZFEs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </details>
 
-[Highlighted Deep Dive Into Polkadot/Substrate/Kusama/NodeSetup/Part(8)](substrate-polka-kus/substrate-setup-research-intro.md)
+- [Highlighted Deep Dive Into Polkadot/Substrate/Kusama/NodeSetup/Part(8)](substrate-polka-kus/substrate-setup-research-intro.md)
 
 ### Research
 
-[Substrate-Framework-Research-Intro](substrate-polka-kus/substrate-framework-research-intro.md)
+- [Substrate-Framework-Research-Intro](substrate-polka-kus/substrate-framework-research-intro.md)
 
 [[Polkadot-Ecosystem-Research]]

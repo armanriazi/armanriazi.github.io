@@ -26,34 +26,23 @@ To access the leaked credentials, download the file from the target machine usin
 
 `wget http://ip:9999/Credentials/BastionHostingCreds.zip`
 
-<p align="center">
-  <img src="../../../assets/attachments/cysec/burp/scenarios.jpg" alt="scenarios">
-</p>
+![Scenarios 0](../../../assets/attachments/cysec/burp/scenarios.jpg){ width=500 height=800 align=center } 
 
-<p align="center">
-  <img src="../../../assets/attachments/cysec/burp/scenario1.jpg" alt="scenario1">
-</p>
+![Scenarios 1](../../../assets/attachments/cysec/burp/scenario1.jpg){ width=450 height=650 align=center } 
+
 
 ---
 
-<p align="center">
-  <img src="../../../assets/attachments/cysec/burp/scenario2.jpg" alt="scenario2">
-</p>
+![Scenarios 1](../../../assets/attachments/cysec/burp/scenario2.jpg){ width=450 height=650 align=center } 
 
-<p align="center">
-  <img src="../../../assets/attachments/cysec/burp/rule.jpg" alt="rule">
-</p>
+![Scenarios 2](../../../assets/attachments/cysec/burp/rule.jpg){ width=550 height=500 align=center } 
 
-<p align="center">
-  <img src="../../../assets/attachments/cysec/burp/macro.jpg" alt="macro">
-</p>
+![Scenarios 3](../../../assets/attachments/cysec/burp/macro.jpg){ width=550 height=500 align=center } 
 
-<p align="center">
-  <img src="../../../assets/attachments/cysec/burp/result2.jpg" alt="result2">
-</p>
+![Scenarios 4](../../../assets/attachments/cysec/burp/result2.jpg){ width=550 height=500 align=center } 
+
 
 We also can use sequencer for entropy/randomness. Make a req to `/admin/loing`, transfer req from proxy to seq. Then, click on `Start Live Capture`. In the interim live capture we can use wireshark to watch procuced requests from burp seq.
 
-<p align="center">
-  <img src="../../../assets/attachments/cysec/burp/result2.jpg" alt="result2">
-</p>
+![Scenarios 50](../../../assets/attachments/cysec/burp/result2.jpg){ width=550 height=500 align=center } 
+

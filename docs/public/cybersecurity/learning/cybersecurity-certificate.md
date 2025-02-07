@@ -1,15 +1,14 @@
 # Cybersecurity
 
-## 2024-25(TryHackMe)
+
+## 2024-25
 
 | Expert                | Priod | By            | Supported By                                  | Inquiry                                                                                                                                    | Documents                                                                               |
 | --------------------- | ----- | ------------- | --------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------- |
 | Jr Penetration Tester | 30H   | TryhackMe.com | [Profile](https://tryhackme.com/p/armanriazi) | [1](https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-MDQTPZQ06T.png), [2](https://tryhackme.com/r/certificate/THM-MDQTPZQ06T) | [G](https://drive.google.com/file/d/1yYkNq37tr1aIlqRWjZaWzk8cDV8P_GBh/view?usp=sharing) |
-
-## 2024-25(ECCouncil)
-
-| Expert                                                             | Priod | By                    | Supported By  | Inquiry                                                                             | Documents                                                                               |
-| ------------------------------------------------------------------ | ----- | --------------------- | ------------- | ----------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- |
+| CEH Practice Projects and Exam Simulators (In process)                     | 13H       | LearnKartS / Coursera         | [1](https://coursera.org/share/f0b5d46c778f540145bed9d579085d3a),[2](https://www.coursera.org/learner/arman-riazi)                                                           | [G](https://drive.google.com/file/d/1mHzBUqdwUHDdDOHYlbgE5reP2fDHUAC8/view?usp=sharing)                                         | Will be put in coming soon                                                                                                                                |
+| ISE, Access Management Training for Network Administrators - Cisco | 14H   | MaktabKhooneh.org     | MaktabKhooneh | [1](https://maktabkhooneh.org/certificates/MK-GCX33E/?print=true)                   | [G](https://drive.google.com/file/d/1x8qAMMa8nH3bvw6FxnnSBIF5N6ZED--r/view?usp=sharing) |
+| CCNA, Cisco Network Assistant Certificate                          | 69H   | MaktabKhooneh.org     | MaktabKhooneh | [1](https://maktabkhooneh.org/certificates/MK-GCX33E/?print=true)                   | [G](https://drive.google.com/file/d/1x8qAMMa8nH3bvw6FxnnSBIF5N6ZED--r/view?usp=sharing) |
 | Network defense fundamentals Training for IT Beginners             | 4H    | CodeRed.EcCouncil.org | EC-Council    | [1](https://codered.eccouncil.org/certificate/39fcaf4d-c386-44ff-84a2-855286949454) |
 | Learn Linux Security Through Practical Steps                       | 2H    | CodeRed.EcCouncil.org | EC-Council    | [1](https://codered.eccouncil.org/certificate/79b5bf15-c296-48e7-a367-2297902e28b1) |
 | Linux Command Line for an Ethical Hacker                           | 4H    | CodeRed.EcCouncil.org | EC-Council    | [1](https://codered.eccouncil.org/certificate/eb4326d0-a20e-44ca-bd46-571c5fd8ec75) |
@@ -25,5 +24,3 @@
 | Threat Modeling Deconstructed                                      | 4H    | CodeRed.EcCouncil.org | EC-Council    | [1](https://codered.eccouncil.org/certificate/39fcaf4d-c386-44ff-84a2-855286949454) |
 | Expanding MITRE ATT&CK with ATT&CK Workbench                       | 3H    | CodeRed.EcCouncil.org | EC-Council    | [1](https://codered.eccouncil.org/certificate/e0c20674-8984-40c6-98c7-b37c1dc2d28c) |
 | Black Hat Python for Pentesters                                    | 4H    | CodeRed.EcCouncil.org | EC-Council    | [1](https://codered.eccouncil.org/certificate/39fcaf4d-c386-44ff-84a2-855286949454) |
-| ISE, Access Management Training for Network Administrators - Cisco | 14H   | MaktabKhooneh.org     | MaktabKhooneh | [1](https://maktabkhooneh.org/certificates/MK-GCX33E/?print=true)                   | [G](https://drive.google.com/file/d/1x8qAMMa8nH3bvw6FxnnSBIF5N6ZED--r/view?usp=sharing) |
-| CCNA, Cisco Network Assistant Certificate                          | 69H   | MaktabKhooneh.org     | MaktabKhooneh | [1](https://maktabkhooneh.org/certificates/MK-GCX33E/?print=true)                   | [G](https://drive.google.com/file/d/1x8qAMMa8nH3bvw6FxnnSBIF5N6ZED--r/view?usp=sharing) |
