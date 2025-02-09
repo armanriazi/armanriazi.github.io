@@ -24,16 +24,20 @@ You may be a co-founder or a developer with limited time, and I can help. I have
 
 ---
 
-Dear Client,
+<details>
+<summary>Board & Strategic Advisory Roles</summary>
 
-**Board & Strategic Advisory Roles**  
 My expertise bridges the realms of cybersecurity architecture, secure system design, and enterprise-wide security strategies. Leveraging over a decade of experience transitioning from software development to cybersecurity, I bring a nuanced perspective to aligning technical precision with business imperatives. My role as a strategic advisor focuses on helping forward-thinking organizations—particularly technology-driven startups—craft evidence-based security plans that address real-world risks while enabling scalability.  
 
 By employing approaches rooted in **Security Chaos Engineering** and decision-tree modeling of adverse scenarios, I empower companies to proactively secure their digital ecosystems. My deep understanding of the cybersecurity marketplace allows me to assist organizations in decoding buyer behaviors, prioritizing user trust, identifying competitive dynamics, and adapting to shifts in industry trends.
 
 For instance, as a Cybersecurity Architect, I successfully designed secure, scalable solutions like microservices platforms and APIs for high-demand systems, achieving a *5% cost reduction* while driving *9% customer growth*. My strategic work is also bolstered by my contributions to cybersecurity research, including publishing papers on topics such as Cloud Computing, Blockchain, and Ransomware Detection Systems, as well as authoring a book titled *"Rust as a Modern Mother Lang: Advanced Techniques for Developing Robust Apps."*
 
-**Consulting Engagements**  
+</details>
+
+<details>
+<summary>Consulting Engagements</summary>
+
 I specialize in actionable, scalable cybersecurity consulting services for software engineering, IT, and security teams. My methodology prioritizes **resilience** and **confidentiality** using event/data-driven techniques embedded in modern frameworks such as **Penetration testing** and **Security Chaos Engineering**. These approaches reduce the complexity of building decision trees to model adverse effects, streamlining how organizations predict, contain, and recover from emerging threats.
 
 During my consulting engagements, I’ve delivered measurable impact. As a Cybersecurity Researcher, my security assessments reduced client risks by *30%* across over 100 penetration tests. Similarly, in my role as a Cybersecurity Engineer, I fortified critical infrastructure—such as systems integral to the electricity sector—while cutting management costs by *20%*.  
@@ -42,8 +46,10 @@ I also guide organizations in leveraging containerized workflows and cloud-nativ
 
 Drawing from my background as an IT Technical Architect and experienced programmer, I deliver complex topics in an approachable manner, translating technical challenges into actionable strategies for stakeholders at all levels. I tailor my expertise to meet mission-critical organizational goals.  
 
-Best regards,
-Arman Riazi
+</details>
+
+**Best regards,**
+**Arman Riazi**
 
 ---
 
