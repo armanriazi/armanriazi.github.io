@@ -33,6 +33,18 @@ All knots I untied, but the knot of death.
 (A GLOBAL RECEPTION OF THE RUBÁIYÁT THE GREAT‘UMAR KHAYYAM)
 ```
 
+**Index**
+
+- [Certificates](#certificates)
+  - [2025](#2025)
+  - [2024](#2024)  
+  - [2023](#2023)
+  - [Academic](#academic)  
+- [Projects](#projects)
+- [Publications](#publications)
+  
+---
+
 # Achievements
 
 I started a journey because of my curiosity and a strong love for learning. For me, I am always exploring the endless possibilities of technology and sharing what I learn with others. My path has been full of moments of discovery—learning. Every certificate I earned and every project I finished was not for personal success/showing off without any tangible profits but to build connections within the tech community. I’ve always believed that real and tangible achievements are connected the relationships we create and the knowledge we share. I help software engineering and IT teams to create practical, scalable, and evidence-based security plans.
@@ -106,11 +118,6 @@ Along the way, I’ve been lucky to work on projects that challenged me, from cr
 
 Regarding for download master's degree, please send your request gaining access.
 
-<!--
-<details>
-  <summary> Universities </summary>
--->
-
 | Expert                                     | Priod | By                        | Supported By                      | Inquiry                                                                          | Documents                                                                                                                                                                                                               |
 | ------------------------------------------ | ----- | ------------------------- | --------------------------------- | -------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Master Of Science-Information Technology   | 4Y    | Azad Najafabad University | IAUN                              | [1500007081743684272588654](https://estelam.iau.ir/Home/SearechEstelamID)        | [G-Academic-Degree](https://drive.google.com/file/d/1VKXfPPTzVPonALERdxU4LcRRvJBRMNHV/view?usp=share_link) And [Credits'Details](https://drive.google.com/file/d/1h98c3oklzv-tyi6b3xvfR4QEUfdbNHXH/view?usp=share_link) |
@@ -118,18 +125,11 @@ Regarding for download master's degree, please send your request gaining access.
 | Associate Degree of Software 2010          | 2Y    | Shahid Mohajer            | Vocational/Polytechnic University | [14031647255614882114](http://portal.saorg.ir/inquiry?code=14031647255614882114) | [G](https://drive.google.com/file/d/1ufkz_CoHfO4nSCJGZJEQRO0_OmQsDfZB/view?usp=sharing)                                                                                                                                 |
 | Diploma Degree in Computer 2008            | 2Y    | Shahid Montazeri          | Diploma School                    | [40302299964926](https://emt.medu.ir/)                                           | [G](https://drive.google.com/file/d/1VUB3CYN3cWhbJn-wP50EV3ERBAFFbZtG/view?usp=sharing)                                                                                                                                 |
 
-<!--</details>-->
-
 ## Projects
 
 > This table is significant projects that I fulfilled so far.
 > Frontend and backend codes that writted alone.
 > I can not share so many projects that I did it for a company.
-
-<!--
-<details>
-  <summary>Major Projects</summary>
--->
 
 | Major Projects        | Lang/Frameworks                          | Duration | Branch                                                                |
 | --------------------- | ---------------------------------------- | -------- | --------------------------------------------------------------------- |
@@ -143,11 +143,6 @@ Regarding for download master's degree, please send your request gaining access.
 
 ---
 
-<!--
-<details>
-  <summary>Sub Projects</summary>
--->
-
 | SubProjects                                                                                                                                                       | Lang/Frameworks                                                          | Duration | Reference                                                                                                          |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------ | -------- | ------------------------------------------------------------------------------------------------------------------ |
 | Customize Cloudsim framework to create scientific workflows on my suggested architecture based on vm-container to run written ACO Algorithm for [[master]] thesis | Pure Java                                                                | 2Y       | [Cloudsim-Workflow-Function-Container-ACO](https://github.com/armanriazi/Cloudsim-Workflow-Function-Container-ACO) |
@@ -156,9 +151,7 @@ Regarding for download master's degree, please send your request gaining access.
 | Vidly Web Application                                                                                                                                             | Reactjs, Couchdb, IBM Cloud, Resful API                                  | 1M       | [Vidly Web Application](https://github.com/armanriazi/armanriazi-reactjs-couchdb-cloud-api)                        |
 | An enterprise project in the field of energy(2017-18)                                                                                                             | .Netcore, Apollo GraphQL, Swagger, ExpressJS (SSR), Angular              | 1.6Y     | [NetCore-GraphQl-RestApi-Angular](https://github.com/armanriazi/ApplicantPortal)                                   |
 
-<!-- </details>  -->
-
-[Archive 2012-2020](./public/archive/archive.md)
+- [Archive 2012-2020](./public/archive/archive.md)
 
 `To get updated, please checkout pinned repositories on the GitHub profile`
 
@@ -167,17 +160,20 @@ Regarding for download master's degree, please send your request gaining access.
 <details>  
   <summary>Books</summary>  
   
+<a href="https://armanriazi-github-io.medium.com/rust-as-a-modern-mother-language-advanced-techniques-for-developing-robust-applications-41cab69dd9ea">More explanation on Medium</a>
+  <br>
   <b>Ultimate Rust Systems Programming Architecting</b>
   <br>
   <a href="https://www.amazon.co.uk/Ultimate-Rust-Systems-Programming-Architecting/dp/8196994737">Amazon</a>
   <br>
   <b> Rust as a Modern Mother Language Advanced Techniques for Developing Robust Applications </b>
   <br>
-  <a href="https://www.motekhassesan.com/?p=48543">Volume 1</a>
-   <br>
+  <div>
+  <a href="https://www.motekhassesan.com/?p=48543">Volume 1</a>,
   <a href="https://www.motekhassesan.com/?p=48977">Volume 2</a>
+  </div>
    <br>
-   <u>Physical Digikala.com, E-Book: Taghcheh.com</u>
+   <u>Physical: Digikala.com, E-Book: Taghcheh.com</u>
  </details>
 
 <figure markdown>
@@ -186,7 +182,7 @@ Regarding for download master's degree, please send your request gaining access.
 </figure>
 
 <details>  
-  <summary>Papers:Shortedlist </summary>
+  <summary>Papers:Shortedlist</summary>
 
     <b>Using ACO Algorithm to Improve Performance for Container-based Scientific</b>
     <br>

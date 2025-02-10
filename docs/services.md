@@ -20,12 +20,11 @@ You may be a co-founder or a developer with limited time, and I can help. I have
 
 - [Get a 1 Month Consultation for Free](https://drive.google.com/drive/folders/1gjhYlIHiVfApF8A1trsUf8HdKMKvQhdA?usp=sharing)
 - [Domain-Driven Design(PDF)](https://drive.google.com/file/d/1ZFMDr7QjKBG62FKQH5B6kCTwuY3mQcSK/view?usp=sharing), [Applicant form of DDD](forms/ddd.md)
-- [Cybersecurity Assessment Report Template](./report-template.md)
+- [Cybersecurity Assessment Report Template](./public/cybersecurity/report-template.md)
 
 ---
 
-<details>
-<summary>Board & Strategic Advisory Roles</summary>
+## Board & Strategic Advisory Roles
 
 My expertise bridges the realms of cybersecurity architecture, secure system design, and enterprise-wide security strategies. Leveraging over a decade of experience transitioning from software development to cybersecurity, I bring a nuanced perspective to aligning technical precision with business imperatives. My role as a strategic advisor focuses on helping forward-thinking organizations—particularly technology-driven startups—craft evidence-based security plans that address real-world risks while enabling scalability.  
 
@@ -33,10 +32,7 @@ By employing approaches rooted in **Security Chaos Engineering** and decision-tr
 
 For instance, as a Cybersecurity Architect, I successfully designed secure, scalable solutions like microservices platforms and APIs for high-demand systems, achieving a *5% cost reduction* while driving *9% customer growth*. My strategic work is also bolstered by my contributions to cybersecurity research, including publishing papers on topics such as Cloud Computing, Blockchain, and Ransomware Detection Systems, as well as authoring a book titled *"Rust as a Modern Mother Lang: Advanced Techniques for Developing Robust Apps."*
 
-</details>
-
-<details>
-<summary>Consulting Engagements</summary>
+## Consulting Engagements
 
 I specialize in actionable, scalable cybersecurity consulting services for software engineering, IT, and security teams. My methodology prioritizes **resilience** and **confidentiality** using event/data-driven techniques embedded in modern frameworks such as **Penetration testing** and **Security Chaos Engineering**. These approaches reduce the complexity of building decision trees to model adverse effects, streamlining how organizations predict, contain, and recover from emerging threats.
 
@@ -45,11 +41,6 @@ During my consulting engagements, I’ve delivered measurable impact. As a Cyber
 I also guide organizations in leveraging containerized workflows and cloud-native tools, helping them improve project efficiency and operational scalability without compromising security. Collaborating hand-in-hand with both security and DevOps teams, I ensure seamless alignment to maintain agility while embedding safety as a cornerstone of operations.
 
 Drawing from my background as an IT Technical Architect and experienced programmer, I deliver complex topics in an approachable manner, translating technical challenges into actionable strategies for stakeholders at all levels. I tailor my expertise to meet mission-critical organizational goals.  
-
-</details>
-
-**Best regards,**
-**Arman Riazi**
 
 ---
 
