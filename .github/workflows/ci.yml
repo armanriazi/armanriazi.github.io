@@ -17,7 +17,7 @@ jobs:
       - name: Set Up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.12'  # Changed from 3.x to 3.12 for better package compatibility
+          python-version: '3.12'
       
       # Step 3: Upgrade pip, setuptools, and wheel
       - name: Upgrade pip, setuptools, and wheel
@@ -39,9 +39,9 @@ jobs:
           echo "mkdocs-material==8.5.11" > requirements.txt
           echo "mkdocs-minify-plugin==0.6.1" >> requirements.txt
           echo "mkdocs-redirects==1.1.0" >> requirements.txt
-          echo "pillow>=10.0.0,<11.0.0" >> requirements.txt  # Made version flexible
+          echo "pillow>=10.0.0,<11.0.0" >> requirements.txt
           echo "cairosvg==2.7.0" >> requirements.txt
-          echo "mkdocs-glightbox==0.5.1" >> requirements.txt
+          echo "mkdocs-glightbox>=0.4.0" >> requirements.txt  # Changed from 0.5.1 to >=0.4.0
           python -m pip install --no-cache-dir -r requirements.txt
       
       # Step 6: Deploy the MkDocs site
