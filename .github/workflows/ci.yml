@@ -5,7 +5,6 @@ on:
       - master
 permissions:
   contents: write
-
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -13,38 +12,38 @@ jobs:
       # Step 1: Check out the repository
       - name: Checkout Code
         uses: actions/checkout@v3
-
+      
       # Step 2: Set up Python environment
       - name: Set Up Python
         uses: actions/setup-python@v4
         with:
-          python-version: 3.x
-
+          python-version: '3.12'  # Changed from 3.x to 3.12 for better package compatibility
+      
       # Step 3: Upgrade pip, setuptools, and wheel
       - name: Upgrade pip, setuptools, and wheel
         run: |
           python -m pip install --upgrade pip setuptools wheel
-
+      
       # Step 4: Cache Python dependencies
       - name: Cache Python Dependencies
         uses: actions/cache@v3
         with:
           path: ~/.cache/pip
-          key: ${{ runner.os }}-pip-${{ hashFiles('**/*.py', '**/mkdocs.yml') }}
+          key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
           restore-keys: |
             ${{ runner.os }}-pip-
-
-      # Step 5: Dynamically create and install dependencies
+      
+      # Step 5: Install dependencies
       - name: Install Dependencies
         run: |
           echo "mkdocs-material==8.5.11" > requirements.txt
           echo "mkdocs-minify-plugin==0.6.1" >> requirements.txt
           echo "mkdocs-redirects==1.1.0" >> requirements.txt
-          echo "pillow==10.0.0" >> requirements.txt
+          echo "pillow>=10.0.0,<11.0.0" >> requirements.txt  # Made version flexible
           echo "cairosvg==2.7.0" >> requirements.txt
           echo "mkdocs-glightbox==0.5.1" >> requirements.txt
-          pip install -r requirements.txt
-
+          python -m pip install --no-cache-dir -r requirements.txt
+      
       # Step 6: Deploy the MkDocs site
       - name: Deploy to GitHub Pages
         run: mkdocs gh-deploy --force
