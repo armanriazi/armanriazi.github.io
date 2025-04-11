@@ -1,25 +1,45 @@
-name: mkdocs-ci 
+name: mkdocs-ci
 on:
   push:
     branches:
-      - master       
+      - master
 permissions:
   contents: write
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-python@v4
+      # Step 1: Check out the repository
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      # Step 2: Set up Python environment
+      - name: Set Up Python
+        uses: actions/setup-python@v4
         with:
-          python-version: 3.x
-      - uses: actions/cache@v2
+          python-version: 3.x  # Default to the latest Python 3
+
+      # Step 3: Cache Python package installations
+      - name: Cache Python Dependencies
+        uses: actions/cache@v2
         with:
-          key: ${{ github.ref }}
-          path: .cache      
-      - run: pip install mkdocs-material       
-      - run: pip install mkdocs-minify-plugin
-      - run: pip install mkdocs-redirects  
-      - run: pip install pillow cairosvg    
-      - run: pip install mkdocs-glightbox         
-      - run: mkdocs gh-deploy --force
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/*.py', '**/mkdocs.yml') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
+      # Step 4: Dynamically create and install dependencies
+      - name: Install Dependencies
+        run: |
+          echo "mkdocs-material==8.5.11" > requirements.txt
+          echo "mkdocs-minify-plugin==0.6.1" >> requirements.txt
+          echo "mkdocs-redirects==1.1.0" >> requirements.txt
+          echo "pillow==10.0.0" >> requirements.txt
+          echo "cairosvg==2.7.0" >> requirements.txt
+          echo "mkdocs-glightbox==0.5.1" >> requirements.txt
+          pip install -r requirements.txt
+
+      # Step 5: Deploy the MkDocs site
+      - name: Deploy to GitHub Pages
+        run: mkdocs gh-deploy --force
