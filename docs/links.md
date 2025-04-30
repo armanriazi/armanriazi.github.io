@@ -13,6 +13,12 @@ permalink: /links
 
 - [Ecota](https://ecota.org/fellow)
 
+#### Acces to the Gateway of Social Media
+
+Main ID: `@armanoservice`
+
+Youtube, Instagram, Twitter, Facebook, etc.
+
 #### Development
 
 - [Github](http://github.com/armanriazi)
