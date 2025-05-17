@@ -1,12 +1,11 @@
 ---
-keywords:   armanriazi ArmanRiazi Github Blockchain Developer AramisIT ArazhIT
+keywords:   armanriazi ArmanRiazi Github Blockchain Cybersecurity Automobile Electrical EV Developer ArmanoService Armano Service BEV HEV
 feature:  Github 
 title: "Arman Riazi"
 author: "Arman Riazi"
 search:
     exclude: true
 type:  Link
-keywords:  github armanriazi
 feature:  Github
 author: "Arman Riazi"
 title: "Arman Riazi"
