@@ -12,7 +12,12 @@ show:
   - feedback
 ---
 
-!!! info "Updated Date: Aug, 2024"
+!!! info "Updated Date: Aug, 2025"
+
+
+- [ArmanoService](https://www.youtube.com/)
+
+Most of following links reuploaded to new channel of `ArmanoService` on May, 2025.
 
 # NestJS Backend
 
