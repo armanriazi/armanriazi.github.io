@@ -18,7 +18,11 @@ hide:
 
 !!! info "Hello, How do you do?"
 
-**I have always aspired to build a personal knowledge-base and share it with others. This initiative is rooted in my desire to tackle that goal through the creation of these pages.**
+`I have always aspired to build a personal knowledge-base and share it with others. This initiative is rooted in my desire to tackle that goal through the creation of these pages.`
+
+**Social Proof: "More over 1K Client Trust My Tutorials—See Why!"**
+
+- [ArmanoService'Youtube](https://www.youtube.com/@armanoservice)
 
 > **[Video Guide-Website](public/other/guide-website.md)**
 
