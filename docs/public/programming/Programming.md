@@ -20,7 +20,7 @@ tags:
 
 ??? info "Don't miss it"
 
-    Intoxicating and deceptive microservices based on [Nestjs framework](https://player.vimeo.com/video/910976328)
+    Intoxicating and deceptive microservices based on [Nestjs framework](https://youtu.be/UjkKh2a7HEc?feature=shared)
 
 ---
 
