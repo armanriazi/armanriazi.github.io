@@ -25,9 +25,18 @@ Arman Riazi specializes in advancing businesses through the development of ITIL 
 
 Experienced Developer and Researcher in Information Technology in creating innovative products, specializing in strategy development for on-premise and cloud deployment. Proven track record in creating innovative software solutions for enterprises, including cybersecurity solutions, ERP, CRM, CMS, Web 3.0, and e-commerce platforms; Who is set to collaborating in both on-site or remote work environments. Committed to delivering customer-centric solutions that address business needs effectively.
 
+**Follow Me**
+
+- [YoutubeChannel](https://www.youtube.com/@armanoservice)
+
+
+> `Captured 2025:`
+
+<iframe width="900" height="506" src="https://www.youtube.com/embed/cCMV4_te6yo?si=L4jQmdEf3g5y8u99" title="Introduction 2021" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 > `Captured 2021:`
 
-<iframe width="900" height="506" src="https://www.youtube.com/embed/1EK0OnvpOgQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="900" height="506" src="https://www.youtube.com/embed/1EK0OnvpOgQ" title="Introduction 2021" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Soft Skills, Certificates 2023-25
 
