@@ -60,15 +60,10 @@ Along the way, I’ve been lucky to work on projects that challenged me, from cr
 - [Out of the box](https://armanriazi.github.io/links/#learning-profiles)
 
 ```plaintext
-`Tips`: Horizental Scrolled
-`G`: Shared on Google Drive
-`[number]`: Query direct link
-`C`: `https://Cutt.ly/armanriazi-` as an Indirect link
-`R`: Relationship | Related inter/external of my resources
-`P`: Projects | Sample output/pilot project of an achivement
-`H`: Hour
-`M`: Month
-`Y`: Year
+`Tips`: Horizental Scrolled, `G`: Shared on Google Drive
+`[number]`: Query direct link, `C`: `https://Cutt.ly/armanriazi-` as an Indirect link
+`R`: Relationship | Related inter/external of my resources, `P`: Projects | Sample output/pilot project of an achivement
+`H`: Hour, `M`: Month, `Y`: Year
 ```
 
 ### 2025
@@ -83,6 +78,8 @@ Along the way, I’ve been lucky to work on projects that challenged me, from cr
 | CEH Practice Projects and Exam Simulators                                           | 13H    | LearnKartS / Coursera                                  | [1](https://coursera.org/share/f0b5d46c778f540145bed9d579085d3a), [2](https://www.coursera.org/learner/arman-riazi)                                         | [G](https://drive.google.com/file/d/1mHzBUqdwUHDdDOHYlbgE5reP2fDHUAC8/view?usp=sharing)     | [R](https://armanriazi.github.io/cysec-all-in-one/)                                                                                                                  |
 | Cisco Certified Network Associate      | 82H    | Maktabkhooneh.org   | [1](https://maktabkhooneh.org/certificates/mk-35ebrf/?print=true) | [G](https://drive.google.com/file/d/1WuoyHrO04t3KE4WHqd8wIB3d2FCPw1L1/view?usp=sharing)     | NA                                                                                                                |
 | ISE, Access Management Training for Network Administrators     | 13H    | Maktabkhooneh.org   | [1](https://maktabkhooneh.org/certificates/mk-5o6q45/?print=true)                         | [G](https://drive.google.com/file/d/1byt1vrEFTEz2XCBnH5dcz7XrPVkyEfq-/view?usp=sharing)     |  NA                                                                 |
+| Car Audio Systems Installation Guide     | 2H    | Maktabkhooneh.org   | [1](https://faradars.org/verify/D782B666?lang=en)                         | [G](https://drive.google.com/file/d/1t5bXxfTL578OQb3-EdY4mIonqDleSn5o/view?usp=sharing)     |  NA                                                                 |
+
 
 
 ### 2024
