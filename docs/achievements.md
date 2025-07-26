@@ -72,13 +72,20 @@ Along the way, I’ve been lucky to work on projects that challenged me, from cr
 `H`: Hour, `M`: Month, `Y`: Year
 ```
 
-## Devised PitchDeck-BusinessPlans
+### Devised PitchDeck & Business Plans
 
 | Name                                                                                               | Period       | Documents/Type   |                                                                                                              | Inquery | Project/Relationship |
 | -------------------------------------------------------------------------------------------------- | ------------ | ---------------- | ------------------------------------------------------------------------------------------------------------ | ------- | -------------------- |
 | 1. ReFiRide Turning Vehicle Data into Eco-Financial Value with NFT Logbooks(In Progress, Accepted) | 6M (2025-26) | Start-up         | [1](https://armanriazi.github.io/)                                                                           | Private | Private              |
 | 2. Regenerative Finance & Digital Transformation in Smart Cities                                   | 4M (2024)    | Included Article | [1](https://armanriazi.github.io/refi/), [2](https://armanriazi.github.io/refi/smartcity/article_smartcity/) | NA      | 1.                   |
 | 3. NFT Music Platform                                                                              | 2M (2023)    | Included Article | [1](https://21crickets.github.io/)                                                                           | NA      | 1.                   |
+
+### Quick Access to the All Certifications
+
+| Name                                                                                               | Period       | Documents/Type   |                                                                                                              | Inquery | Project/Relationship |
+| -------------------------------------------------------------------------------------------------- | ------------ | ---------------- | ------------------------------------------------------------------------------------------------------------ | ------- | -------------------- |
+| All of certifications | All years | Bundled         | [G](https://drive.google.com/file/d/1uz0smDw5W4gQJaumm_QqrhdfsTHelF9j/view?usp=sharing)                                                                           | Merged PDFs | Split into the following contents             |
+
 
 ### 2025
 
