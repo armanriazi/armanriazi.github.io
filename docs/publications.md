@@ -76,6 +76,10 @@ author: "Arman Riazi"
 
 : Cite[^1] this [Exchangable NFT](https://scienft.com/nfts/155)
 
+### ECU-Integrated Usage-Based Assessment (UBA) System: Risk Wallet and Regenerative Finance Model
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16929917.svg)](https://doi.org/10.5281/zenodo.16929917)
+
 ### Digital Transformation in Smart Cities: Decentralized Architecture for Sustainable Development within the Web 3.0 Ecosystem
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.11002930.svg)](https://doi.org/10.5281/zenodo.11002930)
