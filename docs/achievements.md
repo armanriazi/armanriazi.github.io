@@ -92,7 +92,9 @@ Along the way, I’ve been lucky to work on projects that challenged me, from cr
 | Expert                                                                                 | Period | Supported By                                              | Inquiry                                                                                                                                                                           | Documents                                                                               | Project/Relationship                                              |
 | -------------------------------------------------------------------------------------- | ------ | --------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- | ----------------------------------------------------------------- |
 | IELTS (In process)                                                                     | 3Y     | IELTS IDP / IELTS                                         | [1](https://ielts.org/certificates/MK-GCX33E/?print=true)                                                                                                                         | [G](https://drive.google.com/file/d/1x8qAMMa8nH3bvw6FxnnSBIF5N6ZED--r/view?usp=sharing) | [R](https://maktabkhooneh.org/certificates/MK-GCX33E/?print=true) |
-| Automotive Electrical System Repairman (Level-2)                                       | 480H   | Technical and Vocational Training Organization (IRN-TVTO) | [1](https://reg.irantvto.ir/assets/images/gavahiname-sample.jpg), [2](https://reg.irantvto.ir/assets/images/gavahiname-sample.jpg), [3](https://rpc.irantvto.ir/home/dn-std/4905) | [G](https://reg.irantvto.ir/assets/images/gavahiname-sample.jpg)                        | Privately documented                                              |
+| Automotive Electrical System Repairman (L-2)                                       | 480H   | Technical and Vocational Training Organization (IRN-TVTO) | 741220010010001, 2164268085
+  | [G](https://drive.google.com/file/d/13fq-wuPg3sYshtNJ89CDUy9_dOcLJjbU/view?usp=sharing)                        | Privately documented                                              |
+| Mastering Fuel Injection Engine Tuning Unlock Your Vehicle's Performance, Troubleshooting and repairing electrical and electronic components (Bundled) | 9H     | Faradars.org                                              | [1](https://faradars.org/verify/6E83A844?lang=en), [2](https://faradars.org/verify/382724C3?lang=en)                          | [G](https://drive.google.com/file/d/1BikBY6szrMemIBXvr2bA1B9DxmXrDlZK/view?usp=sharing) | Privately documented                                              |
 | Mastering Soldering, Circuit Troubleshooting, Car Audio Systems Installation (Bundled) | 9H     | Faradars.org                                              | [1](https://faradars.org/verify/F8A9AF38?lang=fa), [2](https://faradars.org/verify/627496B2?lang=en) , [3](https://faradars.org/verify/D782B666?lang=en)                          | [G](https://drive.google.com/file/d/1BikBY6szrMemIBXvr2bA1B9DxmXrDlZK/view?usp=sharing) | Privately documented                                              |
 | Codepath Volunteer-Credentials | 1Y | codepath.org | [1](https://volunteer-credentials.codepath.org/credentials/136d8166-fc7b-4864-a296-b5a56c724df6?preview=1) | [G](https://drive.google.com/file/d/12BxU194GxKit9qSrUidpL5EkmHm1g5gn/view?usp=sharing) | NA |
 | CyberSecurity Badges and Certifications | 1Y | TryHackMe.com | [1](https://tryhackme.com/p/armanriazi) | [Details](./public/cybersecurity/learning/cybersecurity-certificate.md) | [P1](./public/cybersecurity/projects/CVE-2022-46169.md), [P2](./public/cybersecurity/projects/burp.md), [P3](./public/cybersecurity/projects/incident-response.md) |
@@ -214,11 +216,16 @@ Regarding for download master's degree, please send your request gaining access.
     <br>
     <a href="https://scienft.com/nfts/155"> A. Riazi [Using ACO Algorithm to Improve Performance for  Container-based Scientific Workflows] - ScieNFT 2023 Nov NFTID: 163</a>
     <br>
+    <b> ECU-Integrated Usage-Based Assessment (UBA) System: Risk Wallet and Regenerative Finance Model </b>
+    <br>
+    <a href="https://doi.org/10.5281/zenodo.16929917" target="_blank">
+       <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.16929917.svg" alt="UBA DOI" />
+    </a>
     <!--https://www.researchsquare.com/article/rs-5382132/private/timeline-->
     <b> MFS:Towards Blanket Licensing Digitized Music Decentralized </b>
     <br>
     <a href="https://doi.org/10.5281/zenodo.8023208" target="_blank">
-       <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.8023208.svg" alt="DOI" />
+       <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.8023208.svg" alt="MFS DOI" />
     </a>
     <br>
     <a href="https://scienft.com/nfts/156">A. Riazi [Towards a new Blanket Licensing Digitized NFT Music Decentralized] - ScieNFT 2023 Nov NFTID: 164</a>
@@ -226,7 +233,7 @@ Regarding for download master's degree, please send your request gaining access.
     <b> Understanding the Landscape of Regenerating Finance and Digital Transformation </b>
     <br>
     <a href="https://doi.org/10.5281/zenodo.10512397" target="_blank">
-       <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.10512397.svg" alt="DOI" />
+       <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.10512397.svg" alt="ReFi DOI" />
     </a>
     <br>
     <a href="https://scienft.com/nfts/318"> A. Riazi [Understanding the Landscape of Regenerating Finance and Digital Transformation] - ScieNFT 2024 Jan NFTID: 318</a>
@@ -234,7 +241,7 @@ Regarding for download master's degree, please send your request gaining access.
     <b> Digital Transformation in Smart Cities: Decentralized Architecture for Sustainable Development within the Web 3.0 Ecosystem </b>
     <br>
     <a href="https://doi.org/10.5281/zenodo.11002930" target="_blank">
-       <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.11002930.svg" alt="DOI" />
+       <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.11002930.svg" alt="Smart City DOI" />
     </a>
     <br>
     <a href="https://scienft.com/nfts/5756"> A. Riazi [Digital Transformation in Smart Cities Decentralized Architecture for Sustainable Development within the Web3.0 Ecosystem] - ScieNFT 2024 Apr NFTID:5756 </a>
