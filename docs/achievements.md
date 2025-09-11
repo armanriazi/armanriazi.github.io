@@ -76,7 +76,7 @@ Along the way, I’ve been lucky to work on projects that challenged me, from cr
 
 | Name                     | Period       | Type     |            Documents           |     Inquery     |    Project/Relationship     |
  ------------------------- | ------------ | ---------| -------------------------------| --------------- | --------------------------- |
-| 1. ReFiRide Turning Vehicle Data into Eco-Financial Value with NFT Logbooks(In Progress, Accepted) | 6M (2025-26) | Start-up         | [1](https://armanriazi.github.io/)                                                                           | Private | Private              |
+| 1. ReFiRide Turning Vehicle Data into Eco-Financial Value with NFT Logbooks | 6M (2025-26) | Included Article         | [1](https://doi.org/10.5281/zenodo.16929917)                                                                           | Private | Private              |
 | 2. Regenerative Finance & Digital Transformation in Smart Cities                                   | 4M (2024)    | Included Article | [1](https://armanriazi.github.io/refi/), [2](https://armanriazi.github.io/refi/smartcity/article_smartcity/) | NA      | 1.                   |
 | 3. NFT Music Platform                                                                              | 2M (2023)    | Included Article | [1](https://21crickets.github.io/)                                                                           | NA      | 1.                   |
 
