@@ -61,6 +61,10 @@ All knots I untied, but the knot of death.
 
     Meine Reise begann aus Neugier und einer tiefen Leidenschaft für das Lernen. Für mich geht es darum, die unendlichen Möglichkeiten der Technologie zu erkunden und mein Wissen mit anderen zu teilen. Mein Weg war geprägt von Momenten der Entdeckung – ob beim Erlernen von. Jedes Zertifikat, das ich erwarb, und jedes Projekt, das ich abschloss, diente nicht dem persönlichen Ruhm oder der Selbstdarstellung, sondern dem Aufbau von Brücken innerhalb der Tech-Community. Ich bin überzeugt, dass wahre Erfolge in den Beziehungen liegen, die wir knüpfen, und dem Wissen, das wir weitergeben. Ich unterstütze Software-Engineering- und IT-Teams dabei, praktische, skalierbare und evidenzbasierte Sicherheitspläne zu erstellen. Unterwegs hatte ich das Glück, an anspruchsvollen Projekten zu arbeiten – von der Entwicklung kundenorientierter Lösungen über das Design von bis hin zur Mitarbeit in Open-Source repositories. Diese Erfahrungen haben mir gezeigt, wie wichtig Teamarbeit und das Geben zurück an die Gemeinschaft sind. Ich erinnere mich oft daran, dass Erfolg nicht an materiellen Dingen gemessen wird, sondern an dem positiven Einfluss, den wir auf andere haben, und den Beziehungen, die wir pflegen. Meine Geschichte ist eine von Bescheidenheit, stetigem Lernen und dem Ziel, ein Netzwerk aufzubauen, in dem alle gemeinsam wachsen können. Ich bin hier, um mich zu vernetzen, zu lernen und gemeinsam voranzukommen. Denn **die besten Reisen sind die, die wir gemeinsam unternehmen.**
 
+## Resume
+
+- [Resume Link](https://B2n.ir/armanriazi-en-resume)
+
 ## Certificates
 
 - [Out of the box](https://armanriazi.github.io/links/#learning-profiles)
