@@ -19,13 +19,16 @@ layout: page
 author: "Arman Riazi"
 ---
 
+
 # About Me
+
+- [Resume Link](B2n.ir/armanriazi-resume-en)
 
 Arman Riazi specializes in advancing businesses through the development of ITIL technologies, offering both free and premium services that are affordable for those with nearly two decades of experience as a cybersecurity architect and web developer. I actively engage with organizations to leverage the benefits of innovative technologies such as blockchain, cryptocurrency investment strategies, development, cybersecurity, and ITIL practices, aiming to achieve optimal business outcomes while enhancing security measures. I strive to provide a comprehensive array of investment options and solutions tailored to your business needs. Fortunately, I have addressed and presented complex information in a simplified manner on my website, drawing from the valuable lessons learned throughout my journey to gain in-depth knowledge in IT.
 
 Experienced Developer and Researcher in Information Technology in creating innovative products, specializing in strategy development for on-premise and cloud deployment. Proven track record in creating innovative software solutions for enterprises, including cybersecurity solutions, ERP, CRM, CMS, Web 3.0, and e-commerce platforms; Who is set to collaborating in both on-site or remote work environments. Committed to delivering customer-centric solutions that address business needs effectively.
 
-**Follow Me**
+## Follow Me
 
 - [YoutubeChannel](https://www.youtube.com/@armanoservice)
 
