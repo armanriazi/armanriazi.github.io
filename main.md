@@ -1,12 +1,11 @@
 ---
-keywords:   armanriazi ArmanRiazi Github Blockchain Developer AramisIT ArazhIT 21Crickets
 feature:  Github 
 title: "Arman Riazi"
 author: "Arman Riazi"
 search:
     exclude: true
 type:  Link
-keywords:  github armanriazi
+keywords:  github armanriazi armanoservice
 feature:  Github
 author: "Arman Riazi"
 title: "Arman Riazi"
@@ -20,9 +19,12 @@ I’ve always been driven by the idea of transforming complexity into clarity—
 
 The philosophy behind these pages is simple: to provide evidence-based guidance, practical methodologies, and actionable security strategies that help individuals and organizations navigate the rapidly evolving digital landscape. By sharing what I’ve learned—from implementing decentralized and distributed architectures to advancing research in areas like Ransomware detection and Security Chaos Engineering—I hope to empower others to tackle today’s challenges with confidence.
 
-> [Optional View:Guide-Website](public/other/guide-website.md)
+- **[Youtube CH ArmanoService](https://www.youtube.com/@armanoservice)**
 
-> **[Main Menu](public/public.md)** Are you ready for immersion? Let's do it now!
+- **[Main Menu](public/public.md)** Are you ready for immersion? Let's do it now!
+
+- [Optional View:Guide-Website](public/other/guide-website.md)
+
 ---
 
 ![Welcome!HelloWorld!](assets/attachments/graph.jpg){ loading=lazy }
