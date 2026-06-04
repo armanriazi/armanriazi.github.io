@@ -1,11 +1,12 @@
 ---
+keywords:   armanriazi ArmanRiazi Github Blockchain Developer ArmanoService 21Crickets 
 feature:  Github 
-keywords:  github armanriazi armanoservice آرمانوسرویس
 title: "Arman Riazi"
 author: "Arman Riazi"
 search:
     exclude: true
 type:  Link
+keywords:  github armanriazi
 feature:  Github
 author: "Arman Riazi"
 title: "Arman Riazi"
