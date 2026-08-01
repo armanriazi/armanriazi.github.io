@@ -15,7 +15,7 @@ permalink: /links
 
 #### Acces to the Gateway of Social Media
 
-Main ID: `@armanoservice`
+> Main ID: `@armanoservice`
 
 Youtube, Instagram, Twitter, Facebook, etc.
 
