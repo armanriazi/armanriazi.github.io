@@ -9,22 +9,22 @@ nav:
         - 'Achievements': 'achievements.md' 
     - 'Playlists':       
         - 'Youtube': 'armanoservice.md'         
-    - 'Walk-through': 
-        - 'Walk-through': 'public/public.md'          
+    - 'Walk-thro': 
+        - 'Walk-thro': 'public/public.md'          
     - 'Services':       
         - 'Services': 'services.md'                   
-    - 'Automotive-Systems_Electronic':       
-        - 'Automotive-Systems_Electronic': 'public/EAS/EAS.md'  
+    - 'Auto_Electro':       
+        - 'Auto_Electro': 'public/EAS/EAS.md'  
     - 'Programming':       
         - 'Programming': 'public/programming/Programming.md'                 
-    - 'Cybersecurity':       
-        - 'Cybersecurity': 'public/cybersecurity/Cybersecurity.md'                        
+    - 'Cybersec':       
+        - 'Cybersec': 'public/cybersecurity/Cybersecurity.md'                        
     - 'Blockchain':       
         - 'Blockchain': 'public/blockchain/Blockchain.md'    
-    - 'Publications':
-        - 'Publications': 'publications.md'    
-    - 'Recommedations':
-        - 'Recommedations': 'recommedations.md'    
+    - 'PUBs':
+        - 'PUBs': 'publications.md'    
+    - 'RECs':
+        - 'RECs': 'recommedations.md'    
     - 'Tags':
         - 'Tags': 'tags.md'      
     - 'Forms':
