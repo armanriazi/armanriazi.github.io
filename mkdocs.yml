@@ -6,11 +6,15 @@ nav:
     - 'Home':
         - 'Index': 'index.md'                  
     - 'Achievements':       
-        - 'Achievements': 'achievements.md'                
+        - 'Achievements': 'achievements.md' 
+    - 'Playlists':       
+        - 'Youtube': 'armanoservice.md'         
     - 'Walk-through': 
         - 'Walk-through': 'public/public.md'          
     - 'Services':       
         - 'Services': 'services.md'                   
+    - 'Automotive-Systems_Electronic':       
+        - 'Automotive-Systems_Electronic': 'public/EAS/EAS.md'  
     - 'Programming':       
         - 'Programming': 'public/programming/Programming.md'                 
     - 'Cybersecurity':       
