@@ -2,6 +2,12 @@
 
 - [Portfolio](../achievements.md)
 
+- [Youtube Playlist](../armanoservice.md)
+
+---
+
+- [Automotive Systems & Electronic](EAS/EAS.md)
+
 ---
 
 - [Programming](programming/programming.md)
