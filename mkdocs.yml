@@ -173,7 +173,7 @@ extra_css:
 extra_javascript:
   - docs/assets/javascripts/google-analytics.js
   - https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js
-  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 extra:
   homepage: https://armanriazi.github.io/
@@ -201,7 +201,7 @@ extra:
       name: ArmanRiazi on Twitter
     - icon: fontawesome/brands/github
       link: https://github.com/armanriazi
-    - icon: fontawesome/brands/linkedin
-      link: https://linkedin.com/in/armanriazi-github-io            
+    - icon: fontawesome/brands/youtube
+      link: https://youtube.com/@armanoservice
 copyright: |
-  &copy; 2023 <a href="https://github.com/armanriazi"  target="_blank" rel="noopener">Arman Riazi</a>
+  &copy; 2027 <a href="https://github.com/armanriazi"  target="_blank" rel="noopener">Arman Riazi</a>
