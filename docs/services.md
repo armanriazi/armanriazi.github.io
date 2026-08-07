@@ -1,5 +1,5 @@
 ---
-keywords:   armanriazi ArmanRiazi money sell service collaboration career
+keywords:   armanoservice Armano Service money sell service collaboration career
 title: "Presentation of Services"
 author: "Arman Riazi"
 search:
@@ -16,7 +16,7 @@ show:
 **Watch Collection of Services and Subscribe it**
 
 - [Catalogue of services](https://drive.google.com/file/d/1CbD_g1839533zbR3W73wyM06kjX3sz_P/view?usp=sharing)
-- [Consultant files](https://drive.google.com/file/d/17yisyRpfPzBtFlLEXaeIHxfmB4KRSErR/view?usp=sharing)
+- [Consultant files](https://drive.google.com/file/d/1gPT71oxXdhO9uXyeNZuELjZaiDs9CV5H/view?usp=sharing)
 - [YouTube channel](https://www.youtube.com/@armanoservice)
 
 **Getting Luxury services that you can afford**
@@ -24,7 +24,7 @@ You may be a co-founder or a developer with limited time, and I can help. I have
 
 ## Free of Charge
 
-- [Get a 1 Month Consultation for Free](https://drive.google.com/drive/folders/1gjhYlIHiVfApF8A1trsUf8HdKMKvQhdA?usp=sharing)
+- [Get a 1 Week Consultation for Free](https://drive.google.com/drive/folders/1gjhYlIHiVfApF8A1trsUf8HdKMKvQhdA?usp=sharing)
 - [Domain-Driven Design(PDF)](https://drive.google.com/file/d/1ZFMDr7QjKBG62FKQH5B6kCTwuY3mQcSK/view?usp=sharing), [Applicant form of DDD](forms/ddd.md)
 - [Cybersecurity Assessment Report Template](./public/cybersecurity/report-template.md)
 
