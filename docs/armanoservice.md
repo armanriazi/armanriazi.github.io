@@ -43,6 +43,7 @@
 |  8  | [Working with Multimeter Part 1: Measuring Thermal Resistance](https://www.youtube.com/watch?v=E5mofnxDjyg)    |  2025/05/07  |      FA       |
 |  9  | [Working with Multimeter Part 2: Measuring Thermal Resistance](https://www.youtube.com/watch?v=NQQiyGpYodM)    |  2025/05/07  |      FA       |
 | 10  | [Working with Multimeter Part 3: Measuring Mechanical Resistance](https://www.youtube.com/watch?v=G2f603TbQag) |  2025/05/07  |      FA       |
+| 11  | [Three Practical Projects with Altium Designer](https://youtu.be/Da5WDRn3qBA) |  2025/15/08  |      En, FA       |
 
 ---
 
